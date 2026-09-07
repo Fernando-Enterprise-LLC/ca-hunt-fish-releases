@@ -1,0 +1,739 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-07T08:32:57.145372+00:00",
+ "volatility_note": "Ocean regulations change in-season with as little as 10 days' notice. Always confirm with CDFW before a trip.",
+ "groundfish": {
+  "statewide_limits": {
+   "columns": [
+    "Species",
+    "Daily Bag Limit",
+    "Min. Size Limit",
+    "Filleting Aboard a Vessel"
+   ],
+   "column_markers": [
+    [],
+    [
+     "3"
+    ],
+    [
+     "5"
+    ],
+    [
+     "6"
+    ]
+   ],
+   "rows": [
+    [
+     "RCG Complex includes all species of Rockfishes, Cabezon and Greenlings (\u00a71.91 (a)(1), 1.91(a)(3), 1.91(a)(4), 28.55, 28.28, and 28.29).",
+     "10 fish in combination per person, except: Copper rockfish (PDF): 1 fish per person Vermilion/sunset rockfish (PDF): 4 fish per person combined in Northern Management Area 2 fish per person combined in all other areas Canary rockfish (PDF): 2 fish per person",
+     "All Rockfish: No minimum size limit Cabezon and Greenlings: No minimum size limit",
+     "All Rockfish: No minimum length. Fillets must have entire skin attached Cabezon and Greenlings: No minimum length. Fillets must have the entire skin attached"
+    ],
+    [
+     "Lingcod (\u00a728.27)",
+     "2 fish per person",
+     "22\" total length",
+     "Minimum 14\" in length with the entire skin attached"
+    ]
+   ],
+   "cell_markers": [],
+   "notes": [
+    {
+     "marker": "3",
+     "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+     "continuation": [
+      "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+     ],
+     "source_anchor": "footnote-3"
+    },
+    {
+     "marker": "5",
+     "text": "Total length is the longest straight-line measurement from the tip of the head with the mouth closed to the end of the longest lobe of the tail (CCR T14, \u00a71.62). A measurement method illustration is available in the current Ocean Sport Fishing Regulations booklet, available on the CDFW website.",
+     "continuation": [],
+     "source_anchor": "footnote-5"
+    },
+    {
+     "marker": "6",
+     "text": "For the purpose of these regulations, the definition of fillet is the flesh from one side of a fish extending from the head to the tail which has been removed from the body (head, tail, and backbone) in a single continuous piece (CCR T14, \u00a727.65(a)). No person shall fillet on any boat or bring ashore as fillets any fish except in accordance with requirements established in CCR T14, \u00a727.65(b). See regulations for information on gear restrictions (CCR T14, \u00a728.65 - 29.00) and species-specific fillet regulations (CCR T14, \u00a727.65).",
+     "continuation": [],
+     "source_anchor": "footnote-6"
+    }
+   ],
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7\u00a7 1.91(a)(1), 1.91(a)(3), 1.91(a)(4), 28.27, 28.28, 28.29, 28.55",
+    "ccr_cite_sections": [
+     "1.91(a)(1)",
+     "1.91(a)(3)",
+     "1.91(a)(4)",
+     "28.27",
+     "28.28",
+     "28.29",
+     "28.55"
+    ],
+    "ccr_cite_basis": "Read from the parenthetical citations the table's own rows carry. CDFW's summary page states no section for the table itself.",
+    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Groundfish-Summary",
+    "source_doc": "CDFW Recreational Groundfish Regulations Summary page \u2014 Statewide Daily Bag Limits and Minimum Size Limits table",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  "management_areas": [
+   {
+    "name": "Northern Management Area",
+    "heading_verbatim": "Northern Management Area Recreational Groundfish Regulations Summary",
+    "heading_markers": [
+     "1",
+     "2",
+     "3"
+    ],
+    "categories": [
+     "Nearshore (PDF) Rockfish, Cabezon, and Greenlings",
+     "Shelf (PDF) and Slope (PDF) Rockfish and Lingcod"
+    ],
+    "category_markers": [
+     [],
+     []
+    ],
+    "category_descriptions": [
+     "Nearshore Rockfish (CCR T14, \u00a71.91(a)(1): black, black and yellow, blue, brown, calico, China, copper, gopher, grass, kelp, and olive rockfishes; treefish Cabezon and Greenlings (CCR T14, \u00a728.28 and \u00a728.29)",
+     "Shelf Rockfish (CCR T14, \u00a71.91(a)(3)): bocaccio; canary, chilipepper, dusky, flag, greenblotched, greenspotted, greenstriped, harlequin, honeycomb, Mexican, pink, redstripe, rosethorn, rosy, shortbelly, silvergray, speckled, squarespot, starry, stripetail, tiger, vermilion/sunset, widow, and yellowtail rockfishes Slope Rockfish (CCR T14, \u00a71.91(a)(4)): aurora, bank, blackgill, darkblotched, redbanded, rougheye, sharpchin, shortraker, splitnose, and yellowmouth rockfishes; Pacific ocean perch Lingcod (CCR T14, \u00a728.27)"
+    ],
+    "periods": [
+     {
+      "column": 0,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 0,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     },
+     {
+      "column": 1,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     }
+    ],
+    "notes": [
+     {
+      "marker": "1",
+      "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+      "continuation": [],
+      "source_anchor": "footnote-1"
+     },
+     {
+      "marker": "2",
+      "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+      "continuation": [
+       "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+       "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+      ],
+      "source_anchor": "footnote-2"
+     },
+     {
+      "marker": "3",
+      "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+      "continuation": [
+       "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+      ],
+      "source_anchor": "footnote-3"
+     }
+    ]
+   },
+   {
+    "name": "Mendocino Management Area",
+    "heading_verbatim": "Mendocino Management Area Recreational Groundfish Regulations Summary",
+    "heading_markers": [
+     "1",
+     "2",
+     "3"
+    ],
+    "categories": [
+     "Nearshore (PDF) Rockfish, Cabezon, and Greenlings",
+     "Shelf (PDF) and Slope (PDF) Rockfish and Lingcod"
+    ],
+    "category_markers": [
+     [],
+     []
+    ],
+    "category_descriptions": [
+     "Nearshore Rockfish (CCR T14, \u00a71.91(a)(1): black, black and yellow, blue, brown, calico, China, copper, gopher, grass, kelp, and olive rockfishes; treefish Cabezon and Greenlings (CCR T14, \u00a728.28 and \u00a728.29)",
+     "Shelf Rockfish (CCR T14, \u00a71.91(a)(3)): bocaccio; canary, chilipepper, dusky, flag, greenblotched, greenspotted, greenstriped, harlequin, honeycomb, Mexican, pink, redstripe, rosethorn, rosy, shortbelly, silvergray, speckled, squarespot, starry, stripetail, tiger, vermilion/sunset, widow, and yellowtail rockfishes Slope Rockfish (CCR T14, \u00a71.91(a)(4)): aurora, bank, blackgill, darkblotched, redbanded, rougheye, sharpchin, shortraker, splitnose, and yellowmouth rockfishes; Pacific ocean perch Lingcod (CCR T14, \u00a728.27)"
+    ],
+    "periods": [
+     {
+      "column": 0,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 0,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     },
+     {
+      "column": 1,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     }
+    ],
+    "notes": [
+     {
+      "marker": "1",
+      "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+      "continuation": [],
+      "source_anchor": "footnote-1"
+     },
+     {
+      "marker": "2",
+      "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+      "continuation": [
+       "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+       "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+      ],
+      "source_anchor": "footnote-2"
+     },
+     {
+      "marker": "3",
+      "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+      "continuation": [
+       "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+      ],
+      "source_anchor": "footnote-3"
+     }
+    ]
+   },
+   {
+    "name": "San Francisco Management Area",
+    "heading_verbatim": "San Francisco Management Area Recreational Groundfish Regulations Summary",
+    "heading_markers": [
+     "1",
+     "2",
+     "3"
+    ],
+    "categories": [
+     "Nearshore (PDF) Rockfish, Cabezon, and Greenlings",
+     "Shelf (PDF) and Slope (PDF) Rockfish and Lingcod"
+    ],
+    "category_markers": [
+     [],
+     []
+    ],
+    "category_descriptions": [
+     "Nearshore Rockfish (CCR T14, \u00a71.91(a)(1): black, black and yellow, blue, brown, calico, China, copper, gopher, grass, kelp, and olive rockfishes; treefish Cabezon and Greenlings (CCR T14, \u00a728.28 and \u00a728.29)",
+     "Shelf Rockfish (CCR T14, \u00a71.91(a)(3)): bocaccio; canary, chilipepper, dusky, flag, greenblotched, greenspotted, greenstriped, harlequin, honeycomb, Mexican, pink, redstripe, rosethorn, rosy, shortbelly, silvergray, speckled, squarespot, starry, stripetail, tiger, vermilion/sunset, widow, and yellowtail rockfishes Slope Rockfish (CCR T14, \u00a71.91(a)(4)): aurora, bank, blackgill, darkblotched, redbanded, rougheye, sharpchin, shortraker, splitnose, and yellowmouth rockfishes; Pacific ocean perch Lingcod (CCR T14, \u00a728.27)"
+    ],
+    "periods": [
+     {
+      "column": 0,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 0,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     },
+     {
+      "column": 1,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     }
+    ],
+    "notes": [
+     {
+      "marker": "1",
+      "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+      "continuation": [],
+      "source_anchor": "footnote-1"
+     },
+     {
+      "marker": "2",
+      "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+      "continuation": [
+       "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+       "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+      ],
+      "source_anchor": "footnote-2"
+     },
+     {
+      "marker": "3",
+      "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+      "continuation": [
+       "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+      ],
+      "source_anchor": "footnote-3"
+     }
+    ]
+   },
+   {
+    "name": "Central Management Area",
+    "heading_verbatim": "Central Management Area Recreational Groundfish Regulations Summary",
+    "heading_markers": [
+     "1",
+     "2",
+     "3"
+    ],
+    "categories": [
+     "Nearshore (PDF) Rockfish, Cabezon, and Greenlings",
+     "Shelf (PDF) and Slope (PDF) Rockfish and Lingcod"
+    ],
+    "category_markers": [
+     [],
+     []
+    ],
+    "category_descriptions": [
+     "Nearshore Rockfish (CCR T14, \u00a71.91(a)(1): black, black and yellow, blue, brown, calico, China, copper, gopher, grass, kelp, and olive rockfishes; treefish Cabezon and Greenlings (CCR T14, \u00a728.28 and \u00a728.29)",
+     "Shelf Rockfish (CCR T14, \u00a71.91(a)(3)): bocaccio; canary, chilipepper, dusky, flag, greenblotched, greenspotted, greenstriped, harlequin, honeycomb, Mexican, pink, redstripe, rosethorn, rosy, shortbelly, silvergray, speckled, squarespot, starry, stripetail, tiger, vermilion/sunset, widow, and yellowtail rockfishes Slope Rockfish (CCR T14, \u00a71.91(a)(4)): aurora, bank, blackgill, darkblotched, redbanded, rougheye, sharpchin, shortraker, splitnose, and yellowmouth rockfishes; Pacific ocean perch Lingcod (CCR T14, \u00a728.27)"
+    ],
+    "periods": [
+     {
+      "column": 0,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 0,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     },
+     {
+      "column": 1,
+      "text": "April 1 - December 31: Open all depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "Open all depths"
+     }
+    ],
+    "notes": [
+     {
+      "marker": "1",
+      "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+      "continuation": [],
+      "source_anchor": "footnote-1"
+     },
+     {
+      "marker": "2",
+      "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+      "continuation": [
+       "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+       "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+      ],
+      "source_anchor": "footnote-2"
+     },
+     {
+      "marker": "3",
+      "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+      "continuation": [
+       "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+      ],
+      "source_anchor": "footnote-3"
+     }
+    ]
+   },
+   {
+    "name": "Southern Management Area",
+    "heading_verbatim": "Southern Management Area Recreational Groundfish Regulations Summary",
+    "heading_markers": [
+     "1",
+     "2",
+     "3"
+    ],
+    "categories": [
+     "Nearshore (PDF) Rockfish, Cabezon, and Greenlings",
+     "Shelf (PDF) and Slope (PDF) Rockfish and Lingcod"
+    ],
+    "category_markers": [
+     [],
+     []
+    ],
+    "category_descriptions": [
+     "Nearshore Rockfish (CCR T14, \u00a71.91(a)(1): black, black and yellow, blue, brown, calico, China, copper, gopher, grass, kelp, and olive rockfishes; treefish Cabezon and Greenlings (CCR T14, \u00a728.28 and \u00a728.29)",
+     "Shelf Rockfish (CCR T14, \u00a71.91(a)(3)): bocaccio; canary, chilipepper, dusky, flag, greenblotched, greenspotted, greenstriped, harlequin, honeycomb, Mexican, pink, redstripe, rosethorn, rosy, shortbelly, silvergray, speckled, squarespot, starry, stripetail, tiger, vermilion/sunset, widow, and yellowtail rockfishes Slope Rockfish (CCR T14, \u00a71.91(a)(4)): aurora, bank, blackgill, darkblotched, redbanded, rougheye, sharpchin, shortraker, splitnose, and yellowmouth rockfishes; Pacific ocean perch Lingcod (CCR T14, \u00a728.27)"
+    ],
+    "periods": [
+     {
+      "column": 0,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Jan 1 - Mar 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--01-01",
+       "close": "--03-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 0,
+      "text": "April 1 - June 30: Open All Depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--06-30"
+      },
+      "status": "open",
+      "detail": "Open All Depths"
+     },
+     {
+      "column": 1,
+      "text": "April 1 - June 30: Open All Depths",
+      "window": {
+       "open": "--04-01",
+       "close": "--06-30"
+      },
+      "status": "open",
+      "detail": "Open All Depths"
+     },
+     {
+      "column": 0,
+      "text": "July 1 - Sep 30: 50 Fathom - Inshore Only Take is prohibited seaward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)",
+      "window": {
+       "open": "--07-01",
+       "close": "--09-30"
+      },
+      "status": "open",
+      "detail": "50 Fathom - Inshore Only Take is prohibited seaward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)"
+     },
+     {
+      "column": 1,
+      "text": "July 1 - Sep 30: 50 Fathom - Inshore Only Take is prohibited seaward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)",
+      "window": {
+       "open": "--07-01",
+       "close": "--09-30"
+      },
+      "status": "open",
+      "detail": "50 Fathom - Inshore Only Take is prohibited seaward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)"
+     },
+     {
+      "column": 0,
+      "text": "Oct 1 - Dec 31: Closed - unlawful to possess in all waters",
+      "window": {
+       "open": "--10-01",
+       "close": "--12-31"
+      },
+      "status": "closed",
+      "detail": "Closed - unlawful to possess in all waters"
+     },
+     {
+      "column": 1,
+      "text": "Oct 1 - Dec 31: 50 Fathom - Offshore Only Take is prohibited shoreward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)",
+      "window": {
+       "open": "--10-01",
+       "close": "--12-31"
+      },
+      "status": "open",
+      "detail": "50 Fathom - Offshore Only Take is prohibited shoreward of the 50 fathom (300 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C)"
+     }
+    ],
+    "notes": [
+     {
+      "marker": "1",
+      "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+      "continuation": [],
+      "source_anchor": "footnote-1"
+     },
+     {
+      "marker": "2",
+      "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+      "continuation": [
+       "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+       "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+      ],
+      "source_anchor": "footnote-2"
+     },
+     {
+      "marker": "3",
+      "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+      "continuation": [
+       "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+      ],
+      "source_anchor": "footnote-3"
+     }
+    ]
+   }
+  ],
+  "footnotes": [
+   {
+    "marker": "1",
+    "text": "Certain areas may prohibit or restrict fishing, including state and federal marine protected areas, and other state and federal conservation areas. Check marine protected area regulations, or the Ocean Sport Fishing interactive map for fishing regulations, closures, and other restrictions, as well as marine protected area regulations.",
+    "continuation": [],
+    "source_anchor": "footnote-1"
+   },
+   {
+    "marker": "2",
+    "text": "Divers and shore-based anglers are exempt from season and depth restrictions affecting the RCG Complex and other federally managed groundfish (CCR T14, \u00a727.20(b)(1)(C) and (b)(1)(D)). Shore-based anglers are fishermen that fish from beaches, banks, piers, jetties, breakwaters, docks, and other manmade structures connected to the shore. Divers are spear fishermen entering the water either from the shore or from a boat or other floating object. The possession and transit provisions for shore-based anglers and divers are as follows:",
+    "continuation": [
+     "When angling from shore (includes beaches, banks, piers, jetties, breakwaters, docks, and other man-made structures connected to the shore), all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. No vessel or watercraft (motorized or non-motorized) may be used to assist in the take, transport and/or possession of these species under this provision.",
+     "When diving or spearfishing, as authorized in CCR T14, \u00a728.90, all species, except those listed in CCR T14, \u00a728.55(b)(1), may be taken and/or possessed year-round. When boat-based groundfish fishing is closed, all types of fishing gear, except spearfishing gear, are prohibited to be aboard the vessel or watercraft (motorized or non-motorized) when taking and/or possessing these species under this provision."
+    ],
+    "source_anchor": "footnote-2"
+   },
+   {
+    "marker": "3",
+    "text": "Transit Provision: In waters where groundfish species or species groups are closed to take or possession but authorized for take or possession in other areas, those species or species groups may be possessed aboard a vessel that is anchored, drifting, or transiting in or through that closed area. While anchored, drifting, or transiting through an area closed to take or possession of these groundfish species or species groups, no gear may be deployed other than for the take of crustaceans with hoop nets used pursuant to CCR T14, \u00a729.80(b), Dungeness crab traps used pursuant to CCR T14, \u00a729.80(c), and dip nets used pursuant to CCR T14, \u00a728.80 (\u00a727.20(b)(1)(A)).",
+    "continuation": [
+     "It is unlawful to possess a groundfish species or species group within a Groundfish Management Area where the take and possession of those species are prohibited in all waters of that Groundfish Management Area or in excess of the bag limit of that Groundfish Management Area, regardless of if the groundfish species or species group were taken in a different Groundfish Management Area where the take or possession is authorized (\u00a727.20(b)(1)(A)(1))."
+    ],
+    "source_anchor": "footnote-3"
+   },
+   {
+    "marker": "4",
+    "text": "No person shall take or possess any federal groundfish as defined in CCR T14, \u00a71.91 and all greenlings of the genus Hexagrammos from any boat or other floating device in ocean waters without having a descending device in possession and available for immediate use to assist in releasing rockfish to the depth of capture (CCR T14, \u00a727.20(b)(2)).",
+    "continuation": [],
+    "source_anchor": "footnote-4"
+   },
+   {
+    "marker": "5",
+    "text": "Total length is the longest straight-line measurement from the tip of the head with the mouth closed to the end of the longest lobe of the tail (CCR T14, \u00a71.62). A measurement method illustration is available in the current Ocean Sport Fishing Regulations booklet, available on the CDFW website.",
+    "continuation": [],
+    "source_anchor": "footnote-5"
+   },
+   {
+    "marker": "6",
+    "text": "For the purpose of these regulations, the definition of fillet is the flesh from one side of a fish extending from the head to the tail which has been removed from the body (head, tail, and backbone) in a single continuous piece (CCR T14, \u00a727.65(a)). No person shall fillet on any boat or bring ashore as fillets any fish except in accordance with requirements established in CCR T14, \u00a727.65(b). See regulations for information on gear restrictions (CCR T14, \u00a728.65 - 29.00) and species-specific fillet regulations (CCR T14, \u00a727.65).",
+    "continuation": [],
+    "source_anchor": "footnote-6"
+   }
+  ],
+  "citation": {
+   "ccr_cite": null,
+   "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Groundfish-Summary",
+   "source_doc": "CDFW Recreational Groundfish Regulations Summary page",
+   "source_revision": null,
+   "effective_start": null,
+   "effective_end": null,
+   "verified_at": "2026-08-28"
+  }
+ },
+ "salmon": {
+  "updates": [
+   {
+    "date_text": "August 19, 2026",
+    "text": "NOAA Fisheries took inseason action on August 19, 2026 to modify open dates in the following areas: San Francisco . Current regulations including inseason modifications are shown below."
+   }
+  ],
+  "hotlines": [
+   {
+    "label": "National Marine Fisheries Service Ocean Salmon Regulations Hotline",
+    "phone": "(800) 662-9825"
+   },
+   {
+    "label": "CDFW - Ocean Salmon Regulations Hotline",
+    "phone": "(707) 576-3429"
+   }
+  ],
+  "links": [
+   {
+    "title": "Sport Ocean Salmon Tracker",
+    "url": "https://app.powerbigov.us/view?r=eyJrIjoiNTQ1M2I1OTItZGNkYi00NzAyLTlhODctMDE1MDZlMmExODRiIiwidCI6IjRiNjMzYzI1LWVmYmYtNDAwNi05ZjE1LTA3NDQyYmE3YWEwYiJ9"
+   },
+   {
+    "title": "2026 Ocean Salmon Sport Regulations (PDF)",
+    "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=242581&inline"
+   },
+   {
+    "title": "Commercial Ocean Salmon Tracker",
+    "url": "https://app.powerbigov.us/view?r=eyJrIjoiOGQ1Y2VlNjMtOWEyMi00NzRjLThjYTQtMDdkOTQxOGRlZTY4IiwidCI6IjRiNjMzYzI1LWVmYmYtNDAwNi05ZjE1LTA3NDQyYmE3YWEwYiJ9"
+   }
+  ],
+  "citation": {
+   "ccr_cite": null,
+   "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Salmon",
+   "source_doc": "CDFW Ocean Salmon Regulations page",
+   "source_revision": null,
+   "effective_start": null,
+   "effective_end": null,
+   "verified_at": "2026-08-28"
+  }
+ },
+ "shellfish_links": [
+  {
+   "title": "Dungeness Crab (CDFW)",
+   "url": "https://wildlife.ca.gov/Fishing/Ocean/Dungeness-Crab"
+  },
+  {
+   "title": "Spiny Lobster (CDFW)",
+   "url": "https://wildlife.ca.gov/Fishing/Ocean/Lobster"
+  }
+ ],
+ "changes": [
+  {
+   "source": "marine_management_news",
+   "title": "Inseason Ocean Salmon Changes Announced for August",
+   "url": "https://cdfwmarine.wordpress.com/2026/08/21/inseason-ocean-salmon-changes-announced-for-august/",
+   "date_text": "Fri, 21 Aug 2026 21:46:41 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Get Hooked on the California Department of Fish and Wildlife Website!",
+   "url": "https://cdfwmarine.wordpress.com/2026/08/19/get-hooked-on-the-california-department-of-fish-and-wildlife-website-7/",
+   "date_text": "Wed, 19 Aug 2026 22:03:45 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Creature Feature: Pacific Littleneck Clam",
+   "url": "https://cdfwmarine.wordpress.com/2026/07/31/creature-feature-pacific-littleneck-clam/",
+   "date_text": "Fri, 31 Jul 2026 22:15:08 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "2023 Marine Protected Area\u00a0Petitions:\u00a0Tribally-led\u00a0Petition Evaluations and Other Documents Now Available",
+   "url": "https://cdfwmarine.wordpress.com/2026/07/31/2023-marine-protected-area-petitions-tribally-led-petition-evaluations-and-other-documents-now-available/",
+   "date_text": "Fri, 31 Jul 2026 19:01:24 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Inseason Recreational Ocean Salmon Closures Announced for California\u2019s North Coast",
+   "url": "https://cdfwmarine.wordpress.com/2026/07/28/in-season-recreational-ocean-salmon-closures-announced-for-californias-north-coast/",
+   "date_text": "Tue, 28 Jul 2026 22:38:40 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "2026 Ocean Salmon Seasons \u2013 Inseason Sport Fishing Update",
+   "url": "https://cdfwmarine.wordpress.com/2026/07/17/2026-ocean-salmon-seasons-inseason-sport-fishing-update/",
+   "date_text": "Fri, 17 Jul 2026 17:46:00 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Changes to Recreational and Commercial Groundfish Regulations Around Cordell Bank",
+   "url": "https://cdfwmarine.wordpress.com/2026/06/23/changes-to-recreational-and-commercial-groundfish-regulations-around-cordell-bank/",
+   "date_text": "Tue, 23 Jun 2026 23:16:52 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Protecting Our Oceans on World Oceans Day",
+   "url": "https://cdfwmarine.wordpress.com/2026/06/05/defending-our-oceans-on-world-oceans-day/",
+   "date_text": "Fri, 05 Jun 2026 20:59:37 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "Creature Feature: Treefish",
+   "url": "https://cdfwmarine.wordpress.com/2026/05/01/creature-feature-treefish/",
+   "date_text": "Fri, 01 May 2026 16:35:11 +0000"
+  },
+  {
+   "source": "marine_management_news",
+   "title": "2026 Ocean Salmon Seasons Determined",
+   "url": "https://cdfwmarine.wordpress.com/2026/04/13/2026-ocean-salmon-seasons-determined/",
+   "date_text": "Mon, 13 Apr 2026 20:05:54 +0000"
+  }
+ ],
+ "changes_citation": {
+  "ccr_cite": null,
+  "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Inseason",
+  "source_doc": "CDFW In-Season Changes page + Marine Management News",
+  "source_revision": null,
+  "effective_start": null,
+  "effective_end": null,
+  "verified_at": "2026-08-28"
+ }
+}

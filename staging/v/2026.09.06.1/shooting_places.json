@@ -1,0 +1,92 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-07T08:32:57.174421+00:00",
+ "curation_status": "verified",
+ "note": "Where you may not shoot, verbatim from the Mammal Hunting and Trapping Regulations. The 150-yard safety zone is stored with its qualifying clause because the qualification IS the rule: it binds only a person who is not the owner or occupier and lacks their express permission.",
+ "records": [
+  {
+   "key": "safety_zone",
+   "title": "Near a dwelling, building or barn",
+   "kind": "distance",
+   "distance": "150 yards",
+   "applies_unless": "You are the owner, the person in possession of the premises, or you have the express permission of one of them.",
+   "verbatim": "(a) It is unlawful for a person, other than the owner, person in possession of the premises, or a person having the express permission of the owner or person in possession of the premises, while within 150 yards of an occupied dwelling house, residence, or other building, or within 150 yards of a barn or other outbuilding used in connection with an occupied dwelling house, residence, or other building, to either hunt or discharge a firearm or other deadly weapon while hunting. The 150-yard area is a \u201csafety zone.\u201d",
+   "citation": {
+    "ccr_cite": "Cal. Fish & Game Code \u00a7 3004(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations p.24: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "over_a_road",
+   "title": "Over or across a public road",
+   "kind": "prohibition",
+   "distance": null,
+   "applies_unless": null,
+   "verbatim": "(b) It is unlawful for a person to intentionally discharge a firearm or release an arrow or crossbow bolt over or across a public road or other established way open to the public in an unsafe and reckless manner",
+   "citation": {
+    "ccr_cite": "Cal. Fish & Game Code \u00a7 3004(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations p.24: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "loaded_in_vehicle",
+   "title": "A loaded rifle or shotgun in a vehicle",
+   "kind": "prohibition",
+   "distance": null,
+   "applies_unless": null,
+   "verbatim": "(a) It is unlawful to possess a loaded rifle or shotgun in any vehicle or conveyance or its attachments which is standing on or along or is being driven on or along any public highway or other way open to the public.",
+   "citation": {
+    "ccr_cite": "Cal. Fish & Game Code \u00a7 2006",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations p.24: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  }
+ ],
+ "no_road_setback": {
+  "statement": "These regulations set no minimum distance from a road. What they prohibit is the act: discharging over or across a public road, shooting from or upon one, and carrying a loaded rifle or shotgun in a vehicle on one.",
+  "checked": "Every distance printed in the hunting booklets was checked: 150 yards (dwellings), 400 yards (bait), 150 feet (litter near the high-water mark), and several wildlife-area figures. None concerns roads."
+ },
+ "penal_code_summary": {
+  "verbatim": "Shoot any firearm from or upon a public road or highway.",
+  "cite": "Cal. Penal Code \u00a7 374(c)",
+  "caveat": "The booklet prints this as a one-line summary only. The text it reproduces under that section number is the littering statute, so the operative Penal Code sentence is not in this app.",
+  "citation": {
+   "ccr_cite": "Cal. Penal Code \u00a7 374(c)",
+   "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+   "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations p.5: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+   "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+   "effective_start": null,
+   "effective_end": null,
+   "verified_at": "2026-08-31"
+  }
+ },
+ "archery_across_road": {
+  "verbatim": "(e) No arrow or crossbow bolt may be released from a bow or crossbow upon or across any highway, road or other way open to vehicular traffic.",
+  "citation": {
+   "ccr_cite": "14 CCR \u00a7 354(e)",
+   "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+   "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations p.22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+   "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+   "effective_start": null,
+   "effective_end": null,
+   "verified_at": "2026-08-31"
+  }
+ },
+ "not_covered": [
+  "Schools, playgrounds, occupied camps and public buildings \u2014 the hunting booklets are silent, so this app is too."
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-07T08:32:57.750836+00:00",
+ "curation_status": "verified",
+ "note": "What a user must buy, per activity, with each row pinned to a sentence CDFW published. Rows are validated against licenses_fees.json and the extracted regulation text at draft time, so a wording change fails the build rather than shipping a stale requirement. 'unresolved' is a first-class value: the dove row states both what is known and what is not, because silence reads as 'you don't need it' and a guess reads as 'you do'.",
+ "purchase_url": "https://licenses.wildlife.ca.gov",
+ "activities": [
+  {
+   "key": "freshwater_fishing",
+   "title": "Fishing \u2014 lakes, rivers and streams"
+  },
+  {
+   "key": "ocean_fishing",
+   "title": "Fishing \u2014 ocean and bays"
+  },
+  {
+   "key": "spearfishing",
+   "title": "Spearfishing"
+  },
+  {
+   "key": "deer",
+   "title": "Deer hunting"
+  },
+  {
+   "key": "dove",
+   "title": "Dove, band-tailed pigeon and snipe"
+  },
+  {
+   "key": "upland_birds",
+   "title": "Quail, chukar, pheasant, grouse and turkey"
+  },
+  {
+   "key": "waterfowl",
+   "title": "Ducks, geese and brant"
+  }
+ ],
+ "upland_game_bird_species": {
+  "curation_status": "verified",
+  "user_verified_on": "2026-08-31",
+  "user_verification_basis": "Owner supplied the section text on 2026-08-31 from Findlaw's reproduction of California Fish and Game Code section 3683, stated there as current as of January 01, 2026. This is a secondary reproduction, not a fetch from the Legislature's own site: leginfo.legislature.ca.gov publishes robots.txt 'Disallow: /', so under this project's scrape policy it is the manual lane or nothing. The distinction is recorded in the citation rather than glossed.",
+  "note": "The species list that decides who needs a California Upland Game Bird Validation. The regulations booklet requires the validation for 'upland game birds' and then defines that class ONLY by pointing here (FGC 3682.1 -> 3683), which is why the app could not answer the dove question from CDFW's own PDFs alone.",
+  "why_this_looked_contradictory": "Section 506 groups mourning and white-winged doves with 'migratory game birds' for shooting hours, and CDFW's Resident Small Game chapter points dove hunters AWAY to section 507. That reads as though dove is not an upland game bird. Section 3683 resolves it: the class 'upland game bird' is defined to INCLUDE both resident game birds (subdivision (a)) and certain migratory game birds (subdivision (b)). Mourning doves, white-winged doves, band-tailed pigeons and jacksnipe sit in (b). Both statements are true at once - a dove is a migratory game bird AND an upland game bird - so the validation is required and the migratory shooting hours also apply.",
+  "citation": {
+   "ccr_cite": "Cal. Fish & Game Code \u00a7 3683",
+   "source_url": "https://codes.findlaw.com/ca/fish-and-game-code/fgc-sect-3683/",
+   "source_doc": "California Fish and Game Code \u00a7 3683, as reproduced by Findlaw (owner-supplied transcription; stated current as of January 01, 2026)",
+   "source_revision": "Findlaw, current as of 2026-01-01",
+   "effective_start": null,
+   "effective_end": null,
+   "verified_at": "2026-08-31"
+  },
+  "lead_verbatim": "Upland game bird species include both of the following:",
+  "groups": [
+   {
+    "key": "resident",
+    "subdivision": "(a)",
+    "heading_verbatim": "All of the following resident game birds:",
+    "species": [
+     {
+      "number": "(1)",
+      "verbatim": "Doves of the genus Streptopelia, including, but not limited to, spotted doves, ringed turtledoves, and Eurasian collared doves."
+     },
+     {
+      "number": "(2)",
+      "verbatim": "California quail and varieties thereof."
+     },
+     {
+      "number": "(3)",
+      "verbatim": "Gambel's or desert quail."
+     },
+     {
+      "number": "(4)",
+      "verbatim": "Mountain quail and varieties thereof."
+     },
+     {
+      "number": "(5)",
+      "verbatim": "Sooty or blue grouse."
+     },
+     {
+      "number": "(6)",
+      "verbatim": "Ruffed grouse."
+     },
+     {
+      "number": "(7)",
+      "verbatim": "Sage hens or sage grouse."
+     },
+     {
+      "number": "(8)",
+      "verbatim": "White-tailed ptarmigan."
+     },
+     {
+      "number": "(9)",
+      "verbatim": "Hungarian partridges."
+     },
+     {
+      "number": "(10)",
+      "verbatim": "Red-legged partridges including the chukar and other varieties."
+     },
+     {
+      "number": "(11)",
+      "verbatim": "Ring-necked pheasants and varieties thereof."
+     },
+     {
+      "number": "(12)",
+      "verbatim": "Wild turkeys."
+     }
+    ]
+   },
+   {
+    "key": "migratory",
+    "subdivision": "(b)",
+    "heading_verbatim": "All of the following migratory game birds:",
+    "species": [
+     {
+      "number": "(1)",
+      "verbatim": "Jacksnipe."
+     },
+     {
+      "number": "(2)",
+      "verbatim": "Western mourning doves."
+     },
+     {
+      "number": "(3)",
+      "verbatim": "White-winged doves."
+     },
+     {
+      "number": "(4)",
+      "verbatim": "Band-tailed pigeons."
+     }
+    ]
+   }
+  ],
+  "not_listed_note": "Ducks, geese, brant, coots and gallinules do NOT appear in section 3683. They are waterfowl: they need the California Duck Validation and the Federal Duck Stamp instead, not the Upland Game Bird Validation."
+ },
+ "records": [
+  {
+   "id": "sport-fishing-license",
+   "activities": [
+    "freshwater_fishing",
+    "ocean_fishing",
+    "spearfishing"
+   ],
+   "kind": "license",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "A California sport fishing license.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "365-Day Sport Fishing Licenses",
+    "item": "Resident Sport Fishing",
+    "item_nonresident": "Nonresident Sport Fishing"
+   },
+   "evidence_quote": "Available for any resident 16 years of age or older.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Resident Sport Fishing",
+    "fee_text": "$64.54",
+    "resident_fee": "$64.54",
+    "nonresident_fee": null,
+    "any_fee": null,
+    "description": "Available for any resident 16 years of age or older."
+   },
+   "fee_nonresident": {
+    "title": "Nonresident Sport Fishing",
+    "fee_text": "$174.14",
+    "resident_fee": null,
+    "nonresident_fee": "$174.14",
+    "any_fee": null,
+    "description": "Available for any non-resident 16 years of age or older."
+   }
+  },
+  {
+   "id": "ocean-enhancement-validation",
+   "activities": [
+    "ocean_fishing",
+    "spearfishing"
+   ],
+   "kind": "validation",
+   "necessity": "conditional",
+   "evidence_source": "fee_description",
+   "summary": "Only south of Point Arguello, and not on a one- or two-day license.",
+   "condition_kind": "geographic",
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Ocean Enhancement Validation",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required to fish in ocean waters south of Point Arguello (Santa Barbara County). An Ocean Enhancement Validation is not required when fishing under the authority of a One or Two-Day Sport Fishing License.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Ocean Enhancement Validation",
+    "fee_text": "$7.30",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$7.30",
+    "description": "Required to fish in ocean waters south of Point Arguello (Santa Barbara County). An Ocean Enhancement Validation is not required when fishing under the authority of a One or Two-Day Sport Fishing License."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "second-rod-validation",
+   "activities": [
+    "freshwater_fishing"
+   ],
+   "kind": "validation",
+   "necessity": "optional",
+   "evidence_source": "fee_description",
+   "summary": "Only if you want to fish a second rod in inland waters.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Second Rod Validation",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Allows a person to fish with two rods or lines in inland waters",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Second Rod Validation",
+    "fee_text": "$20.26",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$20.26",
+    "description": "Allows a person to fish with two rods or lines in inland waters, except for waters in which only artificial lures or barbless hooks may be used. Note: A Second Rod Validation is not required when fishing in ocean waters as defined in CCR, Title 14, Section 27.00. For general fishing gear restrictions in ocean waters, please refer to CCR, Title 14, Section 28.65. These sections can be found in the Saltwater Sport Fishing Regulations Booklet ."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "lobster-report-card-spear",
+   "activities": [
+    "spearfishing"
+   ],
+   "kind": "report_card",
+   "necessity": "conditional",
+   "evidence_source": "fee_description",
+   "summary": "Only if you also take lobster by hand while diving \u2014 spearing lobster is illegal.",
+   "condition_kind": "activity",
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Spiny Lobster Report Card (valid for the entire lobster season).",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required for all persons taking spiny lobster.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Spiny Lobster Report Card (valid for the entire lobster season).",
+    "fee_text": "$12.70",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$12.70",
+    "description": "Required for all persons taking spiny lobster. Report card holders who fail to return their Spiny Lobster Report Card or report their harvest online by April 30, will be assessed a $21.60 non-return fee when they purchase a spiny lobster report card for the following season."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "hunting-license",
+   "activities": [
+    "deer",
+    "dove",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "kind": "license",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "A California hunting license.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Hunting Licenses",
+    "item": "Resident Hunting License",
+    "item_nonresident": "Nonresident Hunting License"
+   },
+   "evidence_quote": "Required for any resident 16 years of age or older who takes birds or mammals.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Resident Hunting License",
+    "fee_text": "$64.54",
+    "resident_fee": "$64.54",
+    "nonresident_fee": null,
+    "any_fee": null,
+    "description": "Required for any resident 16 years of age or older who takes birds or mammals."
+   },
+   "fee_nonresident": {
+    "title": "Nonresident Hunting License",
+    "fee_text": "$225.46",
+    "resident_fee": null,
+    "nonresident_fee": "$225.46",
+    "any_fee": null,
+    "description": "Required for any nonresident 16 years of age or older who takes birds or mammals."
+   }
+  },
+  {
+   "id": "deer-tag",
+   "activities": [
+    "deer"
+   ],
+   "kind": "tag",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "A deer tag for the zone or hunt you are hunting.",
+   "condition_kind": null,
+   "detail_source": "deer_zone",
+   "fee_ref": {
+    "section": "Big Game Tag Drawing Applications",
+    "item": "Resident First-Deer Tag or First-Deer Tag Drawing Application",
+    "item_nonresident": "Nonresident First-Deer Tag or First-Deer Tag Drawing Application"
+   },
+   "evidence_quote": "Hunters may obtain two deer tags per license year.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Resident First-Deer Tag or First-Deer Tag Drawing Application",
+    "fee_text": "$42.38",
+    "resident_fee": "$42.38",
+    "nonresident_fee": null,
+    "any_fee": null,
+    "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year."
+   },
+   "fee_nonresident": {
+    "title": "Nonresident First-Deer Tag or First-Deer Tag Drawing Application",
+    "fee_text": "$377.35",
+    "resident_fee": null,
+    "nonresident_fee": "$377.35",
+    "any_fee": null,
+    "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year."
+   }
+  },
+  {
+   "id": "deer-archery-firearm-prohibition",
+   "activities": [
+    "deer"
+   ],
+   "kind": "restriction",
+   "necessity": "restriction",
+   "evidence_source": "deer_method_rule",
+   "summary": "During an archery season you may not have a firearm in the field.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": null,
+   "evidence_quote": "Archers may not use or possess a firearm while in the field engaged in archery hunting during an archery season or while hunting during a general season under the provisions of an archery only tag except as provided in subsections (h)(1) or (h)(2).",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(h)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   },
+   "fee": null,
+   "fee_nonresident": null
+  },
+  {
+   "id": "hip-validation",
+   "activities": [
+    "dove",
+    "waterfowl"
+   ],
+   "kind": "validation",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "Free, but required \u2014 and dove is named in it.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Harvest Information Program (HIP) Validation",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required for any person hunting ducks, dove, gallinules, geese, band-tailed pigeon, black brant, coots, and snipe.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Harvest Information Program (HIP) Validation",
+    "fee_text": "NO FEE",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": null,
+    "description": "Required for any person hunting ducks, dove, gallinules, geese, band-tailed pigeon, black brant, coots, and snipe. This validation is free to hunters who complete the Harvest Information Program (HIP) Survey. The validation is available where hunting licenses are sold. The HIP Validation is imprinted on your hunting license document when you answer the HIP Survey questions. If you hunt migratory game birds, verify that a HIP Validation has been printed on your hunting license. The HIP Survey provides wildlife biologists with data needed to make wildlife management decisions and formulate hunting seasons. More information about HIP"
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "duck-validation",
+   "activities": [
+    "waterfowl"
+   ],
+   "kind": "validation",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "Required to take waterfowl.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "California Duck Validation",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required for any person taking waterfowl, excluding juniors hunting under the authority of a Junior Hunting License.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "California Duck Validation",
+    "fee_text": "$41.04",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$41.04",
+    "description": "Required for any person taking waterfowl, excluding juniors hunting under the authority of a Junior Hunting License."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "federal-duck-stamp",
+   "activities": [
+    "waterfowl"
+   ],
+   "kind": "stamp",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "A federal stamp, sold by USFWS \u2014 not at CDFW offices.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Federal Duck Stamp",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required for any person hunting waterfowl. Hunters under the age of 16 are exempt from the Federal Duck Stamp requirement.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Federal Duck Stamp",
+    "fee_text": "$25.00",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$25.00",
+    "description": "Required for any person hunting waterfowl. Hunters under the age of 16 are exempt from the Federal Duck Stamp requirement. Federal Duck Stamps are not sold at CDFW offices. Federal Duck Stamps can be purchased at many post offices and some license agents. More information about the Federal Duck Stamp (USFWS) ."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "upland-game-bird-validation",
+   "activities": [
+    "upland_birds"
+   ],
+   "kind": "validation",
+   "necessity": "required",
+   "evidence_source": "fee_description",
+   "summary": "Required to take upland game birds.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Upland Game Bird Validations",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Required for any person taking upland game bird species, excluding juniors hunting under the authority of a Junior Hunting License.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   },
+   "fee": {
+    "title": "Upland Game Bird Validations",
+    "fee_text": "$25.41",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$25.41",
+    "description": "Required for any person taking upland game bird species, excluding juniors hunting under the authority of a Junior Hunting License."
+   },
+   "fee_nonresident": null
+  },
+  {
+   "id": "upland-game-bird-validation-dove",
+   "activities": [
+    "dove"
+   ],
+   "kind": "validation",
+   "necessity": "required",
+   "evidence_source": "statute_3683",
+   "summary": "Yes \u2014 dove counts. Mourning and white-winged doves are named in the statute.",
+   "condition_kind": null,
+   "detail_source": null,
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Upland Game Bird Validations",
+    "item_nonresident": null
+   },
+   "evidence_quote": "Upland game bird species include both of the following: ... (b) All of the following migratory game birds: Jacksnipe. Western mourning doves. White-winged doves. Band-tailed pigeons.",
+   "unresolved_because": null,
+   "unresolved_link": null,
+   "clarification": "This looks contradictory in CDFW's own documents and is not. Section 506 files mourning and white-winged doves under migratory game birds for shooting hours, and the Resident Small Game chapter sends dove hunters away to section 507. But Fish and Game Code section 3683 defines upland game birds to include BOTH resident game birds and certain migratory ones \u2014 and lists western mourning doves, white-winged doves, band-tailed pigeons and jacksnipe among them. A dove is a migratory game bird and an upland game bird at the same time, so the migratory shooting hours apply AND the Upland Game Bird Validation is required.",
+   "citation": {
+    "ccr_cite": "Cal. Fish & Game Code \u00a7 3683",
+    "source_url": "https://codes.findlaw.com/ca/fish-and-game-code/fgc-sect-3683/",
+    "source_doc": "California Fish and Game Code \u00a7 3683, as reproduced by Findlaw (owner-supplied transcription; stated current as of January 01, 2026)",
+    "source_revision": "Findlaw, current as of 2026-01-01",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   },
+   "fee": {
+    "title": "Upland Game Bird Validations",
+    "fee_text": "$25.41",
+    "resident_fee": null,
+    "nonresident_fee": null,
+    "any_fee": "$25.41",
+    "description": "Required for any person taking upland game bird species, excluding juniors hunting under the authority of a Junior Hunting License."
+   },
+   "fee_nonresident": null
+  }
+ ]
+}

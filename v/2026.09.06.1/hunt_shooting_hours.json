@@ -1,0 +1,63 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-07T08:32:45.106721+00:00",
+ "curation_status": "verified",
+ "note": "Legal shooting hours quoted verbatim per species group. The app states the rule and does NOT compute sunrise/sunset: CDFW publishes precomputed shooting-hour tables by date and location (Waterfowl booklet pp. 32-33), and both \u00a7506 and \u00a7310.5 direct the reader to them.",
+ "official_tables": {
+  "description": "CDFW's precomputed shooting-hour tables by date and location",
+  "pages": "32-33 of the Waterfowl, Upland Game and Public Lands booklet",
+  "source": {
+   "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+   "source_filename": "Waterfowl Booklet_2026_081326-int.pdf",
+   "sha256": "77299626f3411b5cf9c966e0fc66561ba0f871c9b812ae36a86b15939de6957b",
+   "fetched_at": "2026-08-31T17:24:24.766737+00:00"
+  }
+ },
+ "records": [
+  {
+   "id": "big-game",
+   "group": "Big game",
+   "applies_to": "Deer, antelope, elk, bear and other big game",
+   "verbatim": "Hunting and shooting hours for big game, including but not limited to deer, antelope, elk, and bear shall be from one-half hour before sunrise to one-half hour after sunset.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 352",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
+    "source_doc": "2026 Big Game Digest 6.15_int.pdf p.6",
+    "source_revision": "2026 Big Game Digest 6.15_int.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory-birds",
+   "group": "Migratory game birds",
+   "applies_to": "Doves, band-tailed pigeons, coots, moorhens, snipe and waterfowl",
+   "verbatim": "Shooting hours for migratory game birds, including mourning doves, white-winged doves, band-tailed pigeons, American coots, common moorhens, common snipe (jacksnipe), and waterfowl for all of California shall be from one-half hour before sunrise to sunset. EXCEPTION: In areas open to hunting on, over or adjacent to the waters of Morro Bay, San Luis Obispo County, the shooting time shall be from 7:00 a.m. to sunset.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 506",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "Waterfowl Booklet_2026_081326-int.pdf p.34",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland-birds",
+   "group": "Upland game birds",
+   "applies_to": "Quail, chukar, grouse, pheasant and wild turkey",
+   "verbatim": "The shooting hours for all upland game birds, except for pheasants and the spring wild turkey season, shall be from one-half hour before sunrise to sunset. The shooting hours for pheasants shall be from 8:00 a.m. to sunset. The shooting hours for the spring wild turkey season shall be from one-half hour before sunrise to 5:00 p.m.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 310.5",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "Waterfowl Booklet_2026_081326-int.pdf p.51",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  }
+ ]
+}
