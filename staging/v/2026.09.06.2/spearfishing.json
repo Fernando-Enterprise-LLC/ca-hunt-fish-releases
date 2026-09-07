@@ -1,0 +1,193 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-07T16:26:56.818870+00:00",
+ "curation_status": "verified",
+ "note": "The law of ocean spearfishing, verbatim from the ocean regulations booklet: the definition (which includes take by hand while diving), the diving rule with its never-spearable species and the 100-yard stream-mouth ban north of Ventura, the spear/shark rule, slurp guns, the crustacean hands-only rule, and the abalone closure. The never-spearable list is structured so a screen can render it scannably, with every row backed by a quoted sentence.",
+ "records": [
+  {
+   "key": "definition",
+   "title": "What counts as spearfishing",
+   "note": "Take BY HAND while diving is legally spearfishing too.",
+   "verbatim": "The taking of fish by spear or hand by persons who are in the water and may be using underwater goggles, face plates, breathing tubes, scuba or other artificial underwater breathing device.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 1.76",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.11: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "diving_spearfishing",
+   "title": "Diving and spearfishing",
+   "note": null,
+   "verbatim": "Persons who are floating or swimming in the water may use spearfishing gear and skin or scuba diving equipment to take fin fish other than giant (black) sea bass, garibaldi, gulf grouper, broomtail grouper, trout, salmon, or broadbill [swordfish], except that: (a) No person may possess or use a spear within 100 yards of the mouth of any stream in any ocean waters north of Ventura County. (b) When spearfishing for or in possession of federal groundfish species or all greenlings of the genus Hexagrammos as authorized pursuant to subsection 27.20(b) (1)(D), in an area or during a season closed to the take of these species, no fishing gear except spearfishing gear may be aboard the vessel or watercraft.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 28.90",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.13: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "spears_sharks",
+   "title": "Spears, harpoons and sharks",
+   "note": null,
+   "verbatim": "Spears, harpoons and bow and arrow fishing tackle may be used for taking all varieties of skates, rays, and sharks, except white sharks. Harpoons may be used to assist in taking Pacific halibut as specified in Section 28.20. Such gear may not be possessed or used within 100 yards of the mouth of any stream in any ocean waters north of Ventura County, nor aboard any vessel on any day or on any trip when broadbill swordfish or marlin have been taken.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 28.95",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.14: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "slurp_guns",
+   "title": "Slurp guns",
+   "note": null,
+   "verbatim": "Slurp guns may be used to take fin fish except that bag and possession limits shall not be exceeded wherever they apply and no species of fin fish may be taken for which a minimum size limit has been established (see Sections 27.60 and 28.00-28.55).",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 28.91",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.14: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "crustaceans_hands_only",
+   "title": "Lobster and crabs \u2014 hands only",
+   "note": "Spearing a lobster is illegal. Divers may carry spear gear only if it is not used to aid crustacean take.",
+   "verbatim": "skin and scuba divers may take crustaceans by the use of the hands only. Divers may not possess any hooked device while diving or attempting to dive. Divers may be in possession of spearfishing equipment so long as possession of such equipment is otherwise lawful and is not being used to aid in the take of crustaceans.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 29.80(g)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.41: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "key": "abalone_closed",
+   "title": "Abalone \u2014 closed statewide",
+   "note": null,
+   "verbatim": "All ocean waters are closed to the take of abalone. Abalone may not be taken or possessed. (b) Subsection (a) preempts subsections (i), (j), and (k). This subsection and subsection (a) shall remain in effect only until April 1, 2036, and as of that date are repealed, unless a later enacted amendment deletes or extends that date.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 29.15",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.36: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  }
+ ],
+ "supporting_quotes": {
+  "zero_limit_rockfish": {
+   "verbatim": "The limit on bronzespotted rockfish, cowcod, quillback rockfish, and yelloweye rockfish is zero.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 28.55(b)(1)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.21: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  "mpa_gear_transit": {
+   "verbatim": "While transiting MPAs and MMAs that prohibit spearfishing or while in possession of species not identified as allowed for take in the MPA or MMA being transited, spearfishing gear shall be in an unloaded condition, not carried in hand, and the diver shall remain at the surface.",
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 632(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations p.55: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  }
+ },
+ "never_spearable": [
+  {
+   "species": "Giant (black) sea bass",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Garibaldi",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Gulf grouper",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Broomtail grouper",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Trout",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Salmon",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "Broadbill swordfish",
+   "cite": "14 CCR \u00a7 28.90"
+  },
+  {
+   "species": "White shark",
+   "cite": "14 CCR \u00a7 28.95"
+  },
+  {
+   "species": "Bronzespotted rockfish",
+   "cite": "14 CCR \u00a7 28.55(b)(1)",
+   "reason": "zero bag limit"
+  },
+  {
+   "species": "Cowcod",
+   "cite": "14 CCR \u00a7 28.55(b)(1)",
+   "reason": "zero bag limit"
+  },
+  {
+   "species": "Quillback rockfish",
+   "cite": "14 CCR \u00a7 28.55(b)(1)",
+   "reason": "zero bag limit"
+  },
+  {
+   "species": "Yelloweye rockfish",
+   "cite": "14 CCR \u00a7 28.55(b)(1)",
+   "reason": "zero bag limit"
+  },
+  {
+   "species": "Spiny lobster (by spear)",
+   "cite": "14 CCR \u00a7 29.80(g)",
+   "reason": "crustaceans are hands-only for divers"
+  },
+  {
+   "species": "All crustaceans (by spear)",
+   "cite": "14 CCR \u00a7 29.80(g)",
+   "reason": "hands-only for divers"
+  },
+  {
+   "species": "Abalone",
+   "cite": "14 CCR \u00a7 29.15",
+   "reason": "fishery closed statewide until 2036"
+  }
+ ]
+}
