@@ -1,23 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-08T20:42:59.259351+00:00",
+ "generated_at": "2026-09-08T23:38:48.287275+00:00",
  "note": "The stocking calendar's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "32a745c5e076bfb5b8cbc05bb8f6f24a90e64763d50ebfa2ca081c63182279cb",
-   "bytes": 31046,
+   "sha256": "cf1dbdf8d8f3881e1c47dcaecfc480aad7a33a495488cc14769b923474f0cb50",
+   "bytes": 29722,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.08.1",
+   "dataset_version": "2026.09.08",
    "read_at": "2026-09-08",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-08T20:31:55.743547+00:00",
-   "note": "the rebuilt window is identical to the published one (read 2026-09-08), so the published bytes and their publication date stand."
+   "state": "published",
+   "published_at": "2026-09-08T23:38:48.286903+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -32,7 +31,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-08T20:31:55.743701+00:00",
-   "note": "the rebuilt operator file is identical to the published one (read 2026-09-08), so the published bytes and their publication date stand."
+   "note": "the published copy was read 0 days ago; its clock is 7 days and the refetch interval is 6"
   }
  ]
 }
