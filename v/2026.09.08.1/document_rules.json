@@ -1,0 +1,1116 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-08T21:50:20.862529+00:00",
+ "curation_status": "verified",
+ "note": "Every regulation fact the document wallet reasons with, each pinned to a sentence its cited page published. Validity clocks, return windows, hunter education requirements and field-display rules only \u2014 no fee value appears anywhere in this file, and no eligibility verdict about any person. Where a source states no clock, validity is null and validity_note says why, because silence reads as 'it never expires' and a guess reads as a date. Topics the R11 research could not verify on an official page are absent by decision, not pending: certificate lifetime, a minimum age for the traditional course, junior validation exemptions, penalty amounts outside a quoted sentence, the states that accept California bowhunter education, and any military exemption.",
+ "records": [
+  {
+   "id": "hunting-license-annual",
+   "tier": "license",
+   "title": "Annual Hunting License",
+   "requirement_id": "hunting-license",
+   "fee_ref": {
+    "section": "Hunting Licenses",
+    "item": "Resident Hunting License",
+    "item_nonresident": "Nonresident Hunting License"
+   },
+   "activities": [
+    "deer",
+    "dove",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "An annual hunting license is valid from July 1 through the following June 30. If the license is purchased after July 1 it is valid for the remainder of the license year.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": [
+    "hunter-education"
+   ],
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting",
+    "source_doc": "CDFW Hunting Licenses and Tags page, Frequently Asked Questions",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "junior-hunting-license",
+   "tier": "license",
+   "title": "Junior Hunting License",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Hunting Licenses",
+    "item": "Junior Hunting License",
+    "item_nonresident": null
+   },
+   "activities": [
+    "deer",
+    "dove",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "Valid JULY 1, 2026, through JUNE 30, 2027",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "Required for any resident or nonresident less than 16 years of age who takes birds or mammals. To qualify, hunter must be less than 16 years of age at the beginning of the license year (July 1).",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW Hunting License Items and Fees page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "sport-fishing-license-365",
+   "tier": "license",
+   "title": "365-Day Sport Fishing License",
+   "requirement_id": "sport-fishing-license",
+   "fee_ref": {
+    "section": "365-Day Sport Fishing Licenses",
+    "item": "Resident Sport Fishing",
+    "item_nonresident": "Nonresident Sport Fishing"
+   },
+   "activities": [
+    "freshwater_fishing",
+    "ocean_fishing",
+    "spearfishing"
+   ],
+   "validity": {
+    "kind": "days_from_purchase",
+    "start_month_day": null,
+    "end_month_day": null,
+    "days": 365,
+    "example_verbatim": "For example, if you purchase a 365-day sport fishing license on June 1, 2023, the license will be valid through May 31, 2024."
+   },
+   "validity_verbatim": "365-day sport fishing licenses are valid for 365 days from the date of purchase.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "hip-validation",
+   "tier": "validation",
+   "title": "Harvest Information Program (HIP) Validation",
+   "requirement_id": "hip-validation",
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Harvest Information Program (HIP) Validation",
+    "item_nonresident": null
+   },
+   "activities": [
+    "dove",
+    "waterfowl"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "Valid JULY 1, 2026, through JUNE 30, 2027",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "The HIP Validation is imprinted on your hunting license document when you answer the HIP Survey questions.",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW Hunting License Items and Fees page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "duck-validation",
+   "tier": "validation",
+   "title": "California Duck Validation",
+   "requirement_id": "duck-validation",
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "California Duck Validation",
+    "item_nonresident": null
+   },
+   "activities": [
+    "waterfowl"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "Valid JULY 1, 2026, through JUNE 30, 2027",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "Required for any person taking waterfowl, excluding juniors hunting under the authority of a Junior Hunting License.",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW Hunting License Items and Fees page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "upland-game-bird-validation",
+   "tier": "validation",
+   "title": "Upland Game Bird Validation",
+   "requirement_id": "upland-game-bird-validation",
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Upland Game Bird Validations",
+    "item_nonresident": null
+   },
+   "activities": [
+    "upland_birds",
+    "dove"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "Valid JULY 1, 2026, through JUNE 30, 2027",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "Required for any person taking upland game bird species, excluding juniors hunting under the authority of a Junior Hunting License.",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW Hunting License Items and Fees page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "federal-duck-stamp",
+   "tier": "stamp",
+   "title": "Federal Duck Stamp",
+   "requirement_id": "federal-duck-stamp",
+   "fee_ref": {
+    "section": "Bird Hunting Validations",
+    "item": "Federal Duck Stamp",
+    "item_nonresident": null
+   },
+   "activities": [
+    "waterfowl"
+   ],
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "If you hunt migratory waterfowl and you are 16 years of age or older, you are required to purchase and carry a current Federal Duck Stamp or E-Stamp. Federal Duck Stamps are valid from July 1 through the following June 30.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "you must have a signed physical stamp or a valid E-stamp in hand to be legal for hunting; a sales receipt is not the same as an E-stamp and is not legal to hunt with.",
+    "source_url": "https://www.fws.gov/program/federal-duck-stamp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.fws.gov/program/federal-duck-stamp",
+    "source_doc": "U.S. Fish and Wildlife Service Federal Duck Stamp program page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "ocean-enhancement-validation",
+   "tier": "validation",
+   "title": "Ocean Enhancement Validation",
+   "requirement_id": "ocean-enhancement-validation",
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Ocean Enhancement Validation",
+    "item_nonresident": null
+   },
+   "activities": [
+    "ocean_fishing",
+    "spearfishing"
+   ],
+   "validity": {
+    "kind": "days_from_purchase",
+    "start_month_day": null,
+    "end_month_day": null,
+    "days": 365,
+    "example_verbatim": "For example, if you purchase a 365-day sport fishing license on June 1, 2023, the license will be valid through May 31, 2024."
+   },
+   "validity_verbatim": "The Second-Rod Validation, Sport Ocean Enhancement Validation, and Recreational Crab Trap Validation are valid for 365 days from the date of purchase.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "second-rod-validation",
+   "tier": "validation",
+   "title": "Second Rod Validation",
+   "requirement_id": "second-rod-validation",
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Second Rod Validation",
+    "item_nonresident": null
+   },
+   "activities": [
+    "freshwater_fishing"
+   ],
+   "validity": {
+    "kind": "days_from_purchase",
+    "start_month_day": null,
+    "end_month_day": null,
+    "days": 365,
+    "example_verbatim": "For example, if you purchase a 365-day sport fishing license on June 1, 2023, the license will be valid through May 31, 2024."
+   },
+   "validity_verbatim": "The Second-Rod Validation, Sport Ocean Enhancement Validation, and Recreational Crab Trap Validation are valid for 365 days from the date of purchase.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "crab-trap-validation",
+   "tier": "validation",
+   "title": "Recreational Crab Trap Validation",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Recreational Crab Trap Validation",
+    "item_nonresident": null
+   },
+   "activities": [
+    "ocean_fishing"
+   ],
+   "validity": {
+    "kind": "days_from_purchase",
+    "start_month_day": null,
+    "end_month_day": null,
+    "days": 365,
+    "example_verbatim": "For example, if you purchase a 365-day sport fishing license on June 1, 2023, the license will be valid through May 31, 2024."
+   },
+   "validity_verbatim": "The Second-Rod Validation, Sport Ocean Enhancement Validation, and Recreational Crab Trap Validation are valid for 365 days from the date of purchase.",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "Beginning January 1, 2026, anglers fishing for crabs using crab trap(s) from a Commercial Passenger Fishing Vessel are no longer required to possess this validation.",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "wild-pig-validation",
+   "tier": "validation",
+   "title": "Wild Pig Validation",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Wild Pig Validation",
+    "item": "Wild Pig Validation",
+    "item_nonresident": null
+   },
+   "activities": null,
+   "validity": {
+    "kind": "license_year",
+    "start_month_day": "07-01",
+    "end_month_day": "06-30",
+    "days": null,
+    "example_verbatim": null
+   },
+   "validity_verbatim": "Valid JULY 1, 2026, through JUNE 30, 2027",
+   "validity_note": null,
+   "field_display": {
+    "kind": "cdfw_app_or_physical",
+    "verbatim": "You are not required to carry your physical sport fishing or hunting license if you are using the CDFW License App and your mobile device is capable of displaying your sport fishing or hunting license through the app. However, if you do not possess your physical license and are not able to display your license via the app for any reason (e.g., dead device battery, broken/malfunctioning screen, etc.) while engaged in activities requiring the license, you will be in violation of Fish and Game Code Section 1054.2 (applicable to hunting and sport fishing licenses) and 7145(a) (applicable to sport fishing licenses).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": [
+    "hunting-license-annual"
+   ],
+   "note": "Wild Pig Tags are no longer available for purchase after June 30, 2024. Beginning July 1, 2024, a Wild Pig Validation is required to take wild pigs.",
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW Hunting License Items and Fees page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "deer-tag",
+   "tier": "tag",
+   "title": "Deer Tag",
+   "requirement_id": "deer-tag",
+   "fee_ref": {
+    "section": "Big Game Tag Drawing Applications",
+    "item": "Resident First-Deer Tag or First-Deer Tag Drawing Application",
+    "item_nonresident": "Nonresident First-Deer Tag or First-Deer Tag Drawing Application"
+   },
+   "activities": [
+    "deer"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a tag. A tag is valid for the hunt, zone and season printed on it, and season dates are deliberately not in this file. Read the dates printed on your document, or CDFW's season tables.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Hunting tags are not included in the app. Physical hunting tags will continue to be required for hunters in the field when hunting under the authority of any hunting tag.",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "days_from_event_or_fixed",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": null,
+    "on_time_end_month_day": null,
+    "late_deadline_month_day": null,
+    "event": "harvest",
+    "days_from_event": 30,
+    "fixed_month_day": "01-31",
+    "modelable": true
+   },
+   "duty_verbatim": "Successful deer tag holders are required to report deer harvested within 30 days of the date of harvest or by January 31, whichever date is first. Unsuccessful deer tag holders, whether they hunted or not, are required to report no harvest by January 31 (CCR, T14 Section 708.5)",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 708.5",
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Tag-Reporting",
+    "source_doc": "CDFW Hunting Tag Reporting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "bear-tag",
+   "tier": "tag",
+   "title": "Bear Tag",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Big Game Tags",
+    "item": "Bear Tag",
+    "item_nonresident": null
+   },
+   "activities": null,
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a tag. A tag is valid for the hunt, zone and season printed on it, and season dates are deliberately not in this file. Read the dates printed on your document, or CDFW's season tables.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Hunting tags are not included in the app. Physical hunting tags will continue to be required for hunters in the field when hunting under the authority of any hunting tag.",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "fixed_window",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": null,
+    "on_time_end_month_day": "02-01",
+    "late_deadline_month_day": null,
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": true
+   },
+   "duty_verbatim": "Successful hunters must report immediately after take. Unsuccessful hunters must submit a report by February 1 of the license year. (CCR, T14 Section 708.12)",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 708.12",
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Tag-Reporting",
+    "source_doc": "CDFW Hunting Tag Reporting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "elk-tag",
+   "tier": "tag",
+   "title": "Elk Tag",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Big Game Tags",
+    "item": "Elk Tag",
+    "item_nonresident": null
+   },
+   "activities": null,
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a tag. A tag is valid for the hunt, zone and season printed on it, and season dates are deliberately not in this file. Read the dates printed on your document, or CDFW's season tables.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Hunting tags are not included in the app. Physical hunting tags will continue to be required for hunters in the field when hunting under the authority of any hunting tag.",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "season_close_relative",
+    "window_year_rule": null,
+    "on_time_start_month_day": null,
+    "on_time_end_month_day": null,
+    "late_deadline_month_day": null,
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": false
+   },
+   "duty_verbatim": "All tag holders must submit a harvest report. Successful hunters must report immediately. Unsuccessful hunters must submit a report within one week after the close of the elk season. (CCR, T14 Section 708.11)",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 708.11",
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Tag-Reporting",
+    "source_doc": "CDFW Hunting Tag Reporting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "antelope-tag",
+   "tier": "tag",
+   "title": "Pronghorn Antelope Tag",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Big Game Tags",
+    "item": "Pronghorn Antelope Tag",
+    "item_nonresident": null
+   },
+   "activities": null,
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a tag. A tag is valid for the hunt, zone and season printed on it, and season dates are deliberately not in this file. Read the dates printed on your document, or CDFW's season tables.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Hunting tags are not included in the app. Physical hunting tags will continue to be required for hunters in the field when hunting under the authority of any hunting tag.",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "season_close_relative",
+    "window_year_rule": null,
+    "on_time_start_month_day": null,
+    "on_time_end_month_day": null,
+    "late_deadline_month_day": null,
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": false
+   },
+   "duty_verbatim": "All tag holders must submit a harvest report. Successful hunters must report immediately. Unsuccessful hunters must submit a report within one week after the close of the pronghorn antelope season. (CCR, T14 Section 708.10)",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 708.10",
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Tag-Reporting",
+    "source_doc": "CDFW Hunting Tag Reporting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "bighorn-tag",
+   "tier": "tag",
+   "title": "Bighorn Sheep Tag",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Big Game Tags",
+    "item": "Bighorn Sheep Tag",
+    "item_nonresident": null
+   },
+   "activities": null,
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a tag. A tag is valid for the hunt, zone and season printed on it, and season dates are deliberately not in this file. Read the dates printed on your document, or CDFW's season tables.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Hunting tags are not included in the app. Physical hunting tags will continue to be required for hunters in the field when hunting under the authority of any hunting tag.",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "season_close_relative",
+    "window_year_rule": null,
+    "on_time_start_month_day": null,
+    "on_time_end_month_day": null,
+    "late_deadline_month_day": null,
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": false
+   },
+   "duty_verbatim": "Successful hunters should report immediately. All tag holders must submit a report within 10 days after the close of the season. (CCR, T14 Section 708.09)",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 708.09",
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Tag-Reporting",
+    "source_doc": "CDFW Hunting Tag Reporting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "sturgeon-report-card",
+   "tier": "report_card",
+   "title": "Sturgeon Fishing Report Card",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Sturgeon Fishing Report Card",
+    "item_nonresident": null
+   },
+   "activities": [
+    "freshwater_fishing",
+    "ocean_fishing"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a report card. A card is valid for the report card period or season printed on it \u2014 read your card, and see the return dates recorded here.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Proof of purchase for report cards can be viewed using the CDFW License App, but they are not valid entitlements and do not replace the physical report cards. Anglers must always have physical report cards in their immediate possession when engaging in activities authorized by the report cards (see special exemption regarding possession of report cards for lobster divers in California Code of Regulations, Title 14 Section 29.91).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "fixed_window",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": "01-01",
+    "on_time_end_month_day": "01-31",
+    "late_deadline_month_day": "04-01",
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": true
+   },
+   "duty_verbatim": "All report cards must be reported by January 31 of the following year, except the spiny lobster report card which is due by April 30.",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 1.74",
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "steelhead-report-card",
+   "tier": "report_card",
+   "title": "Steelhead Report Card",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Steelhead Report Card",
+    "item_nonresident": null
+   },
+   "activities": [
+    "freshwater_fishing"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a report card. A card is valid for the report card period or season printed on it \u2014 read your card, and see the return dates recorded here.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Proof of purchase for report cards can be viewed using the CDFW License App, but they are not valid entitlements and do not replace the physical report cards. Anglers must always have physical report cards in their immediate possession when engaging in activities authorized by the report cards (see special exemption regarding possession of report cards for lobster divers in California Code of Regulations, Title 14 Section 29.91).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "fixed_window",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": "01-01",
+    "on_time_end_month_day": "01-31",
+    "late_deadline_month_day": "04-01",
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": true
+   },
+   "duty_verbatim": "All report cards must be reported by January 31 of the following year, except the spiny lobster report card which is due by April 30.",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 1.74",
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "north-coast-salmon-report-card",
+   "tier": "report_card",
+   "title": "North Coast Salmon Report Card",
+   "requirement_id": null,
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "North Coast Salmon Report Card",
+    "item_nonresident": null
+   },
+   "activities": [
+    "freshwater_fishing"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a report card. A card is valid for the report card period or season printed on it \u2014 read your card, and see the return dates recorded here.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Proof of purchase for report cards can be viewed using the CDFW License App, but they are not valid entitlements and do not replace the physical report cards. Anglers must always have physical report cards in their immediate possession when engaging in activities authorized by the report cards (see special exemption regarding possession of report cards for lobster divers in California Code of Regulations, Title 14 Section 29.91).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "fixed_window",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": "01-01",
+    "on_time_end_month_day": "01-31",
+    "late_deadline_month_day": "04-01",
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": true
+   },
+   "duty_verbatim": "All report cards must be reported by January 31 of the following year, except the spiny lobster report card which is due by April 30.",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 1.74",
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "spiny-lobster-report-card",
+   "tier": "report_card",
+   "title": "Spiny Lobster Report Card",
+   "requirement_id": "lobster-report-card-spear",
+   "fee_ref": {
+    "section": "Validations and Report Cards",
+    "item": "Spiny Lobster Report Card (valid for the entire lobster season).",
+    "item_nonresident": null
+   },
+   "activities": [
+    "ocean_fishing",
+    "spearfishing"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset carries no expiry clock for a report card. A card is valid for the report card period or season printed on it \u2014 read your card, and see the return dates recorded here.",
+   "field_display": {
+    "kind": "physical_only",
+    "verbatim": "Proof of purchase for report cards can be viewed using the CDFW License App, but they are not valid entitlements and do not replace the physical report cards. Anglers must always have physical report cards in their immediate possession when engaging in activities authorized by the report cards (see special exemption regarding possession of report cards for lobster divers in California Code of Regulations, Title 14 Section 29.91).",
+    "source_url": "https://wildlife.ca.gov/LicenseApp"
+   },
+   "return_obligation": {
+    "kind": "fixed_window",
+    "window_year_rule": "season_year_plus_one",
+    "on_time_start_month_day": "03-19",
+    "on_time_end_month_day": "04-30",
+    "late_deadline_month_day": "07-01",
+    "event": null,
+    "days_from_event": null,
+    "fixed_month_day": null,
+    "modelable": true
+   },
+   "duty_verbatim": "Report cardholders who fail to return their Full Season Spiny Lobster Report Card or report their harvest online by April 30, following the close of lobster season, will be assessed a $21.60 non-return fee when they purchase a spiny lobster report card for the following season.",
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": null,
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": "14 CCR 1.74",
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW Sport Fishing Licenses and Report Cards page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "hunter-education",
+   "tier": "course",
+   "title": "Hunter Education",
+   "requirement_id": null,
+   "fee_ref": null,
+   "activities": [
+    "deer",
+    "dove",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset states no validity period for a course record, because the cited page states none. Read that silence as silence: it is neither an expiry date nor a promise that a certificate lasts indefinitely \u2014 check with CDFW.",
+   "field_display": null,
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": "California requires hunter education training for ANYONE who has not formerly held a California hunting license, who does not have a hunter education certificate of completion, or who does not have a current, valid, hunting license or a hunting license issued in either of the two previous years from any state or province.",
+   "accepted_proofs": [
+    {
+     "kind": "prior_ca_license",
+     "verbatim": "Evidence of an annual California hunting license issued in any prior year;",
+     "note": null
+    },
+    {
+     "kind": "prior_ca_two_day_nonresident_license",
+     "verbatim": "A Two-Day Nonresident California Hunting License issued after the 1999/2000 license year;",
+     "note": null
+    },
+    {
+     "kind": "ca_course",
+     "verbatim": "A California hunter education certificate or equivalency with a unique number imprinted on it (for example: AA00000) or a California hunter education validation stamp affixed;",
+     "note": null
+    },
+    {
+     "kind": "other_state_course",
+     "verbatim": "A certificate of successful completion of a California-approved hunter education course from any state or province; or",
+     "note": null
+    },
+    {
+     "kind": "other_state_license_2yr",
+     "verbatim": "A current hunting license or a hunting license being issued within the two previous years from any state or province.",
+     "note": null
+    }
+   ],
+   "formats": [
+    {
+     "key": "hunter_ed_traditional",
+     "title": "Traditional Hunter Education Course",
+     "verbatim": "The Hunter Education Course consists of a minimum of 10 hours of classroom, homework, and field instruction in the following areas: firearms safety and handling, sportsmanship and ethics, wildlife management and conservation, archery, black powder, wildlife identification, game care, first aid, and survival. After a student has successfully completed the course of instruction and passed the final examination, they are awarded a Certificate of Completion.",
+     "follow_up_required": false,
+     "follow_up_verbatim": null
+    },
+    {
+     "key": "hunter_ed_online_followup",
+     "title": "Online Course and Follow-up Class",
+     "verbatim": "Online classes are offered in California, but to obtain a valid hunter education certificate, you must attend and successfully complete a follow-up class with a certified Hunter Education Instructor.",
+     "follow_up_required": true,
+     "follow_up_verbatim": "The online course alone is not a qualification for a hunter education certificate."
+    }
+   ],
+   "required_in_california": true,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting",
+    "source_doc": "CDFW Hunting Licenses and Tags page, Frequently Asked Questions",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "bowhunter-education",
+   "tier": "course",
+   "title": "Bowhunter Education",
+   "requirement_id": null,
+   "fee_ref": null,
+   "activities": [
+    "deer",
+    "dove",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset states no validity period for a course record, because the cited page states none. Read that silence as silence: it is neither an expiry date nor a promise that a certificate lasts indefinitely \u2014 check with CDFW.",
+   "field_display": null,
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": null,
+   "requirement_statement_verbatim": "Important! Bowhunter Education Classes do not fulfill the requirements for a Hunter Education Certificate.",
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": false,
+   "portability_verbatim": "The certificate you receive does fulfill the Bowhunter Certification requirement in other States.",
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunter-Education",
+    "source_doc": "CDFW California Hunter Education page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  },
+  {
+   "id": "advanced-clinic",
+   "tier": "course",
+   "title": "Advanced Hunting Clinics",
+   "requirement_id": null,
+   "fee_ref": null,
+   "activities": [
+    "deer",
+    "upland_birds",
+    "waterfowl"
+   ],
+   "validity": null,
+   "validity_verbatim": null,
+   "validity_note": "This dataset states no validity period for a course record, because the cited page states none. Read that silence as silence: it is neither an expiry date nor a promise that a certificate lasts indefinitely \u2014 check with CDFW.",
+   "field_display": null,
+   "return_obligation": null,
+   "duty_verbatim": null,
+   "prerequisite_ids": null,
+   "note": "CDFW's Advanced Hunting Clinics focus on the \"how-tos\" of hunting. The series includes sessions on how to hunt turkey, upland game, waterfowl, and big game.",
+   "requirement_statement_verbatim": "The goal of this series of hunting clinics is to develop ethical, conservation-minded, successful hunters through education... taking the hunter a step beyond the basic hunter education course.",
+   "accepted_proofs": null,
+   "formats": null,
+   "required_in_california": null,
+   "portability_verbatim": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunter-Education/Advanced",
+    "source_doc": "CDFW Advanced Hunting Clinics page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-03"
+   }
+  }
+ ]
+}
