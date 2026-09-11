@@ -1,22 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-10T17:51:59.451662+00:00",
+ "generated_at": "2026-09-11T17:53:56.580027+00:00",
  "note": "The stocking calendar's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "381dddf93c6692bbfb3f6ab778ea152057ea2de654ed459cbfdb25efb548ef6e",
-   "bytes": 30080,
+   "sha256": "ce3e4019f18c25c6b744c03ee257c1afa0b54ef882f62a0eea6012bfc32b5071",
+   "bytes": 31001,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.10",
-   "read_at": "2026-09-10",
+   "dataset_version": "2026.09.11",
+   "read_at": "2026-09-11",
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-10T17:51:59.451271+00:00"
+   "published_at": "2026-09-11T17:53:56.579500+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -27,11 +27,11 @@
    "schema_version": 1,
    "dataset_version": "2026.09.08.1",
    "read_at": "2026-09-08",
-   "age_days": 2,
+   "age_days": 3,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-08T20:31:55.743701+00:00",
-   "note": "the published copy was read 2 days ago; its clock is 7 days and the refetch interval is 6"
+   "note": "the published copy was read 3 days ago; its clock is 7 days and the refetch interval is 6"
   }
  ]
 }
