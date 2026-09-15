@@ -1,37 +1,36 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-14T19:35:26.456839+00:00",
+ "generated_at": "2026-09-15T18:28:21.616459+00:00",
  "note": "The stocking calendar's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "fa4614d27dc0134353241e07e8cc34195be0e986dec8c11fe225c8d72ce1a497",
-   "bytes": 24054,
+   "sha256": "263239bf66d2e7726663c14969bad7c7271e65213f3e73b931d5ae5474096963",
+   "bytes": 24420,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.14",
-   "read_at": "2026-09-14",
+   "dataset_version": "2026.09.15",
+   "read_at": "2026-09-15",
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-14T19:35:26.456576+00:00"
+   "published_at": "2026-09-15T18:28:21.616075+00:00"
   },
   {
    "name": "operator_schedules.json",
-   "sha256": "0559a87bcee464ed182a7eda9c242235da97549f2827e4a18973e262fae2a0d4",
-   "bytes": 65396,
+   "sha256": "bdda816b98d9d6520981565f730bf85079ec69dbce148a5c5325c0ac8d2e6313",
+   "bytes": 64950,
    "domain": "operator_schedules",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.08.1",
-   "read_at": "2026-09-08",
-   "age_days": 6,
+   "dataset_version": "2026.09.15",
+   "read_at": "2026-09-15",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "held",
-   "published_at": "2026-09-08T20:31:55.743701+00:00",
-   "note": "the operator schedule file did not survive its own gates, so nothing was published and the file already at live/ keeps its own read date. OperatorParseError: https://www.santeelakes.com/fishing-2/: no div.vc_toggle panels \u2014 the WPBakery toggle shape this parser reads is gone. Refusing to report zero stocking dates for a lake that publishes six months of them."
+   "state": "published",
+   "published_at": "2026-09-15T18:28:21.616431+00:00"
   }
  ]
 }
