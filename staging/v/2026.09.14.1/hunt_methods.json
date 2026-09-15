@@ -1,0 +1,2452 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-15T00:21:34.526790+00:00",
+ "curation_status": "verified",
+ "note": "The legal floor for what you may carry, per species class \u2014 verbatim. California publishes no caliber table: \u00a7 353(c), \u00a7 377(c), \u00a7 311 and \u00a7 507(a) are closed whitelists and the SHAPE of the rule differs by class, so a paraphrase would destroy it. The 2026 Mammal booklet prints \u00a7 353 twice and the two printings disagree; the operative printing ships here and the stale one ships inside conflict_note, on screen.",
+ "classes": [
+  {
+   "key": "big_game",
+   "label": "Big game",
+   "inherits": null,
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "big_game_authorized_firearms",
+   "selectable": false
+  },
+  {
+   "key": "deer",
+   "label": "Deer",
+   "inherits": "big_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "big_game_authorized_firearms",
+   "selectable": true
+  },
+  {
+   "key": "bear",
+   "label": "Black bear",
+   "inherits": "big_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "big_game_authorized_firearms",
+   "selectable": true
+  },
+  {
+   "key": "elk_bighorn",
+   "label": "Elk & bighorn sheep",
+   "inherits": "big_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "big_game_authorized_firearms",
+   "selectable": true
+  },
+  {
+   "key": "pronghorn",
+   "label": "Pronghorn antelope",
+   "inherits": "big_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "big_game_authorized_firearms",
+   "selectable": true
+  },
+  {
+   "key": "wild_pig",
+   "label": "Wild pig",
+   "inherits": null,
+   "list_shape": "closed_whitelist",
+   "shape_note": "Not big game. Governed by its own section, and only what is listed below may be used.",
+   "shape_authority_key": "wild_pig_authorized_firearms",
+   "selectable": true
+  },
+  {
+   "key": "resident_small_game",
+   "label": "Resident small game",
+   "inherits": null,
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "small_game_whitelist_leadin",
+   "selectable": false
+  },
+  {
+   "key": "small_game_rifle",
+   "label": "Rabbits & tree squirrels",
+   "inherits": "resident_small_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "small_game_whitelist_leadin",
+   "selectable": true
+  },
+  {
+   "key": "upland_birds",
+   "label": "Upland game birds & turkey",
+   "inherits": "resident_small_game",
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "small_game_whitelist_leadin",
+   "selectable": true
+  },
+  {
+   "key": "migratory_birds",
+   "label": "Doves, waterfowl & other migratory birds",
+   "inherits": null,
+   "list_shape": "closed_whitelist",
+   "shape_note": "Only what is listed below may be used.",
+   "shape_authority_key": "migratory_authorized_methods_leadin",
+   "selectable": true
+  },
+  {
+   "key": "nonlead",
+   "label": "Nonlead ammunition",
+   "inherits": null,
+   "list_shape": "overlay",
+   "shape_note": "Applies on top of every class above, and authorizes nothing on its own.",
+   "shape_authority_key": "nonlead_headline",
+   "selectable": false
+  },
+  {
+   "key": "archery",
+   "label": "Archery equipment & crossbows",
+   "inherits": null,
+   "list_shape": "overlay",
+   "shape_note": "Applies on top of every class above wherever a bow or a crossbow is carried, and authorizes nothing on its own.",
+   "shape_authority_key": "archery_bow_definition",
+   "selectable": false
+  }
+ ],
+ "records": [
+  {
+   "id": "big_game_species_scope",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "What counts as big game",
+   "note": "Wild pig is not on this list \u2014 \u00a7 375 makes it an exotic game mammal and \u00a7 377 gives it its own methods section.",
+   "verbatim": "\u201cBig game\u201d means the following: deer (genus Odocoileus), elk (genus Cervus), pronghorn antelope (genus Antilocarpa), black bear (genus Ursus) and Nelson bighorn sheep (subspecies Ovis canadensis nelsoni) in the areas described in subsection 4902(b) of the Fish and Game Code.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 350",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_unlawful_and_nonlead",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "Taking big game outside this section, and the nonlead requirement",
+   "note": "Every method below is read together with the nonlead requirement in \u00a7 250.1.",
+   "verbatim": "It shall be unlawful to take or attempt to take big game in violation of this section or Section 250.1. The take or attempted take of any big game (as defined by Section 350 of these regulations) with a firearm shall be in accordance with the use of nonlead projectiles and ammunition pursuant to Section 250.1 of these regulations.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_projectile_definition",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "What a projectile is, and what softnose or expanding means",
+   "note": "A frangible bullet is excluded by name, so a cartridge that is on the list can still be loaded with a projectile that is not.",
+   "verbatim": "Definition. For purposes of this section, a projectile is any bullet, ball, sabot, slug, buckshot or other device which is expelled from a firearm through a barrel by force. The following definitions shall apply: (1) A softnose or expanding projectile is a bullet designed to increase from its original diameter, commonly referred to as \u201cmushrooming\u201d, and retain a significant part of its original weight upon impact with, or when passing through the tissues of an animal. (2) Projectiles commonly referred to as \u201cfrangible\u201d bullets, designed to disintegrate upon impact with, or when passing through the tissues of an animal are not softnose or expanding projectiles.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_authorized_firearms",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "What may be used on big game",
+   "note": "A closed list, and it names three things: a rifle using centerfire cartridges with softnose or expanding projectiles, a bow and arrow, and a muzzleloading rifle firing a single projectile loaded from the muzzle and at least .40 caliber in designation. Anything this sentence does not name is not authorized for these animals, and the section states no minimum caliber for a centerfire rifle.",
+   "verbatim": "Except for the provisions of the following subsections (d) through (j), big game may only be taken by rifles using centerfire cartridges with softnose or expanding projectiles; bow and arrow (see Section 354 of these regulations for archery equipment regulations); or wheellock, matchlock, flintlock or percussion type, including \u201cin-line\u201d muzzleloading rifles using black powder or equivalent black powder substitute, including pellets, with a single projectile loaded from the muzzle and at least .40 caliber in designation.",
+   "authorizes": [
+    {
+     "firearm_class": "rifle_centerfire",
+     "payload": null,
+     "evidence_phrase": "rifles using centerfire cartridges with softnose or expanding projectiles",
+     "condition_key": "softnose_expanding_353c"
+    },
+    {
+     "firearm_class": "archery",
+     "payload": null,
+     "evidence_phrase": "bow and arrow",
+     "condition_key": null
+    },
+    {
+     "firearm_class": "muzzleloader",
+     "payload": null,
+     "evidence_phrase": "muzzleloading rifles using black powder or equivalent black powder substitute, including pellets, with a single projectile loaded from the muzzle and at least .40 caliber in designation",
+     "condition_key": "muzzleloader_min_40cal"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_muzzleloader_tag_sights",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "Muzzleloading rifle only tag: sights",
+   "note": null,
+   "verbatim": "Under the provisions of a muzzleloading rifle only tag, hunters may only possess muzzleloading rifles as described in subsection (c) equipped with open or \u201cpeep\u201d type sights only except as described in subsection (l).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(h)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_muzzleloader_archery_tag",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "Muzzleloading rifle/archery tag: what may be possessed",
+   "note": null,
+   "verbatim": "Under the provisions of a muzzleloading rifle/archery tag, hunters may only possess muzzleloading rifles with sights as described in subsection (h); archery equipment as described in Section 354 of these regulations; or both. For purposes of this subsection, archery equipment does not include crossbows, except as provided in subsection 354(j) of these regulations.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(i)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_light_and_optics",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "Lights, night vision and optics",
+   "note": "Laser rangefinders, red-dot scopes and fiberoptic sights are named as permitted; night vision and sniperscopes are named as prohibited and may not even be possessed.",
+   "verbatim": "Except as otherwise provided, while taking or attempting to take big game under the provisions of this section or Section 354 of these regulations it is unlawful to use any device or devices which: 1) throw, cast or project an artificial light or electronically alter or intensify a light source for the purpose of visibly enhancing an animal; or 2) throw, cast or project an artificial light or electronically alter or intensify a light source for the purpose of providing a visible point of aim directly on an animal. Devices commonly referred to as \u201csniperscopes\u201d, night vision scopes or binoculars, or those utilizing infra-red, heat sensing or other non-visible spectrum light technology used for the purpose of visibly enhancing an animal or providing a visible point of aim directly on an animal are prohibited and may not be possessed while taking or attempting to take big game. Devices commonly referred to as laser rangefinders, \u201cred-dot\u201d scopes with self-illuminating reticles, and fiberoptic sights with self-illuminating sight or pins which do not throw, cast or project a visible light onto an animal are permitted.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(j)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_loaded_muzzleloader_vehicle",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "A loaded muzzleloader in a vehicle",
+   "note": "The section defines when a muzzleloading firearm counts as loaded, and the definition is broader than most people expect.",
+   "verbatim": "Unless provided in these regulations or any other law, it is unlawful to possess a loaded muzzleloading firearm in any vehicle or conveyance or its attachments which is standing on or along or is being driven on or along any public road or highway or other way open to the public. For the purposes of this section, a muzzleloading firearm shall be deemed to be loaded when it is capped or primed or has an electronic or other ignition device attached and has a powder charge and projectile or shot in the barrel or cylinder.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(k)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_disabled_muzzleloader_scope",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "Disabled Muzzleloader Scope Permit",
+   "note": "Both General Provisions printings of \u00a7 353 stop at (k); this subsection is quoted from the booklet's own \u00a7 353(l) box on p.14.",
+   "verbatim": "Upon application to the department, the department may issue a Disabled Muzzleloader Scope Permit, free of any charge or fee, to any person with a physical disability, as defined in subsection (m), which prevents him/her from being able to focus on the target utilizing muzzleloading rifles equipped with open or \u201cpeep\u201d sights. The Disabled Muzzleloader Scope Permit authorizes the disabled hunter to use a 1X scope on a muzzleloading rifle, as described in subsection (h), with a muzzleloading rifle only tag.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(l)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.14: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "14",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_disabled_muzzleloader_disability",
+   "species_class": "big_game",
+   "kind": "rule",
+   "title": "What visual disability means in \u00a7 353",
+   "note": "Printed only in the Big Game Hunting chapter, so its page is p.37 where every other \u00a7 353 record here is p.21-22.",
+   "verbatim": "For the purposes of this section a visual disability means a permanent loss, significant limitation, or diagnosed disease or disorder, which substantially impairs the vision of a hunter, preventing the hunter from viewing and aligning the sights of a muzzleloading rifle with the target in order to hunt deer.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(m)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_shotgun_slug_buckshot",
+   "species_class": "deer",
+   "kind": "rule",
+   "title": "Shotgun slugs, and buckshot where a county bans slugs",
+   "note": "One sentence, two loads: a single slug for deer and bear, and \u2014 only where a county ordinance bans the discharge of rifles or shotguns with slugs \u2014 size 0 or 00 buckshot, for deer only. The buckshot half is conditional and this app cannot resolve it.",
+   "verbatim": "Shotguns capable of holding not more than three shells firing single slugs may be used for the taking of deer, and bear. In areas where the discharge of rifles or shotguns with slugs is prohibited by county ordinance, shotguns capable of holding not more than three shells firing size 0 or 00 buckshot may be used for the taking of deer only.",
+   "authorizes": [
+    {
+     "firearm_class": "shotgun",
+     "payload": "slug",
+     "evidence_phrase": "firing single slugs may be used for the taking of deer, and bear",
+     "condition_key": "three_shell_capacity_353d"
+    },
+    {
+     "firearm_class": "shotgun",
+     "payload": "buckshot",
+     "evidence_phrase": "size 0 or 00 buckshot may be used for the taking of deer only",
+     "condition_key": "county_ordinance_buckshot"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": {
+    "stale_text": "Shotguns capable of holding not more than three shells firing single slugs may be used for the taking of deer, bear and wild pigs. In areas where the discharge of rifles or shotguns with slugs is prohibited by county ordinance, shotguns capable of holding not more than three shells firing size 0 or 00 buckshot may be used for the taking of deer only.",
+    "stale_page": "36-37",
+    "stale_chapter": "Big Game Hunting",
+    "why_operative": "The 2026 Mammal booklet prints \u00a7 353 twice. This record ships the General Provisions printing (p.21-22). The Big Game Hunting printing (p.36-37) adds wild pigs, which \u00a7 350 in the same booklet excludes from big game and \u00a7 377 gives its own methods section; the newer Waterfowl, Upland Game, and Lands booklet (p.22-23, stamped Updated 7/1/2026) prints the same text shipped here. Shipping the p.36-37 text would tell a hunter that \u00a7 353 answers for wild pigs, when \u00a7 377 is the section that governs them. Read both before you rely on either.",
+    "resolution_status": "owner_confirmed"
+   },
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_handgun_deer_bear",
+   "species_class": "deer",
+   "kind": "rule",
+   "title": "Pistols and revolvers for deer",
+   "note": "Centerfire, softnose or expanding. This subsection sets no barrel length; \u00a7 353(f) does, and it is about elk and bighorn sheep.",
+   "verbatim": "Pistols and revolvers using centerfire cartridges with softnose or expanding projectiles may be used to take deer and bear.",
+   "authorizes": [
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "may be used to take deer and bear",
+     "condition_key": "softnose_expanding_353c"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": {
+    "stale_text": "Pistols and revolvers using centerfire cartridges with softnose or expanding projectiles may be used to take deer, bear, and wild pigs.",
+    "stale_page": "36-37",
+    "stale_chapter": "Big Game Hunting",
+    "why_operative": "The 2026 Mammal booklet prints \u00a7 353 twice. This record ships the General Provisions printing (p.21-22). The Big Game Hunting printing (p.36-37) adds wild pigs, which \u00a7 350 in the same booklet excludes from big game and \u00a7 377 gives its own methods section; the newer Waterfowl, Upland Game, and Lands booklet (p.22-23, stamped Updated 7/1/2026) prints the same text shipped here. Shipping the p.36-37 text would tell a hunter that \u00a7 353 answers for wild pigs, when \u00a7 377 is the section that governs them. Read both before you rely on either.",
+    "resolution_status": "owner_confirmed"
+   },
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(e)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_crossbow",
+   "species_class": "deer",
+   "kind": "rule",
+   "title": "Crossbows during the regular seasons",
+   "note": "Deer only, and \u00a7 354(b) says separately that a crossbow is not archery equipment and cannot be used during the archery deer season.",
+   "verbatim": "Except as provided in subsection 354(j) of these regulations, crossbows may be used to take deer only during the regular seasons.",
+   "authorizes": [
+    {
+     "firearm_class": "crossbow",
+     "payload": null,
+     "evidence_phrase": "crossbows may be used to take deer only during the regular seasons",
+     "condition_key": null
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": {
+    "stale_text": "Except as provided in subsection 354(j) of these regulations, crossbows may be used to take deer and wild pigs only during the regular seasons.",
+    "stale_page": "36-37",
+    "stale_chapter": "Big Game Hunting",
+    "why_operative": "The 2026 Mammal booklet prints \u00a7 353 twice. This record ships the General Provisions printing (p.21-22). The Big Game Hunting printing (p.36-37) adds wild pigs, which \u00a7 350 in the same booklet excludes from big game and \u00a7 377 gives its own methods section; the newer Waterfowl, Upland Game, and Lands booklet (p.22-23, stamped Updated 7/1/2026) prints the same text shipped here. Shipping the p.36-37 text would tell a hunter that \u00a7 353 answers for wild pigs, when \u00a7 377 is the section that governs them. Read both before you rely on either.",
+    "resolution_status": "owner_confirmed"
+   },
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(g)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "bear_shotgun_slug",
+   "species_class": "bear",
+   "kind": "rule",
+   "title": "Shotgun slugs for bear",
+   "note": "The same sentence as the deer record: it names deer and bear for slugs, and deer only for buckshot.",
+   "verbatim": "Shotguns capable of holding not more than three shells firing single slugs may be used for the taking of deer, and bear. In areas where the discharge of rifles or shotguns with slugs is prohibited by county ordinance, shotguns capable of holding not more than three shells firing size 0 or 00 buckshot may be used for the taking of deer only.",
+   "authorizes": [
+    {
+     "firearm_class": "shotgun",
+     "payload": "slug",
+     "evidence_phrase": "firing single slugs may be used for the taking of deer, and bear",
+     "condition_key": "three_shell_capacity_353d"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": {
+    "stale_text": "Shotguns capable of holding not more than three shells firing single slugs may be used for the taking of deer, bear and wild pigs. In areas where the discharge of rifles or shotguns with slugs is prohibited by county ordinance, shotguns capable of holding not more than three shells firing size 0 or 00 buckshot may be used for the taking of deer only.",
+    "stale_page": "36-37",
+    "stale_chapter": "Big Game Hunting",
+    "why_operative": "The 2026 Mammal booklet prints \u00a7 353 twice. This record ships the General Provisions printing (p.21-22). The Big Game Hunting printing (p.36-37) adds wild pigs, which \u00a7 350 in the same booklet excludes from big game and \u00a7 377 gives its own methods section; the newer Waterfowl, Upland Game, and Lands booklet (p.22-23, stamped Updated 7/1/2026) prints the same text shipped here. Shipping the p.36-37 text would tell a hunter that \u00a7 353 answers for wild pigs, when \u00a7 377 is the section that governs them. Read both before you rely on either.",
+    "resolution_status": "owner_confirmed"
+   },
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "bear_handgun",
+   "species_class": "bear",
+   "kind": "rule",
+   "title": "Pistols and revolvers for bear",
+   "note": "The same sentence as the deer record; this subsection names deer and bear together.",
+   "verbatim": "Pistols and revolvers using centerfire cartridges with softnose or expanding projectiles may be used to take deer and bear.",
+   "authorizes": [
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "may be used to take deer and bear",
+     "condition_key": "softnose_expanding_353c"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": {
+    "stale_text": "Pistols and revolvers using centerfire cartridges with softnose or expanding projectiles may be used to take deer, bear, and wild pigs.",
+    "stale_page": "36-37",
+    "stale_chapter": "Big Game Hunting",
+    "why_operative": "The 2026 Mammal booklet prints \u00a7 353 twice. This record ships the General Provisions printing (p.21-22). The Big Game Hunting printing (p.36-37) adds wild pigs, which \u00a7 350 in the same booklet excludes from big game and \u00a7 377 gives its own methods section; the newer Waterfowl, Upland Game, and Lands booklet (p.22-23, stamped Updated 7/1/2026) prints the same text shipped here. Shipping the p.36-37 text would tell a hunter that \u00a7 353 answers for wild pigs, when \u00a7 377 is the section that governs them. Read both before you rely on either.",
+    "resolution_status": "owner_confirmed"
+   },
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(e)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "bear_no_buckshot_no_crossbow",
+   "species_class": "bear",
+   "kind": "absence",
+   "title": "Black bear: no buckshot and no crossbow provision",
+   "note": "\u00a7 353(d) restricts buckshot to deer only, and \u00a7 353(g) \u2014 the only crossbow subsection in \u00a7 353 \u2014 names deer only. Neither reaches bear.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "buckshot",
+    "crossbow"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "bear_dogs_prohibited",
+   "species_class": "bear",
+   "kind": "rule",
+   "title": "Dogs may not be used on bear",
+   "note": null,
+   "verbatim": "(1) The use of dogs is prohibited during the archery seasons for deer or bear. (2) The use of dogs is prohibited for the take of bear, bobcat, elk, bighorn sheep and antelope.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 265(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.30: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "30",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_handgun_elk_bighorn",
+   "species_class": "elk_bighorn",
+   "kind": "rule",
+   "title": "Pistols and revolvers for elk and bighorn sheep",
+   "note": "A pistol or revolver used on elk or bighorn sheep must have a barrel at least 4 inches long and must fire centerfire cartridges with softnose or expanding projectiles. This is the only method-of-take subsection in \u00a7 353 that names a barrel length, and \u00a7 353(e) \u2014 deer and bear \u2014 names none.",
+   "verbatim": "Pistols and revolvers with minimum barrel lengths of 4 inches, using centerfire cartridges with softnose or expanding projectiles may be used to take elk and bighorn sheep.",
+   "authorizes": [
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "may be used to take elk and bighorn sheep",
+     "condition_key": "barrel_4in_353f"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(f)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "elk_bighorn_no_shotgun_no_crossbow",
+   "species_class": "elk_bighorn",
+   "kind": "absence",
+   "title": "Elk and bighorn sheep: no shotgun and no crossbow provision",
+   "note": "\u00a7 353(c) is a closed list, and subsections (d) through (j) are its only exceptions. (d) names deer and bear for single slugs, and deer only for buckshot; (g), the only crossbow subsection, names deer. Neither reaches elk or bighorn sheep.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_slug",
+    "buckshot",
+    "crossbow"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "pronghorn_no_shotgun_handgun_crossbow",
+   "species_class": "pronghorn",
+   "kind": "absence",
+   "title": "Pronghorn antelope: no shotgun, handgun or crossbow provision",
+   "note": "\u00a7 353(c) is a closed list, and subsections (d) through (j) are its only exceptions. The ones that add a method of take are (d), shotguns firing single slugs or buckshot; (e) and (f), pistols and revolvers; and (g), crossbows. (d) and (e) name deer and bear, (f) names elk and bighorn sheep, and (g) names deer. None of them names pronghorn antelope.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_slug",
+    "buckshot",
+    "handgun",
+    "crossbow"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_no_rimfire_rifle",
+   "species_class": "big_game",
+   "kind": "absence",
+   "title": "Big game: no rimfire rifle provision",
+   "note": "\u00a7 353(c) authorizes rifles using centerfire cartridges, and a rimfire cartridge is not a centerfire cartridge. Subsections (d) through (j) are the section's only exceptions and none of them adds a rimfire rifle.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "rifle_rimfire"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_no_air_rifle",
+   "species_class": "big_game",
+   "kind": "absence",
+   "title": "Big game: no air rifle provision",
+   "note": "No subsection of \u00a7 353 names an air- or gas-powered gun. Subsections (d) through (j) are the section's only exceptions and none of them adds one.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "air_rifle"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "big_game_no_load_of_shot",
+   "species_class": "big_game",
+   "kind": "absence",
+   "title": "Big game: no load of shot provision",
+   "note": "The only shotgun loads \u00a7 353 names are the single slugs of \u00a7 353(d) and, where a county ordinance bans slugs, size 0 or 00 buckshot for deer \u2014 it names no load of shot for any animal. Subsections (d) through (j) are the section's only exceptions and none of them adds one.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_shot"
+   ],
+   "authority_key": "big_game_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 353(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "21-22",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_exotic_defined",
+   "species_class": "wild_pig",
+   "kind": "rule",
+   "title": "Wild pig is an exotic game mammal",
+   "note": "This is why \u00a7 377 governs pigs and \u00a7 353 does not.",
+   "verbatim": "\u201cExotic game mammal\u201d is a mammal, nonnative to California, seen to be detrimental to the ecology and conservation of native species and their habitats. The animals in this category include the following: wild pig, feral pigs, European wild pigs, and their hybrids (genus Sus).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 375",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_authorized_firearms",
+   "species_class": "wild_pig",
+   "kind": "rule",
+   "title": "What may be used on exotic game mammals",
+   "note": "The same shape as \u00a7 353(c) and the same three things: a rifle using centerfire cartridges with softnose or expanding projectiles, a bow and arrow, and a muzzleloading rifle at least .40 caliber in designation. Anything this sentence does not name is not authorized for exotic game mammals, and it states no minimum caliber for a centerfire rifle either.",
+   "verbatim": "Except for the provisions of the following subsections (d) through (j), exotic game may only be taken by rifles using centerfire cartridges with softnose or expanding projectiles; bow and arrow (see Section 354 of these regulations for archery equipment regulations); or wheellock, matchlock, flintlock or percussion type, including \u201cin-line\u201d muzzleloading rifles using black powder or equivalent black powder substitute, including pellets, with a single projectile loaded from the muzzle and at least .40 caliber in designation.",
+   "authorizes": [
+    {
+     "firearm_class": "rifle_centerfire",
+     "payload": null,
+     "evidence_phrase": "rifles using centerfire cartridges with softnose or expanding projectiles",
+     "condition_key": "softnose_expanding_377c"
+    },
+    {
+     "firearm_class": "archery",
+     "payload": null,
+     "evidence_phrase": "bow and arrow",
+     "condition_key": null
+    },
+    {
+     "firearm_class": "muzzleloader",
+     "payload": null,
+     "evidence_phrase": "muzzleloading rifles using black powder or equivalent black powder substitute, including pellets, with a single projectile loaded from the muzzle and at least .40 caliber in designation",
+     "condition_key": "muzzleloader_min_40cal_exotic"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_shotgun",
+   "species_class": "wild_pig",
+   "kind": "rule",
+   "title": "Shotgun slugs, and buckshot where a county bans slugs",
+   "note": "One sentence, two loads: a single slug, and \u2014 only where a county ordinance bans the discharge of rifles or shotguns with slugs \u2014 size 0 or 00 buckshot. The buckshot half is conditional and this app cannot resolve it.",
+   "verbatim": "Shotguns capable of holding not more than three shells firing single slugs may be used for the taking of exotic game mammals. In areas where the discharge of rifles or shotguns with slugs is prohibited by county ordinance, shotguns capable of holding not more than three shells firing size 0 or 00 buckshot may be used.",
+   "authorizes": [
+    {
+     "firearm_class": "shotgun",
+     "payload": "slug",
+     "evidence_phrase": "firing single slugs may be used for the taking of exotic game mammals",
+     "condition_key": "three_shell_capacity_377d"
+    },
+    {
+     "firearm_class": "shotgun",
+     "payload": "buckshot",
+     "evidence_phrase": "size 0 or 00 buckshot may be used",
+     "condition_key": "county_ordinance_buckshot_exotic"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_handgun",
+   "species_class": "wild_pig",
+   "kind": "rule",
+   "title": "Pistols and revolvers for exotic game mammals",
+   "note": "\u00a7 377(e) settles the pig handgun question on its own, whichever printing of \u00a7 353 is read.",
+   "verbatim": "Pistols and revolvers using centerfire cartridges with softnose or expanding projectiles may be used to take exotic game mammals.",
+   "authorizes": [
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "may be used to take exotic game mammals",
+     "condition_key": "softnose_expanding_377c"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(e)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_crossbow_area_restriction",
+   "species_class": "wild_pig",
+   "kind": "rule",
+   "title": "Crossbows, and where they may not be used",
+   "note": "This subsection is written as a restriction on an area rather than as a permission, and the area depends on which archery seasons are open there.",
+   "verbatim": "Except as provided in subsection 354(j) of these regulations, crossbows may not be used to take exotic game mammals in an area where an archery season is open for deer, elk, or pronghorn antelope.",
+   "authorizes": [
+    {
+     "firearm_class": "crossbow",
+     "payload": null,
+     "evidence_phrase": "crossbows may not be used to take exotic game mammals in an area where an archery season is open for deer, elk, or pronghorn antelope",
+     "condition_key": "crossbow_archery_area_377f"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(f)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_cdfw_summary",
+   "species_class": "wild_pig",
+   "kind": "summary",
+   "title": "CDFW's own summary of pig methods",
+   "note": "Quoted as CDFW's summary, not as regulation text: the section it summarises is \u00a7 377, and the section is what governs.",
+   "verbatim": "Generally, wild pigs may only be taken using archery equipment, rifles, .40 caliber or greater muzzleloaders, shotguns and pistols, or revolvers. Knives and spears are not legal methods of take for wild pigs in California.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.107: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "107",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_no_rimfire_rifle",
+   "species_class": "wild_pig",
+   "kind": "absence",
+   "title": "Exotic game mammals: no rimfire rifle provision",
+   "note": "\u00a7 377(c) authorizes rifles using centerfire cartridges, and a rimfire cartridge is not a centerfire cartridge. Subsections (d) through (j) are the section's only exceptions and none of them adds a rimfire rifle. CDFW's own summary of pig methods, quoted on this screen, lists the same methods and no others.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "rifle_rimfire"
+   ],
+   "authority_key": "wild_pig_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_no_air_rifle",
+   "species_class": "wild_pig",
+   "kind": "absence",
+   "title": "Exotic game mammals: no air rifle provision",
+   "note": "No subsection of \u00a7 377 names an air- or gas-powered gun. CDFW's own summary of pig methods, quoted on this screen, lists the same methods and no others.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "air_rifle"
+   ],
+   "authority_key": "wild_pig_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "wild_pig_no_load_of_shot",
+   "species_class": "wild_pig",
+   "kind": "absence",
+   "title": "Exotic game mammals: no load of shot provision",
+   "note": "The only shotgun loads \u00a7 377(d) names are single slugs and, where a county ordinance bans slugs, size 0 or 00 buckshot \u2014 it names no load of shot. CDFW's own summary of pig methods, quoted on this screen, lists the same methods and no others.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_shot"
+   ],
+   "authority_key": "wild_pig_authorized_firearms",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 377(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.106: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "106",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_whitelist_leadin",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "What may be used on resident small game",
+   "note": "A closed list: only what \u00a7 311 goes on to name may be used on resident small game. The section opens by sending doves, band-tailed pigeon and snipe to \u00a7 507 instead.",
+   "verbatim": "NOTE: Refer to Section 507, for authorized methods of take for migratory game birds, i.e. mourning doves, white-winged doves, band-tailed pigeon, and snipe. The take or attempted take of any resident small game with a firearm shall be in accordance with the use of nonlead projectiles and ammunition pursuant to Section 250.1. Only the following may be used to take resident small game:",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_shotgun_gauge_plug",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Shotguns: gauge, shell count and the plug",
+   "note": "Shot shells only, 10 gauge or smaller, and not more than three shells in the magazine and chamber combined. A plug used to reduce the magazine must be one piece and not removable without disassembling the gun.",
+   "verbatim": "Shotguns 10 gauge or smaller using shot shells only and incapable of holding more than three shells in the magazine and chamber combined. If a plug is used to reduce the capacity of a magazine to fulfill the requirements of this section, the plug must be of one piece construction incapable of removal without disassembling the gun;",
+   "authorizes": [
+    {
+     "firearm_class": "shotgun",
+     "payload": "shot",
+     "evidence_phrase": "Shotguns 10 gauge or smaller using shot shells only",
+     "condition_key": "shot_size_311b"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_shot_size",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Shot size, and the tighter limit for turkey",
+   "note": "No. BB is the ceiling for resident small game and No. 2 for wild turkey, so a shell that is within the limit for quail can be over it for turkey. All shot loose in the shell.",
+   "verbatim": "Shotgun shells may not be used or possessed that contain shot size larger than No. BB, except that shot size larger than No. 2 may not be used or possessed when taking wild turkey. All shot shall be loose in the shell.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_muzzleloading_shotgun",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Muzzle-loading shotguns",
+   "note": "Shotguns only \u2014 a muzzle-loading rifle is not named anywhere in this section. This app's equipment list carries no muzzle-loading shotgun, so this method has no row in the matrix; the subsection itself is here to read.",
+   "verbatim": "Muzzle-loading shotguns;",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_falconry",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Falconry",
+   "note": null,
+   "verbatim": "Falconry;",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_bow_and_arrow",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Bow and arrow",
+   "note": null,
+   "verbatim": "Bow and arrow (see Section 354 for archery equipment regulations);",
+   "authorizes": [
+    {
+     "firearm_class": "archery",
+     "payload": null,
+     "evidence_phrase": "Bow and arrow",
+     "condition_key": null
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(e)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_air_rifle",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Air rifles, any caliber of pellet",
+   "note": "This is the subsection that gives an air rifle a different answer from a rimfire rifle on the same bird.",
+   "verbatim": "Air rifles powered by compressed air or gas and used with any caliber of pellet, except that wild turkey may only be taken with a pellet that is at least 0.177 caliber;",
+   "authorizes": [
+    {
+     "firearm_class": "air_rifle",
+     "payload": null,
+     "evidence_phrase": "Air rifles powered by compressed air or gas and used with any caliber of pellet",
+     "condition_key": "turkey_pellet_floor_311f"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(f)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_box_traps_sd_orange",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Box traps for rabbits, San Diego and Orange counties only",
+   "note": null,
+   "verbatim": "In San Diego and Orange counties only, rabbits may be taken at any time during the open season by means of box traps. Such traps shall not exceed 24 inches in any dimension, shall be tended at least once every 24 hours, and shall show the name and address of the trap owner. All rabbits taken under this section shall be immediately killed and become a part of the daily bag limit;",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(h)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51-52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51-52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_archer_no_firearm",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Archers and firearms during an archery season",
+   "note": "Quoted from the Mammal booklet printing: the Waterfowl, Upland Game, and Lands printing renders the cross-reference as \u201csubsection (1)\u201d where this one reads \u201csubsection (k)(1)\u201d.",
+   "verbatim": "Archers hunting during any archery season may not use or possess a firearm while in the field engaged in archery hunting during an archery season except as provided in subsection (k)(1). (1) Nothing in this section shall prohibit the lawful possession of a concealed firearm by an active peace officer listed in Chapter 4.5 (commencing with Section 830) of Title 3 of Part 2 of the Penal Code or a retired peace officer in lawful possession of an identification certificate issued pursuant to Penal Code Section 25455 authorizing the retired officer to carry a concealed firearm. Nor shall this section prohibit the lawful possession of a concealed firearm pursuant to a concealed carry permit issued pursuant to Penal Code sections 26150 or 26155.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(k)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.105: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "105",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_crossbow",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Crossbows",
+   "note": null,
+   "verbatim": "Crossbows, except for provisions of Section 354(d) and (g).",
+   "authorizes": [
+    {
+     "firearm_class": "crossbow",
+     "payload": null,
+     "evidence_phrase": "Crossbows, except for provisions of Section 354(d) and (g)",
+     "condition_key": null
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(n)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_dogs",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "Dogs",
+   "note": null,
+   "verbatim": "Dogs may be used to take and retrieve resident small game.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(o)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_species_scope",
+   "species_class": "resident_small_game",
+   "kind": "rule",
+   "title": "What counts as resident small game",
+   "note": null,
+   "verbatim": "\u201cResident small game\u201d means the following resident game birds: Chinese spotted doves, Eurasian collared-doves, ringed turtle-doves of the family Columbidae, California quail and varieties thereof, Gambel\u2019s or desert quail, mountain quail and varieties thereof, sooty (blue) grouse, ruffed grouse, sage grouse, white-tailed ptarmigan, Hungarian partridges, red-legged partridges, including the chukar and other varieties, ring-necked pheasants and varieties, and wild turkeys of the order Galliformes; and the following game mammals: jackrabbits and varying hares (genus Lepus), cottontail rabbits, brush rabbits, pygmy rabbits (genus Sylvilagus), and tree squirrels (genus Sciurus and Tamiasciurus).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 257",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_no_muzzleloading_rifle",
+   "species_class": "resident_small_game",
+   "kind": "absence",
+   "title": "Resident small game: no muzzleloading rifle provision",
+   "note": "\u00a7 311(c) names muzzle-loading shotguns, and the section is a closed list. No subsection of \u00a7 311 names a muzzle-loading rifle.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "muzzleloading_rifle"
+   ],
+   "authority_key": "small_game_whitelist_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_no_slug_no_buckshot",
+   "species_class": "resident_small_game",
+   "kind": "absence",
+   "title": "Resident small game: no slug and no buckshot provision",
+   "note": "\u00a7 311 is a closed list. Its two shotgun entries are \u00a7 311(a), which authorizes shotguns 10 gauge or smaller using shot shells only, and \u00a7 311(c), muzzle-loading shotguns. A single slug and a load of buckshot are named nowhere in the section.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_slug",
+    "buckshot"
+   ],
+   "authority_key": "small_game_whitelist_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "small_game_rifles_and_pistols",
+   "species_class": "small_game_rifle",
+   "kind": "rule",
+   "title": "Rifles and pistols, for rabbits and squirrels only",
+   "note": "Read the whole sentence: it is the only place in \u00a7 311 that authorizes a rifle, it covers rabbits and squirrels and nothing else, and it excludes one county by name.",
+   "verbatim": "In addition to the methods listed in (a), (b), (c), (d), (e), and (f) above, firearm rifles and pistols may be used for taking rabbits and squirrels only; except in Los Angeles County where rifles and pistols may not be used;",
+   "authorizes": [
+    {
+     "firearm_class": "rifle_rimfire",
+     "payload": null,
+     "evidence_phrase": "firearm rifles and pistols may be used for taking rabbits and squirrels only",
+     "condition_key": "la_county_exclusion"
+    },
+    {
+     "firearm_class": "rifle_centerfire",
+     "payload": null,
+     "evidence_phrase": "firearm rifles and pistols may be used for taking rabbits and squirrels only",
+     "condition_key": "la_county_exclusion"
+    },
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "firearm rifles and pistols may be used for taking rabbits and squirrels only",
+     "condition_key": "la_county_exclusion"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(g)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland_no_rifle",
+   "species_class": "upland_birds",
+   "kind": "absence",
+   "title": "Upland game birds and turkey: no rifle provision",
+   "note": "\u00a7 311(g) is the only subsection of \u00a7 311 that authorizes a rifle, and it adds one for taking rabbits and squirrels only. No subsection of \u00a7 311 authorizes a rifle for a bird, of either ignition type.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "rifle"
+   ],
+   "authority_key": "small_game_whitelist_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland_grouse_handgun",
+   "species_class": "upland_birds",
+   "kind": "rule",
+   "title": "Pistols and revolvers for sooty and ruffed grouse",
+   "note": "The counties are named by cross-reference to \u00a7 300(a)(1)(E), which is published as a map rather than as a list this app can read.",
+   "verbatim": "Pistols and revolvers may be used to take sooty and ruffed grouse in those counties only and for the season described in Section 300(a)(1)(E).",
+   "authorizes": [
+    {
+     "firearm_class": "handgun",
+     "payload": null,
+     "evidence_phrase": "Pistols and revolvers may be used to take sooty and ruffed grouse",
+     "condition_key": "grouse_counties_311m"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(m)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland_turkey_broadhead",
+   "species_class": "upland_birds",
+   "kind": "rule",
+   "title": "Turkey: the broadhead a hunting arrow or crossbow bolt must carry",
+   "note": "Quoted from the Waterfowl, Upland Game, and Lands booklet: the Mammal printing of the same sentence carries a typographical error.",
+   "verbatim": "It shall be unlawful to take wild turkey by use of hunting arrows and crossbow bolts unless fitted with a broad head type blade which will not pass through a hole seven-eighths inch in diameter. Mechanical/retractable broad heads shall be measured in the open position.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(e)(1)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.51: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "51",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland_electronic_calls_prohibited",
+   "species_class": "upland_birds",
+   "kind": "rule",
+   "title": "Electronic and mechanical calls",
+   "note": null,
+   "verbatim": "Electronic or mechanically-operated calling or sound-reproducing devices are prohibited when attempting to take resident game birds;",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(i)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "upland_live_decoys_prohibited",
+   "species_class": "upland_birds",
+   "kind": "rule",
+   "title": "Live decoys",
+   "note": null,
+   "verbatim": "The use of live decoys is prohibited when attempting to take resident game birds;",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 311(l)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.52: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "52",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_authorized_methods_leadin",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "What may be used on migratory game birds",
+   "note": "A closed list of four methods. Anything \u00a7 507(a) does not go on to name may not be used on migratory game birds.",
+   "verbatim": "Only the following methods may be used to take migratory game birds:",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_falconry",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Falconry",
+   "note": null,
+   "verbatim": "Falconry.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)(1)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_bow_crossbow_fluflu",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Bows and crossbows, and the flu-flu requirement",
+   "note": "Flu-flu fletching, on arrows and on crossbow bolts alike. The one exception the sentence makes is a conventionally fletched arrow for waterfowl sitting on the water, from a scull boat or similar watercraft.",
+   "verbatim": "Bow and Arrows or Crossbows. Only arrows or crossbow bolts with flu-flu fletching may be used except that conventionally fletched arrows may be used to take waterfowl sitting on the water from scull boats or similar watercraft.",
+   "authorizes": [
+    {
+     "firearm_class": "archery",
+     "payload": null,
+     "evidence_phrase": "Bow and Arrows or Crossbows",
+     "condition_key": "fluflu_507a2"
+    },
+    {
+     "firearm_class": "crossbow",
+     "payload": null,
+     "evidence_phrase": "Bow and Arrows or Crossbows",
+     "condition_key": "fluflu_507a2"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)(2)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_muzzleloading_shotgun",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Muzzle-loading shotguns",
+   "note": "Shotguns only, as in \u00a7 311(c). This app's equipment list carries no muzzle-loading shotgun, so this method has no row in the matrix; the subsection itself is here to read. A cartridge shotgun is answered by \u00a7 507(a)(4).",
+   "verbatim": "Muzzle-loading Shotguns.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)(3)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_shotgun_gauge_plug_shotsize",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Shotguns: gauge, shell count, the plug, and shot size",
+   "note": "Shot shells only, 10 gauge or smaller, and not more than three shells in the magazine and chamber combined. A plug must be one-piece and not removable without disassembling the gun. No shot larger than T shot, in steel or another nontoxic shot the U.S. Fish and Wildlife Service has approved, and all shot loose in the shell.",
+   "verbatim": "Shotguns 10 Gauge or Smaller. Shotguns 10 gauge or smaller using shot shells only and incapable of holding more than three shells in the magazine and chamber combined may be used, except no shotgun larger than 12 gauge shall be used in areas open to hunting on, over or adjacent to the waters of Morro Bay, San Luis Obispo County. If a plug is used to reduce the capacity of a magazine to fulfill the requirements of this section, the plug must be of one-piece construction incapable of removal without disassembling the gun. Shotgun shells may not be used or possessed that contain shot size larger than T shot in steel or other nontoxic shot approved by the U.S. Fish and Wildlife Service. All shot shall be loose in the shell.",
+   "authorizes": [
+    {
+     "firearm_class": "shotgun",
+     "payload": "shot",
+     "evidence_phrase": "Shotguns 10 Gauge or Smaller",
+     "condition_key": "morro_bay_12_gauge"
+    }
+   ],
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)(4)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_no_rifle_no_handgun",
+   "species_class": "migratory_birds",
+   "kind": "absence",
+   "title": "Migratory game birds: no rifle, no handgun, no muzzleloading rifle",
+   "note": "\u00a7 507(a) is a closed list of four methods \u2014 falconry; bows and crossbows; muzzle-loading shotguns; and shotguns 10 gauge or smaller. None of them is a rifle, a pistol or revolver, or a muzzleloading rifle.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "rifle",
+    "handgun",
+    "muzzleloading_rifle"
+   ],
+   "authority_key": "migratory_authorized_methods_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_no_air_rifle",
+   "species_class": "migratory_birds",
+   "kind": "absence",
+   "title": "Migratory game birds: no air rifle provision",
+   "note": "\u00a7 507(a) is a closed list of four methods \u2014 falconry; bows and crossbows; muzzle-loading shotguns; and shotguns 10 gauge or smaller. None of them is an air- or gas-powered gun. \u00a7 311(f) does authorize an air rifle for resident small game, which is why a pellet gun is a method for a quail and not for a dove.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "air_rifle"
+   ],
+   "authority_key": "migratory_authorized_methods_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_no_slug_no_buckshot",
+   "species_class": "migratory_birds",
+   "kind": "absence",
+   "title": "Migratory game birds: no slug and no buckshot provision",
+   "note": "\u00a7 507(a) is a closed list of four methods. Its two shotgun entries are \u00a7 507(a)(4), which authorizes shotguns 10 gauge or smaller using shot shells only, and \u00a7 507(a)(3), muzzle-loading shotguns. A single slug and a load of buckshot are named nowhere in \u00a7 507.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [
+    "shotgun_slug",
+    "buckshot"
+   ],
+   "authority_key": "migratory_authorized_methods_leadin",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_nontoxic_shot",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Nontoxic shot for waterfowl, coot and moorhen",
+   "note": "The list is longer than steel, and it ends with an open clause for anything the U.S. Fish and Wildlife Service approves.",
+   "verbatim": "Notwithstanding any other provision of these regulations, only bismuth-tin, steel, copper-plated steel, nickel-plated steel, tin-plated steel, zinc-plated steel, zinc chloride-plated steel, zinc chromate-plated steel, iron-tungsten, iron-tungsten-nickel, tungsten-bronze, tungsten-iron-copper-nickel, tungsten-matrix, tungsten-polymer, tungsten-tin-iron, tungsten-tin-bismuth, and tungsten-tin-iron-nickel or other nontoxic shot approved by the U.S. Fish and Wildlife Service may be used or possessed for waterfowl, American coot and common moorhen hunting statewide.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507.1",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_dogs",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Dogs",
+   "note": null,
+   "verbatim": "Use of Dogs. Dogs may be used to take and retrieve migratory game birds.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_electronic_devices",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Electronic calls, and spinning-wing decoys before November 30",
+   "note": null,
+   "verbatim": "Prohibition on Electronically operated Devices. Electronic or mechanically-operated calling or sound-reproducing devices are prohibited when attempting to take migratory game birds. It is unlawful to use devices that are either electronically-powered, or activated by anything other than natural wind, to directly or indirectly cause rotation of decoy wings or blades that simulate wings, when attempting to take waterfowl between the start of the season and November 30th.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_live_decoys",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Live decoys",
+   "note": null,
+   "verbatim": "Live Decoy Prohibition. The use of live decoys is prohibited when attempting to take migratory game birds.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_scull_boats",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Scull boats under power",
+   "note": null,
+   "verbatim": "Migratory game birds may not be taken by a scull boat or similar watercraft while under motorized power. The motor shall be removed from its mountings before any take or approach is attempted. This section shall not prohibit shooting migratory game birds from scull boats or similar watercraft with motor attached if beached or anchored; nor shall it prohibit the use of a motor for the sole purpose of picking up dead or injured birds.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 507.5",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "migratory_federal_concurrence",
+   "species_class": "migratory_birds",
+   "kind": "rule",
+   "title": "Federal regulations, and which prevails",
+   "note": "Where the federal rule is less restrictive than Chapter 7, Chapter 7 prevails.",
+   "verbatim": "(a) The regulations adopted by the United States through its Secretary of Interior under the Migratory Bird Treaty Act, as amended annually in Part 10, subparts A and B, and Part 20, Title 50, Code of Federal Regulations, are hereby adopted and made a part of this Title 14 except where said federal regulations are less restrictive than the provisions of Chapter 7 of this Title 14 (sections 500-509), the provisions of Chapter 7 prevail. (b) Any violations of the regulations adopted pursuant to subsection (a) are violations of this section. (c) It shall be unlawful for any person aged sixteen years or older to take any migratory waterfowl unless at the time of such taking the person carries in his or her immediate possession an unexpired Federal migratory-bird hunting and conservation stamp validated by his or her signature written by him or herself in ink across the face of the stamp or an unexpired Federal migratory-bird hunting and conservation electronic stamp, issued in his or her name prior to any taking of such birds.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 509",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.35: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "35",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_headline",
+   "species_class": "nonlead",
+   "kind": "rule",
+   "title": "Nonlead ammunition, statewide, for all wildlife",
+   "note": "It is a possession rule as well as a use rule: carrying the ammunition with a firearm that can fire it is what the sentence reaches.",
+   "verbatim": "Effective July 1, 2019, it shall be unlawful to use, or possess with any firearm capable of firing, any projectile(s) not certified as nonlead when taking any wildlife for any purpose in this state. For more information please refer to the California Code of Regulations Title 14 Section 250.1 and Fish and Game Code Section 3004.5.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 250.1(d)(3)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
+    "source_doc": "CDFW Big Game Hunting Digest p.46: 2026 Big Game Digest 6.15_int.pdf",
+    "source_revision": "2026 Big Game Digest 6.15_int.pdf",
+    "page": "46",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_purpose",
+   "species_class": "nonlead",
+   "kind": "rule",
+   "title": "The regulation, and the statute behind it",
+   "note": null,
+   "verbatim": "Purpose This regulation phases in the requirements of Fish and Game Code Section 3004.5, which prohibits the use of any lead projectiles or ammunition containing lead projectiles when taking any wildlife with a firearm on or after July 1, 2019.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 250.1(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.24: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "24",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_definitions",
+   "species_class": "nonlead",
+   "kind": "rule",
+   "title": "What nonlead means, and the one percent figure",
+   "note": "The test is lead content plus certification, not the metal the bullet is made of.",
+   "verbatim": "Definitions (1) A projectile is any bullet, ball, sabot, slug, buckshot, shot, pellet or other device that is expelled from a firearm through a barrel by force. (2) Nonlead ammunition is any centerfire, shotgun, muzzleloading, or rimfire ammunition containing projectiles certified pursuant to subsection (b)(3) or subsection (f). (3) Shotgun ammunition containing pellets composed of materials approved as nontoxic by the U.S. Fish and Wildlife Service, as identified in Section 507.1 of these regulations, is considered certified. (4) A nonlead projectile shall contain no more than one percent lead by weight, as certified pursuant to subsection (b)(3) or subsection (f).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 250.1(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.24: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "24",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_general_provisions",
+   "species_class": "nonlead",
+   "kind": "rule",
+   "title": "Possession, and the two things this section does not reach",
+   "note": "Lead in the truck with no firearm that can fire it is named as not a violation, and a concealable firearm carried for personal protection is named separately.",
+   "verbatim": "General Provisions (1) Except as otherwise provided in this section, it is unlawful to possess any projectile containing lead in excess of the amount allowed in subsection (b)(4) and a firearm capable of firing the projectile while taking or attempting to take wildlife. (2) The possession of a projectile containing lead in excess of the amount allowed in subsection (b)(4) without possessing a firearm capable of firing the projectile is not a violation of this section. (3) Nothing in this section is intended to prohibit the possession of concealable firearms containing lead ammunition, provided that the firearm is possessed for personal protection and is not used to take or assist in the take of wildlife.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 250.1(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.24: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "24",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_nontoxic_shot_bridge",
+   "species_class": "nonlead",
+   "kind": "summary",
+   "title": "CDFW's note: nontoxic shot counts as certified for mammals too",
+   "note": "Quoted as CDFW's note rather than as regulation text; the sections it bridges are \u00a7 507.1 and \u00a7 250.1(b)(3).",
+   "verbatim": "Note: Nontoxic shot as described in Section 507.1 is certified for the purpose of taking mammals pursuant to subsection 250.1(b)(3).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.34: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "34",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "nonlead_archery_scope",
+   "species_class": "nonlead",
+   "kind": "absence",
+   "title": "Archery: the sources are silent",
+   "note": "Every operative sentence in this section is written in terms of a firearm, and a projectile is defined as one expelled from a firearm through a barrel by force. No snapshotted source says whether archery is inside or outside that scope, and this app will not say either.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [],
+   "authority_key": "nonlead_definitions",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 250.1(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations p.24: Waterfowl Booklet_2026_081326-int.pdf",
+    "source_revision": "Waterfowl Booklet_2026_081326-int.pdf",
+    "page": "24",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_bow_definition",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "What a bow is",
+   "note": "Quoted from the Big Game Hunting printing on p.37; the General Provisions printing on p.22 stops at (f) and words (a) and (b) differently.",
+   "verbatim": "Bow, as used in these regulations, means any device consisting of a flexible material having a string connecting its two ends and used to propel an arrow held in a firing position by hand only. Bow, includes long bow, recurve or compound bow.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(a)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_crossbow_definition",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "What a crossbow is",
+   "note": "Any device that holds the string or the bolt in a firing position makes it a crossbow, and a crossbow is not archery equipment.",
+   "verbatim": "Crossbow, as used in these regulations means any device consisting of a bow or cured latex band or other flexible material (commonly referred to as a linear bow) affixed to a stock, or any bow that utilizes any device attached directly or indirectly to the bow for the purpose of keeping a crossbow bolt, an arrow or the string in a firing position. Except as provided in subsection 354(j), a crossbow is not archery equipment and cannot be used during the archery deer season.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(b)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_broadhead",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "Broadheads: the seven-eighths inch pass-through test",
+   "note": "The head must NOT pass through the hole, mechanical and retractable heads are measured open, and for everything other than big game any arrow or bolt may be used \u2014 except wild turkey, which \u00a7 311(e)(1) covers separately.",
+   "verbatim": "For the taking of big game, hunting arrows and crossbow bolts with a broad head type blade which will not pass through a hole seven-eighths inch in diameter shall be used. Mechanical/retractable broad heads shall be measured in the open position. For the taking of migratory game birds, resident small game, furbearers and nongame mammals and birds any arrow or crossbow bolt may be used except as prohibited by subsection (d) below. Notwithstanding the general prohibition of the use of lights in Fish and Game Code section 2005, arrows or crossbow bolts with lighted nocks that do not emit a directional beam of light may be used.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_prohibited_tips",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "Arrow and bolt tips that may not be used",
+   "note": null,
+   "verbatim": "No arrows or crossbow bolt with an explosive head or with any substance which would tranquilize or poison any animal may be used. No arrows or crossbow bolt without flu-flu fletching may be used for the take of pheasants and migratory game birds, except for provisions of section 507(a)(2).",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(d)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_draw_weight",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "Minimum draw weight",
+   "note": null,
+   "verbatim": "It shall be unlawful to use any bow or crossbow without a draw weight of at least 30 pounds for a bow or 125 pounds for a cross bow.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(f)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_no_maximum_draw_weight",
+   "species_class": "archery",
+   "kind": "absence",
+   "title": "Maximum draw weight: no provision",
+   "note": "\u00a7 354(f) is written as a floor: at least 30 pounds of draw weight for a bow, at least 125 pounds for a crossbow. Nothing in the snapshotted sources states a ceiling. Basis: a pdfplumber scan of the hash-pinned 2026 Mammal booklet snapshot on 2026-09-04 found the phrase \"maximum draw\" zero times in all 116 pages, and exactly three sentences that mention draw weight \u2014 the fine-schedule pointer on p.5 and the two \u00a7 354(f) printings on p.22 and p.37, which agree \u2014 each one of them a minimum. The Waterfowl, Upland Game, and Lands booklet (p.23) and the Big Game Hunting Digest (p.5) print that same minimum sentence and no other. This app carries no maximum because the sources state none.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [],
+   "authority_key": "archery_draw_weight",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(f)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_crossbow_in_archery_season",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "Crossbows during archery seasons",
+   "note": "Game birds and game mammals both. The Waterfowl, Upland Game, and Lands booklet never prints this subsection, although its own \u00a7 311(n) points at it.",
+   "verbatim": "Except as described in subsection 354(j), crossbows may not be used to take game birds and game mammals during archery seasons.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(g)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_firearm_possession",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "Archers and firearms during an archery season",
+   "note": null,
+   "verbatim": "Archers may not use or possess a firearm while in the field engaged in archery hunting during an archery season or while hunting during a general season under the provisions of an archery only tag except as provided in subsections (h)(1) or (h)(2). (1) An archer may carry a firearm capable of being concealed on his or her person while engaged in the taking of big game other than deer with a bow and arrow in accordance with subdivision (h), but shall not take or attempt to take big game with the firearm. (2) Nothing in this section shall prohibit the lawful possession of a firearm capable of being concealed on his or her person by an active peace officer listed in Chapter 4.5 (commencing with Section 830) of Title 3 of Part 2 of the Penal Code or a retired peace officer in lawful possession of an identification certificate issued pursuant to Penal Code Section 25455 authorizing the retired officer to carry a concealed firearm.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": {
+    "headline": "The underlying statute was amended and this regulation has not been updated",
+    "body": "AB 1912 (Hadwick) was signed on 27 August 2026 and amends Fish and Game Code \u00a7 4370, the statute the Fish and Game Commission gave as its reason for limiting the \u00a7 354(h)(1) concealed-firearm exception to big game other than deer. 14 CCR \u00a7 354(h) has not been amended and still reads as quoted above. The operative date of the statute could not be verified from an official source, so this app states none. Verify with CDFW before you carry a firearm during an archery deer season.",
+    "noticed_at": "2026-09-03",
+    "source_url": "https://www.gov.ca.gov/2026/08/27/governor-newsom-signs-legislation-8-27-2026/",
+    "verify_url": "https://wildlife.ca.gov/Hunting"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(h)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_nocked_in_vehicle",
+   "species_class": "archery",
+   "kind": "rule",
+   "title": "A nocked arrow in a vehicle",
+   "note": null,
+   "verbatim": "No person may nock or fit the notch in the end of an arrow to a bowstring or crossbow string in a ready-to-fire position while in or on any vehicle.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(i)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_disabled_permit",
+   "species_class": "archery",
+   "kind": "summary",
+   "title": "Disabled Archer Permit \u2014 CDFW's writeup",
+   "note": "Quoted as CDFW's writeup, not as regulation text: no 2026-2027 booklet prints the text of \u00a7 354(j) or \u00a7 354(k).",
+   "verbatim": "Upon application to the department, the department may issue a Disabled Archer Permit, free of any charge or fee, to any person with a physical disability, as defined in 354(k), which prevents him/her from being able to draw and hold a bow in a firing position. The Disabled Archer Permit authorizes the disabled archer to use a crossbow or device which holds a string and arrow in the firing position to assist in the taking of birds and mammals under the conditions of an archery tag or during archery season.",
+   "authorizes": null,
+   "absence_of": null,
+   "authority_key": null,
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.14: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "14",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  },
+  {
+   "id": "archery_no_blade_or_weight_rules",
+   "species_class": "archery",
+   "kind": "absence",
+   "title": "Blade shape, blade count, barbs, arrow weight: no provision",
+   "note": "California has one broadhead rule and it is a pass-through test. Mechanical and retractable heads are expressly measured in the open position. The widely repeated rule that blades must be fixed, unbarbed and at least seven-eighths of an inch wide is Oregon's, quoted in a CDFW staff comparison of other states' pamphlets that sits on a CDFW server.",
+   "verbatim": null,
+   "authorizes": null,
+   "absence_of": [],
+   "authority_key": "archery_broadhead",
+   "conflict_note": null,
+   "in_season_notice": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 354(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.37: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "page": "37",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-31"
+   }
+  }
+ ],
+ "conditions": [
+  {
+   "key": "county_ordinance_buckshot",
+   "kind": "unresolvable_local_rule",
+   "blocks_grade": true,
+   "headline": "We cannot tell you whether this is legal where you are",
+   "body": "\u00a7 353(d) allows size 0 or 00 buckshot for deer only in areas where a county ordinance prohibits the discharge of rifles or shotguns with slugs. This app does not carry county ordinances. Read \u00a7 353(d) and check with the county.",
+   "record_key": "big_game_shotgun_slug_buckshot",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "county_ordinance_buckshot_exotic",
+   "kind": "unresolvable_local_rule",
+   "blocks_grade": true,
+   "headline": "We cannot tell you whether this is legal where you are",
+   "body": "\u00a7 377(d) allows size 0 or 00 buckshot only in areas where a county ordinance prohibits the discharge of rifles or shotguns with slugs. This app does not carry county ordinances. Read \u00a7 377(d) and check with the county.",
+   "record_key": "wild_pig_shotgun",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "grouse_counties_311m",
+   "kind": "unresolvable_local_rule",
+   "blocks_grade": true,
+   "headline": "Sooty and ruffed grouse only, and only in named counties",
+   "body": "\u00a7 311(m) is the only sentence in \u00a7 311 that adds a pistol or revolver for a bird, and it names sooty and ruffed grouse. For quail, chukar and other partridges, pheasant, ptarmigan, sage grouse and wild turkey, no subsection of \u00a7 311 authorizes a pistol or revolver at all. Where it does apply, \u00a7 311(m) names the counties and the season by pointing at \u00a7 300(a)(1)(E), which is published as a map image rather than as text this app can read. Read \u00a7 311(m) and \u00a7 300(a)(1)(E).",
+   "record_key": "upland_grouse_handgun",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "crossbow_archery_area_377f",
+   "kind": "unresolvable_local_rule",
+   "blocks_grade": true,
+   "headline": "We cannot tell you whether this is legal where you are",
+   "body": "\u00a7 377(f) is the only crossbow sentence in \u00a7 377, and it is written as a restriction: a crossbow may not be used to take exotic game mammals in an area where an archery season is open for deer, elk or pronghorn antelope. Whether that describes where and when you are hunting depends on the area and the date, and this app does not resolve it. Read \u00a7 377(f) and the seasons for that area.",
+   "record_key": "wild_pig_crossbow_area_restriction",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "la_county_exclusion",
+   "kind": "named_place_exclusion",
+   "blocks_grade": false,
+   "headline": "Not in Los Angeles County",
+   "body": "\u00a7 311(g) authorizes rifles and pistols for rabbits and squirrels statewide except in Los Angeles County, where it says rifles and pistols may not be used. Read \u00a7 311(g).",
+   "record_key": "small_game_rifles_and_pistols",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "morro_bay_12_gauge",
+   "kind": "named_place_exclusion",
+   "blocks_grade": false,
+   "headline": "Nothing larger than 12 gauge at Morro Bay",
+   "body": "\u00a7 507(a)(4) allows 10 gauge or smaller statewide, except in areas open to hunting on, over or adjacent to the waters of Morro Bay, San Luis Obispo County, where it says no shotgun larger than 12 gauge shall be used. Read \u00a7 507(a)(4).",
+   "record_key": "migratory_shotgun_gauge_plug_shotsize",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "muzzleloader_min_40cal",
+   "kind": "catalog_numeric_floor",
+   "blocks_grade": false,
+   "headline": "At least .40 caliber in designation",
+   "body": "\u00a7 353(c) names a single projectile loaded from the muzzle and at least .40 caliber in designation. A muzzleloader below that is measured against the sentence itself.",
+   "record_key": "big_game_authorized_firearms",
+   "field": "bore_designation_inches",
+   "min": 0.4
+  },
+  {
+   "key": "muzzleloader_min_40cal_exotic",
+   "kind": "catalog_numeric_floor",
+   "blocks_grade": false,
+   "headline": "At least .40 caliber in designation",
+   "body": "\u00a7 377(c) names a single projectile loaded from the muzzle and at least .40 caliber in designation. A muzzleloader below that is measured against the sentence itself.",
+   "record_key": "wild_pig_authorized_firearms",
+   "field": "bore_designation_inches",
+   "min": 0.4
+  },
+  {
+   "key": "three_shell_capacity_353d",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "Three shells is the ceiling",
+   "body": "\u00a7 353(d) authorizes shotguns capable of holding not more than three shells. This app does not carry magazine capacities and cannot check yours \u2014 the sentence that states the limit is quoted below.",
+   "record_key": "big_game_shotgun_slug_buckshot",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "three_shell_capacity_377d",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "Three shells is the ceiling",
+   "body": "\u00a7 377(d) authorizes shotguns capable of holding not more than three shells. This app does not carry magazine capacities and cannot check yours \u2014 the sentence that states the limit is quoted below.",
+   "record_key": "wild_pig_shotgun",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "barrel_4in_353f",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "At least a 4-inch barrel",
+   "body": "\u00a7 353(f) authorizes pistols and revolvers with minimum barrel lengths of 4 inches, using centerfire cartridges with softnose or expanding projectiles. This app does not carry barrel lengths and cannot measure yours; \u00a7 353(f) requires 4 inches and is quoted below. \u00a7 353(e), for deer and bear, names no barrel length at all.",
+   "record_key": "big_game_handgun_elk_bighorn",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "softnose_expanding_353c",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "Softnose or expanding projectiles",
+   "body": "\u00a7 353(c) and \u00a7 353(e) authorize centerfire cartridges with softnose or expanding projectiles. \u00a7 353(b) defines those as bullets designed to increase from their original diameter and retain a significant part of their original weight, and says projectiles commonly referred to as frangible are not among them. This app does not know what is in your ammunition.",
+   "record_key": "big_game_authorized_firearms",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "softnose_expanding_377c",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "Softnose or expanding projectiles",
+   "body": "\u00a7 377(c) and \u00a7 377(e) authorize centerfire cartridges with softnose or expanding projectiles. \u00a7 377(b) defines those as bullets designed to increase from their original diameter and retain a significant part of their original weight, and says projectiles commonly referred to as frangible are not among them. This app does not know what is in your ammunition.",
+   "record_key": "wild_pig_authorized_firearms",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "shot_size_311b",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "No shot larger than No. BB \u2014 and No. 2 for wild turkey",
+   "body": "\u00a7 311(b) forbids using or possessing a shell containing shot larger than No. BB, except that shot larger than No. 2 may not be used or possessed when taking wild turkey. All shot must be loose in the shell. This app does not know which shell is in your gun.",
+   "record_key": "small_game_shot_size",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "turkey_pellet_floor_311f",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "At least a 0.177 caliber pellet for wild turkey",
+   "body": "\u00a7 311(f) authorizes an air rifle used with any caliber of pellet, except that wild turkey may only be taken with a pellet that is at least 0.177 caliber.",
+   "record_key": "small_game_air_rifle",
+   "field": null,
+   "min": null
+  },
+  {
+   "key": "fluflu_507a2",
+   "kind": "stated_requirement",
+   "blocks_grade": false,
+   "headline": "Flu-flu fletching",
+   "body": "\u00a7 507(a)(2) allows only arrows and crossbow bolts with flu-flu fletching, except that conventionally fletched arrows may be used to take waterfowl sitting on the water from scull boats or similar watercraft.",
+   "record_key": "migratory_bow_crossbow_fluflu",
+   "field": null,
+   "min": null
+  }
+ ]
+}
