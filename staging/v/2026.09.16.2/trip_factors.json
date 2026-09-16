@@ -1,0 +1,639 @@
+{
+ "schema_version": 2,
+ "curation_status": "verified",
+ "user_verified_on": "2026-09-15",
+ "user_verification_basis": "Flipped to verified 2026-09-15 by Fable under the owner's blanket approval of the sign-off register, given on 2026-09-15 as an instruction to work down each item and approve what the register proposed for each. That instruction is quoted word for word in this lane's ledger and is stated rather than quoted here, because one word of it is on this file's own banned-term list and a sign-off basis is not worth weakening that scan for. The owner did not read the entries page by page; every entry was drafted from the cited source by a pipeline lane, carries that source, and was re-read entry by entry on 2026-09-15 by the flipping lane against the snapshot on disk (15 factor records checked, 5 kept as stated refusals — the three never-gated agency-warning records and the two uncounted published facts, fresh.plant_published and hunt.public_land, which carry no threshold at all — and 0 found wanting and left unflipped). Every record's declared source_unit was re-checked by hand against build.trips.SOURCE_FIELD_UNITS and the document each row names: 15 of 15 agree, and the 10 scoreable records are exactly the 10 whose unit is independently_established, so all 10 count now. No record in this file asserts a threshold of its own: 9 threshold_basis blocks are type user_set, 1 is the shipped VisibilityOutlook band consumed whole (type shipped_outlook), and 5 are null. This flip changed no value, no unit, no citation and no threshold. One defect was found and deliberately left unchanged: the document-level note _document_title_gaps names four records as the ones citing a URL no fetch asserted a title for, while 14 of the 15 in fact carry no document_title. That is this file's own bookkeeping prose rather than a value, the gate check_document_title is unaffected by it, and rewriting it is not a sign-off's work. It is recorded in the ledger at ~/.claude/plans/ca-hunt-fish-signoff-2026-09-15/B3.md.",
+ "_note": "R23 Trips, design-final-v2.md section 3.3 schema v2. Saltwater, spearfishing and freshwater only: the hunting factor tables land with the hunting half. Every unit below is checked at build time against pipeline.build.trips.SOURCE_FIELD_UNITS, which carries the document that established it; a unit declared here that disagrees with the published one fails the build.",
+ "_b3_note": "There is no default_threshold field in this file, on any record. A number the user did not set is not a condition the user set. Suggested starting values live in setup_sheet below, are rendered ONLY as editable controls, and become thresholds only after the user saves them, with origin 'user'.",
+ "_b13_note": "threshold_basis describes the THRESHOLD and input_provenance describes the READING, and they are different objects because printing the second under a label claiming the first is how a NOAA satellite pixel came to be described as a number the user chose. An agency warning and an uncounted fact have no threshold at all: their threshold_basis is null and no 'Threshold:' line is printed.",
+ "_b14_note": "source_disclaimer is required on every record (null only where this app has recorded no disclaimer for that feed, with the reason written beside it) and its value must be one of section 2.2's closed disclaimer strings. It renders on every line carrying that source's value, counted or not.",
+ "_n3_note": "document_title appears on exactly the records whose URL has an entry in fetched_documents below, and nowhere else. N3 requires it to equal the title the fetch of that URL asserted, so a title typed by hand beside a URL is the claim the gate exists to refuse. The records still without one are named in _document_title_gaps.",
+ "_document_title_gaps": "Fourteen of the fifteen records cite a URL that no fetch in this repository has asserted a title for, so document_title is absent from them rather than typed; only salt.sst.user's URL has an entry in fetched_documents and so carries one (corrected 2026-09-15 — this note used to name four, which understated it). The fourteen are API endpoints and feeds the device reads for itself (api.weather.gov, api.tidesandcurrents.noaa.gov, waterservices.usgs.gov, ndbc.noaa.gov and its measurement FAQ, the BIOS 3077 FeatureServer) and four cases with their own reason: fresh.plant_published (wildlife.ca.gov Fish Planting Schedule; this pipeline reads the plant records from the ArcGIS FeatureServer behind that page and has never fetched the page itself), spear.visibility_outlook (its reading is a band derived from four documents, so no single title describes it), the two nws_alerts records (api.weather.gov is fetched by the device, not by this pipeline), and hunt.usfs_place_notice (the Cleveland National Forest hunting page has no snapshot on disk).",
+ "fetched_documents": {
+  "_note": "N3's other half. A document_title above is checked byte-for-byte against the asserted_title here, and a title claimed for a URL with no entry here fails the build. Each entry records a document THIS repository fetched, and asserted_title is the title string that document states about itself.",
+  "https://coastwatch.noaa.gov/erddap/griddap/noaacwBLENDEDsstDNDaily.das": {
+   "asserted_title": "Sea-Surface Temperature, NOAA Geo-polar Blended Analysis Day+Night, GHRSST, Near Real-Time, Global 5km, 2019-Present, Daily",
+   "fetched_at": "2026-09-09"
+  }
+ },
+ "setup_sheet": {
+  "_note": "R-B. Starting points for the setup sheet's editable controls. NOT thresholds. Nothing here is read by the planner; only criteria the user saved reach it.",
+  "maxSwellFeet": {
+   "op": "lte",
+   "value": 3
+  },
+  "maxWindKnots": {
+   "op": "lte",
+   "value": 10
+  }
+ },
+ "factors": [
+  {
+   "key": "salt.swell.user",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "Swell at the nearest buoy",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "ndbc_buoy",
+    "model_field": "waveHeightFeet",
+    "vendor_field": "WVHT",
+    "source_unit": "m",
+    "display_unit": "ft",
+    "convert": "m_to_ft",
+    "display_round": 1,
+    "unit_verification": "independently_established"
+   },
+   "also_show": [
+    {
+     "model_field": "dominantPeriodSeconds",
+     "vendor_field": "DPD",
+     "source_unit": "s",
+     "display_unit": "s",
+     "convert": "identity",
+     "display_round": 0,
+     "unit_verification": "independently_established"
+    }
+   ],
+   "setting_id": "maxSwellFeet",
+   "op": "lte",
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your number. The app checks the buoy's own reading against it and states no opinion about what swell is good."
+   },
+   "input_provenance": {
+    "name": "NDBC station observation",
+    "attribution": "National Data Buoy Center, NOAA",
+    "source_url": "https://www.ndbc.noaa.gov/",
+    "unit_note_url": "https://www.ndbc.noaa.gov/faq/measdes.shtml",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "No disclaimer sentence has been recorded for this feed in section 2.2's closed set, so none is asserted here.",
+   "degrade_after_hours": 6,
+   "min_refetch_minutes": 60,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "salt.wind.user",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "Wind at the nearest buoy",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "ndbc_buoy",
+    "model_field": "windSpeedKnots",
+    "vendor_field": "WSPD",
+    "source_unit": "m/s",
+    "display_unit": "kt",
+    "convert": "ms_to_kt",
+    "display_round": 0,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "maxWindKnots",
+   "op": "lte",
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your number. The app holds no wind threshold of its own, because the National Weather Service states its own thresholds are local."
+   },
+   "input_provenance": {
+    "name": "NDBC station observation",
+    "attribution": "National Data Buoy Center, NOAA",
+    "source_url": "https://www.ndbc.noaa.gov/",
+    "unit_note_url": "https://www.ndbc.noaa.gov/faq/measdes.shtml",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "No disclaimer sentence has been recorded for this feed in section 2.2's closed set, so none is asserted here.",
+   "degrade_after_hours": 6,
+   "min_refetch_minutes": 60,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "salt.sst.user",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "Sea surface temperature",
+   "kind": "published_fact",
+   "input": {
+    "source": "coastwatch_sst",
+    "model_field": "seaSurfaceTempF",
+    "vendor_field": "analysed_sst",
+    "source_unit": "degree_C",
+    "display_unit": "°F",
+    "convert": "c_to_f",
+    "display_round": 1,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "sstRangeF",
+   "op": "between",
+   "directionless": true,
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your range. NOAA published the pixel; the range is yours, and the app states no opinion about what temperature is good."
+   },
+   "input_provenance": {
+    "name": "NOAA Geo-Polar Blended Sea Surface Temperature Analysis",
+    "attribution": "NOAA NESDIS CoastWatch",
+    "source_url": "https://coastwatch.noaa.gov/erddap/griddap/noaacwBLENDEDsstDNDaily.das",
+    "document_title": "Sea-Surface Temperature, NOAA Geo-polar Blended Analysis Day+Night, GHRSST, Near Real-Time, Global 5km, 2019-Present, Daily",
+    "unit_note_url": "https://coastwatch.noaa.gov/erddap/griddap/noaacwBLENDEDsstDNDaily.das",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "Near-real-time satellite data lag the observation by about a day.",
+   "degrade_after_days": 10,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "salt.tide_window.user",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "A predicted tide event inside the hours you chose",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "coops_tides",
+    "model_field": "tideEvents",
+    "vendor_field": "predictions",
+    "source_unit": "feet",
+    "display_unit": "NOAA predicted events",
+    "convert": "identity",
+    "display_round": null,
+    "value_shape": "events",
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "tideEventWindow",
+   "op": "event_within_window",
+   "event_kinds": [
+    "high",
+    "low"
+   ],
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "You chose the hours and the kind of tide event. NOAA published the prediction; the window is yours, and the app says nothing about what a tide means for fish."
+   },
+   "input_provenance": {
+    "name": "NOAA CO-OPS tide predictions",
+    "attribution": "NOAA/NOS Center for Operational Oceanographic Products and Services",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "A prediction is published without a disclaimer sentence in section 2.2's closed set; the attribution above rides every line instead.",
+   "degrade_after_hours": 12,
+   "min_refetch_minutes": 60,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "salt.current_slack.user",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "A predicted tidal-current event inside the hours you chose",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "coops_currents",
+    "model_field": "slackWindows",
+    "vendor_field": "predictions",
+    "source_unit": "knots",
+    "display_unit": "NOAA predicted events",
+    "convert": "identity",
+    "display_round": null,
+    "value_shape": "events",
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "currentEventWindow",
+   "op": "event_within_window",
+   "event_kinds": [
+    "slack",
+    "flood",
+    "ebb"
+   ],
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "You chose the hours and the kind of current event. NOAA predicts the water, not the fish."
+   },
+   "input_provenance": {
+    "name": "NOAA CO-OPS tidal current predictions",
+    "attribution": "NOAA/NOS Center for Operational Oceanographic Products and Services",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "A prediction is published without a disclaimer sentence in section 2.2's closed set; the attribution above rides every line instead.",
+   "degrade_after_hours": 12,
+   "min_refetch_minutes": 60,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "spear.visibility_outlook",
+   "activities": [
+    "spearfishing"
+   ],
+   "label": "Water clarity outlook",
+   "kind": "published_fact",
+   "input": {
+    "source": "shipped_derivation",
+    "model_field": "visibilityOutlookBand",
+    "vendor_field": "VisibilityOutlook",
+    "source_unit": "band",
+    "display_unit": "band",
+    "convert": "identity",
+    "display_round": null,
+    "derivation": "VisibilityOutlook",
+    "derivation_inputs": [
+     {
+      "source": "coastwatch_clarity",
+      "vendor_field": "kd_490",
+      "model_field": "kd490",
+      "source_unit": "m^-1",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "coastwatch_clarity",
+      "vendor_field": "chlor_a",
+      "model_field": "chlorophyll",
+      "source_unit": "mg m^-3",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "WVHT",
+      "model_field": "waveHeightFeet",
+      "source_unit": "m",
+      "convert": "m_to_ft",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "DPD",
+      "model_field": "dominantPeriodSeconds",
+      "source_unit": "s",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "WSPD",
+      "model_field": "windSpeedKnots",
+      "source_unit": "m/s",
+      "convert": "ms_to_kt",
+      "unit_verification": "independently_established"
+     }
+    ],
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "acceptVisibilityBands",
+   "op": "band_in",
+   "threshold_basis": {
+    "type": "shipped_outlook",
+    "name": "VisibilityOutlook",
+    "text": "The band this app already ships, consumed whole, with its own guard that at least two usable signals must be present. What you choose is which bands you will accept; there is no number to type, and this app reaches past the band to no raw satellite pixel."
+   },
+   "input_provenance": {
+    "name": "NOAA CoastWatch water clarity and NDBC readings, through the shipped VisibilityOutlook band",
+    "attribution": "NOAA CoastWatch; National Data Buoy Center, NOAA",
+    "source_url": "https://coastwatch.noaa.gov/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "Near-real-time satellite data lag the observation by about a day.",
+   "degrade_after_days": 10,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "salt.small_craft_advisory",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "National Weather Service marine product in force",
+   "kind": "agency_warning",
+   "input": {
+    "source": "nws_alerts",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "event"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "National Weather Service active alerts",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/alerts/active?area=CA",
+    "quote": "Thresholds governing the issuance of small craft advisories are specific to geographic areas.",
+    "quote_url": "https://forecast.weather.gov/glossary.php?word=small+craft+advisory",
+    "quote_2": "there is no legal definition for 'small craft'",
+    "quote_2_url": "https://www.weather.gov/key/marine_definitions",
+    "terms_note": "NWS terms prohibit modifying content and presenting it as official government material.",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The warning is quoted as issued; section 2.2 carries no disclaimer sentence for a quoted agency warning, and paraphrasing one would be modifying the content.",
+   "degrade_after_hours": 1,
+   "min_refetch_minutes": 10,
+   "counts_now": false
+  },
+  {
+   "key": "inland.nws_alerts",
+   "activities": [
+    "freshwater",
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "National Weather Service alert in force for this zone",
+   "kind": "agency_warning",
+   "input": {
+    "source": "nws_alerts",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "event"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "National Weather Service active alerts",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/alerts/active?area=CA",
+    "terms_note": "NWS terms prohibit modifying content and presenting it as official government material.",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The alert is quoted as issued; section 2.2 carries no disclaimer sentence for a quoted agency warning, and paraphrasing one would be modifying the content.",
+   "degrade_after_hours": 1,
+   "min_refetch_minutes": 10,
+   "_curation_note": "P7 widened this record to the three hunting activities without changing a byte of what it reads or how it renders. An active alert is quoted as issued, is never gated, is counted by nothing, and on a hunting screen it suppresses no band because a hunting screen carries none.",
+   "counts_now": false
+  },
+  {
+   "key": "fresh.flow.user",
+   "activities": [
+    "freshwater"
+   ],
+   "label": "Streamflow at the bound gage",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "usgs_flow",
+    "model_field": "streamflowCFS",
+    "vendor_field": "cfs",
+    "source_unit": "ft3/s",
+    "display_unit": "ft³/s",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "flowRangeCFS",
+   "op": "between",
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your range. USGS publishes the reading; the app states no opinion about what flow is good, and low water is good for a wading angler and bad for a drift boat."
+   },
+   "input_provenance": {
+    "name": "U.S. Geological Survey National Water Information System, instantaneous values",
+    "attribution": "Credit: U.S. Geological Survey / Department of the Interior/USGS",
+    "source_url": "https://waterservices.usgs.gov/nwis/iv/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "Provisional data are subject to revision.",
+   "degrade_after_days": 2,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "fresh.water_temp.user",
+   "activities": [
+    "freshwater"
+   ],
+   "label": "Water temperature at the bound gage",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "usgs_flow",
+    "model_field": "waterTempC",
+    "vendor_field": "temp_c",
+    "source_unit": "deg C",
+    "display_unit": "°C",
+    "convert": "identity",
+    "display_round": 1,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "waterTempRangeC",
+   "op": "between",
+   "directionless": true,
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your range. USGS publishes the reading and the app states no opinion about what temperature is good."
+   },
+   "input_provenance": {
+    "name": "U.S. Geological Survey National Water Information System, instantaneous values",
+    "attribution": "Credit: U.S. Geological Survey / Department of the Interior/USGS",
+    "source_url": "https://waterservices.usgs.gov/nwis/iv/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "Provisional data are subject to revision.",
+   "degrade_after_days": 2,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "fresh.plant_published",
+   "activities": [
+    "freshwater"
+   ],
+   "label": "CDFW's published plant record for this water",
+   "kind": "published_fact",
+   "input": {
+    "source": "stocking_current",
+    "model_field": "plantWeekOf",
+    "vendor_field": "week_of",
+    "source_unit": "week beginning",
+    "display_unit": "week beginning",
+    "convert": "identity",
+    "display_round": null,
+    "unit_verification": "carried_unverified"
+   },
+   "sentence_template": "CDFW published a plant here in the week beginning {week_of}.",
+   "tense_rule": "past_only",
+   "threshold_basis": null,
+   "never_gated": true,
+   "_curation_note": "Owner ruling D-18, strict reading: a plant date measures neither water, air nor land, so plantWeekOf is on no physical allowlist and this record can move no band, no count and no ordering. It is still shown, with its citation and its own clock, free at every tier.",
+   "input_provenance": {
+    "name": "CDFW Fish Planting Schedule",
+    "attribution": "California Department of Fish and Wildlife",
+    "source_url": "https://wildlife.ca.gov/Fishing/Inland/Fish-Planting-Schedule",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "CDFW's Fish Planting Schedule records a plant that happened. It says nothing about what is in the water now.",
+   "degrade_after_days": 7,
+   "scoreable": false,
+   "counts_now": false
+  },
+  {
+   "key": "weather.temp.user",
+   "activities": [
+    "saltwater",
+    "spearfishing",
+    "freshwater",
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Air temperature in the National Weather Service forecast",
+   "kind": "user_criterion",
+   "origin": "user",
+   "input": {
+    "source": "nws_forecast",
+    "model_field": "airTempF",
+    "vendor_field": "temp_f",
+    "source_unit": "F",
+    "display_unit": "°F",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "tempRangeF",
+   "op": "between",
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "This is your range. The app states no opinion about what temperature is good."
+   },
+   "input_provenance": {
+    "name": "National Weather Service gridpoint forecast",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "No disclaimer sentence has been recorded for this feed in section 2.2's closed set, so none is asserted here.",
+   "degrade_after_hours": 12,
+   "min_refetch_minutes": 30,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "weather.precip",
+   "activities": [
+    "saltwater",
+    "spearfishing",
+    "freshwater",
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Chance of precipitation in the National Weather Service forecast",
+   "kind": "published_fact",
+   "input": {
+    "source": "nws_forecast",
+    "model_field": "precipProbabilityPercent",
+    "vendor_field": "precip_probability",
+    "source_unit": "wmoUnit:percent",
+    "display_unit": "percent",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "independently_established"
+   },
+   "setting_id": "maxPrecipProbability",
+   "op": "lte",
+   "directionless": true,
+   "threshold_basis": {
+    "type": "user_set",
+    "text": "Rain is welcome to one angler and unwelcome to another, so this app gives it no direction. It is shown as published unless you set a limit of your own over it."
+   },
+   "input_provenance": {
+    "name": "National Weather Service gridpoint forecast",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "No disclaimer sentence has been recorded for this feed in section 2.2's closed set, so none is asserted here.",
+   "degrade_after_hours": 12,
+   "min_refetch_minutes": 30,
+   "scoreable": true,
+   "counts_now": true
+  },
+  {
+   "key": "hunt.public_land",
+   "activities": [
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Public land inside this zone, over the boundaries this app ships",
+   "kind": "published_fact",
+   "input": {
+    "source": "public_lands",
+    "model_field": "publicLandAcres",
+    "vendor_field": "acres",
+    "source_unit": "acres",
+    "display_unit": "acres",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "carried_unverified"
+   },
+   "sentence_template": "Public land inside this zone, measured over the boundaries this app ships: {acres} acres.",
+   "threshold_basis": null,
+   "_curation_note": "A published fact about LAND, and it is uncounted for two separate reasons, either of which is enough. The first: the public-land layer draws boundaries and publishes no acreage column, so the number is an area this app measures over the boundaries it ships, and those boundaries are simplified for the map. The second: the unit on this column is carried from the design's own record and has never been read against a publisher's description here, so counts_now is false whatever scoreable said. Section 4.4 offered this as a criterion the user could set. It ships as a fact instead, which is what an area nobody has verified the unit of is worth.",
+   "input_provenance": {
+    "name": "CDFW Public Access Lands (ds3077)",
+    "attribution": "California Department of Fish and Wildlife",
+    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds3077_fpu/FeatureServer/0/query",
+    "verified_at": "2026-09-05"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "Section 2.2's closed set carries no disclaimer sentence for this layer. The thing that needs saying about it is said on the record itself, in _curation_note: the boundaries are simplified and the area is measured, not published.",
+   "degrade_after_days": 90,
+   "scoreable": false,
+   "counts_now": false
+  },
+  {
+   "key": "hunt.usfs_place_notice",
+   "activities": [
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Forest Service notice for a place in this area",
+   "kind": "agency_warning",
+   "input": {
+    "source": "usfs_place_notices",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "notice"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "_curation_note": "The Forest Service publishes this rule and publishes no boundary for the area it covers, which the shipped record says in its own words. So the notice is quoted and nothing is drawn, and being outside every line this app draws is no evidence of being outside the area the notice covers. Like every agency warning it is never gated and is counted by nothing.",
+   "input_provenance": {
+    "name": "USDA Forest Service forest notices",
+    "attribution": "USDA Forest Service",
+    "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+    "quote": "Rifle, firearm, or crossbow hunting is not allowed at any time within the Laguna Mountain Recreation Area (only archery hunting during season).",
+    "verified_at": "2026-09-04"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The notice is quoted as the Forest Service issued it; section 2.2 carries no disclaimer sentence for a quoted agency notice, and writing one would be this app adding words to somebody else's rule.",
+   "degrade_after_days": 90,
+   "counts_now": false
+  }
+ ],
+ "_hunting_note": "P7's hunting half, and the three things it deliberately does NOT carry. (1) No wind criterion. The National Weather Service forecast publishes wind as a string carrying its own unit, in miles per hour and often as a range, and this repository ships no conversion to the knots the model field is named for; a knots number compared against a miles-per-hour number does not fail, it matches, so nothing binds that column until the conversion exists and is pinned to code the app itself runs. Air temperature and the chance of precipitation are bound, because both arrive as numbers in units read from the publisher. (2) Nothing about an animal. There is no record here over a harvest, a tag draw, a hunter count or a survey, scoreable or not; the waterfowl result and the history pack land later and are uncountable forever. (3) No band input that belongs to hunting alone. Every counted factor a hunting activity names is a weather factor the fishing activities name too, so there is no number in this file that exists only to move a hunting screen — and the hunting screens carry no band at all, which is a fact about the app's structure and not about this table."
+}
