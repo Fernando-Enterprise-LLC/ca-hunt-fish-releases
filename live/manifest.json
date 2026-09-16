@@ -1,22 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-15T18:28:21.616459+00:00",
- "note": "The stocking calendar's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
+ "generated_at": "2026-09-16T04:39:50.864411+00:00",
+ "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "263239bf66d2e7726663c14969bad7c7271e65213f3e73b931d5ae5474096963",
+   "sha256": "19f169e8ec4089d2ca699859972f1d104e154f0b3643a54edeb2f5845c9f5614",
    "bytes": 24420,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.15",
-   "read_at": "2026-09-15",
-   "age_days": 0,
+   "dataset_version": "2026.09.16",
+   "read_at": "2026-09-16",
+   "age_days": -1,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-15T18:28:21.616075+00:00"
+   "published_at": "2026-09-16T04:39:50.863300+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -29,8 +29,65 @@
    "read_at": "2026-09-15",
    "age_days": 0,
    "past_its_clock": false,
+   "state": "unchanged",
+   "published_at": "2026-09-15T18:28:21.616431+00:00",
+   "note": "the published copy was read 0 days ago; its clock is 7 days and the refetch interval is 6"
+  },
+  {
+   "name": "waterfowl_results_current.json",
+   "sha256": "1db515ebc816637f0fa231da8ff7d03fb0d2cb8e97a052f722b26e21173f7812",
+   "bytes": 4083,
+   "domain": "waterfowl_results_current",
+   "threshold_days": 10,
+   "schema_version": 2,
+   "dataset_version": "2026.09.16",
+   "read_at": "2026-09-16",
+   "age_days": -1,
+   "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-15T18:28:21.616431+00:00"
+   "published_at": "2026-09-16T04:39:50.863721+00:00"
+  },
+  {
+   "name": "trip_pack.json",
+   "sha256": "3ce8c91c99de3a3b82592c71218183ffad66a51364ee816916fbd3ba4bb66cda",
+   "bytes": 52000,
+   "domain": "trip_pack",
+   "threshold_days": 365,
+   "schema_version": 1,
+   "dataset_version": "2026.09.16",
+   "read_at": "2026-09-16",
+   "age_days": -1,
+   "past_its_clock": false,
+   "state": "published",
+   "published_at": "2026-09-16T04:39:50.864076+00:00"
+  },
+  {
+   "name": "operators.json",
+   "sha256": "a72be122672bfc1aee05d76801f3610dc08fdc610b8d5ea6dd7abc76c33b8e3b",
+   "bytes": 34798,
+   "domain": "operators",
+   "threshold_days": 30,
+   "schema_version": 1,
+   "dataset_version": "2026.09.16",
+   "read_at": "2026-09-16",
+   "age_days": -1,
+   "past_its_clock": false,
+   "state": "published",
+   "published_at": "2026-09-16T04:39:50.864281+00:00"
+  },
+  {
+   "name": "notices_current.json",
+   "sha256": "830959c5d17e4c1bacb35cfe714641b758581546882c464aaf2604dce26d8561",
+   "bytes": 23923,
+   "domain": "notices_current",
+   "threshold_days": 2,
+   "schema_version": 2,
+   "dataset_version": "2026.09.16",
+   "read_at": "2026-09-16",
+   "age_days": -1,
+   "past_its_clock": false,
+   "state": "published",
+   "published_at": "2026-09-16T04:39:50.864400+00:00"
   }
  ]
 }
