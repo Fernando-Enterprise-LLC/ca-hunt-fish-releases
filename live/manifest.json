@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-16T21:13:55.732522+00:00",
+ "generated_at": "2026-09-17T00:19:05.278247+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -81,18 +81,17 @@
   },
   {
    "name": "notices_current.json",
-   "sha256": "830959c5d17e4c1bacb35cfe714641b758581546882c464aaf2604dce26d8561",
+   "sha256": "58b62e4a0736101c905f968ee1d5083ff142bbcc5c2c5197adace17f6efdc420",
    "bytes": 23923,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
-   "dataset_version": "2026.09.16",
-   "read_at": "2026-09-16",
-   "age_days": 0,
+   "dataset_version": "2026.09.17",
+   "read_at": "2026-09-17",
+   "age_days": -1,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-16T04:39:50.864400+00:00",
-   "note": "the rebuilt notices are identical to the published ones (read 2026-09-16), so the published bytes and their publication date stand."
+   "state": "published",
+   "published_at": "2026-09-17T00:19:05.278237+00:00"
   }
  ]
 }
