@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-17T00:19:05.278247+00:00",
+ "generated_at": "2026-09-17T07:33:29.429126+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -13,7 +13,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T18:25:22.857110+00:00",
@@ -28,7 +28,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.15",
    "read_at": "2026-09-15",
-   "age_days": 1,
+   "age_days": 2,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-15T18:28:21.616431+00:00",
@@ -43,7 +43,7 @@
    "schema_version": 2,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
@@ -58,7 +58,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
@@ -73,7 +73,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
@@ -88,10 +88,11 @@
    "schema_version": 2,
    "dataset_version": "2026.09.17",
    "read_at": "2026-09-17",
-   "age_days": -1,
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-17T00:19:05.278237+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-17T00:19:05.278237+00:00",
+   "note": "the rebuilt notices are identical to the published ones (read 2026-09-17), so the published bytes and their publication date stand."
   }
  ]
 }
