@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-18T21:08:53.944554+00:00",
+ "generated_at": "2026-09-18T21:12:51.850759+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -81,8 +81,8 @@
   },
   {
    "name": "notices_current.json",
-   "sha256": "898a6c9f3c8dfff23272e6093a770ceb778ad70c764ae09be6bad9c7f0fbf892",
-   "bytes": 24873,
+   "sha256": "95715c8d26390c600b63498c6f46fc4bd2c6a686bd26b787f210d5bfa28bd7bc",
+   "bytes": 24874,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
@@ -91,7 +91,7 @@
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-18T21:08:53.944346+00:00"
+   "published_at": "2026-09-18T21:12:51.850567+00:00"
   },
   {
    "name": "beach_status_current.json",
