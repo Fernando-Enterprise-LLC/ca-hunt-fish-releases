@@ -1,0 +1,680 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-18T09:29:29.049283+00:00",
+ "domain": "beach_status_current",
+ "threshold_days": 1,
+ "absence_clock_hours": 6,
+ "read_at_rule": "Every time in this file is a fact about a past read. Nothing here states a cadence, a latency or a promise about the future.",
+ "counties": {
+  "ventura": {
+   "name": "Ventura",
+   "source_name": "Ventura County Environmental Health Division",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "status_page_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [
+    {
+     "verbatim": "Meets State standards for bacteria",
+     "kind": "open"
+    },
+    {
+     "verbatim": "Meets State standards",
+     "kind": "open"
+    },
+    {
+     "verbatim": "Exceed State standards for bacteria and may cause illness",
+     "kind": "advisory"
+    },
+    {
+     "verbatim": "WARNING – Avoid contact with ocean water due to sewage contamination or other health hazards",
+     "kind": "warning"
+    },
+    {
+     "verbatim": "Post-rainfall advisory",
+     "kind": "rain_advisory"
+    },
+    {
+     "verbatim": "Not sampled due to inaccessibility, unsafe conditions, lab accident",
+     "kind": "not_sampled"
+    }
+   ],
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "ok": true,
+   "refusal_reason": null
+  },
+  "san_diego": {
+   "name": "San Diego",
+   "source_name": "County of San Diego Department of Environmental Health",
+   "source_url": null,
+   "status_page_url": "https://www.sdbeachinfo.com/",
+   "hotline": "(619) 338-2073",
+   "hotline_source_url": "https://www.sandiegocounty.gov/content/sdc/deh/lwqd/beachandbay.html",
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "San Diego County publishes today's beach status at sdbeachinfo.com and on (619) 338-2073. This app does not read it. The county's map is served by an application that answers a scripted request with 405, or 403 without a browser session token, and this app does not build on endpoints a site gates that way. The county has been asked for a feed."
+  },
+  "los_angeles": {
+   "name": "Los Angeles",
+   "source_name": "Los Angeles County Department of Health Services",
+   "source_url": null,
+   "status_page_url": "http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Los Angeles County publishes today's beach status on its own map. This app does not read it: the map carries each beach's status only as a marker colour, and no legend for those colours is published on the page or in the map data. A meaning this app guessed would be a guess a reader could not check."
+  },
+  "orange": {
+   "name": "Orange",
+   "source_name": "Orange County Environmental Health Division",
+   "source_url": null,
+   "status_page_url": "https://ocbeachinfo.com/",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Orange County publishes today's beach status at ocbeachinfo.com. This app does not read it: the site refuses scripted requests, including the request for its own robots file, so this app cannot establish that automated reading is permitted."
+  },
+  "san_mateo": {
+   "name": "San Mateo",
+   "source_name": "Health Department County of San Mateo Environmental Health",
+   "source_url": null,
+   "status_page_url": "https://www.smchealth.org/beaches",
+   "hotline": "650-599-1266",
+   "hotline_source_url": "https://www.smchealth.org/beaches",
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "San Mateo County publishes a beach map and the number above. This app does not read the map: it carries no date anywhere, so this app could not tell a reader how old a status is."
+  },
+  "santa_cruz": {
+   "name": "Santa Cruz",
+   "source_name": "Santa Cruz County Environmental Health Service",
+   "source_url": null,
+   "status_page_url": "https://scceh.com/NewHome/Programs/WaterResources/SurfaceWaterStewardship/WaterQualityMonitoring/BeachWaterBodyAdvisories.aspx",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Santa Cruz County publishes today's beach status on its own page and through a public map service. This app does not read it yet: the meanings of that service's own status values have not been confirmed, and this app does not ship a meaning it has not confirmed."
+  },
+  "humboldt": {
+   "name": "Humboldt",
+   "source_name": "Humboldt County Health and Human Services Department Division of Environmental Health",
+   "source_url": null,
+   "status_page_url": "https://humboldtgov.org/1696/Water-Quality-Test-Results",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Humboldt County publishes its beach sampling results and a posting line on its own page. This app does not read it yet."
+  },
+  "sonoma": {
+   "name": "Sonoma",
+   "source_name": "County of Sonoma Health Services Environmental Health Division",
+   "source_url": null,
+   "status_page_url": "https://sonomacounty.gov/health-and-human-services/health-services/divisions/public-health/environmental-health/programs-and-services/ocean-water-quality",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Sonoma County publishes a per-beach status on its own page. This app does not read it yet."
+  },
+  "san_francisco": {
+   "name": "San Francisco",
+   "source_name": "San Francisco Department of Public Health",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "San Francisco publishes beach sampling results as open data and runs a beach hotline. This app does not read a San Francisco status: the open dataset carries results rather than a posting, and the page that carries the postings has not been read by any lane."
+  },
+  "santa_barbara": {
+   "name": "Santa Barbara",
+   "source_name": "Santa Barbara County Environmental Health Services",
+   "source_url": null,
+   "status_page_url": "https://www.countyofsb.org/2263/Ocean-Water-Monitoring-Program",
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "This app has not located Santa Barbara County's own beach-status channel. The map that search engines surface for this county is a personal project rather than the county's, and this app does not carry a health status from one."
+  },
+  "monterey": {
+   "name": "Monterey",
+   "source_name": "County of Monterey Department of Health Division of Environmental Health",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Monterey County publishes beach status on its own site. This app does not read it: the site refuses scripted requests with a 403 from its edge network."
+  },
+  "marin": {
+   "name": "Marin",
+   "source_name": "County of Marin Environmental Health Services",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Marin County publishes beach sampling on its own site. This app does not read it: the site refuses scripted requests with a 403. The state's own sampling, which this app already reads, is among the freshest in the state for Marin."
+  },
+  "san_luis_obispo": {
+   "name": "San Luis Obispo",
+   "source_name": "San Luis Obispo County Public Health Department Environmental Health",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "This app does not read a San Luis Obispo county status. The state's own sampling, which this app already reads, covers the same 19 sites and was nine days old when this was written."
+  },
+  "mendocino": {
+   "name": "Mendocino",
+   "source_name": "County of Mendocino Environmental Health",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "No Mendocino County beach-status channel has been located, so this app reads none."
+  },
+  "east_bay_parks_district": {
+   "name": "East Bay Parks District",
+   "source_name": "East Bay Regional Park District",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "East Bay Regional Park District's own site is link-out only under this app's standing policy, permanently, so this app reads no status for these shorelines."
+  },
+  "long_beach_city": {
+   "name": "Long Beach City",
+   "source_name": "City of Long Beach Health and Human Services",
+   "source_url": null,
+   "status_page_url": null,
+   "hotline": null,
+   "hotline_source_url": null,
+   "status_vocabulary": [],
+   "read_at": null,
+   "ok": false,
+   "refusal_reason": "Long Beach runs its own city health department. This app has not located its beach-status channel, so it reads none."
+  }
+ },
+ "beaches": [
+  {
+   "beach_id": "bw-145",
+   "county_key": "ventura",
+   "station_code": "1100",
+   "join_basis": "curated_alias:county_site_name",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "reason_verbatim": null,
+   "quote_withheld_reason": null,
+   "county_sampled_on_verbatim": "09/14/2026",
+   "county_sampled_on_iso": "2026-09-14",
+   "issued_at": null,
+   "lifted_at": null,
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+  },
+  {
+   "beach_id": "bw-268",
+   "county_key": "ventura",
+   "station_code": "5000",
+   "join_basis": "curated_alias:county_site_name",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "reason_verbatim": null,
+   "quote_withheld_reason": null,
+   "county_sampled_on_verbatim": "09/14/2026",
+   "county_sampled_on_iso": "2026-09-14",
+   "issued_at": null,
+   "lifted_at": null,
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+  },
+  {
+   "beach_id": "bw-278",
+   "county_key": "ventura",
+   "station_code": "45000",
+   "join_basis": "curated_alias:county_site_name",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "reason_verbatim": null,
+   "quote_withheld_reason": null,
+   "county_sampled_on_verbatim": "9/15/2026",
+   "county_sampled_on_iso": "2026-09-15",
+   "issued_at": null,
+   "lifted_at": null,
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+  },
+  {
+   "beach_id": "bw-283",
+   "county_key": "ventura",
+   "station_code": "50000",
+   "join_basis": "curated_alias:county_site_name",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "reason_verbatim": null,
+   "quote_withheld_reason": null,
+   "county_sampled_on_verbatim": "9/15/2026",
+   "county_sampled_on_iso": "2026-09-15",
+   "issued_at": null,
+   "lifted_at": null,
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+  }
+ ],
+ "unmapped_county_sites": [
+  {
+   "county_key": "ventura",
+   "station_code": "1000",
+   "county_site_name_verbatim": "Rincon Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "10000",
+   "county_site_name_verbatim": "Solimar Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "11000",
+   "county_site_name_verbatim": "Emma Wood State Beach",
+   "county_status_verbatim": "Not Sampled",
+   "kind": "unknown",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "13000",
+   "county_site_name_verbatim": "Surfer's Point at Seaside",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "14000",
+   "county_site_name_verbatim": "Promenade Park Beach (Figueroa St)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "15000",
+   "county_site_name_verbatim": "Promenade Park Beach (Redwood Apts)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "17000",
+   "county_site_name_verbatim": "San Buenaventura State Beach (California St)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "18000",
+   "county_site_name_verbatim": "San Buenaventura State Beach (Kalorama Beach)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "19000",
+   "county_site_name_verbatim": "San Buenaventura State Beach (San Jon Rd)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "20000",
+   "county_site_name_verbatim": "San Buenaventura State Beach (Dover Lane)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "21000",
+   "county_site_name_verbatim": "San Buenaventura State Beach (Weymouth Lane)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "22000",
+   "county_site_name_verbatim": "Marina Park Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "23000",
+   "county_site_name_verbatim": "Peninsula Beach/Harbor Cove",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "2500",
+   "county_site_name_verbatim": "La Conchita",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "25000",
+   "county_site_name_verbatim": "Surfer's Knoll Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "29000",
+   "county_site_name_verbatim": "Oxnard Beach - 5th St",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "30000",
+   "county_site_name_verbatim": "Oxnard Beach - Outrigger Way",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "32000",
+   "county_site_name_verbatim": "Oxnard Beach Park - Falkirk Ave",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "33000",
+   "county_site_name_verbatim": "Oxnard Beach Park  - Starfish Dr",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "34000",
+   "county_site_name_verbatim": "Hollywood Beach - La Crescenta St",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "35000",
+   "county_site_name_verbatim": "Hollywood Beach - Los Robles St",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "36000",
+   "county_site_name_verbatim": "Hobie Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "37000",
+   "county_site_name_verbatim": "C.I. Harbor Beach Park (Kiddie Beach)",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "38000",
+   "county_site_name_verbatim": "Silverstrand Beach - San Nicholas Ave",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "39000",
+   "county_site_name_verbatim": "Silverstrand Beach - Santa Paula Ave",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "4000",
+   "county_site_name_verbatim": "Oil Piers Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "40000",
+   "county_site_name_verbatim": "Silverstrand Beach - Sawtelle Ave",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "41000",
+   "county_site_name_verbatim": "Port Hueneme Beach Park",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "42000",
+   "county_site_name_verbatim": "Ormond Beach - J St",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "43000",
+   "county_site_name_verbatim": "Ormond Beach - Industrial Drain",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "44000",
+   "county_site_name_verbatim": "Ormond Beach - Arnold Road",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "46000",
+   "county_site_name_verbatim": "Thornhill Broome Beach",
+   "county_status_verbatim": "Not Sampled",
+   "kind": "unknown",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "47000",
+   "county_site_name_verbatim": "Sycamore Cove Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "49500",
+   "county_site_name_verbatim": "County Line Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "7000",
+   "county_site_name_verbatim": "Faria County Park Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  },
+  {
+   "county_key": "ventura",
+   "station_code": "8100",
+   "county_site_name_verbatim": "Mondos Cove Beach",
+   "county_status_verbatim": "Meets State standards",
+   "kind": "open",
+   "read_at": "2026-09-18T09:29:29.049283+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
+  }
+ ],
+ "coverage": {
+  "county_sites_published": 40,
+  "mapped": 4,
+  "unmapped": 36,
+  "beaches_with_a_county_status": 4,
+  "beaches_in_county_without_one": 23,
+  "beaches_in_directory": 27
+ },
+ "absent": {
+  "san_diego": "San Diego County publishes today's beach status at sdbeachinfo.com and on (619) 338-2073. This app does not read it. The county's map is served by an application that answers a scripted request with 405, or 403 without a browser session token, and this app does not build on endpoints a site gates that way. The county has been asked for a feed.",
+  "los_angeles": "Los Angeles County publishes today's beach status on its own map. This app does not read it: the map carries each beach's status only as a marker colour, and no legend for those colours is published on the page or in the map data. A meaning this app guessed would be a guess a reader could not check.",
+  "orange": "Orange County publishes today's beach status at ocbeachinfo.com. This app does not read it: the site refuses scripted requests, including the request for its own robots file, so this app cannot establish that automated reading is permitted.",
+  "san_mateo": "San Mateo County publishes a beach map and the number above. This app does not read the map: it carries no date anywhere, so this app could not tell a reader how old a status is.",
+  "santa_cruz": "Santa Cruz County publishes today's beach status on its own page and through a public map service. This app does not read it yet: the meanings of that service's own status values have not been confirmed, and this app does not ship a meaning it has not confirmed.",
+  "humboldt": "Humboldt County publishes its beach sampling results and a posting line on its own page. This app does not read it yet.",
+  "sonoma": "Sonoma County publishes a per-beach status on its own page. This app does not read it yet.",
+  "san_francisco": "San Francisco publishes beach sampling results as open data and runs a beach hotline. This app does not read a San Francisco status: the open dataset carries results rather than a posting, and the page that carries the postings has not been read by any lane.",
+  "santa_barbara": "This app has not located Santa Barbara County's own beach-status channel. The map that search engines surface for this county is a personal project rather than the county's, and this app does not carry a health status from one.",
+  "monterey": "Monterey County publishes beach status on its own site. This app does not read it: the site refuses scripted requests with a 403 from its edge network.",
+  "marin": "Marin County publishes beach sampling on its own site. This app does not read it: the site refuses scripted requests with a 403. The state's own sampling, which this app already reads, is among the freshest in the state for Marin.",
+  "san_luis_obispo": "This app does not read a San Luis Obispo county status. The state's own sampling, which this app already reads, covers the same 19 sites and was nine days old when this was written.",
+  "mendocino": "No Mendocino County beach-status channel has been located, so this app reads none.",
+  "east_bay_parks_district": "East Bay Regional Park District's own site is link-out only under this app's standing policy, permanently, so this app reads no status for these shorelines.",
+  "long_beach_city": "Long Beach runs its own city health department. This app has not located its beach-status channel, so it reads none."
+ }
+}

@@ -1,6 +1,6 @@
 # `live/` — the version-independent lane
 
-Six files, republished on their own cadence by `pipeline publish-live`, at a path that does
+Seven files, republished on their own cadence by `pipeline publish-live`, at a path that does
 not carry a dataset version:
 
 | File | What it is | Read cadence |
@@ -11,6 +11,7 @@ not carry a dataset version:
 | `trip_pack.json` | CDFW's deer harvest statistics for the year CDFW's own page links a report for, with the department's own "as of" date on every number — and the big-game draw statistics, `pending`, because nobody has opened that document | monthly |
 | `operators.json` | The attributed commercial operator directory — what each operator publishes about itself, quoted with the date it was read | monthly, one page per host |
 | `notices_current.json` | In-season change announcements: the agency's own headline, date, category and at most two of its own sentences, with the records a declared map ties them to | on a change, with a daily floor |
+| `beach_status_current.json` | What a county says about a beach today, quoted, with the county named and the time this project read it — plus, for every county in the beach directory, the hotline and status page the county itself tells the public to use | every three hours |
 | `manifest.json` | The sha256, byte count, read date and staleness threshold of each of the above | every run |
 
 These are NOT a dataset release. Releases are immutable under `v/<version>/` and reach the
@@ -49,6 +50,17 @@ consecutive reads, or one that has reached this app's own 180-day cap, is marked
 with its reason and stays for thirty days. A read that fails publishes nothing at all and
 leaves the notices already here wearing their own read date, because an empty list would
 tell every reader that nothing has been announced.
+
+`beach_status_current.json` carries a COUNTY's own words and never this app's opinion of
+them. Every status ships as the county published it, byte for byte, in quotation marks, with
+the county named and the time this project read it beside it; the one normalisation is a
+`kind`, which travels beside the verbatim it came from and is never rendered as a word. A
+county this app does not read is `absent` with a stated reason — never `open`, and never
+silence — and a county whose service did not answer keeps the status this app last read,
+wearing the time it was read. A county all-clear may never clean a measured exceedance in
+`beach_water_quality`: the two are separate instruments and the county's word only ever
+raises. Fifteen of the sixteen counties in this file are link-outs; the file says so in its
+own bytes, county by county.
 
 `trip_pack.json` is columnar on the same terms, and its numbers count deer and tags. Where
 CDFW prints a figure as the total for a GROUP of zones — B-zone, C-zone and D3-5-zone tags
