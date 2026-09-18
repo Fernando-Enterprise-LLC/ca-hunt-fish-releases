@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-18T01:52:37.765549+00:00",
+ "generated_at": "2026-09-18T04:30:53.728646+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -81,7 +81,7 @@
   },
   {
    "name": "notices_current.json",
-   "sha256": "c5f4f5261d46feb60f97425da6ff8dec352c505b86d0e2f6f5fb6e3f7a52c637",
+   "sha256": "82b4043d513010ae398931ab8165b14752b8d871f0a9f82a9ffbf338bd0aacc5",
    "bytes": 24873,
    "domain": "notices_current",
    "threshold_days": 2,
@@ -91,7 +91,7 @@
    "age_days": -1,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-18T01:52:37.765524+00:00"
+   "published_at": "2026-09-18T04:30:53.728631+00:00"
   }
  ]
 }
