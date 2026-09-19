@@ -1,0 +1,1077 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-18T19:00:43.037180+00:00",
+ "curation_status": "verified",
+ "content_class": "hunting_shot_size_guidance",
+ "note": "Shot-size recommendations written by this app from general load-selection practice. NOT regulations, NOT CDFW content, NOT sourced to any official publication. Every band here is the app's own judgment and is deliberately uncited \u2014 the missing citation field is the honest signal, exactly as it is in equipment_guidance and in the angling tips. No record may state, imply or summarise a rule about gauge, shot size, shot material or method. What the regulations say is quoted, cited and free in hunt_methods.json; every record here links the records that bound it; and the build refuses any band that falls outside the ceiling those linked records state, so the advice cannot drift outside the law even by accident.",
+ "tips_disclaimer": {
+  "headline": "Shot-size notes \u2014 not regulations, not CDFW content",
+  "body": "Written by this app from general hunting practice. Nothing here is a rule and nothing here is permission. What the regulations say about gauge, shot size, shot material and method is quoted above with its citation. A recommendation on this card never widens what is quoted there, and where the two look different, the quoted rule is the one that counts.",
+  "no_citation_line": "No citation \u2014 this is not sourced to any regulation."
+ },
+ "chip_definitions": {
+  "nonlead": "A statement about the pellet, not about the reader. Steel, bismuth and the tungsten alloys contain no lead; lead shot does. The statewide ammunition record is linked on every card in this file \u2014 read it there, in its own words.",
+  "nontoxic_waterfowl": "The same kind of statement, carried by the birds that have a materials record of their own. Ducks, geese, brant, coot and moorhen cards carry this chip, and the record that names the materials is linked on each of them."
+ },
+ "quarry_size_definitions": {
+  "small_bird": "Under about half a pound, taken close and taken fast. Pattern density decides the outcome and pellet weight is barely in the argument.",
+  "medium_bird": "Roughly half a pound to three pounds. Heavy enough that pellet weight starts to matter as much as pellet count, and the right answer moves with the range.",
+  "large_bird": "Three pounds and up, with feather and bone in front of the vitals. Penetration is the problem, and the coarse end of the band is the working answer rather than the exception.",
+  "small_mammal": "Rabbits, hares and tree squirrels. Thin-skinned but densely furred, and almost always shot through cover or at an upward angle that has already thinned the pattern."
+ },
+ "records": [
+  {
+   "id": "mourning-dove",
+   "species_label": "Mourning dove",
+   "type": "tips",
+   "quarry_size": "small_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Dove"
+    },
+    {
+     "surface": "hunt_upland",
+     "match": "row_species",
+     "value": "Mourning Dove and White-winged Dove"
+    }
+   ],
+   "search_terms": [
+    "mourning dove",
+    "dove",
+    "white-winged dove",
+    "shot size",
+    "dove load",
+    "7 1/2 shot"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "7.5",
+    "distance_framing": "Inside 30 yards \u2014 birds crossing a watered field or funnelling through a gap \u2014 No. 7\u00bd puts the most pellets into a small target. From 30 to 40 yards, and on late-season birds riding a wind, No. 6 still carries the energy that 7\u00bd has started to give up. Density is what kills a dove; pellet weight is what reaches it.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "Small, thin-skinned and fast, taken at moderate range \u2014 a pattern-density problem rather than a penetration problem, and the fine half of the band is where most dove fields are won.",
+   "watch_out": "Steel is less dense than lead, so a steel pellet of a given number arrives with less than the lead pellet of that number once did; the tungsten alloys go the other way and hit harder than their number suggests. Choose for the material in the shell, not for the number you grew up with.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 dove runs in two split periods and the two halves hunt very differently.",
+    "The shot-size and gauge record linked on this card, before you buy a case of shells.",
+    "Anything the ground you are hunting adds on top of the state's rules."
+   ]
+  },
+  {
+   "id": "eurasian-collared-dove",
+   "species_label": "Eurasian collared-dove",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "row_species",
+     "value": "Eurasian Collared-dove"
+    }
+   ],
+   "search_terms": [
+    "eurasian collared-dove",
+    "collared dove",
+    "dove",
+    "shot size",
+    "dove load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "6",
+    "distance_framing": "Roughly twice the body weight of a mourning dove and usually taken closer \u2014 around farmsteads, feed and water. No. 7\u00bd is plenty inside 25 yards, but No. 6 is the better all-round choice, because these birds sit heavier and take a pellet better than their smaller cousins.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "The same shells as a dove field, one step coarser. The extra body weight is worth a slightly heavier pellet, and nothing about the shooting distance asks for more than that.",
+   "watch_out": "These birds live where people do. Choose the shot for the bird and the direction of fire for everything behind it.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "Both families of rule records linked on this card, before you buy shells.",
+    "Whatever the landowner or the local ordinance adds on top."
+   ]
+  },
+  {
+   "id": "quail",
+   "species_label": "Quail",
+   "type": "tips",
+   "quarry_size": "small_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Quail"
+    }
+   ],
+   "search_terms": [
+    "quail",
+    "valley quail",
+    "mountain quail",
+    "gambel's quail",
+    "shot size",
+    "quail load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "7.5",
+    "distance_framing": "A covey rise in cover is 15 to 25 yards and over in two seconds \u2014 No. 7\u00bd and the most open choke you own. Late-season birds that run ahead of the dog and flush wild at 30 to 35 yards are the case for No. 6, and for a tighter choke before a coarser pellet.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "A quail is small and the shot is usually quick and close, so pattern width and pellet count beat pellet size nearly every time you go afield.",
+   "watch_out": "Mountain quail in steep cover flush downhill and stretch out fast. That is the one quail situation where the coarse end of the band is a considered choice rather than an over-reaction.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 quail seasons differ by zone and the zones do not all open together.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "Whether you are on ground that adds anything of its own."
+   ]
+  },
+  {
+   "id": "chukar",
+   "species_label": "Chukar",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Chukar"
+    }
+   ],
+   "search_terms": [
+    "chukar",
+    "chukar partridge",
+    "shot size",
+    "chukar load",
+    "upland load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "6",
+    "distance_framing": "Chukar flush below you and go downhill fast, which turns a 25-yard bird into a 40-yard bird while you are still mounting the gun. No. 6 is the working answer for that. No. 7\u00bd is for the covey that holds tight in front of a dog and gets up inside 25 yards.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "Tougher and more heavily feathered than a quail, and almost always shot going away and dropping \u2014 the extra pellet weight is what still gets through at the back end of the shot.",
+   "watch_out": "The distance you think you shot at in chukar country is usually short of the truth. Pattern the gun at 40 yards before deciding the load is fine.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "Water, for you and for the dog. Chukar country punishes both."
+   ]
+  },
+  {
+   "id": "pheasant",
+   "species_label": "Pheasant",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Pheasant"
+    }
+   ],
+   "search_terms": [
+    "pheasant",
+    "ring-necked pheasant",
+    "rooster",
+    "shot size",
+    "pheasant load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 6 to No. 4",
+    "finest": "6",
+    "coarsest": "4",
+    "working_answer": "5",
+    "distance_framing": "Over a good dog inside 30 yards, No. 6 is enough bird-for-pellet. Wild late-season roosters getting up at 35 to 45 yards are what No. 5 and No. 4 are for \u2014 a rooster carries a lot of feather and a long tail that makes him look closer than he is.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "A big, heavily feathered bird that runs after it is hit. This is the first upland bird where penetration matters more than pattern density, which is why the band starts where the small-bird band ends.",
+   "watch_out": "Cripples cost more birds than misses do on pheasant. If you are picking up runners, go one step coarser before you go one step tighter on choke.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 the bag changes after the first two days, and the archery and falconry rows are their own thing.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "Whether the ground you are on runs a pheasant programme with rules of its own."
+   ]
+  },
+  {
+   "id": "wild-turkey",
+   "species_label": "Wild turkey",
+   "type": "tips",
+   "quarry_size": "large_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Wild Turkey"
+    }
+   ],
+   "search_terms": [
+    "wild turkey",
+    "turkey",
+    "gobbler",
+    "tom",
+    "shot size",
+    "turkey load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 6 to No. 4",
+    "finest": "6",
+    "coarsest": "4",
+    "working_answer": "5",
+    "distance_framing": "A turkey is killed in the head and neck, not the body, so this is a patterning problem measured on paper at the distance you actually intend to shoot \u2014 for most hunters 40 yards and in. No. 5 is the broad answer. No. 4 for the longest shot you would take; No. 6 when your gun and choke put enough pellets inside a ten-inch circle with it. The dense tungsten loads change the arithmetic completely and are commonly run finer still.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "The target is a few square inches of head and neck. How many pellets land inside that circle at your chosen distance decides the outcome; pellet size matters only because it changes how many of them arrive with enough left to break bone.",
+   "watch_out": "Pattern the specific gun, choke and shell together on paper before the season opens. A turkey load that patterns beautifully in one barrel can leave holes in another, and no shot size fixes that.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The shot-size record linked on this card has a turkey clause in it. Read it before you buy a turkey load, not after.",
+    "The seasons table above \u2014 fall and spring are separate hunts with separate bags.",
+    "Your pattern, on paper, at the distance you plan to shoot."
+   ]
+  },
+  {
+   "id": "grouse",
+   "species_label": "Sooty (blue) and ruffed grouse",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Sooty (Blue) / Ruffed Grouse"
+    }
+   ],
+   "search_terms": [
+    "grouse",
+    "sooty grouse",
+    "blue grouse",
+    "ruffed grouse",
+    "shot size",
+    "grouse load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "7.5",
+    "distance_framing": "Forest grouse are close-cover birds \u2014 most shots are inside 25 yards through timber, where No. 7\u00bd and the most open choke you own do the work. No. 6 is for the bird that flushes across an opening and is already 35 yards out before the gun is up.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "Not a hard bird to kill, but a hard bird to hit. Everything about the load should be aimed at a wide, even pattern arriving quickly.",
+   "watch_out": "A sooty grouse sitting high in a conifer is a different shot from a ruffed grouse in an alder bottom. The vertical shot is longer than it looks and is the one worth carrying the coarser shell for.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Pistols and revolvers for sooty and ruffed grouse",
+     "record": "upland_grouse_handgun"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "This card is about shot. The other records linked here cover the rest of what may be carried."
+   ]
+  },
+  {
+   "id": "band-tailed-pigeon",
+   "species_label": "Band-tailed pigeon",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Band-tailed Pigeon"
+    }
+   ],
+   "search_terms": [
+    "band-tailed pigeon",
+    "bandtail",
+    "pigeon",
+    "shot size",
+    "pigeon load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "6",
+    "distance_framing": "Band-tails are usually pass-shot high over a ridge, a mineral spring or a fruiting tree, and the birds are further out than the eye wants to believe. No. 6 for the ordinary pass at 30 to 40 yards; No. 7\u00bd only for close birds decoying to water.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "A big, fast, high-flying pigeon shot at genuine distance. This is the bird on the upland page where hunters most often under-estimate the range and under-gun the shot as a result.",
+   "watch_out": "The season is short and the bag is small, so every shell counts more than usual. Range estimation, not shot size, is what most band-tail hunters actually need to fix.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 the north and south zones open months apart.",
+    "The shot-size and gauge record linked on this card, before you buy shells.",
+    "Whether a report card or a validation is on your licence for this bird."
+   ]
+  },
+  {
+   "id": "snipe",
+   "species_label": "Snipe",
+   "type": "tips",
+   "quarry_size": "small_bird",
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Snipe"
+    }
+   ],
+   "search_terms": [
+    "snipe",
+    "wilson's snipe",
+    "jacksnipe",
+    "shot size",
+    "snipe load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 6",
+    "finest": "7.5",
+    "coarsest": "6",
+    "working_answer": "7.5",
+    "distance_framing": "Snipe get up underfoot and jink, so most shots are taken inside 25 yards, once the bird has settled into a line. No. 7\u00bd throughout. No. 6 only if the same gun is carrying you through a duck marsh on the same morning.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "A very small bird, taken very close, on erratic flight. Pattern density and an open choke are the whole answer, and a coarser pellet only subtracts pellets from a pattern that needs every one of them.",
+   "watch_out": "Snipe are hunted on wet ground where ducks are also flying. What suits one bird is not what suits the other, and swapping shells in a hurry is how the wrong shell gets fired.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The shot-size and gauge record linked on this card, before you buy shells.",
+    "If ducks are also on the day's plan, the duck card carries a materials chip this one does not."
+   ]
+  },
+  {
+   "id": "ducks",
+   "species_label": "Ducks",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Ducks"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Scaup"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Ducks only"
+    }
+   ],
+   "search_terms": [
+    "ducks",
+    "duck",
+    "mallard",
+    "teal",
+    "pintail",
+    "scaup",
+    "shot size",
+    "duck load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 4 to BB",
+    "finest": "4",
+    "coarsest": "BB",
+    "working_answer": "2",
+    "distance_framing": "Teal, wood ducks and wigeon decoying inside 25 yards are a No. 4 proposition. Mallards and pintail working the blocks at 25 to 35 yards are what No. 2 and No. 3 are for. BB is for big late-season divers and for the pass shot at 40 yards and beyond, where the pellet has to still be carrying when it arrives.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead",
+    "nontoxic_waterfowl"
+   ],
+   "reason": "Steel and the other nontoxic materials give up speed and energy faster than lead did, so duck loads are chosen a size or two coarser than the lead numbers older references quote. The band is wide because a teal over decoys and a late-season diver on a pass are genuinely different problems.",
+   "watch_out": "Going coarser than the shot needs empties the pattern. Most missed ducks are missed rather than under-penetrated, and a hole in the pattern at 35 yards is what a BB load buys you when the shot was really a 25-yard shot.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nontoxic shot for waterfowl, coot and moorhen",
+     "record": "migratory_nontoxic_shot"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 zones, split seasons and species-within-the-bag all differ, and scaup has dates of its own.",
+    "The materials record linked on this card, before you buy shells.",
+    "The refuge or wildlife area you are hunting, which can add more on top."
+   ]
+  },
+  {
+   "id": "geese",
+   "species_label": "Geese",
+   "type": "tips",
+   "quarry_size": "large_bird",
+   "species_join": [
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Geese"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "All Canada Geese"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Dark and white geese"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "White-fronted geese"
+    },
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "White Geese"
+    }
+   ],
+   "search_terms": [
+    "geese",
+    "goose",
+    "canada goose",
+    "snow goose",
+    "specklebelly",
+    "white-fronted goose",
+    "shot size",
+    "goose load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 2 to T",
+    "finest": "2",
+    "coarsest": "T",
+    "working_answer": "BB",
+    "distance_framing": "Snow geese and specklebellies decoying inside 30 yards die cleanly to No. 2 and BB. Big Canada geese, and any goose at 40 yards and past it, are what BBB and T are for. Body weight and range move together here more than with any other bird on this list.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead",
+    "nontoxic_waterfowl"
+   ],
+   "reason": "A large bird with heavy feathers and a lot of bone in front of the vitals. Penetration is the whole problem, and the coarse end of the band exists because the pellet has to still be moving once it is through all of that.",
+   "watch_out": "Coarse pellets mean few pellets. A T-shot load in a small gauge can put so few pellets in the air that a 30-yard goose flies through the pattern, which is why BB is the working answer over decoys rather than the biggest thing on the shelf.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nontoxic shot for waterfowl, coot and moorhen",
+     "record": "migratory_nontoxic_shot"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 dark geese, white geese and the late seasons are each their own row, by area.",
+    "The materials record linked on this card, before you buy shells.",
+    "The coarse end of this band sits at the top of what the shot-size record allows for. Read that record rather than assuming."
+   ]
+  },
+  {
+   "id": "black-brant",
+   "species_label": "Black brant",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Black Brant"
+    }
+   ],
+   "search_terms": [
+    "black brant",
+    "brant",
+    "shot size",
+    "brant load",
+    "goose load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 4 to BB",
+    "finest": "4",
+    "coarsest": "BB",
+    "working_answer": "2",
+    "distance_framing": "Brant are a coastal, close-decoying bird and a good deal smaller than a Canada goose \u2014 most shots are inside 30 yards over the eelgrass. No. 2 covers nearly all of it. No. 4 for birds in tight, and BB only for the long, windy edge of the day.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead",
+    "nontoxic_waterfowl"
+   ],
+   "reason": "Sized between a big duck and a small goose, and hunted at duck ranges. A goose load is more pellet than a brant needs and costs pattern for nothing.",
+   "watch_out": "The temptation is to load for a goose because the bird is one. Brant are not Canadas, and the goose end of the shelf is the wrong end for them.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nontoxic shot for waterfowl, coot and moorhen",
+     "record": "migratory_nontoxic_shot"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 brant has its own zones and its own short season.",
+    "The materials record linked on this card, before you buy shells.",
+    "Whether a brant tag or report card sits on your licence."
+   ]
+  },
+  {
+   "id": "coot-moorhen",
+   "species_label": "Coot and moorhen",
+   "type": "tips",
+   "quarry_size": "medium_bird",
+   "species_join": [
+    {
+     "surface": "hunt_waterfowl",
+     "match": "row_species",
+     "value": "Coots & Moorhens"
+    }
+   ],
+   "search_terms": [
+    "coot",
+    "moorhen",
+    "mudhen",
+    "common moorhen",
+    "shot size",
+    "coot load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 6 to No. 4",
+    "finest": "6",
+    "coarsest": "4",
+    "working_answer": "5",
+    "distance_framing": "Coot are usually taken close, on or just off the water, inside 30 yards. No. 6 is enough for that. No. 4 for birds getting up at the far edge of the decoys, or running along the surface before they lift.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead",
+    "nontoxic_waterfowl"
+   ],
+   "reason": "A soft-bodied bird taken at short range, but one that dives and swims off when hit lightly \u2014 which argues for a pellet with enough weight to finish the job rather than the finest thing in the bag.",
+   "watch_out": "A lightly hit coot goes under and is rarely recovered. That, rather than the shot size, is the reason to pass on the long ones.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nontoxic shot for waterfowl, coot and moorhen",
+     "record": "migratory_nontoxic_shot"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The materials record linked on this card, which names coot and moorhen by name.",
+    "That you can tell a coot from the ducks it is sitting among before the gun comes up."
+   ]
+  },
+  {
+   "id": "rabbit",
+   "species_label": "Rabbits and hares",
+   "type": "tips",
+   "quarry_size": "small_mammal",
+   "species_join": [
+    {
+     "surface": "hunt_small_game",
+     "match": "row_species",
+     "value": "Rabbits & Varying Hare"
+    },
+    {
+     "surface": "hunt_small_game",
+     "match": "row_species",
+     "value": "Jackrabbit"
+    }
+   ],
+   "search_terms": [
+    "rabbit",
+    "cottontail",
+    "jackrabbit",
+    "varying hare",
+    "snowshoe hare",
+    "shot size",
+    "rabbit load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 7\u00bd to No. 4",
+    "finest": "7.5",
+    "coarsest": "4",
+    "working_answer": "6",
+    "distance_framing": "A cottontail bolting through brush at 20 yards is a No. 7\u00bd or No. 6 shot. A jackrabbit at 35 to 45 yards across open ground is a different animal entirely, and is what No. 4 is for \u2014 bigger body, tougher hide, longer shot.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "The band is wide because it covers two very different animals. Cottontails are small and close; jackrabbits are large and taken at distance, and one shell will not do both well.",
+   "watch_out": "Brush eats pattern. Where the shot has to go through cover, an open choke and more pellets beat a coarser pellet and a tighter choke almost every time.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Rifles and pistols, for rabbits and squirrels only",
+     "record": "small_game_rifles_and_pistols"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above \u2014 cottontails, hares and jackrabbits do not share one row.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "This card is about shot. A rifle record is linked here too, and it is its own subject."
+   ]
+  },
+  {
+   "id": "tree-squirrel",
+   "species_label": "Tree squirrel",
+   "type": "tips",
+   "quarry_size": "small_mammal",
+   "species_join": [
+    {
+     "surface": "hunt_small_game",
+     "match": "row_species",
+     "value": "Tree Squirrel Zone Map (PDF)"
+    }
+   ],
+   "search_terms": [
+    "tree squirrel",
+    "squirrel",
+    "grey squirrel",
+    "fox squirrel",
+    "shot size",
+    "squirrel load"
+   ],
+   "shot_sizes": {
+    "range_label": "No. 6 to No. 4",
+    "finest": "6",
+    "coarsest": "4",
+    "working_answer": "6",
+    "distance_framing": "The shot that matters is straight up into a canopy at 25 to 40 yards, through branches and leaves. No. 6 is the working answer. No. 4 is for the high, heavy-timber shot where the pellet has to arrive with something left after clipping a limb.",
+    "note": null
+   },
+   "material_chips": [
+    "nonlead"
+   ],
+   "reason": "A small animal with a surprisingly tough hide and dense fur, taken at an awkward upward angle where the pattern has already been thinned by cover. Pellet weight buys back the margin the angle takes away.",
+   "watch_out": "Shooting up means everything that misses keeps going. Know what is beyond the tree, and treat a canopy as cover rather than as a backstop.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Rifles and pistols, for rabbits and squirrels only",
+     "record": "small_game_rifles_and_pistols"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above, and the tree squirrel zone map it points at.",
+    "The shot-size record linked on this card, before you buy shells.",
+    "This card is about shot. A rifle record is linked here too, and it is its own subject."
+   ]
+  },
+  {
+   "id": "greater-sage-grouse",
+   "species_label": "Greater sage-grouse",
+   "type": "no_tip",
+   "quarry_size": null,
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "Greater Sage-grouse"
+    }
+   ],
+   "search_terms": [
+    "greater sage-grouse",
+    "sage grouse",
+    "sage-grouse",
+    "shot size"
+   ],
+   "shot_sizes": null,
+   "material_chips": [],
+   "reason": null,
+   "watch_out": null,
+   "why": "We publish no shot recommendation for greater sage-grouse. Read the seasons table above first \u2014 for this bird it decides whether there is a hunt at all in a given year, and in some years the answer is no. Beyond that, this is a hunt very few Californians ever go on, and we have no general practice worth passing on that would not simply be us guessing on your behalf.",
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above, which is the authority on whether this hunt exists this year.",
+    "The shot-size and gauge records linked on this card, if you do end up going.",
+    "Whatever the drawing paperwork itself tells you."
+   ]
+  },
+  {
+   "id": "white-tailed-ptarmigan",
+   "species_label": "White-tailed ptarmigan",
+   "type": "no_tip",
+   "quarry_size": null,
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "table_species",
+     "value": "White-tailed Ptarmigan"
+    }
+   ],
+   "search_terms": [
+    "white-tailed ptarmigan",
+    "ptarmigan",
+    "shot size"
+   ],
+   "shot_sizes": null,
+   "material_chips": [],
+   "reason": null,
+   "watch_out": null,
+   "why": "We publish no shot recommendation for white-tailed ptarmigan. The season is short, the ground is high, and this is a bird almost nobody in California hunts. We have no body of general practice to draw on that would be any better than what you would reason out for yourself from the grouse card, and putting a number here would be inventing one.",
+   "gear_rules_link": [
+    {
+     "label": "What may be used on resident small game",
+     "record": "small_game_whitelist_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count and the plug",
+     "record": "small_game_shotgun_gauge_plug"
+    },
+    {
+     "label": "Shot size, and the tighter limit for turkey",
+     "record": "small_game_shot_size"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The shot-size and gauge records linked on this card.",
+    "The grouse card in this file, which is the nearest honest neighbour we have."
+   ]
+  },
+  {
+   "id": "spotted-and-ringed-turtle-dove",
+   "species_label": "Spotted dove and ringed turtle dove",
+   "type": "no_tip",
+   "quarry_size": null,
+   "species_join": [
+    {
+     "surface": "hunt_upland",
+     "match": "row_species",
+     "value": "Spotted Dove, and Ringed Turtle Dove"
+    }
+   ],
+   "search_terms": [
+    "spotted dove",
+    "ringed turtle dove",
+    "turtle dove",
+    "shot size"
+   ],
+   "shot_sizes": null,
+   "material_chips": [],
+   "reason": null,
+   "watch_out": null,
+   "why": "We publish no separate shot recommendation for spotted dove or ringed turtle dove. Both are on the table above because the regulations name them, but the birds themselves are scarce and scattered enough in California that almost nobody sets out for one on purpose. If you do take a shot at one it will be from a dove field, and the mourning dove card is the honest answer \u2014 we would rather send you there than invent a distinct recommendation for a bird we have no distinct practice for.",
+   "gear_rules_link": [
+    {
+     "label": "What may be used on migratory game birds",
+     "record": "migratory_authorized_methods_leadin"
+    },
+    {
+     "label": "Shotguns: gauge, shell count, the plug, and shot size",
+     "record": "migratory_shotgun_gauge_plug_shotsize"
+    },
+    {
+     "label": "Nonlead ammunition, statewide, for all wildlife",
+     "record": "nonlead_headline"
+    }
+   ],
+   "must_check": [
+    "The seasons table above.",
+    "The mourning dove card in this file.",
+    "The rule records linked here, before you buy shells."
+   ]
+  }
+ ]
+}

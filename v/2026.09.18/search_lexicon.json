@@ -1,0 +1,390 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-18T19:00:43.244510+00:00",
+ "curation_status": "verified",
+ "content_class": "search_vocabulary",
+ "note": "The words people type that this app's own data never prints, and the question scaffolding that surrounds them. NOTHING IN THIS FILE IS A RULE. An alias states no regulation, quotes no source and carries no citation: it says only that a word points at a record, and the record still answers in its own cited words. Aliases are consulted ONLY by the term pass, which runs only where a phrase search returned nothing, so nothing here can change a result that works today. `scaffold_tokens` is the single source of truth for the stopwords the query layer strips \u2014 it ships here, in the dataset, so the app and the data cannot drift apart on OTA.",
+ "corpus": {
+  "name": "Mined CA hunting/fishing question corpus",
+  "mined_on": "2026-09-04",
+  "families": "F1 CDFW FAQ surfaces, F2 community forums, F3 search demand, F4 retail/practical",
+  "rule_applied": "Questions and phrasings only. No answer text was harvested from any source.",
+  "phrasings_examined": 205,
+  "how_this_file_was_derived": "Every quoted phrasing in the corpus was tokenised and each token tested against an approximation of what the app indexes today. A word became an alias candidate only if it appeared in a real phrasing, appeared nowhere in the shipped dataset, and named a record the app actually ships. Words that named nothing the app carries (ticket, suppressors, passport, scores, socal, registration, license-exempt) were deliberately NOT aliased: the honest outcome for those queries is the empty state that names the word. Words that survived only as grammar became scaffold tokens."
+ },
+ "scaffold_note": "Every token here is attested in the mined corpus's own phrasings. Obvious siblings no attested phrasing used \u2014 could, your, was, were, legally \u2014 are deliberately absent. \"should\" is here on a later attestation than the mined corpus: it is the owner's own question in the 2026-09-04 search design study, \"what shot should I use for dove or duck\", carried verbatim into the R14 build brief. Without it that question strict-ANDs on a word that names nothing and answers nobody: this list records what people actually typed, not what a stopword list usually contains. The legality frame (legal, illegal, allowed, banned, law, laws) is stripped for one reason: in this domain those words are how a question is FRAMED ('is X legal', 'are X banned'), while in the data they are ordinary words that appear in unrelated records, so keeping them as search terms narrows a strict AND onto the wrong records. Stripping a scaffold token is the only sanctioned dropping of a query word; a content term that matches nothing is never dropped, it is named.",
+ "scaffold_tokens": [
+  "a",
+  "about",
+  "allowed",
+  "am",
+  "an",
+  "and",
+  "any",
+  "are",
+  "at",
+  "banned",
+  "be",
+  "between",
+  "but",
+  "ca",
+  "california",
+  "can",
+  "confused",
+  "did",
+  "difference",
+  "do",
+  "does",
+  "for",
+  "from",
+  "get",
+  "got",
+  "had",
+  "happens",
+  "has",
+  "have",
+  "how",
+  "i",
+  "if",
+  "illegal",
+  "in",
+  "is",
+  "it",
+  "law",
+  "laws",
+  "legal",
+  "many",
+  "me",
+  "much",
+  "my",
+  "need",
+  "needs",
+  "of",
+  "on",
+  "or",
+  "regs",
+  "regulation",
+  "regulations",
+  "should",
+  "still",
+  "that",
+  "the",
+  "there",
+  "this",
+  "to",
+  "use",
+  "using",
+  "we",
+  "what",
+  "when",
+  "where",
+  "which",
+  "who",
+  "why",
+  "will",
+  "with",
+  "would",
+  "you"
+ ],
+ "corpora_note": "How a maps_to target resolves. `record_path` and `id_fields` are how the PIPELINE finds the record and rebuilds its id; `search_hit_prefix` is how the APP turns that id back into the search entry it already builds (prefix + id == SearchIndex's hit id). Both halves are declared here so neither side can invent its own convention. A corpus declared and never used is a build failure.",
+ "corpora": [
+  {
+   "key": "methods",
+   "file": "hunt_methods.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "id"
+   ],
+   "name_fields": [
+    "title"
+   ],
+   "search_hit_prefix": "method-",
+   "search_category": "methods"
+  },
+  {
+   "key": "statewide",
+   "file": "statewide_defaults.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "code"
+   ],
+   "name_fields": [
+    "title"
+   ],
+   "search_hit_prefix": "statewide-",
+   "search_category": "freshwaterLimits",
+   "note": "The app indexes statewide defaults per SECTION, not per record: SearchIndex groups the records by the section number it derives from `code` (\"5.75(a)\" -> \"5.75\") and builds one row with id \"statewide-\" + that number. So a target here must name a SECTION-HEAD record \u2014 one whose `code` IS the bare section number \u2014 or prefix + id names a row the app never built. Swift's SearchLexiconTests.everyLexiconTargetResolvesToAnIndexedRecord is the half of this gate that can see the built index."
+  },
+  {
+   "key": "ocean_species",
+   "file": "ocean_species.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "ccr_section",
+    "species"
+   ],
+   "name_fields": [
+    "species"
+   ],
+   "search_hit_prefix": "ocean-species-",
+   "search_category": "oceanSpecies"
+  },
+  {
+   "key": "requirements",
+   "file": "requirements.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "id"
+   ],
+   "name_fields": [
+    "summary"
+   ],
+   "search_hit_prefix": "requirement-",
+   "search_category": "requirements"
+  },
+  {
+   "key": "documents",
+   "file": "document_rules.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "id"
+   ],
+   "name_fields": [
+    "title"
+   ],
+   "search_hit_prefix": "document-rule-",
+   "search_category": "documents"
+  },
+  {
+   "key": "angling_tips",
+   "file": "fishing_tips.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "id"
+   ],
+   "name_fields": [
+    "species_label"
+   ],
+   "search_hit_prefix": "tip-",
+   "search_category": "anglingTips"
+  },
+  {
+   "key": "criminal_record",
+   "file": "criminal_record_hunting.json",
+   "record_path": "records[]",
+   "id_fields": [
+    "id"
+   ],
+   "name_fields": [
+    "title"
+   ],
+   "search_hit_prefix": "criminal-record-",
+   "search_category": "criminalRecord",
+   "note": "R19. The hub is a RECORD (`id: \"home\"`), not a bare screen, so a target reads `criminal_record:home` and the app's row id is `criminal-record-home` \u2014 prefix + record id, the same convention as every corpus above. The section's record TITLES are registered in the builder's name sweep as well, which is why six of the design's seventeen candidate aliases were rejected as already-answered and are recorded in `criminal_record_hunting_2026.json`'s `dropped_aliases` rather than shipped here."
+  }
+ ],
+ "aliases": [
+  {
+   "alias": "poundage",
+   "maps_to": [
+    "methods:archery_draw_weight",
+    "methods:archery_no_maximum_draw_weight"
+   ],
+   "source": "design_study",
+   "basis": "The design study's own seed, approved by the owner on 2026-09-04. \u00a7 354(f) is printed in pounds of draw weight and never uses the word poundage; the archery records are what answer it, including the record that says no maximum is stated."
+  },
+  {
+   "alias": "stripper",
+   "maps_to": [
+    "statewide:5.75",
+    "ocean_species:27.85Bass, Striped",
+    "angling_tips:striped-bass-inland"
+   ],
+   "source": "corpus",
+   "basis": "Forum title, corpus theme 6: \"Halibut/Stripper, Rockfish and Salmon fishing regulation?\" A misspelling of striper that the corpus flags by name as belonging in the synonym table. The word appears nowhere in the dataset."
+  },
+  {
+   "alias": "striper",
+   "maps_to": [
+    "statewide:5.75",
+    "ocean_species:27.85Bass, Striped",
+    "angling_tips:striped-bass-inland"
+   ],
+   "source": "corpus",
+   "basis": "The corpus's own note on theme 6: the misspelling \"Stripper\"\u2192striper belongs in the synonym table. Every California record spells the fish \"Striped Bass\"; nobody types that."
+  },
+  {
+   "alias": "crawdad",
+   "maps_to": [
+    "statewide:5.35"
+   ],
+   "source": "corpus",
+   "basis": "Corpus theme 27, stated outright: \"'Crawdad' is the user's word\". The section is titled Crayfish and the word crawdad appears in no record."
+  },
+  {
+   "alias": "crawdads",
+   "maps_to": [
+    "statewide:5.35"
+   ],
+   "source": "corpus",
+   "basis": "The plural as it was actually typed, corpus theme 27: \"Do I need a license to catch crawdads (crayfish) in California?\" Shipped as its own alias because alias matching is exact \u2014 this file carries no stemming rule and invents none."
+  },
+  {
+   "alias": "bowfishing",
+   "maps_to": [
+    "statewide:2.25",
+    "statewide:1.23"
+   ],
+   "source": "corpus",
+   "basis": "Corpus theme 26: \"Is bowfishing legal in California?\" The regulations call it Bow and Arrow Fishing (\u00a7 2.25) and Bow and Arrow Fishing Tackle (\u00a7 1.23); the single closed-up word appears in no record."
+  },
+  {
+   "alias": "charter",
+   "maps_to": [
+    "requirements:sport-fishing-license"
+   ],
+   "source": "corpus",
+   "basis": "Corpus theme 30, F4's dominant phrasing: \"Do I need a fishing license on a charter boat in California?\" The app answers the licence half \u2014 the requirement record \u2014 and only that half. Whether a particular boat sells you one is an operator claim the app does not carry."
+  },
+  {
+   "alias": "wear",
+   "maps_to": [
+    "documents:hunting-license-annual",
+    "documents:sport-fishing-license-365"
+   ],
+   "source": "corpus",
+   "basis": "CDFW's own FAQ wording, corpus theme 4: \"Do I have to wear my fishing license?\" The two records carry the field-display verbatim that answers what must be carried and what the CDFW License App may stand in for."
+  },
+  {
+   "alias": "calico",
+   "maps_to": [
+    "ocean_species:28.30Bass - Barred Sand, Kelp, and Spotted Sand",
+    "ocean_species:28.55Rockfish (Sebastes)",
+    "ocean_species:28.59Surfperch"
+   ],
+   "source": "owner_report",
+   "basis": "Three different California fish carry this word, so the bare form points at all three records that govern them rather than picking one. CDFW's Marine Species Portal (marinespecies.wildlife.ca.gov, species API read 2026-09-04) gives Kelp Bass, Paralabrax clathratus, the other common names \"calico bass, bull bass, checkerboard bass\", and carries Calico Rockfish (Sebastes dalli) and Calico Surfperch (Amphistichus koelzi) as species in their own right. Kelp bass is one of the three basses \u00a7 28.30 covers, Sebastes dalli is inside \u00a7 28.55's RCG complex, and \u00a7 28.59 is the surfperch record. A second typed word narrows this to one record by strict AND, because none of the three records' text contains another's name. The word itself is printed in no record: in this dataset it appears only inside ocean.json's quotation of the \u00a7 1.91(a)(1) nearshore-rockfish list, which the app does not index."
+  },
+  {
+   "alias": "calico bass",
+   "maps_to": [
+    "ocean_species:28.30Bass - Barred Sand, Kelp, and Spotted Sand"
+   ],
+   "source": "owner_report",
+   "basis": "The owner's own failed search, reported 2026-09-04: \"calico bass\" returned nothing, because the record is titled \"Bass - Barred Sand, Kelp, and Spotted Sand\" and the word calico appears nowhere on it. CDFW's Marine Species Portal lists calico bass as an other common name for Kelp Bass (Paralabrax clathratus), one of the three species \u00a7 28.30 covers. Carried as its own alias as well as the bare word so this exact query resolves to that one record whatever else the index later gains."
+  },
+  {
+   "alias": "calico rockfish",
+   "maps_to": [
+    "ocean_species:28.55Rockfish (Sebastes)"
+   ],
+   "source": "owner_report",
+   "basis": "The anti-conflation alias, and the reason the bare word may not simply mean bass. Calico Rockfish (Sebastes dalli) is a separate species on CDFW's Marine Species Portal, and the \u00a7 1.91(a)(1) nearshore-rockfish list shipped inside ocean.json names \"calico\" among the nearshore rockfishes. This query must reach \u00a7 28.55, the app's Sebastes record, and never the bass record."
+  },
+  {
+   "alias": "felon",
+   "maps_to": [
+    "criminal_record:home"
+   ],
+   "source": "owner_report",
+   "basis": "The owner's own word, 2026-09-06: \"if someone searches the word felon or felony\". It names the hub record and nothing else, because a person typing it has not yet said which of the two codes they are asking about, and the hub is the only card that says there are two."
+  },
+  {
+   "alias": "felony",
+   "maps_to": [
+    "criminal_record:home"
+   ],
+   "source": "owner_report",
+   "basis": "The owner's second word, same request, same day. Kept as its own alias rather than left to the plural rule, because alias matching here is exact and this file carries no stemming rule and invents none."
+  },
+  {
+   "alias": "felonies",
+   "maps_to": [
+    "criminal_record:home"
+   ],
+   "source": "design_study",
+   "basis": "The plural the section's own design study lists beside the owner's two words. No record title in the section contains a word of this family \u2014 the naming rule keeps the vocabulary in the hub row \u2014 so the alias cannot collide with a title."
+  },
+  {
+   "alias": "convicted",
+   "maps_to": [
+    "criminal_record:home",
+    "criminal_record:licence_absence_criminal_history"
+   ],
+   "source": "design_study",
+   "basis": "The participle a person types about themselves rather than about an offence. It reaches the hub and the record that reports what a search of the whole Fish and Game Code for criminal-history words did not find, because those are the two cards that answer \"and what does that mean for a licence\"."
+  },
+  {
+   "alias": "conviction",
+   "maps_to": [
+    "criminal_record:home",
+    "criminal_record:licence_fgc_12155"
+   ],
+   "source": "design_study",
+   "basis": "The noun form, and the one Fish and Game Code section that turns on counting convictions \u2014 \u00a7 12155's three-in-five-years revocation. Both, because the licence answer and the possession answer are different questions and the hub is what says so."
+  },
+  {
+   "alias": "prohibited person",
+   "maps_to": [
+    "criminal_record:possession_pen_29800",
+    "criminal_record:process_doj_prohibited_categories"
+   ],
+   "source": "design_study",
+   "basis": "The term of art a person is handed by someone else \u2014 a dealer, a form, a court clerk \u2014 and then types. It reaches the statute that states who is barred and the Department of Justice document that lists the categories, so the phrase lands on the two texts rather than on this app's paraphrase of them."
+  },
+  {
+   "alias": "gun rights",
+   "maps_to": [
+    "criminal_record:relief_certificate_of_rehabilitation",
+    "criminal_record:relief_governor_pardon_scope",
+    "criminal_record:relief_ffrr"
+   ],
+   "source": "design_study",
+   "basis": "The phrase in the Judicial Council's own list of what a Certificate of Rehabilitation does not do, and in the name of the federal programme. It is a search key, not a sentence this app says: aliases are matching keys, carry no citation and state no rule, and the permission sweep does not run over them for that reason. The three targets are the three doors the section carries, listed together so the word never resolves to one of them alone."
+  },
+  {
+   "alias": "restore gun rights",
+   "maps_to": [
+    "criminal_record:relief_ffrr",
+    "criminal_record:relief_governor_pardon_scope"
+   ],
+   "source": "design_study",
+   "basis": "The same phrase with the verb a person actually types in front of it. Shipped as its own alias because alias matching is exact, and pointed at the federal restoration card and the pardon-scope card \u2014 the two that answer with what those processes do NOT reach."
+  },
+  {
+   "alias": "expunged",
+   "maps_to": [
+    "criminal_record:relief_pen_1203_4",
+    "criminal_record:div_expungement"
+   ],
+   "source": "design_study",
+   "basis": "California has no statute that uses this word; \u00a7 1203.4 calls it a dismissal. So it is exactly the kind of word this file exists for: it reaches the section that performs the thing people call expungement, and the card that prints the state and federal texts on whether it cures a firearm prohibition side by side."
+  },
+  {
+   "alias": "expungement",
+   "maps_to": [
+    "criminal_record:relief_pen_1203_4",
+    "criminal_record:licence_fgc_12166"
+   ],
+   "source": "design_study",
+   "basis": "The noun, and the second target is the point: Fish and Game Code \u00a7 12166 says in terms what a \u00a7 1203.4 dismissal does not do to a wildlife licence revocation. A person typing this word about a hunting licence is asking that question."
+  },
+  {
+   "alias": "pfec",
+   "maps_to": [
+    "criminal_record:process_pfec_pen_30105",
+    "criminal_record:process_pfec_nics_limit"
+   ],
+   "source": "design_study",
+   "basis": "The acronym California DOJ uses for its own form and the app's glossary entry. It is the word a person types who has been told to \"get a PFEC\" and does not know what one is. The two targets are the statute behind the check and the Department's own sentence about what the check does not see."
+  },
+  {
+   "alias": "rap sheet",
+   "maps_to": [
+    "criminal_record:process_record_review"
+   ],
+   "source": "design_study",
+   "basis": "The spoken name for a record review, printed on no page this app quotes. It reaches the record-review card, which carries the Department's own protective sentence \u2014 that no person or agency may require you to obtain a copy of your record \u2014 so the word lands on the sentence that protects the person typing it."
+  }
+ ]
+}
