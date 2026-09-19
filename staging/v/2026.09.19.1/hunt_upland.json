@@ -1,0 +1,700 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-19T13:53:23.131820+00:00",
+ "source": {
+  "name": "CDFW Upland Game Birds hunting page",
+  "url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+  "verified_at": "2026-09-19"
+ },
+ "records": [
+  {
+   "heading": "2026 - 2027\u00a0Seasons and Limits - Pheasant",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General / Statewide",
+      "Nov 14\u00a0- Dec 27",
+      "2 males per day for first two days of the season; 3 males per day after the first two days of the season.",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-14",
+        "close": "--12-27"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Archery Only",
+      "Oct 10\u00a0- Nov 1 Dec 28\u00a0- Jan 24",
+      "2 pheasants per day for first two days of the season; 3 pheasants per day after the first two days of the season. The daily archery bag may contain not more than 1 female pheasant.",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Falconry",
+      "Aug 15\u00a0- Feb 28",
+      "2 pheasants per day for first two days of the season; 3 pheasants per day after the first two days of the season. The daily falconry bag may contain birds of either sex. Hawking hours are Sunrise to Sunset.",
+      "Triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--02-28"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Quail",
+   "caption": null,
+   "columns": [
+    "Season / Area ( Zone Map (PDF )",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Zone Q1 (Mountain Quail Only)",
+      "Sep 12\u00a0- Oct 16",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-12",
+        "close": "--10-16"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Zone Q1 (All Quail)",
+      "Oct 17\u00a0- Jan 31",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-17",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Zone Q2 (All Quail)",
+      "Sep 26\u00a0- Jan 31",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-26",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Zone Q3 (All Quail)",
+      "Oct 17\u00a0- Jan 31",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-17",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Early Season for Hunters with Junior Hunting Licenses in Mojave National Preserve",
+      "October 3\u00a0- 4",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Archery Only",
+      "Aug 15\u00a0- Sep 4",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--09-04"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Falconry",
+      "Aug 15\u00a0- Feb 28",
+      "10",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--02-28"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Chukar",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General / Statewide",
+      "Oct 17\u00a0- Jan 31",
+      "6",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-17",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Archery Only",
+      "Aug 15\u00a0- Sep 4",
+      "6",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--09-04"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Falconry",
+      "Aug 15\u00a0- Feb 28",
+      "6",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--02-28"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Greater Sage-grouse",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General, Archery / North Mono Zone only (hunting by permit only)",
+      "Closed",
+      "0 permits adopted for all four hunt zones. Sage-grouse hunting for general, archery, and falconry seasons is by permit only. See instructions",
+      "0 permits adopted for all four hunt zones. Sage-grouse hunting for general, archery, and falconry seasons is by permit only. See instructions"
+     ],
+     "season": {
+      "kind": "closed"
+     }
+    },
+    {
+     "cells": [
+      "Falconry",
+      "Closed",
+      "0 permits adopted for all four hunt zones. Sage-grouse hunting for general, archery, and falconry seasons is by permit only. See instructions",
+      "0 permits adopted for all four hunt zones. Sage-grouse hunting for general, archery, and falconry seasons is by permit only. See instructions"
+     ],
+     "season": {
+      "kind": "closed"
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Sooty (Blue) / Ruffed Grouse",
+   "caption": null,
+   "columns": [
+    "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General",
+      "Sep 12\u00a0- Oct 12",
+      "2; All of one species or mixed",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-12",
+        "close": "--10-12"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Archery Only",
+      "Aug 15- Sep 4",
+      "2; All of one species or mixed",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--09-04"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Falconry",
+      "Aug 15\u00a0- Feb 28",
+      "2; All of one species or mixed",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--02-28"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - White-tailed Ptarmigan",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General & Archery / Statewide",
+      "Sep 12\u00a0- 20",
+      "2 per day",
+      "2 per season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-12",
+        "close": "--09-20"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Falconry / Statewide",
+      "Aug 15\u00a0- Feb 28",
+      "2 per day",
+      "2 per season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-15",
+        "close": "--02-28"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Wild Turkey",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Fall",
+      "Fall",
+      "Nov 14\u00a0- Dec 13",
+      "1 either sex",
+      "2 per season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-14",
+        "close": "--12-13"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Spring",
+      "General",
+      "Mar 27\u00a0- May 2, 2027",
+      "1 bearded",
+      "3 per season, combined"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Spring",
+      "Archery Only",
+      "May 3\u00a0- May 16, 2027",
+      "1 bearded",
+      "3 per season, combined"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Spring",
+      "Additional Junior",
+      "Mar 20\u00a0- 21, 2027& May 3\u00a0- 16, 2027",
+      "1 bearded",
+      "3 per season, combined"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Dove",
+   "caption": null,
+   "columns": [
+    "Species",
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Mourning Dove and White-winged Dove",
+      "Statewide",
+      "Sep 1 - 15 & Nov 14\u00a0- Dec 28",
+      "15, up to 10 of which may be white-winged doves",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-01",
+        "close": "--09-15"
+       },
+       {
+        "open": "--11-14",
+        "close": "--12-28"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Spotted Dove, and Ringed Turtle Dove",
+      "Statewide",
+      "Sep 1 - 15 & Nov 14\u00a0- Dec 28",
+      "No limit",
+      "No limit"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-01",
+        "close": "--09-15"
+       },
+       {
+        "open": "--11-14",
+        "close": "--12-28"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Eurasian Collared-dove",
+      "Statewide",
+      "All Year",
+      "No limit",
+      "No limit"
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Band-tailed Pigeon",
+   "caption": null,
+   "columns": [
+    "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "North",
+      "Sep 19\u00a0- 27",
+      "2per day",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-19",
+        "close": "--09-27"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "South",
+      "Dec 19\u00a0- 27",
+      "2per day",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--12-19",
+        "close": "--12-27"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026\u00a0- 2027\u00a0Seasons and Limits - Snipe",
+   "caption": null,
+   "columns": [
+    "Season / Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "General / Statewide",
+      "Oct 17\u00a0- Jan\u00a031",
+      "8",
+      "Triple the daily bag"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-17",
+        "close": "--01-31"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  }
+ ]
+}

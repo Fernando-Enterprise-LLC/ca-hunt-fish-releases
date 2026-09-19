@@ -1,24 +1,24 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.09.19",
- "published_at": "2026-09-19T11:18:39.647265+00:00",
+ "dataset_version": "2026.09.19.1",
+ "published_at": "2026-09-19T13:53:38.516436+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
-   "sha256": "cacae6eca029a66ee0e9e54990e8632789337b38417af77422ff0a980a079152",
+   "sha256": "a3d558db5b2776cdfea79044a3868bd4e1e8ea87b9e272ec1c4e9ac77f35a125",
    "bytes": 694251
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
-   "sha256": "679762e51c86bf2f85779a02e6c1b0440dd82ad242c488ed1a1f66bce76ecd2b",
+   "sha256": "43b56eda14b3ed28cefb86204053bdd172e86d7c9569ab217c694afc5e37f8c0",
    "bytes": 556964
   },
   {
    "name": "mpas.json",
    "domain": "mpa",
-   "sha256": "7c57b04a81fe1589b292f5d2904566a498a1086582e15d826990cb20032dea98",
+   "sha256": "45bffe0e7c528d0a95a5bc2fe239dc2e93c9b47d6b33540d0ed08fb25627900b",
    "bytes": 212223
   },
   {
@@ -36,43 +36,43 @@
   {
    "name": "ocean_species.json",
    "domain": "ocean",
-   "sha256": "59ea4f0a3208b6acb059ad9f2dc0343373b8a4e1f804a429d31ff37165fa1f8d",
+   "sha256": "bdcadefbb18247ef2b86f0d617fad99767c4ad66aada19c137228abe0d029b8d",
    "bytes": 66395
   },
   {
    "name": "hunt_big_game.json",
    "domain": "big_game",
-   "sha256": "1359627122837ef7cfec7d204b24cf2a91bbd87d8a4da97139722a0ad87d663e",
+   "sha256": "e780ed8fa944ce30826e3e55f27e6ac93f0ed54fdd602447aa0bc747c624ba1e",
    "bytes": 5134
   },
   {
    "name": "hunt_deer.json",
    "domain": "deer",
-   "sha256": "4d7f6ef43317289f1434580884536ff6131ace78f8e230d5539b654e61101615",
+   "sha256": "6c744ac90caee6ee93e7b6e8b24ebb9eb355fc29cd5d7266efe46cb2b4d7d322",
    "bytes": 269830
   },
   {
    "name": "hunt_shooting_hours.json",
    "domain": "shooting_hours",
-   "sha256": "52f37a16b054937bda1523612100ba5024e8aae97b1930da6ecdf3a2a5619011",
+   "sha256": "2465e5cd2daa415b97a5c61f85f3f7a7cf3b70f0e2444c6e4b03ac945ca0b74d",
    "bytes": 3331
   },
   {
    "name": "hunt_waterfowl.json",
    "domain": "birds",
-   "sha256": "b829c70198c655488833db31c63507e2a8bee4926af6ea4b0153031a51f7b08d",
+   "sha256": "e5a5b7656e098aba858e17c96f4332d0f00f4967a73df4be2365d438079ed6bc",
    "bytes": 14316
   },
   {
    "name": "hunt_upland.json",
    "domain": "birds",
-   "sha256": "8f0f010330db5cce7d617657ae67d05829f5b8774ef63e01d196794a549a26dd",
+   "sha256": "4010e0476392f8530c176f2e9e60e68300d527055fc1c4078b1b186a7ff95168",
    "bytes": 14768
   },
   {
    "name": "hunt_small_game.json",
    "domain": "birds",
-   "sha256": "43db28010e7730c674aee7b1c8ac6ad3dd866f6284b1cb7205d8d178c7b392d2",
+   "sha256": "259f3267a4d96dc062e014797b99488a3f80d84328970a0bac98c9ee0879fa0c",
    "bytes": 2080
   },
   {
@@ -120,7 +120,7 @@
   {
    "name": "usfs_place_notices.json",
    "domain": "usfs_place_notices",
-   "sha256": "dec25e719f8b8753bf2d1b406534ef22eb785ee01ab57967aaa9c31a50d2ab8c",
+   "sha256": "395c6b93741059c29da0c16477add7b67233b3ab3f2186868b14b12138631651",
    "bytes": 10024
   },
   {
@@ -144,61 +144,61 @@
   {
    "name": "ocean.json",
    "domain": "ocean",
-   "sha256": "12891bf59169b3a31b65751c9562c637eacf99ec936ed52520a58c7b168c923c",
+   "sha256": "d3034e67a990f9baa3f0c05a0018f11e4562357a1e07f2f280670b87a70e9413",
    "bytes": 63221
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
-   "sha256": "97883bd49ec4a770320a622dab1886c77dbb2fc74b7efda68ed705ba0d51f6f4",
+   "sha256": "d839a6fbd856676cab39c415040aef40752ed5b4401cdeb61099950197a84942",
    "bytes": 22562
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
-   "sha256": "542b9e115d71c3e9142c830db162c553916f0908465a7727d59b2d3f67e8cccc",
-   "bytes": 415281
+   "sha256": "3ff43ed1676467cafd28888113f5a8b17e7dc41330294e0c26250884c543c536",
+   "bytes": 415283
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
-   "sha256": "a2324fb86c98453329a821210a25bf73b22f922717938d2de0d8fe935f6ca3aa",
-   "bytes": 32154
+   "sha256": "831f959c8b8be0040e935ec7ef0bd2faa8142ba3071358f8210e968fccee6356",
+   "bytes": 32156
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
-   "sha256": "fa45bf480397e8a773e7749ab9da195d65b7d19b15e595d4c6c8e0119ad27731",
-   "bytes": 64953
+   "sha256": "74f98783e73aca001fb62737d89770277d3750b29dd9f2106ebd1848b98c55eb",
+   "bytes": 64955
   },
   {
    "name": "licenses_fees.json",
    "domain": "licenses",
-   "sha256": "104a834247d82a036663a34cae9af35eb2398633e8e041498dac36fe02379c68",
+   "sha256": "42a565fce381cc42189386bf823f6b8f1bfecd0f53c455bfe0e7848c86f732cd",
    "bytes": 40668
   },
   {
    "name": "shooting_places.json",
    "domain": "shooting_places",
-   "sha256": "938b047b7cba88c2416914d6a3c0731e4455524f201bf8c292d31f08820bf3f2",
+   "sha256": "cd7020cc70ea7ee1d1eb6bf79c09b798c8bee92507c625d13c478f1d93a87657",
    "bytes": 5486
   },
   {
    "name": "spearfishing.json",
    "domain": "spearfishing",
-   "sha256": "7c985d9bba75cfbb647ce10f5864578515cc3bc35b64bdc6131ee503c6ba2f5d",
+   "sha256": "cbd9493354ccf58f3597adb883fd7fe103e769e204a12bb161df63561065ad89",
    "bytes": 8721
   },
   {
    "name": "shark_incidents.json",
    "domain": "shark_incidents",
-   "sha256": "334e8d951c4b35e1d72435566bcfc4640615f4b14976709318db8b50cd176d5b",
+   "sha256": "d64d7a74018be4caece4b6f06a9ead740b2b033992712acae2cc8d4ef1f7a903",
    "bytes": 102629
   },
   {
    "name": "spear_entry_points.json",
    "domain": "coastal_access",
-   "sha256": "00851583088b08d324b61ee035abeb17703582d188cd6d9504fe8a271faf89c5",
+   "sha256": "a93c4d2dbbb9b5c0b5efdae92252bce677c1e5c3828e3c08d9adbe3c304ff318",
    "bytes": 896869
   },
   {
@@ -210,25 +210,25 @@
   {
    "name": "beach_health.json",
    "domain": "beach_health",
-   "sha256": "040d2e888598b1d58957a6a2ff520f4b67f49ed8e84dc53a1e91d136fe3466e8",
+   "sha256": "c49e57638251a150e9de021517b704b640bbe68697abffa3f2edecebaf512366",
    "bytes": 141229
   },
   {
    "name": "beach_stations.json",
    "domain": "beach_stations",
-   "sha256": "81931723375e1e00aa337a655dd2d2c537974794e8779f7632c976a577562004",
+   "sha256": "e0722d2f4ffe852bac7007ea84d9b62749e6b92d003dc4a89466c5e8b411c3ca",
    "bytes": 732784
   },
   {
    "name": "beach_water_quality_standards.json",
    "domain": "water_quality_standards",
-   "sha256": "bf2b610166077c38292ada8746f00bfea414d7bbaa539686aa9095221f4ace24",
+   "sha256": "7a6bc8ac6c5c72ea46b3fd44032cd58847d20ded75de4663c82ba75f79239ae1",
    "bytes": 37251
   },
   {
    "name": "spear_structures.json",
    "domain": "spear_structures",
-   "sha256": "fd1d539f0484474edecbfafc3858ea5942a4766526714157b21678c310faaa08",
+   "sha256": "318a56019108f0616282ac67dbd5e8d7986a51f3ea8021f2ba016546ba685dbd",
    "bytes": 813928
   },
   {
@@ -240,25 +240,25 @@
   {
    "name": "tide_stations.json",
    "domain": "tide_stations",
-   "sha256": "436379c922bcfe05383f10019b453115986514bd9ec478c5fcffdca51613ae98",
+   "sha256": "26583946411f2a3d6e76e58ee7431ee6eb48e561d538e034a5970fd2fc2d846f",
    "bytes": 46381
   },
   {
    "name": "requirements.json",
    "domain": "licenses",
-   "sha256": "c015b1f450332b71a367facd61ca00f3af27a6614d166ab9dd97cd28b08897b1",
+   "sha256": "7b76d3988eb88004770d1acb1607f9645b8104cecc09093b629fe4dc1b91753e",
    "bytes": 25074
   },
   {
    "name": "document_rules.json",
    "domain": "documents",
-   "sha256": "34fbfd13858f716c65d261b4ce3f98a95edd56a930c9b623cb6bd733e72381a0",
+   "sha256": "42b9b3712225eff1a78be5da2e065961159561f0708c5db75ac3a3132493a597",
    "bytes": 48375
   },
   {
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
-   "sha256": "20327ad642d2d0f0c09fa8f50a29fafd9dcf063a52caa84a63a0d8987de5d2ee",
+   "sha256": "fe10b30cf81b755c8e51ce753966a757f0677a1436db3242ff72190dcfef1f70",
    "bytes": 4645180
   },
   {
@@ -276,37 +276,37 @@
   {
    "name": "hunt_methods.json",
    "domain": "methods",
-   "sha256": "b20eb5b9fe816e2e1012bcf0caddc9ba9e6d6179abcc74e06d406fd1862e5701",
+   "sha256": "827c535b629bc94018f1d188a7148539bd31b653a524fb69aceca0461ec71577",
    "bytes": 121373
   },
   {
    "name": "equipment_guidance.json",
    "domain": "tips",
-   "sha256": "c7daf248c986dfc900ca49ee531b652c3ce48cffa59008787f769d52ad640a71",
+   "sha256": "bb197ebac0ecf9a9f2b94a9643c9c0cc6f9ac2bb717bce56da973e2f7404db0f",
    "bytes": 159332
   },
   {
    "name": "hunting_shot_tips.json",
    "domain": "tips",
-   "sha256": "1c3b300b5756aabec62c47124bfa4e2d98c190c110ca7935668bb0a2360b7b42",
+   "sha256": "1943d4c374b010d53a8a6cd97e326058d665a2294b6cb20e1e9b812e2034b18f",
    "bytes": 39444
   },
   {
    "name": "criminal_record_hunting.json",
    "domain": "criminal_record",
-   "sha256": "c965064f769ae6836ec529a968e8d2af63d0d2b3330f77a71888ee2ac3a5c1c1",
+   "sha256": "e317957830d173f71552867c1469feba195d8b89caf207a69a1b64b27430ff88",
    "bytes": 365211
   },
   {
    "name": "fishing_tips.json",
    "domain": "tips",
-   "sha256": "e28876ef4f6587a853149fcd696a16ddaa1970e458075116b35a156ebbacc730",
+   "sha256": "5f9f4f0cef0b184dd2ed49e11c0a14540e48b4baa3e576787f0935ca6e6a41f6",
    "bytes": 32498
   },
   {
    "name": "search_lexicon.json",
    "domain": "tips",
-   "sha256": "968773c12489e7cedcc6432bced853b70db1f4aa83182b4854a3e58367279d58",
+   "sha256": "71e51b90a0c1fb467d1e29ac7c9455e78c8fbe03aa384c0b5c64ffffda01aa6a",
    "bytes": 17621
   },
   {
@@ -350,6 +350,12 @@
    "domain": "notices_current",
    "sha256": "16807737e0b0209e64047e0bb53eeb5a0746180c86e8961e9f77bbcb4c641a41",
    "bytes": 583
+  },
+  {
+   "name": "species_media.json",
+   "domain": "species_media",
+   "sha256": "3d4ad24a2e65e53538364b35ece23c56a324030c81b085fe4d6c797fd47c89b9",
+   "bytes": 249587
   }
  ],
  "domains": [
@@ -603,6 +609,13 @@
    "id": "notices_current",
    "verified_at": "2026-09-19",
    "threshold_days": 2
+  },
+  {
+   "id": "species_media",
+   "verified_at": "2026-09-19",
+   "curation_status": "draft_pending_user_verification",
+   "non_regulatory": true,
+   "threshold_days": 180
   }
  ],
  "notices": [],
