@@ -14,4 +14,9 @@ approximate and not for navigation or defining legal boundaries.
 
 Always verify current regulations with CDFW before hunting or fishing.
 
-Maintained by Antonio Esquivel (svpguru@gmail.com), publisher of CA Hunt & Fish Guide.
+Maintained by Antonio Esquivel, publisher of CA Hunt & Fish Guide — support@fernandoenterprise.com,
+https://fernandoenterprise.com.
+
+© 2026 Antonio Esquivel. All rights reserved. The compiled dataset, its selection and arrangement,
+the app, and these pages are not licensed for reuse or redistribution; the underlying regulation
+text and CDFW open data remain subject to their own public terms as cited in each record.
