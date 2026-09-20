@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-20T17:40:03.025213+00:00",
+ "generated_at": "2026-09-20T20:41:08.494430+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -15,8 +15,9 @@
    "read_at": "2026-09-20",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-20T17:40:03.023933+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-20T17:40:03.023933+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operator_schedules.json",
@@ -31,7 +32,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-15T18:28:21.616431+00:00",
-   "note": "the published copy was read 5 days ago; its clock is 7 days and the refetch interval is 6"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -46,7 +47,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
-   "note": "the published copy was read 4 days ago; its clock is 10 days and the refetch interval is 7"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -61,7 +62,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "the published copy was read 4 days ago; its clock is 365 days and the refetch interval is 30"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -76,7 +77,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "the published copy was read 4 days ago; its clock is 30 days and the refetch interval is 25"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -89,23 +90,23 @@
    "read_at": "2026-09-20",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-20T17:40:03.025017+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-20T17:40:03.025017+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "d12ae9795d673376e1efff0476818d504499e5e235f6bde4e460109290bb401f",
+   "sha256": "9e82b1f8e2c419c4cbc3e941d4c241bf6229c9dcf4d69b937e6be4e203c8231d",
    "bytes": 32635,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-20T15:55:47.429230+00:00",
+   "read_at": "2026-09-20T20:41:08.299570+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-20T15:55:47.658190+00:00",
-   "note": "the newest county read in the published copy was 1.7 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
+   "state": "published",
+   "published_at": "2026-09-20T20:41:08.494415+00:00"
   }
  ]
 }
