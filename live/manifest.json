@@ -1,23 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-20T15:55:47.658205+00:00",
+ "generated_at": "2026-09-20T17:40:03.025213+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "59fef7ae24ca05b9917e0c0f07451b9126a491de983a8ec6f16bf1b05d8adc21",
-   "bytes": 32154,
+   "sha256": "3b5194be5fee1b6f4c936d31c71163dd70eef0ef646a5ed22d300ae1f385896d",
+   "bytes": 23283,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.19",
-   "read_at": "2026-09-19",
-   "age_days": 1,
+   "dataset_version": "2026.09.20",
+   "read_at": "2026-09-20",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-19T17:26:23.460859+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-20T17:40:03.023933+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -32,7 +31,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-15T18:28:21.616431+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 5 days ago; its clock is 7 days and the refetch interval is 6"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -47,7 +46,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 4 days ago; its clock is 10 days and the refetch interval is 7"
   },
   {
    "name": "trip_pack.json",
@@ -62,7 +61,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 4 days ago; its clock is 365 days and the refetch interval is 30"
   },
   {
    "name": "operators.json",
@@ -77,22 +76,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 4 days ago; its clock is 30 days and the refetch interval is 25"
   },
   {
    "name": "notices_current.json",
-   "sha256": "d7ce8d5ba0fda7cff74e7277a9728455881e6aa76d1044314df43ae5b054d641",
+   "sha256": "6fb8ba940f7ce8ba5dc8892760d29c24be0b4710b9a561d17ccfc9c98ae958f3",
    "bytes": 25994,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
-   "dataset_version": "2026.09.19",
-   "read_at": "2026-09-19",
-   "age_days": 1,
+   "dataset_version": "2026.09.20",
+   "read_at": "2026-09-20",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-19T11:17:03.001798+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-20T17:40:03.025017+00:00"
   },
   {
    "name": "beach_status_current.json",
@@ -105,8 +103,9 @@
    "read_at": "2026-09-20T15:55:47.429230+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-20T15:55:47.658190+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-20T15:55:47.658190+00:00",
+   "note": "the newest county read in the published copy was 1.7 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
   }
  ]
 }
