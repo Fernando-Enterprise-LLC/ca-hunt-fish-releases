@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-19T22:52:06.295121+00:00",
+ "generated_at": "2026-09-20T04:40:33.921643+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -96,18 +96,17 @@
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "01e443a7da88bedba10444ca5ecef96452e4edfd32019097d9f0ebde45489951",
+   "sha256": "738dd423845365041918545d5dd853ed6d7179dbfc535cc3361744ae0df5317d",
    "bytes": 32635,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-19T20:29:03.241749+00:00",
-   "age_days": 0,
+   "read_at": "2026-09-20T04:40:33.553611+00:00",
+   "age_days": -1,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-19T20:29:03.535210+00:00",
-   "note": "the newest county read in the published copy was 2.4 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
+   "state": "published",
+   "published_at": "2026-09-20T04:40:33.921628+00:00"
   }
  ]
 }
