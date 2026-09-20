@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-20T04:40:33.921643+00:00",
+ "generated_at": "2026-09-20T11:08:34.355469+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -13,7 +13,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.19",
    "read_at": "2026-09-19",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-19T17:26:23.460859+00:00",
@@ -28,7 +28,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.15",
    "read_at": "2026-09-15",
-   "age_days": 4,
+   "age_days": 5,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-15T18:28:21.616431+00:00",
@@ -43,7 +43,7 @@
    "schema_version": 2,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 3,
+   "age_days": 4,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
@@ -58,7 +58,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 3,
+   "age_days": 4,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
@@ -73,7 +73,7 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 3,
+   "age_days": 4,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
@@ -88,7 +88,7 @@
    "schema_version": 2,
    "dataset_version": "2026.09.19",
    "read_at": "2026-09-19",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-19T11:17:03.001798+00:00",
@@ -96,17 +96,17 @@
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "738dd423845365041918545d5dd853ed6d7179dbfc535cc3361744ae0df5317d",
+   "sha256": "2be8d7d985c488c959281a9486f7f5a4844fd51e7a94a4a818b3dfa3b10c079e",
    "bytes": 32635,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-20T04:40:33.553611+00:00",
-   "age_days": -1,
+   "read_at": "2026-09-20T11:08:33.934101+00:00",
+   "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-20T04:40:33.921628+00:00"
+   "published_at": "2026-09-20T11:08:34.355454+00:00"
   }
  ]
 }
