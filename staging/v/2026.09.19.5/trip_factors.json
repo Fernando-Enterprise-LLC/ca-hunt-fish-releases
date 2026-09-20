@@ -1,0 +1,372 @@
+{
+ "schema_version": 2,
+ "curation_status": "verified",
+ "user_verified_on": "2026-09-15",
+ "user_verification_basis": "Flipped to verified 2026-09-15 by Fable under the owner's blanket approval of the sign-off register, given on 2026-09-15 as an instruction to work down each item and approve what the register proposed for each. That instruction is quoted word for word in this lane's ledger and is stated rather than quoted here, because one word of it is on this file's own banned-term list and a sign-off basis is not worth weakening that scan for. The owner did not read the entries page by page; every entry was drafted from the cited source by a pipeline lane, carries that source, and was re-read entry by entry on 2026-09-15 by the flipping lane against the snapshot on disk (15 factor records checked, 5 kept as stated refusals — the three never-gated agency-warning records and the two uncounted published facts, fresh.plant_published and hunt.public_land, which carry no threshold at all — and 0 found wanting and left unflipped). Every record's declared source_unit was re-checked by hand against build.trips.SOURCE_FIELD_UNITS and the document each row names: 15 of 15 agree, and the 10 scoreable records are exactly the 10 whose unit is independently_established, so all 10 count now. No record in this file asserts a threshold of its own: 9 threshold_basis blocks are type user_set, 1 is the shipped VisibilityOutlook band consumed whole (type shipped_outlook), and 5 are null. This flip changed no value, no unit, no citation and no threshold. One defect was found and deliberately left unchanged: the document-level note _document_title_gaps names four records as the ones citing a URL no fetch asserted a title for, while 14 of the 15 in fact carry no document_title. That is this file's own bookkeeping prose rather than a value, the gate check_document_title is unaffected by it, and rewriting it is not a sign-off's work. It is recorded in the ledger at ~/.claude/plans/ca-hunt-fish-signoff-2026-09-15/B3.md.",
+ "_note": "R23 Trips, design-final-v2.md section 3.3 schema v2, amended by R39 on 2026-09-19. Every unit below is checked at build time against pipeline.build.trips.SOURCE_FIELD_UNITS, which carries the document that established it; a unit declared here that disagrees with the published one fails the build. Since R39 this table carries no user_criterion record at all — see _r39_note — and every source it reads declares its own reach in source_horizons.",
+ "_b3_note": "There is no default_threshold field in this file, on any record, and since R39 there is no setup_sheet either: the block of suggested starting values was removed with the criteria it seeded, because a suggestion with nothing to save it into is a number on a screen with no purpose. A number the user did not set was never a condition the user set, and now there is no number in this file for a user to set at all.",
+ "_b13_note": "threshold_basis describes the THRESHOLD and input_provenance describes the READING, and they are different objects because printing the second under a label claiming the first is how a NOAA satellite pixel came to be described as a number the user chose. Since R39 there is no threshold left in this file to describe: every record's threshold_basis is null, no record carries a setting_id, and no 'Threshold:' line is printed anywhere. The field stays because a dataset published before R39 carries one and the app must still decode it.",
+ "_b14_note": "source_disclaimer is required on every record (null only where this app has recorded no disclaimer for that feed, with the reason written beside it) and its value must be one of section 2.2's closed disclaimer strings. It renders on every line carrying that source's value, counted or not.",
+ "_n3_note": "document_title appears on exactly the records whose URL has an entry in fetched_documents below, and nowhere else. N3 requires it to equal the title the fetch of that URL asserted, so a title typed by hand beside a URL is the claim the gate exists to refuse. Since R39 removed salt.sst.user, no record carries a document_title; the one fetched_documents entry is kept because source_horizons.coastwatch_sst reads that same attribute document for the product's cadence.",
+ "_document_title_gaps": "No record in this file carries a document_title. Until R39 exactly one did — salt.sst.user, whose URL is the only one with a fetched_documents entry — and R39 removed that record with the rest of the criteria. The seven that remain cite API endpoints and feeds the device reads for itself (api.weather.gov twice, wildlife.ca.gov's Fish Planting Schedule, coastwatch.noaa.gov, the BIOS 3077 FeatureServer) and the Cleveland National Forest hunting page, none of which this repository has fetched and asserted a title for, so a title is absent from them rather than typed.",
+ "fetched_documents": {
+  "_note": "N3's other half. A document_title above is checked byte-for-byte against the asserted_title here, and a title claimed for a URL with no entry here fails the build. Each entry records a document THIS repository fetched, and asserted_title is the title string that document states about itself.",
+  "https://coastwatch.noaa.gov/erddap/griddap/noaacwBLENDEDsstDNDaily.das": {
+   "asserted_title": "Sea-Surface Temperature, NOAA Geo-polar Blended Analysis Day+Night, GHRSST, Near Real-Time, Global 5km, 2019-Present, Daily",
+   "fetched_at": "2026-09-09"
+  }
+ },
+ "source_horizons": {
+  "_note": "R39, 2026-09-19. Owner ruling D4: this app shows what the feeds publish and compares it against nothing, so the question a planner has to answer stopped being what the reader wants and became which of a trip's days each source can speak for at all. That was declared NOWHERE before this block: the fourteen-day limit the planner used to impose was one constant in one view, and the sentence telling a reader their dates were not covered was written against it rather than against any source. Every source this app reads now declares its own reach here, with the document or the read that established it, so the sentence the planner shows about a far-off trip is computed from the publisher's own statement instead of from a number somebody typed into a view.",
+  "_rule": "horizon_days is how many days of a trip's dates this source can publish a value for, counted from the day it is read. 0 means the source speaks for the day it is read and for no later day. A whole number n means a value can be obtained for a day up to n days out. null means this repository has read no horizon the publisher states and the note beside it says what was read instead; null is not 0, because 0 is an answer about a source and null is the absence of one. Every entry names the document or the read that established it, and a source whose horizon is derived from other sources names those sources rather than borrowing their citation.",
+  "_unread_note": "This block was read and written by the R39 pipeline lane on 2026-09-19. It carries no threshold, no season and no value a reader acts on, and the owner has not signed it off: the sign-off recorded above dates 2026-09-15 and covers the records, which are unchanged in every surviving byte.",
+  "ndbc_buoy": {
+   "horizon_days": 0,
+   "horizon_note": "A buoy publishes what its own sensors measured. There is no later day to ask it about, so a trip day past the day of the read carries no buoy value at all and this app says so rather than carrying the last reading forward under a new date.",
+   "horizon_source_url": "https://www.ndbc.noaa.gov/faq/measdes.shtml"
+  },
+  "usgs_flow": {
+   "horizon_days": 0,
+   "horizon_note": "USGS instantaneous values are a gage reading taken at a time. The service answers for the period asked of it and publishes nothing whatever about a later day.",
+   "horizon_source_url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=11447650&parameterCd=00010,00060&period=PT4H"
+  },
+  "nws_forecast": {
+   "horizon_days": 7,
+   "horizon_note": "Read 2026-09-19 at the same gridpoint this repository already reads for its units: 14 periods, the first beginning 2026-09-19 and the last ending 2026-09-26, which is seven days. A National Weather Service forecast further out than that is not published, so a trip beyond it carries no National Weather Service forecast value and the planner says which day one will appear on instead of showing an empty line.",
+   "horizon_source_url": "https://api.weather.gov/gridpoints/MTR/93,50/forecast"
+  },
+  "nws_alerts": {
+   "horizon_days": 0,
+   "horizon_note": "The active-alerts feed publishes the alerts in force at the moment it is read. An alert for a later day is not a thing the feed answers, so a trip beyond today carries none, and an alert this app fetched is never carried forward on to a day nobody issued it for.",
+   "horizon_source_url": "https://api.weather.gov/alerts/active?area=CA"
+  },
+  "coastwatch_sst": {
+   "horizon_days": 0,
+   "horizon_note": "A daily satellite composite of days that have already happened, arriving about a day behind the observation. The dataset's own ERDDAP attribute document states the cadence: the title it asserts for itself, recorded under fetched_documents below, ends in the word Daily. One new value appears per day and there is no later day to ask it about.",
+   "horizon_source_url": "https://coastwatch.noaa.gov/erddap/griddap/noaacwBLENDEDsstDNDaily.das"
+  },
+  "coastwatch_clarity": {
+   "horizon_days": 0,
+   "horizon_note": "The same cadence as the temperature product and established the same way: the kd490 dataset's own ERDDAP attribute document, read 2026-09-09 and re-read 2026-09-19, asserts a title beginning with the word Daily. It is a composite of a day that has already happened, so there is no later day to ask it about.",
+   "horizon_source_url": "https://coastwatch.noaa.gov/erddap/griddap/noaacwN20VIIRSkd490SectorUSDaily.das"
+  },
+  "coops_tides": {
+   "horizon_days": 3650,
+   "horizon_note": "NOAA CO-OPS computes tide predictions from harmonic constants rather than from weather, so unlike every other source in this block it answers for days years out. What the API documentation states is a limit on the span of ONE request, quoted beside this entry, and it is stated in years rather than in days; 3650 is ten 365-day years, the conservative day count of that limit. A read on 2026-09-19 for station 9410170 returned High and Low predictions for 2037-01-01, further out than this number, so the number understates the source and cannot overstate it. This app sends the hilo interval, which is the request the quoted limit covers.",
+   "horizon_quote": "Data Length Limitation: High/Low tide predictions are limited to 10 years.",
+   "horizon_source_url": "https://api.tidesandcurrents.noaa.gov/api/prod/"
+  },
+  "coops_currents": {
+   "horizon_days": 365,
+   "horizon_note": "The same prediction machinery and a shorter documented span: NOAA states the limit on a slack and maximum current request as one year, quoted beside this entry, and 365 is that year counted in days. This app binds no currents station to any place — this dataset carries no catalog of California currents-prediction stations, which is why trip_index's current column is null on every row — so the entry is declared and unused. It is written anyway, because a source with no declared reach is a source the planner can say nothing honest about on the day somebody fetches the catalog.",
+   "horizon_quote": "Data Length Limitation: Max_Slack current predictions are limited to 1 year.",
+   "horizon_source_url": "https://api.tidesandcurrents.noaa.gov/api/prod/"
+  },
+  "stocking_current": {
+   "horizon_days": 7,
+   "horizon_note": "CDFW's Fish Planting Schedule publishes a week at a time, and the record that reads it carries degrade_after_days 7 with tense_rule past_only. So the seven days are the week the published plant record covers and they run BACKWARDS from the read: this source records a plant that happened and never one that will. A planner may show the week it covers; it may not carry the record on to a day in a trip's own dates.",
+   "horizon_source_url": "https://wildlife.ca.gov/Fishing/Inland/Fish-Planting-Schedule"
+  },
+  "usfs_place_notices": {
+   "horizon_days": 0,
+   "horizon_note": "A Forest Service notice is quoted as the Forest Service issued it and stands until the Forest Service says otherwise. The page carries no end date this repository can read, so nothing is published about a later day and the record's own degrade_after_days governs how long a fetched notice is shown.",
+   "horizon_source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting"
+  },
+  "public_lands": {
+   "horizon_days": null,
+   "horizon_note": "A bundled boundary layer. Acreage is a property of the polygon the agency drew, not a reading taken at a time, so there is no day this source starts answering for and no day it stops. Declared null rather than 0, because 0 would say the source answers for today and for no later day, and what is true is that the question does not reach it.",
+   "horizon_source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds3077_fpu/FeatureServer/0/query"
+  },
+  "waterfowl_results_current": {
+   "horizon_days": null,
+   "horizon_note": "A report of a season that is over, published once. It states a count for days that have already passed and says nothing about any other day, so it has no horizon to declare and this entry declares none rather than writing 0 over the gap.",
+   "horizon_source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=247256"
+  },
+  "trip_pack": {
+   "horizon_days": null,
+   "horizon_note": "The same shape as the waterfowl report and for the same reason: a published count of past hunt days, carrying its own as-of date and no statement about a later one.",
+   "horizon_source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=245246"
+  },
+  "shipped_derivation": {
+   "horizon_days": 0,
+   "horizon_note": "The band is computed inside this app from the two satellite clarity signals and three buoy readings named below, and a derivation can reach no further ahead than the furthest of its own inputs. Every one of them declares 0, so this declares 0. No citation is borrowed for it: the sources it is derived from are named instead, because a number whose reasoning is a calculation this repository performed may not wear somebody else's URL.",
+   "horizon_derived_from": [
+    "coastwatch_clarity",
+    "ndbc_buoy"
+   ]
+  }
+ },
+ "factors": [
+  {
+   "key": "spear.visibility_outlook",
+   "activities": [
+    "spearfishing"
+   ],
+   "label": "Water clarity outlook",
+   "kind": "published_fact",
+   "input": {
+    "source": "shipped_derivation",
+    "model_field": "visibilityOutlookBand",
+    "vendor_field": "VisibilityOutlook",
+    "source_unit": "band",
+    "display_unit": "band",
+    "convert": "identity",
+    "display_round": null,
+    "derivation": "VisibilityOutlook",
+    "derivation_inputs": [
+     {
+      "source": "coastwatch_clarity",
+      "vendor_field": "kd_490",
+      "model_field": "kd490",
+      "source_unit": "m^-1",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "coastwatch_clarity",
+      "vendor_field": "chlor_a",
+      "model_field": "chlorophyll",
+      "source_unit": "mg m^-3",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "WVHT",
+      "model_field": "waveHeightFeet",
+      "source_unit": "m",
+      "convert": "m_to_ft",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "DPD",
+      "model_field": "dominantPeriodSeconds",
+      "source_unit": "s",
+      "convert": "identity",
+      "unit_verification": "independently_established"
+     },
+     {
+      "source": "ndbc_buoy",
+      "vendor_field": "WSPD",
+      "model_field": "windSpeedKnots",
+      "source_unit": "m/s",
+      "convert": "ms_to_kt",
+      "unit_verification": "independently_established"
+     }
+    ],
+    "unit_verification": "independently_established"
+   },
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "NOAA CoastWatch water clarity and NDBC readings, through the shipped VisibilityOutlook band",
+    "attribution": "NOAA CoastWatch; National Data Buoy Center, NOAA",
+    "source_url": "https://coastwatch.noaa.gov/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "Near-real-time satellite data lag the observation by about a day.",
+   "degrade_after_days": 10,
+   "scoreable": false,
+   "_curation_note": "R39, 2026-09-19, owner ruling D4. This record used to be a threshold of the one kind that was never a number: setting_id acceptVisibilityBands, op band_in, and a threshold_basis of type shipped_outlook whose text said what the reader chose was which bands they would accept. Nothing is accepted or rejected now, so the choice is gone and the basis with it. The band itself is unchanged and is still shown: it is computed by the shipped VisibilityOutlook derivation named in this record's own input, over the five cited inputs listed there, with that derivation's own guard that at least two usable signals must be present. This app still reaches past the band to no raw satellite pixel.",
+   "counts_now": false
+  },
+  {
+   "key": "salt.small_craft_advisory",
+   "activities": [
+    "saltwater",
+    "spearfishing"
+   ],
+   "label": "National Weather Service marine product in force",
+   "kind": "agency_warning",
+   "input": {
+    "source": "nws_alerts",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "event"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "National Weather Service active alerts",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/alerts/active?area=CA",
+    "quote": "Thresholds governing the issuance of small craft advisories are specific to geographic areas.",
+    "quote_url": "https://forecast.weather.gov/glossary.php?word=small+craft+advisory",
+    "quote_2": "there is no legal definition for 'small craft'",
+    "quote_2_url": "https://www.weather.gov/key/marine_definitions",
+    "terms_note": "NWS terms prohibit modifying content and presenting it as official government material.",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The warning is quoted as issued; section 2.2 carries no disclaimer sentence for a quoted agency warning, and paraphrasing one would be modifying the content.",
+   "degrade_after_hours": 1,
+   "min_refetch_minutes": 10,
+   "counts_now": false
+  },
+  {
+   "key": "inland.nws_alerts",
+   "activities": [
+    "freshwater",
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "National Weather Service alert in force for this zone",
+   "kind": "agency_warning",
+   "input": {
+    "source": "nws_alerts",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "event"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "National Weather Service active alerts",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/alerts/active?area=CA",
+    "terms_note": "NWS terms prohibit modifying content and presenting it as official government material.",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The alert is quoted as issued; section 2.2 carries no disclaimer sentence for a quoted agency warning, and paraphrasing one would be modifying the content.",
+   "degrade_after_hours": 1,
+   "min_refetch_minutes": 10,
+   "_curation_note": "P7 widened this record to the three hunting activities without changing a byte of what it reads or how it renders. An active alert is quoted as issued, is never gated, is counted by nothing, and on a hunting screen it suppresses no band because a hunting screen carries none.",
+   "counts_now": false
+  },
+  {
+   "key": "fresh.plant_published",
+   "activities": [
+    "freshwater"
+   ],
+   "label": "CDFW's published plant record for this water",
+   "kind": "published_fact",
+   "input": {
+    "source": "stocking_current",
+    "model_field": "plantWeekOf",
+    "vendor_field": "week_of",
+    "source_unit": "week beginning",
+    "display_unit": "week beginning",
+    "convert": "identity",
+    "display_round": null,
+    "unit_verification": "carried_unverified"
+   },
+   "sentence_template": "CDFW published a plant here in the week beginning {week_of}.",
+   "tense_rule": "past_only",
+   "threshold_basis": null,
+   "never_gated": true,
+   "_curation_note": "Owner ruling D-18, strict reading: a plant date measures neither water, air nor land, so plantWeekOf is on no physical allowlist and this record can move no band, no count and no ordering. It is still shown, with its citation and its own clock, free at every tier.",
+   "input_provenance": {
+    "name": "CDFW Fish Planting Schedule",
+    "attribution": "California Department of Fish and Wildlife",
+    "source_url": "https://wildlife.ca.gov/Fishing/Inland/Fish-Planting-Schedule",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": "CDFW's Fish Planting Schedule records a plant that happened. It says nothing about what is in the water now.",
+   "degrade_after_days": 7,
+   "scoreable": false,
+   "counts_now": false
+  },
+  {
+   "key": "weather.precip",
+   "activities": [
+    "saltwater",
+    "spearfishing",
+    "freshwater",
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Chance of precipitation in the National Weather Service forecast",
+   "kind": "published_fact",
+   "input": {
+    "source": "nws_forecast",
+    "model_field": "precipProbabilityPercent",
+    "vendor_field": "precip_probability",
+    "source_unit": "wmoUnit:percent",
+    "display_unit": "percent",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "independently_established"
+   },
+   "threshold_basis": null,
+   "input_provenance": {
+    "name": "National Weather Service gridpoint forecast",
+    "attribution": "National Weather Service",
+    "source_url": "https://api.weather.gov/",
+    "verified_at": "2026-09-09"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "No disclaimer sentence has been recorded for this feed in section 2.2's closed set, so none is asserted here.",
+   "degrade_after_hours": 12,
+   "min_refetch_minutes": 30,
+   "scoreable": false,
+   "_curation_note": "R39, 2026-09-19, owner ruling D4. This record used to be a threshold: it carried setting_id maxPrecipProbability, op lte and a threshold_basis of type user_set saying that rain is welcome to one angler and unwelcome to another, so the app gave it no direction and showed it as published unless the reader set a limit over it. There is no limit to set any more, so the second half of that sentence has nothing to describe and the whole threshold went with it. What is left is the first half, which was always the true part: the chance of precipitation is shown as the National Weather Service publishes it, with its citation and its own clock, and this app compares it against nothing.",
+   "counts_now": false
+  },
+  {
+   "key": "hunt.public_land",
+   "activities": [
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Public land inside this zone, over the boundaries this app ships",
+   "kind": "published_fact",
+   "input": {
+    "source": "public_lands",
+    "model_field": "publicLandAcres",
+    "vendor_field": "acres",
+    "source_unit": "acres",
+    "display_unit": "acres",
+    "convert": "identity",
+    "display_round": 0,
+    "unit_verification": "carried_unverified"
+   },
+   "sentence_template": "Public land inside this zone, measured over the boundaries this app ships: {acres} acres.",
+   "threshold_basis": null,
+   "_curation_note": "A published fact about LAND, and it is uncounted for two separate reasons, either of which is enough. The first: the public-land layer draws boundaries and publishes no acreage column, so the number is an area this app measures over the boundaries it ships, and those boundaries are simplified for the map. The second: the unit on this column is carried from the design's own record and has never been read against a publisher's description here, so counts_now is false whatever scoreable said. Section 4.4 offered this as a criterion the user could set. It ships as a fact instead, which is what an area nobody has verified the unit of is worth.",
+   "input_provenance": {
+    "name": "CDFW Public Access Lands (ds3077)",
+    "attribution": "California Department of Fish and Wildlife",
+    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds3077_fpu/FeatureServer/0/query",
+    "verified_at": "2026-09-05"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "Section 2.2's closed set carries no disclaimer sentence for this layer. The thing that needs saying about it is said on the record itself, in _curation_note: the boundaries are simplified and the area is measured, not published.",
+   "degrade_after_days": 90,
+   "scoreable": false,
+   "counts_now": false
+  },
+  {
+   "key": "hunt.usfs_place_notice",
+   "activities": [
+    "big_game",
+    "upland",
+    "waterfowl"
+   ],
+   "label": "Forest Service notice for a place in this area",
+   "kind": "agency_warning",
+   "input": {
+    "source": "usfs_place_notices",
+    "model_field": "agencyWarningsInForce",
+    "vendor_field": "notice"
+   },
+   "never_gated": true,
+   "threshold_basis": null,
+   "_curation_note": "The Forest Service publishes this rule and publishes no boundary for the area it covers, which the shipped record says in its own words. So the notice is quoted and nothing is drawn, and being outside every line this app draws is no evidence of being outside the area the notice covers. Like every agency warning it is never gated and is counted by nothing.",
+   "input_provenance": {
+    "name": "USDA Forest Service forest notices",
+    "attribution": "USDA Forest Service",
+    "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+    "quote": "Rifle, firearm, or crossbow hunting is not allowed at any time within the Laguna Mountain Recreation Area (only archery hunting during season).",
+    "verified_at": "2026-09-04"
+   },
+   "source_disclaimer": null,
+   "source_disclaimer_reason": "The notice is quoted as the Forest Service issued it; section 2.2 carries no disclaimer sentence for a quoted agency notice, and writing one would be this app adding words to somebody else's rule.",
+   "degrade_after_days": 90,
+   "counts_now": false
+  }
+ ],
+ "_hunting_note": "P7's hunting half, and the three things it deliberately does NOT carry, all three still true after R39. (1) No wind criterion, and since R39 no criterion of any kind: the National Weather Service forecast publishes wind as a string carrying its own unit, in miles per hour and often as a range, and this repository ships no conversion to the knots the model field is named for. (2) Nothing about an animal. There is no record here over a harvest, a tag draw, a hunter count or a survey, scoreable or not. (3) No band input that belongs to hunting alone. The hunting screens carry no band at all, which is a fact about the app's structure and not about this table.",
+ "_r39_note": "R39, 2026-09-19, owner ruling D4 on the owner's own words of that day: the preferred temperatures and the rest of the threshold sheet go, and this app advertises what the weather system does tell us. Eight records were removed — the seven of kind user_criterion, and salt.sst.user, which was written as a published fact but carried the sstRangeF threshold the owner named. What remains is seven records: four published facts and three agency warnings. The two that still carried a threshold half after that cut, weather.precip and spear.visibility_outlook, were stripped of it in the same lane: setting_id, op and threshold_basis are gone from both and scoreable is false on both, so all four facts are now pure published facts and the table holds no threshold of any kind. Each record's own _curation_note says what it lost. The setup_sheet block went with the criteria, and source_horizons arrived in their place. The sign-off above dates 2026-09-15 and describes the table as it stood that day; the removal is an owner ruling rather than a curation, and source_horizons is a set of reads this lane made and the owner has not yet seen."
+}

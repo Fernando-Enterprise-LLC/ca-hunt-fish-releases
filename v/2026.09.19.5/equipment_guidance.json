@@ -1,0 +1,4388 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-20T06:14:23.332985+00:00",
+ "curation_status": "verified",
+ "content_class": "equipment_suitability_guidance",
+ "note": "How well a given firearm suits a given animal, written by this app from general hunting practice. NOT regulations, NOT CDFW content, NOT sourced to any official publication. Every record deliberately carries no citation field at all \u2014 the absence is the honest signal that this is the app's own editorial judgment, and it is rendered on screen as such. No record may state, imply or summarise a rule. Whether a pairing is an authorized method is computed from hunt_methods.json, which is cited, free, and evaluated first: where that file does not authorize a pairing, no grade from this file is rendered. No ballistic quantity anywhere in this file was measured, computed or verified \u2014 every tier is editorial judgment.",
+ "tips_disclaimer": {
+  "headline": "Equipment notes \u2014 not regulations, not CDFW content",
+  "body": "Written by this app from general hunting practice. Nothing here is a rule and nothing here is permission. What the regulations authorize is answered separately, quoted with its citation on the screen for that animal. A grade here never changes that answer, and a good grade is never shown on a pairing the quoted rule does not cover.",
+  "no_citation_line": "No citation \u2014 this is not sourced to any regulation."
+ },
+ "tier_definitions": {
+  "well_suited": "The mainstream choice for this animal in this state. Nothing to explain.",
+  "adequate": "Will do the job within its limits. The reason names the limit.",
+  "marginal": "Used by some hunters, but leaves little margin for a bad angle or a long shot. The reason must name what has to go right.",
+  "more_than_needed": "Effective, but costs recoil, muzzle blast or meat for nothing the animal required. Never a discouragement \u2014 the reason should name what the same gun is right for.",
+  "not_suited": "We would not recommend this pairing. The reason must name the failure mode, not just say \u201ctoo small\u201d."
+ },
+ "equipment_catalog": [
+  {
+   "id": "rf-17hm2",
+   "label": ".17 Mach 2",
+   "firearm_class": "rifle_rimfire",
+   "family": "rimfire",
+   "aliases": [
+    "17 HM2",
+    "17 Mach II",
+    "17 Mach 2"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Hornady"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "rf-17hmr",
+   "label": ".17 HMR",
+   "firearm_class": "rifle_rimfire",
+   "family": "rimfire",
+   "aliases": [
+    "17 HMR",
+    "17 Hornady Magnum Rimfire"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: well-suited to small game at distance, never big game.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "CCI-Speer",
+     "Hornady",
+     "Winchester"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "rf-17wsm",
+   "label": ".17 WSM",
+   "firearm_class": "rifle_rimfire",
+   "family": "rimfire",
+   "aliases": [
+    "17 WSM",
+    "17 Winchester Super Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Winchester"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "rf-22lr",
+   "label": ".22 LR",
+   "firearm_class": "rifle_rimfire",
+   "family": "rimfire",
+   "aliases": [
+    "22",
+    "22 LR",
+    "22 Long Rifle"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: small game \u2014 rabbits and tree squirrel. The most-viewed row in the feature.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "CCI-Speer",
+     "TB Ammunition",
+     "Winchester"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "rf-22wmr",
+   "label": ".22 WMR",
+   "firearm_class": "rifle_rimfire",
+   "family": "rimfire",
+   "aliases": [
+    "22 Mag",
+    "22 Magnum",
+    "22 WMR",
+    "22 WMRF"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "CCI-Speer",
+     "Hornady",
+     "Winchester"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-17hornet",
+   "label": ".17 Hornet",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "17 Hornet"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Hornady"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-204",
+   "label": ".204 Ruger",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "204",
+    "204 Ruger"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "5 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-22hornet",
+   "label": ".22 Hornet",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "22 Hornet"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "3 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-223",
+   "label": ".223 Rem / 5.56 NATO",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "223",
+    "5.56",
+    "5.56x45",
+    "AR-15"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "The most-owned centerfire rifle in the country, and the pairing the owner named as contested.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "19 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-22250",
+   "label": ".22-250 Rem",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "22-250",
+    "22 250"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "10 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-224valk",
+   "label": ".224 Valkyrie",
+   "firearm_class": "rifle_centerfire",
+   "family": "varmint_light",
+   "aliases": [
+    "224 Valkyrie"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Federal"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-243",
+   "label": ".243 Win",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "243",
+    "243 Winchester"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "16 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-6mmcm",
+   "label": "6mm Creedmoor",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "6mm CM",
+    "6 Creedmoor"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Hornady"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-2506",
+   "label": ".25-06 Rem",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "25-06",
+    "25 06"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "8 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-65grendel",
+   "label": "6.5 Grendel",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "6.5 Grendel"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "4 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-65cm",
+   "label": "6.5 Creedmoor",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "6.5 CM",
+    "6.5 Creedmoor"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "12 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-65prc",
+   "label": "6.5 PRC",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "6.5 PRC"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "3 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-270",
+   "label": ".270 Win",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "270",
+    "270 Winchester"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "17 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-7mm08",
+   "label": "7mm-08 Rem",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "7mm-08",
+    "7mm 08"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "9 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-280ai",
+   "label": ".280 Rem / .280 Ackley Improved",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "280",
+    "280 AI",
+    "280 Ackley"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Two chamberings share this row. Flagged by the research lane as possibly needing a split.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "6 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-3030",
+   "label": ".30-30 Win",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "30-30",
+    "30 30"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Coastal blacktail brush country, and still everywhere.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "17 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-308",
+   "label": ".308 Win / 7.62 NATO",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "308",
+    "7.62",
+    "7.62x51"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: deer and big game, not small game. Owner's named benchmark.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "24 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-3006",
+   "label": ".30-06 Sprg",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "30-06",
+    "30 06",
+    "3006"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "20 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-300blk",
+   "label": ".300 AAC Blackout",
+   "firearm_class": "rifle_centerfire",
+   "family": "deer_class",
+   "aliases": [
+    "300 BLK",
+    "300 Blackout",
+    "300 AAC"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Added by the research lane and contested: one row cannot hold both the supersonic and the subsonic load.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Lehigh",
+     "Fort Scott"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "and others"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. The manufacturers named above were re-verified against the 2026-09-15 capture of CDFW's certified list; the remaining entry from the 2026-09-03 scan names nobody, so it could not be re-verified and is held in not_found_on. This is NOT a finding that no other certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-7mmrm",
+   "label": "7mm Rem Mag",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "7mm RM",
+    "7mm Remington Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: more than needed for deer, well-suited to big game.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "16 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-7mmprc",
+   "label": "7mm PRC",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "7mm PRC"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "A new cartridge. The empty scan result is a scan result, not a fact about the cartridge.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-300wsm",
+   "label": ".300 WSM",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "300 WSM"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "9 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-300wm",
+   "label": ".300 Win Mag",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "300 WM",
+    "300 Winchester Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "15 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-300prc",
+   "label": ".300 PRC",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "300 PRC"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Hornady"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-338wm",
+   "label": ".338 Win Mag",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "338 WM",
+    "338 Winchester Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "7 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-338lapua",
+   "label": ".338 Lapua Mag",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "338 Lapua"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "7 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-375hh",
+   "label": ".375 H&H Mag",
+   "firearm_class": "rifle_centerfire",
+   "family": "magnum_big_game",
+   "aliases": [
+    "375 H&H"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "6 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-350legend",
+   "label": ".350 Legend",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "350 Legend"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Fort Scott"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-360bh",
+   "label": ".360 Buckhammer",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "360 Buckhammer"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "A 2023 cartridge. The empty scan result means the certified list has not caught up.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-400legend",
+   "label": ".400 Legend",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "400 Legend"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Added by the research lane; owner may trim.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-444",
+   "label": ".444 Marlin",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "444",
+    "444 Marlin"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Added by the research lane; owner may trim.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-44magrifle",
+   "label": ".44 Rem Mag (carbine)",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "44 Mag rifle",
+    "44 Magnum carbine",
+    "44 lever"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "A separate row from the revolver on purpose: the whitelist keys on the kind of firearm, so a lever gun and a revolver in this cartridge do not resolve the same way.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "9 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-4570",
+   "label": ".45-70 Gov't",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "45-70",
+    "45 70"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "9 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "cf-450bm",
+   "label": ".450 Bushmaster",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "450 BM",
+    "450 Bushmaster"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Barnes",
+     "Fort Scott",
+     "Remington"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-458socom",
+   "label": ".458 SOCOM",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "458 SOCOM"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Fort Scott",
+     "Lehigh",
+     "PolyCase"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "cf-50beowulf",
+   "label": ".50 Beowulf",
+   "firearm_class": "rifle_centerfire",
+   "family": "straight_wall_bigbore",
+   "aliases": [
+    "50 Beowulf",
+    "12.7x42",
+    "12.7\u00d742mm"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner named it explicitly.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [
+     "Barnes XPB .500 275/325/375 gr (items 30663/30665/30667)",
+     "Lehigh Defense 0.500 Controlled Fracturing 240 gr",
+     "Lehigh Defense 0.500 Wide Flat Nose 400 gr"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "product_pdf_urls": [
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=82803&inline",
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=88407&inline"
+    ],
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "hg-45acp",
+   "label": ".45 ACP",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "45 ACP",
+    "45 Auto"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: include it with an honest not-for-big-game grade.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "listed by several manufacturers"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-357",
+   "label": ".357 Mag",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "357",
+    "357 Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "11 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-10mm",
+   "label": "10mm Auto",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "10mm"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "listed by several manufacturers"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-41",
+   "label": ".41 Rem Mag",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "41 Mag",
+    "41 Remington Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "6 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-44",
+   "label": ".44 Rem Mag",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "44 Mag",
+    "44 Magnum"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "9 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-454",
+   "label": ".454 Casull",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "454",
+    "454 Casull"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "5 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-460sw",
+   "label": ".460 S&W Mag",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "460 S&W",
+    "460 Smith"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Ammo Brothers",
+     "Custom Cartridge",
+     "Federal"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "hg-475lb",
+   "label": ".475 Linebaugh",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "475 Linebaugh"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Added by the research lane; owner may trim.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Custom Cartridge"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "hg-480",
+   "label": ".480 Ruger",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "480 Ruger"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [],
+    "not_found_on": [
+     "3 manufacturers listed"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. What the 2026-09-03 scan recorded for this chambering was a COUNT of manufacturers rather than their names, and the 2026-09-15 capture of CDFW's certified list names manufacturers only \u2014 so that count could not be re-verified and is held in not_found_on instead of shown as evidence. This is NOT a finding that no certified nonlead load exists for this chambering."
+   }
+  },
+  {
+   "id": "hg-500sw",
+   "label": ".500 S&W Mag",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "500 S&W",
+    "500 Smith"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [
+     "Ammo Brothers",
+     "Custom Cartridge",
+     "Federal (P500XB1, 275 gr)"
+    ],
+    "component_projectiles_on_cdfw_list": [],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "product_pdf_urls": [
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=82813&inline"
+    ],
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "hg-50ae",
+   "label": ".50 AE",
+   "firearm_class": "handgun",
+   "family": "hunting_handgun",
+   "aliases": [
+    "50 AE",
+    "50 Action Express",
+    "Desert Eagle"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner confirmed .50 AE, and confirmed he does not mean a \u201c.50 ACP\u201d. The research lane's alternate reading, .50 GI, is therefore not in the catalogue.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [
+     "Barnes XPB .500 275/325/375 gr (items 30663/30665/30667)"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "product_pdf_urls": [
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=82803&inline"
+    ],
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "ml-36",
+   "label": ".36 caliber muzzleloader",
+   "firearm_class": "muzzleloader",
+   "family": "muzzleloader",
+   "aliases": [
+    "36 cal",
+    "36 caliber"
+   ],
+   "payloads": null,
+   "bore_designation_inches": 0.36,
+   "owner_note": "In the catalogue so the quoted .40 floor is visible rather than implied. It resolves against the sentence itself on every big-game class.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "ml-45",
+   "label": ".45 caliber muzzleloader",
+   "firearm_class": "muzzleloader",
+   "family": "muzzleloader",
+   "aliases": [
+    "45 cal",
+    "45 caliber"
+   ],
+   "payloads": null,
+   "bore_designation_inches": 0.45,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "ml-50",
+   "label": ".50 caliber muzzleloader",
+   "firearm_class": "muzzleloader",
+   "family": "muzzleloader",
+   "aliases": [
+    "50 cal",
+    "50 caliber"
+   ],
+   "payloads": null,
+   "bore_designation_inches": 0.5,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [
+     "Barnes Expander MZ \".451 - 50 Cal w/ sabot\" 250 gr (items 30577 / 30564)",
+     "Barnes Expander MZ \".451 - 50 Cal w/ sabot\" 300 gr (items 30583 / 30569)"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "product_pdf_urls": [
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=82803&inline"
+    ],
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it. CORRECTED 2026-09-15 FROM THE CAPTURE. This row previously recorded \"Barnes Expander MZ .500 with sabot, .54 caliber\" \u2014 a 54-caliber product, which belongs on the .54 muzzleloader row and is where that row's own string already points. The captured Barnes certification sheet (snapshots/nonlead/2026-09-15/certified_barnes_bullets.pdf, sha256 347583c28d02811ab6404f16cb4593cadfe29f208a16113f8f6fe8bed2a4b711, CDFW's own \"06.22.23 Revision.pdf\", read 2026-09-15) prints its EXPANDER MZ\u2122 MUZZLELOADER BULLETS table as \"EXPANDER MZ  .451 - 50 Cal w/ sabot  250  <1%  30577 / 30564\" and \"EXPANDER MZ  .451 - 50 Cal w/ sabot  300  <1%  30583 / 30569\" \u2014 those are the sheet's 50-caliber entries, and its \".500 - 54 Cal w/ sabot\" rows (275 gr and 325 gr) are the 54-caliber ones. The two entries above are the sheet's own designation, grain weight and item numbers; nothing was inferred from the caliber name."
+   }
+  },
+  {
+   "id": "ml-54",
+   "label": ".54 caliber muzzleloader",
+   "firearm_class": "muzzleloader",
+   "family": "muzzleloader",
+   "aliases": [
+    "54 cal",
+    "54 caliber"
+   ],
+   "payloads": null,
+   "bore_designation_inches": 0.54,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": {
+    "factory_loads_on_cdfw_list": [],
+    "component_projectiles_on_cdfw_list": [
+     "Barnes Expander MZ .500-54 cal with sabot"
+    ],
+    "scanned_at": "2026-09-03",
+    "read_at": "2026-09-15",
+    "source_url": "https://wildlife.ca.gov/Hunting/Nonlead-Ammunition/Certified",
+    "product_pdf_urls": [
+     "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=82803&inline"
+    ],
+    "note": "CDFW certifies manufacturers and products, not chamberings. Presence is evidence; absence is not a statement that no nonlead load exists for it."
+   }
+  },
+  {
+   "id": "sg-10",
+   "label": "10 gauge",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "10 ga",
+    "10 gauge"
+   ],
+   "payloads": [
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": "In the catalogue because the whitelists name 10 gauge as the ceiling.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "sg-12",
+   "label": "12 gauge",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "12 ga",
+    "12 gauge"
+   ],
+   "payloads": [
+    "slug",
+    "buckshot",
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "sg-16",
+   "label": "16 gauge",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "16 ga",
+    "16 gauge"
+   ],
+   "payloads": [
+    "slug",
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "sg-20",
+   "label": "20 gauge",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "20 ga",
+    "20 gauge"
+   ],
+   "payloads": [
+    "slug",
+    "buckshot",
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "sg-28",
+   "label": "28 gauge",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "28 ga",
+    "28 gauge"
+   ],
+   "payloads": [
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "sg-410",
+   "label": ".410 bore",
+   "firearm_class": "shotgun",
+   "family": "shotgun",
+   "aliases": [
+    "410",
+    "410 bore",
+    "410 gauge"
+   ],
+   "payloads": [
+    "slug",
+    "shot"
+   ],
+   "bore_designation_inches": null,
+   "owner_note": "The row a naive answer most reliably gets wrong.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "ar-177",
+   "label": ".177 air rifle",
+   "firearm_class": "air_rifle",
+   "family": "air_rifle",
+   "aliases": [
+    "177",
+    "177 pellet",
+    "4.5mm"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "ar-22",
+   "label": ".22 air rifle",
+   "firearm_class": "air_rifle",
+   "family": "air_rifle",
+   "aliases": [
+    "22 air",
+    "22 pellet",
+    "5.5mm"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "ar-25",
+   "label": ".25 air rifle",
+   "firearm_class": "air_rifle",
+   "family": "air_rifle",
+   "aliases": [
+    "25 air",
+    "25 pellet",
+    "6.35mm"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "bw-vertical",
+   "label": "Compound, recurve or longbow",
+   "firearm_class": "archery",
+   "family": "archery",
+   "aliases": [
+    "compound",
+    "recurve",
+    "longbow",
+    "bow"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": null,
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  },
+  {
+   "id": "xb-crossbow",
+   "label": "Crossbow",
+   "firearm_class": "crossbow",
+   "family": "crossbow",
+   "aliases": [
+    "crossbow",
+    "xbow"
+   ],
+   "payloads": null,
+   "bore_designation_inches": null,
+   "owner_note": "Owner ruling: a first-class equipment class of its own, not a kind of archery.",
+   "legality_unsettled": null,
+   "possession_gate": null,
+   "possession_scope_note": null,
+   "nonlead_evidence": null
+  }
+ ],
+ "grades": [
+  {
+   "catalog_id": "cf-243",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The light end of uncontested, and a mild rifle to shoot well.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Flat, mild and easy to place \u2014 a modern take on the same idea as the .243.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Fast and flat, and it holds up in the open country of the north-east.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Enough bullet for deer inside a couple of hundred yards. The limit is distance, not the animal.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The current default, and the recoil is mild enough that most people shoot it better than they shoot bigger rifles.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More case and more recoil than a deer asks for. The same rifle earns it on elk.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Sixty years of California blacktail and mule deer say this one works.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A short, mild cartridge that gives away very little to the bigger sevens on deer.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "More reach than a 7mm-08 with the same bullet weight, and still a pleasant rifle to carry.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The brush rifle for coastal blacktail country, and quick to handle in timber.",
+   "watch_out": "Its arc drops away fast past about 150 yards, so range estimation does more work here than with a flatter cartridge.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The middle of the road for California deer, and it stays useful on pig, bear and elk without changing rifles.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The traditional top of general purpose, and bullets for it are on every shelf.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More recoil, more muzzle blast and more meat damage than a deer asks for. The same rifle is well-suited to elk, and that is where it earns the recoil.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "Effective and far more than a deer needs. It comes into its own on elk in open country.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "Built for animals several times a deer's weight. On elk and big bear it is the right tool.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Straight-wall bullets do the job inside about 200 yards and the recoil is very mild.",
+   "watch_out": "It sheds speed quickly. Treat it as a woods cartridge, not an open-country one.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "A heavy, slow bullet built for much larger animals. Where it earns its keep is elk and close-cover pig and bear.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Hits hard inside 150 yards and is easy to shoot. Past that the arc falls away fast.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-44",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "A capable deer revolver inside the ranges a handgun hunter should be taking.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-45acp",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "not_suited",
+   "reason": "A slow pistol bullet with little penetration for the angles a deer actually presents. The failure mode is a wounded animal at any range a handgun hunter would take.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-454",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More recoil than most people can shoot accurately, for an animal a milder revolver already handles.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-50ae",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "A big, blunt pistol bullet for an animal that does not need one, and the muzzle blast makes a second shot slow.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-45",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Enough for deer with a well-constructed bullet, and it loads light.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-50",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "What most muzzleloader hunters own, and the bullet selection is the widest.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-54",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A heavier ball or bullet than a deer needs, but it shoots flat enough and hits hard.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "deer",
+   "payload": "slug",
+   "tier": "adequate",
+   "reason": "Effective in brush and close timber. The limit is distance, not power.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "deer",
+   "payload": "slug",
+   "tier": "adequate",
+   "reason": "Much the same as a 12 in the woods; the harder part is finding the ammunition.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "deer",
+   "payload": "slug",
+   "tier": "adequate",
+   "reason": "Lighter to carry and easier to shoot than a 12, with a little less reach.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The classic California archery animal, and the seasons are built around it.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "xb-crossbow",
+   "species_class": "deer",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Short-range and accurate, and easier to hold steady than a vertical bow.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Enough bullet for heavy shoulder bone at the ranges bear are usually taken.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A heavier bullet than a deer needs, which is exactly what a bear asks for.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The reach and the bullet weight both earn their place here.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Built for this size of animal, and the extra bullet weight buys penetration through bone.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Very effective in close cover. The arc limits it well before the bullet does.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-44",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "A short-range proposition on an animal that can absorb a poor first shot.",
+   "watch_out": "Bullet construction matters more here than muzzle energy. A soft bullet that comes apart on the shoulder is the failure mode.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-45acp",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "not_suited",
+   "reason": "Not enough penetration for the bone a bear puts between the muzzle and the vitals. The failure mode is a wounded animal.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-50",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "A heavy conical is capable at muzzleloader distances. There is no second shot.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "bear",
+   "payload": "slug",
+   "tier": "adequate",
+   "reason": "Very effective in thick cover and short on reach.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "bear",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Effective with good arrow weight and a sharp head, and it asks for patience and a close shot.",
+   "watch_out": "Blood trails on bear are notoriously poor. Plan the shot around recovery, not around the shot itself.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A proven elk cartridge with a heavy bullet, and mild enough to shoot well.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The traditional elk answer, and it still is.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "This is where the recoil is earned \u2014 reach and bullet weight both matter here.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Reach and penetration for open country, and bullets built for the job are everywhere.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "About as much bullet as anyone needs in California, and it drives through bone.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-54",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "A heavy conical at close range. One shot, and it has to be the right one.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "A close-range proposition on a big animal, and it rewards heavy arrows and a fixed head.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-243",
+   "species_class": "pronghorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Flat, mild and quick \u2014 a good match for a small animal in open country.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Holds its line in the wind, which is the whole problem on the flats.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "pronghorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Flat enough for the ranges pronghorn country offers, without punishing recoil.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "pronghorn",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "More bullet than the animal needs and easy to place, which is the trade most people want.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More recoil and meat damage than a 100-pound animal asks for. The same rifle is well-suited to elk.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Enough bullet for shoulder bone at the ranges California pig country usually gives you.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Heavy bullets, deep penetration, and nothing exotic about the ammunition.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Not overkill here the way it is on a deer \u2014 a big boar is worth the extra bullet.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A big, heavy bullet at pig distances, which is what the animal asks for.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Close-cover pig is exactly what this one is for.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-44",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "A capable close-range revolver with a hard-cast or bonded bullet.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ml-50",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "A heavy conical at close range does the job. Plan for one shot.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "wild_pig",
+   "payload": "slug",
+   "tier": "well_suited",
+   "reason": "Hard to beat in thick cover at the distances pigs are usually taken.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "wild_pig",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Close range, heavy arrow, fixed head.",
+   "watch_out": "A pig's vitals sit further forward and lower than most people expect, and the shield turns a marginal hit into a lost animal.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "rf-22lr",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The classic rabbit and squirrel rifle. Quiet, cheap, and it does not ruin what you are going to eat.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "rf-22wmr",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "More reach than a .22 LR for jackrabbits across open ground, at the cost of more damage up close.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "rf-17hm2",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Flat and accurate at short range, and the ammunition is hard to find.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "rf-17hmr",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "Where it earns its keep is distance \u2014 it shoots flat enough to make a long jackrabbit shot honest.",
+   "watch_out": "The same speed that makes it flat makes it destructive on a close cottontail.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "rf-17wsm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More speed than a rabbit needs, and the ammunition costs several times what a .22 LR does.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "Fine on a jackrabbit across an open field. On a cottontail at thirty yards there is not much left to carry home.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-308",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "There is nothing a .308 does for a rabbit that a .22 does not do better and quieter. The same rifle is well-suited to deer, pig, bear and elk.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "cf-7mmrm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "Enormously more rifle than the animal calls for, and loud enough to end the morning.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "hg-357",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "A capable revolver aimed at an animal a rimfire handles better and cheaper.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "Faster on a moving rabbit than any rifle, and #6 shot over a dog in brush is the standard answer.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "Lighter to carry all day and still plenty of pattern for rabbits.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-410",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "tier": "adequate",
+   "reason": "Genuinely fun and genuinely limited \u2014 thin patterns mean you have to let them get close.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ar-177",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Quiet and cheap for tree squirrels at close range, and it asks for precise shot placement.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ar-22",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "well_suited",
+   "reason": "The quiet answer for squirrels and close cottontails, and it carries enough energy to be humane.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ar-25",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "more_than_needed",
+   "reason": "More air rifle than a squirrel needs, and heavy to carry for it.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Slow and rewarding, with blunts or judo points to save arrows.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "xb-crossbow",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "tier": "adequate",
+   "reason": "Accurate at short range and slow to reload, which matters more on small game than on deer.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "The default for a reason: the widest choice of loads, and enough pattern for turkey as well as quail.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "Carries like a 20 and patterns like a 12, and the ammunition is the hard part.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "Light to carry over a dog all day, with plenty of pattern for upland birds.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-28",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "tier": "adequate",
+   "reason": "Delightful on quail over a dog, and thin for a big pheasant or a turkey.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-10",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "tier": "more_than_needed",
+   "reason": "A heavy gun built for pass-shooting geese. On quail it is weight you carry for nothing.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "ar-177",
+   "species_class": "upland_birds",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "Enough for a quail at close range with exact placement, and nothing to spare.",
+   "watch_out": "Pellet size is not a free choice for turkey \u2014 read the quoted rule before you load one.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "upland_birds",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "Rewarding and slow, and the recovery rate is what limits it.",
+   "watch_out": "Turkey has its own broadhead requirement \u2014 read the quoted rule before you fit a field point.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "xb-crossbow",
+   "species_class": "upland_birds",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "One accurate shot and a slow reload, which suits a blind and not a walk-up.",
+   "watch_out": "Turkey has its own broadhead requirement \u2014 read the quoted rule before you fit a field point.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-12",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "tier": "well_suited",
+   "reason": "The default for a reason \u2014 the widest choice of nontoxic loads by a distance.",
+   "watch_out": "Steel #2 to BB is the usual duck load and BBB to T the usual goose load. Those are our suggestions; the ceiling is in the quoted rule.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-10",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "tier": "adequate",
+   "reason": "A heavy gun that swings slowly, bought for pass-shooting geese and rarely needed for ducks over decoys.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "tier": "adequate",
+   "reason": "Workable on ducks over decoys, and nontoxic loads for it are scarce.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-28",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "tier": "not_suited",
+   "reason": "Too few pellets in the pattern for a duck at honest decoy range, and the failure mode is a crippled bird that is never recovered.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "sg-410",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "tier": "not_suited",
+   "reason": "This is the pairing where our advice and the pattern board diverge furthest. A .410 nontoxic load puts too few pellets into a pattern to kill a duck cleanly at any honest decoy range.",
+   "watch_out": "If a .410 is what you have, waterfowl is the wrong quarry for it.",
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "migratory_birds",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "Done by a small number of dedicated hunters, and the recovery rate over water is the reason most do not.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  },
+  {
+   "catalog_id": "xb-crossbow",
+   "species_class": "migratory_birds",
+   "payload": null,
+   "tier": "marginal",
+   "reason": "One shot, a slow reload, and a bird that rarely waits. A blind and a lot of patience.",
+   "watch_out": null,
+   "contested": false,
+   "contested_note": null
+  }
+ ],
+ "ungraded": [
+  {
+   "catalog_id": "sg-410",
+   "species_class": "upland_birds",
+   "payload": "shot",
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Opinion on .410 turkey loads has moved sharply with new shot materials and we are not confident enough to grade it. The shot-size limits are in the quoted rule."
+  },
+  {
+   "catalog_id": "sg-410",
+   "species_class": "wild_pig",
+   "payload": "slug",
+   "reason_code": "insufficient_basis",
+   "why": "On a shielded boar the difference between an adequate hit and a wounded animal is the individual pig, and we do not know enough to tell you which one you will meet."
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "wild_pig",
+   "payload": "slug",
+   "reason_code": "insufficient_basis",
+   "why": "The same problem as the .410: the outcome turns on the individual animal rather than on the gauge."
+  },
+  {
+   "catalog_id": "bw-vertical",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-17hornet",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-204",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-224valk",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-22hornet",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-243",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-243",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-243",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-2506",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-270",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-280ai",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3006",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300prc",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-300wsm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-3030",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338lapua",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-338wm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-360bh",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-375hh",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-400legend",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-444",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-44magrifle",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-450bm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65grendel",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-65prc",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-6mmcm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mm08",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-7mmprc",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-10mm",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-10mm",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-10mm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-10mm",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-10mm",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-357",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-357",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-357",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-41",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-41",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-41",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-41",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-41",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-44",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-44",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-454",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-454",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-454",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-454",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-45acp",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-45acp",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-45acp",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-460sw",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-460sw",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-460sw",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-460sw",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-475lb",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-475lb",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-475lb",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-475lb",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-475lb",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-480",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-480",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-480",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-480",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-480",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-500sw",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-500sw",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-500sw",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-500sw",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-50ae",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-50ae",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-50ae",
+   "species_class": "small_game_rifle",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "hg-50ae",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-45",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-45",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-45",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-45",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-50",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-50",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-54",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-54",
+   "species_class": "pronghorn",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "ml-54",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-10",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-16",
+   "species_class": "bear",
+   "payload": "slug",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "bear",
+   "payload": "slug",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "wild_pig",
+   "payload": "slug",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-28",
+   "species_class": "small_game_rifle",
+   "payload": "shot",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "sg-410",
+   "species_class": "bear",
+   "payload": "slug",
+   "reason_code": "not_yet_graded",
+   "why": "The quoted rule covers this pairing. Our own review has not reached it yet, so we publish no grade rather than a guess."
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-300blk",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "One row cannot hold both the supersonic and the subsonic load, and opinions differ sharply besides. This app's standing decision is to publish no rating for this pairing."
+  },
+  {
+   "catalog_id": "hg-357",
+   "species_class": "deer",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "sg-410",
+   "species_class": "deer",
+   "payload": "slug",
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Other western states set a 20-gauge floor for slug hunting, and opinions on a .410 slug for deer differ sharply. This app's standing decision is to publish no rating for this pairing."
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "bear",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-243",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-65cm",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-4570",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "hg-460sw",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "hg-500sw",
+   "species_class": "elk_bighorn",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-223",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-22250",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-350legend",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-458socom",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "cf-50beowulf",
+   "species_class": "wild_pig",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "ar-22",
+   "species_class": "upland_birds",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "ar-25",
+   "species_class": "upland_birds",
+   "payload": null,
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  },
+  {
+   "catalog_id": "sg-20",
+   "species_class": "migratory_birds",
+   "payload": "shot",
+   "reason_code": "consensus_contested_owner_declined",
+   "why": "Hunters and state agencies genuinely disagree about how well this pairing suits the animal, and this app's standing decision is to publish no rating for it."
+  }
+ ],
+ "reviewed_by": "owner",
+ "reviewed_at": "2026-09-04"
+}

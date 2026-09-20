@@ -1,0 +1,3525 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-20T06:14:24.490170+00:00",
+ "domain": "planner_coverage",
+ "threshold_days": 180,
+ "non_regulatory": true,
+ "curation_status": "verified",
+ "authored_on": "2026-09-19",
+ "content_class": "coverage_declaration",
+ "contract": "docs/planner-contract.md",
+ "note": "WHAT THIS APP CAN AND CANNOT ANSWER ABOUT A PLACE, DECLARED. The planner is built on one rule — zones answer, circles ask — and this file is the half of that rule that has to be data. For each species group or table the app ships, it records HOW an \"is this open where I am going\" question is answered: by intersecting the radius with a boundary this app draws, by a row that applies statewide, by a zone row whose boundary this app does NOT draw, by a species with no dated season at all, by ocean prose, or by a water's own rules. The results screen renders this table and nothing else: a group whose boundary is absent is never asserted for a location, and the reader is sent to CDFW's zone map instead.",
+ "never_invents_rule": "NOTHING IN THIS FILE IS A REGULATION AND NOTHING IN IT CHANGES ONE. A record here states where a value already in this app is read from and whether a boundary for it ships; it states no season, no date, no bag, no zone line and no limit. Every heading, caption, column, row key, season kind, species key and geometry claim below was READ off dataset/current/ when this file was written — not one was typed from memory — and pipeline/tests/test_planner_coverage.py re-derives all of them from the dataset and the geo folder and fails on drift. Delete this file and the planner loses its ability to say what it does not know; it can never change a value.",
+ "zone_geometry_layers": {
+  "layers": [
+   "dataset/current/geo/deer_zones.geojson",
+   "dataset/current/geo/waterfowl_zones.geojson",
+   "dataset/current/geo/archery_hunts.geojson",
+   "dataset/current/geo/additional_hunts.geojson",
+   "dataset/current/geo/upland_zones.geojson",
+   "dataset/current/geo/text_zones.geojson"
+  ],
+  "rule": "These FIVE files are the ONLY places a zone claim may rest. They are the layers that draw a regulation's own area. A lake, an MPA, a wildlife area or a backcountry point whose NAME happens to equal a regulation's area string is not that area's boundary, and binding one to the other would be this app inventing a zone line: \"Martis Creek Lake\" in the waterfowl Special Management Areas table is a lake point in lakes_points.geojson, and \"Morro Bay\" is two MPAs and a wildlife area. Neither is the waterfowl area the table means. R40 (2026-09-19) added the fifth, CDFW's upland game zone layer, which draws the quail, band-tailed pigeon and grouse zones this file previously recorded as undrawn. R41 (2026-09-19) added the sixth, geo/text_zones.geojson, and it is the ONLY one of the six this app drew rather than read: CDFW publishes those areas as sentences and publishes no map of them, so two of them — the ones whose definition is a list of whole counties and nothing else — are assembled here from CDFW's own county polygons. Every feature in that file carries `drawn_by` saying so, and every surface that shows one prints it. An area whose definition contains one clause that is not a whole county is not in that file at all.",
+  "matching_rule": "A table's area string finds a polygon by being that polygon's own label, character for character, or by being one of the pairs declared in curated/hunt_code_aliases_2026.json. Nothing is matched by similarity, by case folding, by prefix or by suffix. The declared pairs run in two directions and the file says which is which: `waterfowl_zone_names` is layer-spelling -> season-spelling (one-to-one), and `upland_zone_names` is row-key -> feature-id (many-to-one, because CDFW prints two Zone Q1 rows over one Q1 polygon and three grouse method rows over one grouse polygon)."
+ },
+ "zone_map_link_rule": "Every `zone_map_link.url` in this file is null, and that is a finding rather than an omission: the shipped hunt tables carry CDFW's zone-map link as TEXT and not as an href. The scrape put the link text into the column heading (\"Season / Area ( Zone Map (PDF )\") or, for tree squirrel, into the species cell itself. So the honest link this app can offer is the CDFW page the table itself cites, recorded as `page_url` — never a FileHandler DocumentID nobody in this repository has read.",
+ "renders_rule": "The results screen renders this table and nothing else. Specifically: a `statewide_row` group is answered for any location; a `zone_geometry` group is answered by intersection and names the zone; a `zone_row_without_geometry` group lists each zone's season with \"this app does not draw this species' zones — see CDFW's zone map\" and is never asserted for the location; a `no_dated_season` group links its own screen; an `ocean_area_prose` group shows the boundary sentence verbatim; a `water_rules` group is answered per water. Nothing else.",
+ "answered_by_vocabulary": {
+  "zone_geometry": "This app draws the boundary AND holds a dated season keyed on it. The planner may name the zone the radius intersects, draw it, and compute open / closed / unknown for the trip dates against that zone's own window.",
+  "statewide_row": "The regulation names no area smaller than the state, so the row is answered for any location inside it. The planner shows it without naming a zone, because the regulation names none.",
+  "zone_row_without_geometry": "The regulation divides the state into zones and this app draws none of them. The planner lists each zone's season with the honest line and CDFW's zone-map link, and NEVER asserts one of them for the reader's location. It also covers a table whose rows name no zone but whose heading links a zone map: the dates apply inside a boundary this app does not carry, so \"open at your pin\" would be a claim about the pin that nothing in this app can support.",
+  "no_dated_season": "This app holds no dated season for the group that any date engine could answer with — either the file carries no season field at all, or the only rows print \"Closed\", or the season ships as CDFW's printed text rather than a parsed window. The planner links the group's own free screen and says which of the three it is.",
+  "ocean_area_prose": "The area exists in the regulation as a sentence — a latitude line, a named point, a bay — and not as a polygon this app draws. The sentence ships verbatim, the dates ship with it, and the planner never decides whether a pin is inside the area.",
+  "water_rules": "Freshwater has waters, not zones. The answer is the rules published for the waters inside the radius, each with its own seasons, plus the statewide defaults. No zone is intersected because no zone exists."
+ },
+ "groups": [
+  {
+   "group_key": "upland_pheasant",
+   "title": "Pheasant",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "The only area this table names is \"General / Statewide\". The other two rows name a method of take, not a place, and carry the same statewide reach.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Pheasant",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "General / Statewide",
+     "Archery Only",
+     "Falconry"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 3
+   },
+   "species_keys": [
+    "ring_necked_pheasant"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Pheasant",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_quail",
+   "title": "Quail",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "R40, 2026-09-19. CDFW draws these zones itself and this app now carries them: dataset/current/geo/upland_zones.geojson holds Quail1, Quail2, Quail3 and QuailMojaveJr, built from the department's own Upland_Game_AGOL_gdb layer. All five of this table's area rows reach a polygon through a pair declared in curated/hunt_code_aliases_2026.json (upland_zone_names); nothing is matched by similarity. Two rows bind to the SAME polygon and that is CDFW's own arrangement, not a fold: \"Zone Q1 (Mountain Quail Only)\" and \"Zone Q1 (All Quail)\" are two seasons inside one drawn Zone Q1. The Mojave National Preserve junior row is no longer a named place with no boundary — CDFW draws it, as QuailMojaveJr, entirely inside Zone Q3 — so it moved out of named_place_rows and into a match. The remaining two rows, \"Archery Only\" and \"Falconry\", name a METHOD and not a place and are deliberately not bound: CDFW draws quail archery and falconry as the state outline, which is not a zone. NO DATE COMES FROM THE MAP LAYER: its own season fields were stale when it was read and the build ships none of them; the windows this group computes against are the ones hunt_upland.json already carried from CDFW's regulation page.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[1]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Quail",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area ( Zone Map (PDF )",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area ( Zone Map (PDF )",
+    "row_keys": [
+     "Zone Q1 (Mountain Quail Only)",
+     "Zone Q1 (All Quail)",
+     "Zone Q2 (All Quail)",
+     "Zone Q3 (All Quail)",
+     "Early Season for Hunters with Junior Hunting Licenses in Mojave National Preserve",
+     "Archery Only",
+     "Falconry"
+    ]
+   },
+   "zone_rows": [
+    "Zone Q1 (Mountain Quail Only)",
+    "Zone Q1 (All Quail)",
+    "Zone Q2 (All Quail)",
+    "Zone Q3 (All Quail)",
+    "Early Season for Hunters with Junior Hunting Licenses in Mojave National Preserve"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "Zone Q1 (Mountain Quail Only)",
+      "layer": "upland_zones",
+      "feature": "Quail1",
+      "via_alias": true
+     },
+     {
+      "area": "Zone Q1 (All Quail)",
+      "layer": "upland_zones",
+      "feature": "Quail1",
+      "via_alias": true
+     },
+     {
+      "area": "Zone Q2 (All Quail)",
+      "layer": "upland_zones",
+      "feature": "Quail2",
+      "via_alias": true
+     },
+     {
+      "area": "Zone Q3 (All Quail)",
+      "layer": "upland_zones",
+      "feature": "Quail3",
+      "via_alias": true
+     },
+     {
+      "area": "Early Season for Hunters with Junior Hunting Licenses in Mojave National Preserve",
+      "layer": "upland_zones",
+      "feature": "QuailMojaveJr",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": "Season / Area ( Zone Map (PDF )",
+    "url": null,
+    "url_absent_reason": "the shipped table carries the link's TEXT and not its href; `page_url` is the CDFW page that prints the link",
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 7
+   },
+   "species_keys": [
+    "california_quail",
+    "gambel_s_quail",
+    "mountain_quail"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Quail",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_chukar",
+   "title": "Chukar",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "\"General / Statewide\"; the other two rows name a method.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[2]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Chukar",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "General / Statewide",
+     "Archery Only",
+     "Falconry"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 3
+   },
+   "species_keys": [
+    "chukar"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Chukar",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_greater_sage_grouse",
+   "title": "Greater Sage-grouse",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "Both rows print \"Closed\" and the season parses to kind \"closed\": there is no dated window to compute against any trip date. The one row that names a place names the North Mono Zone, which no layer in dataset/current/geo draws.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[3]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Greater Sage-grouse",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "General, Archery / North Mono Zone only (hunting by permit only)",
+     "Falconry"
+    ]
+   },
+   "zone_rows": [
+    "General, Archery / North Mono Zone only (hunting by permit only)"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": [
+     "General, Archery / North Mono Zone only (hunting by permit only)"
+    ]
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "closed": 2
+   },
+   "species_keys": [
+    "greater_sage_grouse"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Greater Sage-grouse",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_sooty_blue_ruffed_grouse",
+   "title": "Sooty (Blue) / Ruffed Grouse",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "R40, 2026-09-19. The rows name METHODS and the boundary the column heading links is one zone over all three of them — and this app now draws it. CDFW's Upland_Game_AGOL_gdb layer publishes GrouseGeneral, GrouseArchery and GrouseFalconry with identical geometry (the build asserts it vertex for vertex and fails if it ever stops being true), so dataset/current/geo/upland_zones.geojson ships ONE polygon under the id GrouseGeneral and all three printed rows bind to it through pairs declared in curated/hunt_code_aliases_2026.json (upland_zone_names). Binding them together is not a claim that the three share a season — they do not, and each row keeps its own window from hunt_upland.json — only that they are hunted inside the same drawn boundary. THE POLYGON CARRIES NO ZONE NAME: CDFW publishes none for it (ZoneName is null, ZoneDes is \"See Map\"), so this app labels it by species and by CDFW's own words rather than inventing one. NO DATE COMES FROM THE MAP LAYER.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[4]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Sooty (Blue) / Ruffed Grouse",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "row_keys": [
+     "General",
+     "Archery Only",
+     "Falconry"
+    ]
+   },
+   "zone_rows": [
+    "General",
+    "Archery Only",
+    "Falconry"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "General",
+      "layer": "upland_zones",
+      "feature": "GrouseGeneral",
+      "via_alias": true
+     },
+     {
+      "area": "Archery Only",
+      "layer": "upland_zones",
+      "feature": "GrouseGeneral",
+      "via_alias": true
+     },
+     {
+      "area": "Falconry",
+      "layer": "upland_zones",
+      "feature": "GrouseGeneral",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "url": null,
+    "url_absent_reason": "the shipped table carries the link's TEXT and not its href; `page_url` is the CDFW page that prints the link",
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 3
+   },
+   "species_keys": [
+    "ruffed_grouse",
+    "sooty_grouse"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Sooty (Blue) / Ruffed Grouse",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_white_tailed_ptarmigan",
+   "title": "White-tailed Ptarmigan",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "Both rows say \"Statewide\" in the area column.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[5]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - White-tailed Ptarmigan",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "General & Archery / Statewide",
+     "Falconry / Statewide"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 2
+   },
+   "species_keys": [
+    "white_tailed_ptarmigan"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - White-tailed Ptarmigan",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_wild_turkey",
+   "title": "Wild Turkey",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "Two columns are headed \"Season / Area\"; the second carries the area/method and names Fall, General, Archery Only and Additional Junior. No row names a place and the table links no zone map.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[6]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Wild Turkey",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 1,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "Fall",
+     "General",
+     "Archery Only",
+     "Additional Junior"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 4
+   },
+   "species_keys": [
+    "wild_turkey"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Wild Turkey",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_dove",
+   "title": "Dove",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "Column 0 is the SPECIES and column 1 the area; every area cell reads \"Statewide\".",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[7]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Dove",
+     "caption": null
+    },
+    "columns": [
+     "Species",
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 1,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "Statewide",
+     "Statewide",
+     "Statewide"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 3
+   },
+   "species_keys": [
+    "eurasian_collared_dove",
+    "mourning_dove",
+    "ringed_turtle_dove",
+    "spotted_dove",
+    "white_winged_dove"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Dove",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_band_tailed_pigeon",
+   "title": "Band-tailed Pigeon",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "R40, 2026-09-19. The two rows are CDFW's North and South band-tailed pigeon zones, and CDFW draws both: dataset/current/geo/upland_zones.geojson carries PigeonNorth (whose ZoneName is \"North Zone\") and PigeonSouth (\"South Zone\"), built from the department's own Upland_Game_AGOL_gdb layer. Each row reaches its polygon through a pair declared in curated/hunt_code_aliases_2026.json (upland_zone_names) — the table prints the bare words \"North\" and \"South\" and the layer keys them PigeonNorth and PigeonSouth — and nothing is matched by similarity. NO DATE COMES FROM THE MAP LAYER; the two windows are the ones hunt_upland.json already carried from CDFW's regulation page.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[8]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Band-tailed Pigeon",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "row_keys": [
+     "North",
+     "South"
+    ]
+   },
+   "zone_rows": [
+    "North",
+    "South"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "North",
+      "layer": "upland_zones",
+      "feature": "PigeonNorth",
+      "via_alias": true
+     },
+     {
+      "area": "South",
+      "layer": "upland_zones",
+      "feature": "PigeonSouth",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": "Season / Area ( Zone Map (PDF) (opens in new tab) )",
+    "url": null,
+    "url_absent_reason": "the shipped table carries the link's TEXT and not its href; `page_url` is the CDFW page that prints the link",
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 2
+   },
+   "species_keys": [
+    "band_tailed_pigeon"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Band-tailed Pigeon",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_snipe",
+   "title": "Snipe",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "The single row says \"General / Statewide\".",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[9]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits - Snipe",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "General / Statewide"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds"
+   },
+   "season_kinds": {
+    "windows": 1
+   },
+   "species_keys": [
+    "wilson_s_snipe"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits - Snipe",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "source_doc": "CDFW Upland Game Birds hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "upland_american_crow",
+   "title": "American Crow",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "R41, 2026-09-19. THE ROW CDFW'S WEB PAGE DOES NOT PRINT. The Upland Game Birds page this table's other ten records are scraped from carries ten species tables and no crow row at all — only a link to a zone map — so until this release the app held no crow season and the planner could say nothing about crow anywhere. CDFW prints the season in its own 2026-2027 Waterfowl, Upland Game, and Lands Regulations booklet, p. 53: \"American Crow / Dec 5-Apr 7 (Balance of State) / 24 / 48\". That record is appended to hunt_upland.json from curated/crow_2026.json with the booklet, its page and its sha256 beside it, and its season cell goes through the same parser every scraped row goes through.\n\nTHE BOUNDARY IS CDFW'S OWN, AND IT IS THE OPEN AREA. The department draws one American Crow feature on the same Upland_Game_AGOL_gdb layer the quail, pigeon and grouse zones come from, keyed CrowOpen. R41 checked what that polygon IS rather than trusting its key: it was point-tested against § 485(d)'s two closed clauses and the answers agree on all twenty-two points tried — Alturas, Susanville, Eureka, Redding, Chester, Truckee, Bishop, Ridgecrest, Victorville, Barstow, Blythe and Hayfork are OUTSIDE it and each is inside a closed clause; Sacramento, Red Bluff, Arnold, Fresno, Bakersfield, Los Angeles, Ontario, Riverside, Escondido and Covelo are inside it and none of them is. Its northern limit is latitude 40.637, the mouth of the Eel River, which is clause (2)'s own starting point. Its own Text_in_Box lists the closed areas and ends \"All other areas are open\"; the polygon is those other areas.\n\nSo this group is answered exactly as every other zone_geometry group is, with no inverse reading and no new coverage kind: a radius that reaches the polygon is answered Open or Closed for the trip's days against Dec 5 - Apr 7; a radius that reaches it nowhere produces no answer and the coverage row says the radius reaches none of the zones this app draws. The one row binds to the one feature through a pair declared in curated/hunt_code_aliases_2026.json, scoped to this group — \"Balance of State\" is also a waterfowl zone name and is a different area, and the scope is what keeps the two apart.\n\nNO DATE COMES FROM THE MAP LAYER, and this feature is the loudest case for that rule in the file: the layer's own Season_Dates reads \"July 1 - Mar 31\" and its limits read \"No limit\" / \"No limit\", against the booklet's Dec 5-Apr 7 / 24 / 48.",
+   "reads": {
+    "file": "dataset/current/hunt_upland.json",
+    "record_path": "records[10]",
+    "record_key": {
+     "heading": "2026-2027 Seasons and Limits - American Crow",
+     "caption": null
+    },
+    "columns": [
+     "Season / Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Season / Area",
+    "row_keys": [
+     "Balance of State"
+    ]
+   },
+   "zone_rows": [
+    "Balance of State"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson",
+     "dataset/current/geo/text_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "Balance of State",
+      "layer": "upland_zones",
+      "feature": "CrowOpen",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": "American Crow Zone Map (PDF)",
+    "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=110418",
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
+    "url_basis": "THE ONE ZONE-MAP HREF THIS FILE CARRIES, AND IT IS NOT A GUESS. Every other group's `url` is null because the scrape put the link's TEXT in a column heading and dropped its href. This one was read off the tracked snapshot of CDFW's own Upland Game Birds page (pipeline/snapshots/html/2026-09-19/upland.html), where the anchor is `<a href=\"https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=110418&inline\" title=\"American Crow Zone Map\">American Crow Zone Map (PDF)</a>`. The document behind it has been fetched, read and pinned by sha256 in this repository (pipeline/curated/crow_2026.json, slot crow_zone_map.pdf) — it is the sheet § 485(d)'s closed-area text is quoted from. It is a link this lane followed, not a DocumentID anybody composed."
+   },
+   "season_kinds": {
+    "windows": 1
+   },
+   "species_keys": [
+    "american_crow"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"upland\", focus:)",
+    "focus": "2026-2027 Seasons and Limits - American Crow",
+    "screen": "Hunt → Upland game birds"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 485",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
+    "source_doc": "CDFW 2026-2027 Waterfowl, Upland Game, and Lands Regulations, p. 53",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   },
+   "curation_status": "draft_pending_user_verification",
+   "added_by": "R41, 2026-09-19"
+  },
+  {
+   "group_key": "small_game_tree_squirrel",
+   "title": "Tree Squirrel Zone Map (PDF)",
+   "activity": "hunt",
+   "answered_by": "zone_row_without_geometry",
+   "basis": "CDFW's zone-map link arrived INSIDE the species cell, so the species column reads \"Tree Squirrel Zone Map (PDF)\". The dates apply inside the tree-squirrel areas and no layer in dataset/current/geo draws them.\n\nR41, 2026-09-19 — THE TEXT IS NOW LOCATED AND QUOTED, AND THE AREAS ARE STILL NOT DRAWN. CDFW prints § 307(a) and § 307(b) beside its own Tree Squirrel Hunt Zones map sheet (nrm.dfg.ca.gov DocumentID 109005, read 2026-09-19); both are quoted verbatim in curated/text_zones_2026.json. Each one is a list of whole counties — 46 for the general season, 30 for archery and falconry — AND ONE CLAUSE THAT IS NOT: \"and that portion of Kern County lying east of Interstate 5\". This app holds no Interstate 5 centreline, so it cannot draw that clause, and the rule is that a county union which quietly omits part of an area is worse than no drawing at all: it would tell a hunter east of Interstate 5 in Kern County that they are outside an area the regulation puts them inside. Both areas therefore stay undrawn and the reader gets CDFW's own words. The sheet also draws a third thing — \"Closed to Hunting\" — which § 307 defines only by omission and never writes down. One line from a source this app may read would close this gap.",
+   "reads": {
+    "file": "dataset/current/hunt_small_game.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits",
+     "caption": null
+    },
+    "columns": [
+     "Species",
+     "Season/Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Species",
+    "row_keys": [
+     "Tree Squirrel Zone Map (PDF)",
+     "Tree Squirrel Zone Map (PDF)"
+    ],
+    "row_indexes": [
+     0,
+     1
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": "Tree Squirrel Zone Map (PDF)",
+    "url": null,
+    "url_absent_reason": "CDFW's link text arrived in the SPECIES cell itself; the shipped table carries no href",
+    "page_url": "https://wildlife.ca.gov/Hunting/Small-Game"
+   },
+   "season_kinds": {
+    "windows": 2
+   },
+   "species_keys": [
+    "tree_squirrel"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"smallgame\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits",
+    "screen": "Hunt → Small game"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
+    "source_doc": "CDFW Small Game hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   },
+   "text_definitions": {
+    "file": "pipeline/curated/text_zones_2026.json",
+    "located": [
+     "Tree Squirrel 307(a)",
+     "Tree Squirrel 307(b)"
+    ],
+    "drawn": [],
+    "blocking_clause": "and that portion of Kern County lying east of Interstate 5"
+   },
+   "basis_revised_by": "R41, 2026-09-19 (draft; the owner has not read the revised basis)"
+  },
+  {
+   "group_key": "small_game_rabbits_and_varying_hare",
+   "title": "Rabbits & Varying Hare",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "Both rows name a method only and the table links no zone map for them.",
+   "reads": {
+    "file": "dataset/current/hunt_small_game.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits",
+     "caption": null
+    },
+    "columns": [
+     "Species",
+     "Season/Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Species",
+    "row_keys": [
+     "Rabbits & Varying Hare",
+     "Rabbits & Varying Hare"
+    ],
+    "row_indexes": [
+     2,
+     3
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Small-Game"
+   },
+   "season_kinds": {
+    "windows": 2
+   },
+   "species_keys": [
+    "rabbits_and_varying_hare"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"smallgame\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits",
+    "screen": "Hunt → Small game"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
+    "source_doc": "CDFW Small Game hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "small_game_jackrabbit",
+   "title": "Jackrabbit",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "One row, \"General\", \"Open all year\". The season parses to kind \"unparsed\", so the planner shows CDFW's words and computes nothing.",
+   "reads": {
+    "file": "dataset/current/hunt_small_game.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026 - 2027 Seasons and Limits",
+     "caption": null
+    },
+    "columns": [
+     "Species",
+     "Season/Area",
+     "Season Dates",
+     "Daily Bag Limit",
+     "Possession Limit"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "Species",
+    "row_keys": [
+     "Jackrabbit"
+    ],
+    "row_indexes": [
+     4
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Small-Game"
+   },
+   "season_kinds": {
+    "windows": 1
+   },
+   "species_keys": [
+    "jackrabbit"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"smallgame\", focus:)",
+    "focus": "2026 - 2027 Seasons and Limits",
+    "screen": "Hunt → Small game"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
+    "source_doc": "CDFW Small Game hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "waterfowl_statewide_rows",
+   "title": "Seasons and Bag / Possession Limits by Zone",
+   "activity": "hunt",
+   "answered_by": "statewide_row",
+   "basis": "The one row CDFW heads \"Statewide\" — Coots & Moorhens, \"Concurrent w/duck season\", which parses to kind \"unparsed\": statewide reach, no computable window.",
+   "reads": {
+    "file": "dataset/current/hunt_waterfowl.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026-2027 Regulations",
+     "caption": "Seasons and Bag / Possession Limits by Zone"
+    },
+    "columns": [
+     "AREA",
+     "SPECIES",
+     "SEASONS",
+     "DAILY BAG & POSSESSION LIMITS"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "AREA",
+    "row_keys": [
+     "Statewide"
+    ],
+    "row_indexes": [
+     0
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Waterfowl"
+   },
+   "season_kinds": {
+    "season_ref": 1
+   },
+   "species_keys": [
+    "american_coot",
+    "common_gallinule"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"waterfowl\", focus:)",
+    "focus": "2026-2027 RegulationsSeasons and Bag / Possession Limits by Zone",
+    "screen": "Hunt → Waterfowl"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "waterfowl_zone_seasons",
+   "title": "Seasons and Bag / Possession Limits by Zone",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "Five zones, all five drawn in dataset/current/geo/waterfowl_zones.geojson. Two of them are drawn under a different spelling from the one this table prints and reach their polygon through the declared aliases in curated/hunt_code_aliases_2026.json (waterfowl_zone_names); nothing is matched by similarity.",
+   "reads": {
+    "file": "dataset/current/hunt_waterfowl.json",
+    "record_path": "records[0]",
+    "record_key": {
+     "heading": "2026-2027 Regulations",
+     "caption": "Seasons and Bag / Possession Limits by Zone"
+    },
+    "columns": [
+     "AREA",
+     "SPECIES",
+     "SEASONS",
+     "DAILY BAG & POSSESSION LIMITS"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "AREA",
+    "row_keys": [
+     "Northeastern Zone",
+     "Northeastern Zone",
+     "Northeastern Zone",
+     "Southern San Joaquin Valley Zone",
+     "Southern San Joaquin Valley Zone",
+     "Southern San Joaquin Valley Zone",
+     "Southern California Zone",
+     "Southern California Zone",
+     "Southern California Zone",
+     "Colorado River Zone",
+     "Colorado River Zone",
+     "Colorado River Zone",
+     "Balance of State Zone",
+     "Balance of State Zone",
+     "Balance of State Zone"
+    ],
+    "row_indexes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "zone_rows": [
+    "Northeastern Zone",
+    "Southern San Joaquin Valley Zone",
+    "Southern California Zone",
+    "Colorado River Zone",
+    "Balance of State Zone"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/waterfowl_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "Northeastern Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Northeastern California Zone",
+      "via_alias": true
+     },
+     {
+      "area": "Southern San Joaquin Valley Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern San Joaquin Valley Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Southern California Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern California Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Colorado River Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Colorado River Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Balance of State Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Balance of State",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Waterfowl"
+   },
+   "season_kinds": {
+    "unparsed": 2,
+    "windows": 13
+   },
+   "species_keys": [
+    "american_wigeon",
+    "blue_winged_teal",
+    "bufflehead",
+    "cackling_goose",
+    "canada_goose",
+    "canvasback",
+    "cinnamon_teal",
+    "common_goldeneye",
+    "common_merganser",
+    "gadwall",
+    "greater_scaup",
+    "greater_white_fronted_goose",
+    "green_winged_teal",
+    "hooded_merganser",
+    "lesser_scaup",
+    "mallard",
+    "mexican_duck",
+    "northern_pintail",
+    "northern_shoveler",
+    "redhead",
+    "ring_necked_duck",
+    "ross_s_goose",
+    "ruddy_duck",
+    "snow_goose",
+    "surf_scoter",
+    "wood_duck"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"waterfowl\", focus:)",
+    "focus": "2026-2027 RegulationsSeasons and Bag / Possession Limits by Zone",
+    "screen": "Hunt → Waterfowl"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "waterfowl_special_management_areas",
+   "title": "Special Management Areas",
+   "activity": "hunt",
+   "answered_by": "zone_row_without_geometry",
+   "basis": "Nine sub-areas inside the zones — North Coast, Klamath Basin, Sacramento Valley, Morro Bay, the two Brant areas and the rest. CDFW draws none of them: a sweep of all 2,502 services on its ArcGIS org (R40, 2026-09-19) found no layer for any. Name collisions elsewhere in geo are not these boundaries: \"Martis Creek Lake\" is a lake point and \"Morro Bay\" is two MPAs and a wildlife area, and none of the three is the waterfowl area the table means.\n\nR41, 2026-09-19 — ALL NINE DEFINITIONS ARE NOW QUOTED AND TWO OF THEM ARE DRAWN BY THIS APP. CDFW prints § 502(b)(6) on pp. 36-37 of the 2026-2027 Waterfowl, Upland Game, and Lands Regulations booklet; every definition is in curated/text_zones_2026.json verbatim. TWO are a list of whole counties and nothing else — North Coast (\"All of Del Norte and Humboldt counties.\") and Northern Brant (\"Del Norte, Humboldt and Mendocino counties.\") — and this app draws those two in geo/text_zones.geojson as the union of those counties in CDFW's own county layer, LABELLED AS THIS APP'S OWN LINES on every surface that shows them. The other seven are not drawn and each records the clause that stopped it: Humboldt Bay South Spit is a jetty and a mean low water line; Klamath Basin, Sacramento Valley and Imperial County are circuits of roads and highways (Imperial County is NOT the county, despite the row's name); Morro Bay is tide lines and points offshore; Martis Creek Lake is a reservoir, and the two counties in its sentence locate the lake rather than define the area; Balance of State Brant names no county at all — it is the complement of Northern Brant, and a complement drawn from county polygons that stop at the shoreline would tell a brant hunter on the water they are in no area.\n\nTHE GROUP STAYS `zone_row_without_geometry` BECAUSE SEVEN OF THE NINE ROWS ARE STILL UNDRAWN. Coverage flips only when every zone row in a group is drawable. What changes for a reader is per row: the two drawn rows are answered against their drawn area when the radius reaches it, with the sentence saying who drew the line; the other seven behave exactly as before.",
+   "reads": {
+    "file": "dataset/current/hunt_waterfowl.json",
+    "record_path": "records[1]",
+    "record_key": {
+     "heading": "2026-2027 Regulations",
+     "caption": "Special Management Areas"
+    },
+    "columns": [
+     "AREA",
+     "SPECIES",
+     "SEASONS",
+     "DAILY BAG & POSSESSION LIMITS"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "AREA",
+    "row_keys": [
+     "North Coast",
+     "Humboldt Bay South Spit (West Side)",
+     "Klamath Basin",
+     "Sacramento Valley",
+     "Morro Bay",
+     "Martis Creek Lake",
+     "Northern Brant",
+     "Balance of State Brant",
+     "Imperial County"
+    ],
+    "row_indexes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "zone_rows": [
+    "North Coast",
+    "Humboldt Bay South Spit (West Side)",
+    "Klamath Basin",
+    "Sacramento Valley",
+    "Morro Bay",
+    "Martis Creek Lake",
+    "Northern Brant",
+    "Balance of State Brant",
+    "Imperial County"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/text_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": [
+     "North Coast",
+     "Humboldt Bay South Spit (West Side)",
+     "Klamath Basin",
+     "Sacramento Valley",
+     "Morro Bay",
+     "Martis Creek Lake",
+     "Northern Brant",
+     "Balance of State Brant",
+     "Imperial County"
+    ],
+    "note": "`exists` stays false because the GROUP is not zone-backed: seven of its nine rows are undrawn. Two rows do reach a drawn area and they are declared in `text_zone_rows`, not here — a row-level drawing is not a group-level one, and folding it in would let a reader of this table believe the nine areas were mapped."
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Waterfowl"
+   },
+   "season_kinds": {
+    "closed": 2,
+    "unparsed": 3,
+    "windows": 4
+   },
+   "species_keys": [
+    "brant",
+    "cackling_goose",
+    "canada_goose",
+    "greater_white_fronted_goose",
+    "ross_s_goose",
+    "snow_goose"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"waterfowl\", focus:)",
+    "focus": "2026-2027 RegulationsSpecial Management Areas",
+    "screen": "Hunt → Waterfowl"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   },
+   "text_zone_rows": [
+    {
+     "area": "North Coast",
+     "layer": "text_zones",
+     "feature": "sma_north_coast",
+     "via_alias": false
+    },
+    {
+     "area": "Northern Brant",
+     "layer": "text_zones",
+     "feature": "sma_northern_brant",
+     "via_alias": false
+    }
+   ],
+   "text_definitions": {
+    "file": "pipeline/curated/text_zones_2026.json",
+    "located": [
+     "North Coast",
+     "Humboldt Bay South Spit (West Side)",
+     "Klamath Basin",
+     "Sacramento Valley",
+     "Morro Bay",
+     "Martis Creek Lake",
+     "Northern Brant",
+     "Balance of State Brant",
+     "Imperial County"
+    ],
+    "drawn": [
+     "North Coast",
+     "Northern Brant"
+    ]
+   },
+   "basis_revised_by": "R41, 2026-09-19 (draft; the owner has not read the revised basis)"
+  },
+  {
+   "group_key": "waterfowl_youth_days",
+   "title": "Youth Waterfowl Hunting Days",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "The same five zones as the season table, so the same polygons answer.",
+   "reads": {
+    "file": "dataset/current/hunt_waterfowl.json",
+    "record_path": "records[2]",
+    "record_key": {
+     "heading": "2026-2027 Regulations",
+     "caption": "Youth Waterfowl Hunting Days"
+    },
+    "columns": [
+     "AREA",
+     "SPECIES",
+     "SEASONS",
+     "DAILY BAG & POSSESSION LIMITS"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "AREA",
+    "row_keys": [
+     "Northeastern Zone",
+     "Southern San Joaquin Valley Zone",
+     "Southern California Zone",
+     "Colorado River Zone",
+     "Balance of State Zone"
+    ],
+    "row_indexes": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "zone_rows": [
+    "Northeastern Zone",
+    "Southern San Joaquin Valley Zone",
+    "Southern California Zone",
+    "Colorado River Zone",
+    "Balance of State Zone"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/waterfowl_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "Northeastern Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Northeastern California Zone",
+      "via_alias": true
+     },
+     {
+      "area": "Southern San Joaquin Valley Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern San Joaquin Valley Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Southern California Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern California Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Colorado River Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Colorado River Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Balance of State Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Balance of State",
+      "via_alias": true
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Waterfowl"
+   },
+   "season_kinds": {
+    "windows": 5
+   },
+   "species_keys": [],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"waterfowl\", focus:)",
+    "focus": "2026-2027 RegulationsYouth Waterfowl Hunting Days",
+    "screen": "Hunt → Waterfowl"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "waterfowl_veterans_days",
+   "title": "Veterans and Active Military Personnel Waterfowl Hunting Days",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "Four of the five zones; the Colorado River Zone has no row in this table and is not asserted to have one.",
+   "reads": {
+    "file": "dataset/current/hunt_waterfowl.json",
+    "record_path": "records[3]",
+    "record_key": {
+     "heading": "2026-2027 Regulations",
+     "caption": "Veterans and Active Military Personnel Waterfowl Hunting Days"
+    },
+    "columns": [
+     "AREA",
+     "SPECIES",
+     "SEASONS",
+     "DAILY BAG & POSSESSION LIMITS"
+    ],
+    "row_key_column_index": 0,
+    "row_key_column": "AREA",
+    "row_keys": [
+     "Northeastern Zone",
+     "Balance of State Zone",
+     "Southern San Joaquin Valley Zone",
+     "Southern California Zone"
+    ],
+    "row_indexes": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "zone_rows": [
+    "Northeastern Zone",
+    "Balance of State Zone",
+    "Southern San Joaquin Valley Zone",
+    "Southern California Zone"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/waterfowl_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "Northeastern Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Northeastern California Zone",
+      "via_alias": true
+     },
+     {
+      "area": "Balance of State Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Balance of State",
+      "via_alias": true
+     },
+     {
+      "area": "Southern San Joaquin Valley Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern San Joaquin Valley Zone",
+      "via_alias": false
+     },
+     {
+      "area": "Southern California Zone",
+      "layer": "waterfowl_zones",
+      "feature": "Southern California Zone",
+      "via_alias": false
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Hunting/Waterfowl"
+   },
+   "season_kinds": {
+    "windows": 4
+   },
+   "species_keys": [
+    "american_wigeon",
+    "blue_winged_teal",
+    "bufflehead",
+    "canvasback",
+    "cinnamon_teal",
+    "common_goldeneye",
+    "common_merganser",
+    "gadwall",
+    "greater_scaup",
+    "green_winged_teal",
+    "hooded_merganser",
+    "lesser_scaup",
+    "mallard",
+    "mexican_duck",
+    "northern_pintail",
+    "northern_shoveler",
+    "redhead",
+    "ring_necked_duck",
+    "ruddy_duck",
+    "surf_scoter",
+    "wood_duck"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.birds(\"waterfowl\", focus:)",
+    "focus": "2026-2027 RegulationsVeterans and Active Military Personnel Waterfowl Hunting Days",
+    "screen": "Hunt → Waterfowl"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "deer_zones",
+   "title": "Deer — zone seasons",
+   "activity": "hunt",
+   "answered_by": "zone_geometry",
+   "basis": "The only hunt group in this app whose zones are BOTH drawn and dated: 44 zone keys, every one of them a feature id in dataset/current/geo/deer_zones.geojson, each carrying `general_season` and (where CDFW printed dates rather than a cross-reference) `archery_season` as ISO windows. OpenNowDigest.isOpen(dated:on:) answers these three-valued; the 21 zones whose archery season prints as \"See Hunt A-3\" answer UNKNOWN, never closed.",
+   "reads": {
+    "file": "dataset/current/hunt_deer.json",
+    "record_path": "records[]",
+    "record_key": {
+     "keyed_on": "zone_key",
+     "joins_geometry_on": "geometry_ref"
+    },
+    "columns": [
+     "zone_key",
+     "zone_label",
+     "general_season",
+     "archery_season"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "zone_key",
+    "row_keys": [
+     "A",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D10",
+     "D11",
+     "D12",
+     "D13",
+     "D14",
+     "D15",
+     "D16",
+     "D17",
+     "D19",
+     "D3",
+     "D4",
+     "D5",
+     "D6",
+     "D7",
+     "D8",
+     "D9",
+     "X1",
+     "X10",
+     "X12",
+     "X2",
+     "X3A",
+     "X3B",
+     "X4",
+     "X5A",
+     "X5B",
+     "X6A",
+     "X6B",
+     "X7A",
+     "X7B",
+     "X8",
+     "X9A",
+     "X9B",
+     "X9C"
+    ]
+   },
+   "zone_rows": [
+    "A",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D19",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "X1",
+    "X10",
+    "X12",
+    "X2",
+    "X3A",
+    "X3B",
+    "X4",
+    "X5A",
+    "X5B",
+    "X6A",
+    "X6B",
+    "X7A",
+    "X7B",
+    "X8",
+    "X9A",
+    "X9B",
+    "X9C"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson"
+    ],
+    "matched": [
+     {
+      "area": "A",
+      "layer": "deer_zones",
+      "feature": "A",
+      "via_alias": false
+     },
+     {
+      "area": "B1",
+      "layer": "deer_zones",
+      "feature": "B1",
+      "via_alias": false
+     },
+     {
+      "area": "B2",
+      "layer": "deer_zones",
+      "feature": "B2",
+      "via_alias": false
+     },
+     {
+      "area": "B3",
+      "layer": "deer_zones",
+      "feature": "B3",
+      "via_alias": false
+     },
+     {
+      "area": "B4",
+      "layer": "deer_zones",
+      "feature": "B4",
+      "via_alias": false
+     },
+     {
+      "area": "B5",
+      "layer": "deer_zones",
+      "feature": "B5",
+      "via_alias": false
+     },
+     {
+      "area": "B6",
+      "layer": "deer_zones",
+      "feature": "B6",
+      "via_alias": false
+     },
+     {
+      "area": "C1",
+      "layer": "deer_zones",
+      "feature": "C1",
+      "via_alias": false
+     },
+     {
+      "area": "C2",
+      "layer": "deer_zones",
+      "feature": "C2",
+      "via_alias": false
+     },
+     {
+      "area": "C3",
+      "layer": "deer_zones",
+      "feature": "C3",
+      "via_alias": false
+     },
+     {
+      "area": "C4",
+      "layer": "deer_zones",
+      "feature": "C4",
+      "via_alias": false
+     },
+     {
+      "area": "D10",
+      "layer": "deer_zones",
+      "feature": "D10",
+      "via_alias": false
+     },
+     {
+      "area": "D11",
+      "layer": "deer_zones",
+      "feature": "D11",
+      "via_alias": false
+     },
+     {
+      "area": "D12",
+      "layer": "deer_zones",
+      "feature": "D12",
+      "via_alias": false
+     },
+     {
+      "area": "D13",
+      "layer": "deer_zones",
+      "feature": "D13",
+      "via_alias": false
+     },
+     {
+      "area": "D14",
+      "layer": "deer_zones",
+      "feature": "D14",
+      "via_alias": false
+     },
+     {
+      "area": "D15",
+      "layer": "deer_zones",
+      "feature": "D15",
+      "via_alias": false
+     },
+     {
+      "area": "D16",
+      "layer": "deer_zones",
+      "feature": "D16",
+      "via_alias": false
+     },
+     {
+      "area": "D17",
+      "layer": "deer_zones",
+      "feature": "D17",
+      "via_alias": false
+     },
+     {
+      "area": "D19",
+      "layer": "deer_zones",
+      "feature": "D19",
+      "via_alias": false
+     },
+     {
+      "area": "D3",
+      "layer": "deer_zones",
+      "feature": "D3",
+      "via_alias": false
+     },
+     {
+      "area": "D4",
+      "layer": "deer_zones",
+      "feature": "D4",
+      "via_alias": false
+     },
+     {
+      "area": "D5",
+      "layer": "deer_zones",
+      "feature": "D5",
+      "via_alias": false
+     },
+     {
+      "area": "D6",
+      "layer": "deer_zones",
+      "feature": "D6",
+      "via_alias": false
+     },
+     {
+      "area": "D7",
+      "layer": "deer_zones",
+      "feature": "D7",
+      "via_alias": false
+     },
+     {
+      "area": "D8",
+      "layer": "deer_zones",
+      "feature": "D8",
+      "via_alias": false
+     },
+     {
+      "area": "D9",
+      "layer": "deer_zones",
+      "feature": "D9",
+      "via_alias": false
+     },
+     {
+      "area": "X1",
+      "layer": "deer_zones",
+      "feature": "X1",
+      "via_alias": false
+     },
+     {
+      "area": "X10",
+      "layer": "deer_zones",
+      "feature": "X10",
+      "via_alias": false
+     },
+     {
+      "area": "X12",
+      "layer": "deer_zones",
+      "feature": "X12",
+      "via_alias": false
+     },
+     {
+      "area": "X2",
+      "layer": "deer_zones",
+      "feature": "X2",
+      "via_alias": false
+     },
+     {
+      "area": "X3A",
+      "layer": "deer_zones",
+      "feature": "X3A",
+      "via_alias": false
+     },
+     {
+      "area": "X3B",
+      "layer": "deer_zones",
+      "feature": "X3B",
+      "via_alias": false
+     },
+     {
+      "area": "X4",
+      "layer": "deer_zones",
+      "feature": "X4",
+      "via_alias": false
+     },
+     {
+      "area": "X5A",
+      "layer": "deer_zones",
+      "feature": "X5A",
+      "via_alias": false
+     },
+     {
+      "area": "X5B",
+      "layer": "deer_zones",
+      "feature": "X5B",
+      "via_alias": false
+     },
+     {
+      "area": "X6A",
+      "layer": "deer_zones",
+      "feature": "X6A",
+      "via_alias": false
+     },
+     {
+      "area": "X6B",
+      "layer": "deer_zones",
+      "feature": "X6B",
+      "via_alias": false
+     },
+     {
+      "area": "X7A",
+      "layer": "deer_zones",
+      "feature": "X7A",
+      "via_alias": false
+     },
+     {
+      "area": "X7B",
+      "layer": "deer_zones",
+      "feature": "X7B",
+      "via_alias": false
+     },
+     {
+      "area": "X8",
+      "layer": "deer_zones",
+      "feature": "X8",
+      "via_alias": false
+     },
+     {
+      "area": "X9A",
+      "layer": "deer_zones",
+      "feature": "X9A",
+      "via_alias": false
+     },
+     {
+      "area": "X9B",
+      "layer": "deer_zones",
+      "feature": "X9B",
+      "via_alias": false
+     },
+     {
+      "area": "X9C",
+      "layer": "deer_zones",
+      "feature": "X9C",
+      "via_alias": false
+     }
+    ],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168214"
+   },
+   "season_kinds": {
+    "general_dated_window": 44,
+    "archery_dated_window": 23,
+    "archery_absent": 21
+   },
+   "species_keys": [
+    "deer"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.deerZone(id)",
+    "focus": null,
+    "screen": "Hunt → Deer zones → the zone"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168214",
+    "source_doc": "CDFW Deer Seasons/Tag Classification PDFs (nrm.dfg.ca.gov FileHandler): Approved 2026 Deer Seasons by Zone_Accessible_MailMerge.pdf",
+    "source_revision": "Approved 2026 Deer Seasons by Zone_Accessible_MailMerge.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "group_key": "deer_named_hunts",
+   "title": "Deer — named hunts (area-specific archery, and the G / J / M / MA hunts)",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "The GEOMETRY exists — 72 hunt codes drawn across archery_hunts.geojson and additional_hunts.geojson — and the SEASON does not. Every hunt record carries `seasons_text`, CDFW's printed strings (\"8/15/2026 – 8/30/2026\"), and no parsed window; `DeerHunt` in Models/HuntModels.swift declares `seasonsText: [String]` and no season field. So the planner may NAME the hunts whose polygon the radius intersects and show CDFW's printed dates verbatim, and may never compute open or closed for one. Two gaps ride with it, both recorded below rather than smoothed: three drawn codes have no hunt record, and one hunt record has no polygon.",
+   "reads": {
+    "file": "dataset/current/hunt_deer.json",
+    "record_path": "hunts{}",
+    "record_key": {
+     "keyed_on": "hunt_code"
+    },
+    "columns": [
+     "hunt_code",
+     "printed_code",
+     "title",
+     "seasons_text",
+     "zones"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "hunt_code",
+    "row_keys": [
+     "A1",
+     "A11",
+     "A12",
+     "A13",
+     "A14",
+     "A15",
+     "A16",
+     "A17",
+     "A18",
+     "A19",
+     "A20",
+     "A21",
+     "A22",
+     "A24",
+     "A25",
+     "A26",
+     "A27",
+     "A3",
+     "A30",
+     "A31",
+     "A32",
+     "A33",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8",
+     "A9",
+     "AO",
+     "G1",
+     "G10",
+     "G11",
+     "G12",
+     "G13",
+     "G19",
+     "G21",
+     "G3",
+     "G37",
+     "G38",
+     "G39",
+     "G40",
+     "G6",
+     "G7",
+     "J1",
+     "J10",
+     "J11",
+     "J12",
+     "J13",
+     "J14",
+     "J15",
+     "J16",
+     "J17",
+     "J18",
+     "J19",
+     "J20",
+     "J21",
+     "J3",
+     "J4",
+     "J8",
+     "J9",
+     "M11",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "MA1",
+     "MA3"
+    ]
+   },
+   "zone_rows": [
+    "A1",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15",
+    "A16",
+    "A17",
+    "A18",
+    "A19",
+    "A20",
+    "A21",
+    "A22",
+    "A24",
+    "A25",
+    "A26",
+    "A27",
+    "A3",
+    "A30",
+    "A31",
+    "A32",
+    "A33",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "AO",
+    "G1",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G19",
+    "G21",
+    "G3",
+    "G37",
+    "G38",
+    "G39",
+    "G40",
+    "G6",
+    "G7",
+    "J1",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "J16",
+    "J17",
+    "J18",
+    "J19",
+    "J20",
+    "J21",
+    "J3",
+    "J4",
+    "J8",
+    "J9",
+    "M11",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "M9",
+    "MA1",
+    "MA3"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": true,
+    "layers_checked": [
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson"
+    ],
+    "matched": [
+     {
+      "area": "A1",
+      "layer": "archery_hunts",
+      "feature": "A1",
+      "via_alias": false
+     },
+     {
+      "area": "A11",
+      "layer": "archery_hunts",
+      "feature": "A11",
+      "via_alias": false
+     },
+     {
+      "area": "A12",
+      "layer": "archery_hunts",
+      "feature": "A12",
+      "via_alias": false
+     },
+     {
+      "area": "A13",
+      "layer": "archery_hunts",
+      "feature": "A13",
+      "via_alias": false
+     },
+     {
+      "area": "A14",
+      "layer": "archery_hunts",
+      "feature": "A14",
+      "via_alias": false
+     },
+     {
+      "area": "A15",
+      "layer": "archery_hunts",
+      "feature": "A15",
+      "via_alias": false
+     },
+     {
+      "area": "A16",
+      "layer": "archery_hunts",
+      "feature": "A16",
+      "via_alias": false
+     },
+     {
+      "area": "A17",
+      "layer": "archery_hunts",
+      "feature": "A17",
+      "via_alias": false
+     },
+     {
+      "area": "A18",
+      "layer": "archery_hunts",
+      "feature": "A18",
+      "via_alias": false
+     },
+     {
+      "area": "A19",
+      "layer": "archery_hunts",
+      "feature": "A19",
+      "via_alias": false
+     },
+     {
+      "area": "A20",
+      "layer": "archery_hunts",
+      "feature": "A20",
+      "via_alias": false
+     },
+     {
+      "area": "A21",
+      "layer": "archery_hunts",
+      "feature": "A21",
+      "via_alias": false
+     },
+     {
+      "area": "A22",
+      "layer": "archery_hunts",
+      "feature": "A22",
+      "via_alias": false
+     },
+     {
+      "area": "A24",
+      "layer": "archery_hunts",
+      "feature": "A24",
+      "via_alias": false
+     },
+     {
+      "area": "A25",
+      "layer": "archery_hunts",
+      "feature": "A25",
+      "via_alias": false
+     },
+     {
+      "area": "A26",
+      "layer": "archery_hunts",
+      "feature": "A26",
+      "via_alias": false
+     },
+     {
+      "area": "A27",
+      "layer": "archery_hunts",
+      "feature": "A27",
+      "via_alias": false
+     },
+     {
+      "area": "A3",
+      "layer": "archery_hunts",
+      "feature": "A3",
+      "via_alias": false
+     },
+     {
+      "area": "A30",
+      "layer": "archery_hunts",
+      "feature": "A30",
+      "via_alias": false
+     },
+     {
+      "area": "A31",
+      "layer": "archery_hunts",
+      "feature": "A31",
+      "via_alias": false
+     },
+     {
+      "area": "A32",
+      "layer": "archery_hunts",
+      "feature": "A32",
+      "via_alias": false
+     },
+     {
+      "area": "A33",
+      "layer": "archery_hunts",
+      "feature": "A33",
+      "via_alias": false
+     },
+     {
+      "area": "A4",
+      "layer": "archery_hunts",
+      "feature": "A4",
+      "via_alias": false
+     },
+     {
+      "area": "A5",
+      "layer": "archery_hunts",
+      "feature": "A5",
+      "via_alias": false
+     },
+     {
+      "area": "A6",
+      "layer": "archery_hunts",
+      "feature": "A6",
+      "via_alias": false
+     },
+     {
+      "area": "A7",
+      "layer": "archery_hunts",
+      "feature": "A7",
+      "via_alias": false
+     },
+     {
+      "area": "A8",
+      "layer": "archery_hunts",
+      "feature": "A8",
+      "via_alias": false
+     },
+     {
+      "area": "A9",
+      "layer": "archery_hunts",
+      "feature": "A9",
+      "via_alias": false
+     },
+     {
+      "area": "G1",
+      "layer": "additional_hunts",
+      "feature": "G1",
+      "via_alias": false
+     },
+     {
+      "area": "G10",
+      "layer": "additional_hunts",
+      "feature": "G10",
+      "via_alias": false
+     },
+     {
+      "area": "G11",
+      "layer": "additional_hunts",
+      "feature": "G11",
+      "via_alias": false
+     },
+     {
+      "area": "G12",
+      "layer": "additional_hunts",
+      "feature": "G12",
+      "via_alias": false
+     },
+     {
+      "area": "G13",
+      "layer": "additional_hunts",
+      "feature": "G13",
+      "via_alias": false
+     },
+     {
+      "area": "G19",
+      "layer": "additional_hunts",
+      "feature": "G19",
+      "via_alias": false
+     },
+     {
+      "area": "G21",
+      "layer": "additional_hunts",
+      "feature": "G21",
+      "via_alias": false
+     },
+     {
+      "area": "G3",
+      "layer": "additional_hunts",
+      "feature": "G3",
+      "via_alias": false
+     },
+     {
+      "area": "G37",
+      "layer": "additional_hunts",
+      "feature": "G37",
+      "via_alias": false
+     },
+     {
+      "area": "G38",
+      "layer": "additional_hunts",
+      "feature": "G38",
+      "via_alias": false
+     },
+     {
+      "area": "G39",
+      "layer": "additional_hunts",
+      "feature": "G39",
+      "via_alias": false
+     },
+     {
+      "area": "G40",
+      "layer": "additional_hunts",
+      "feature": "G40",
+      "via_alias": false
+     },
+     {
+      "area": "G6",
+      "layer": "additional_hunts",
+      "feature": "G6",
+      "via_alias": false
+     },
+     {
+      "area": "G7",
+      "layer": "additional_hunts",
+      "feature": "G7",
+      "via_alias": false
+     },
+     {
+      "area": "J1",
+      "layer": "additional_hunts",
+      "feature": "J1",
+      "via_alias": false
+     },
+     {
+      "area": "J10",
+      "layer": "additional_hunts",
+      "feature": "J10",
+      "via_alias": false
+     },
+     {
+      "area": "J11",
+      "layer": "additional_hunts",
+      "feature": "J11",
+      "via_alias": false
+     },
+     {
+      "area": "J12",
+      "layer": "additional_hunts",
+      "feature": "J12",
+      "via_alias": false
+     },
+     {
+      "area": "J13",
+      "layer": "additional_hunts",
+      "feature": "J13",
+      "via_alias": false
+     },
+     {
+      "area": "J14",
+      "layer": "additional_hunts",
+      "feature": "J14",
+      "via_alias": false
+     },
+     {
+      "area": "J15",
+      "layer": "additional_hunts",
+      "feature": "J15",
+      "via_alias": false
+     },
+     {
+      "area": "J16",
+      "layer": "additional_hunts",
+      "feature": "J16",
+      "via_alias": false
+     },
+     {
+      "area": "J17",
+      "layer": "additional_hunts",
+      "feature": "J17",
+      "via_alias": false
+     },
+     {
+      "area": "J18",
+      "layer": "additional_hunts",
+      "feature": "J18",
+      "via_alias": false
+     },
+     {
+      "area": "J19",
+      "layer": "additional_hunts",
+      "feature": "J19",
+      "via_alias": false
+     },
+     {
+      "area": "J20",
+      "layer": "additional_hunts",
+      "feature": "J20",
+      "via_alias": false
+     },
+     {
+      "area": "J21",
+      "layer": "additional_hunts",
+      "feature": "J21",
+      "via_alias": false
+     },
+     {
+      "area": "J3",
+      "layer": "additional_hunts",
+      "feature": "J3",
+      "via_alias": false
+     },
+     {
+      "area": "J4",
+      "layer": "additional_hunts",
+      "feature": "J4",
+      "via_alias": false
+     },
+     {
+      "area": "J8",
+      "layer": "additional_hunts",
+      "feature": "J8",
+      "via_alias": false
+     },
+     {
+      "area": "J9",
+      "layer": "additional_hunts",
+      "feature": "J9",
+      "via_alias": false
+     },
+     {
+      "area": "M11",
+      "layer": "additional_hunts",
+      "feature": "M11",
+      "via_alias": false
+     },
+     {
+      "area": "M3",
+      "layer": "additional_hunts",
+      "feature": "M3",
+      "via_alias": false
+     },
+     {
+      "area": "M4",
+      "layer": "additional_hunts",
+      "feature": "M4",
+      "via_alias": false
+     },
+     {
+      "area": "M5",
+      "layer": "additional_hunts",
+      "feature": "M5",
+      "via_alias": false
+     },
+     {
+      "area": "M6",
+      "layer": "additional_hunts",
+      "feature": "M6",
+      "via_alias": false
+     },
+     {
+      "area": "M7",
+      "layer": "additional_hunts",
+      "feature": "M7",
+      "via_alias": false
+     },
+     {
+      "area": "M8",
+      "layer": "additional_hunts",
+      "feature": "M8",
+      "via_alias": false
+     },
+     {
+      "area": "M9",
+      "layer": "additional_hunts",
+      "feature": "M9",
+      "via_alias": false
+     },
+     {
+      "area": "MA1",
+      "layer": "additional_hunts",
+      "feature": "MA1",
+      "via_alias": false
+     },
+     {
+      "area": "MA3",
+      "layer": "additional_hunts",
+      "feature": "MA3",
+      "via_alias": false
+     }
+    ],
+    "unmatched": [
+     "AO"
+    ],
+    "drawn_without_a_hunt_record": [
+     "G8",
+     "G9",
+     "J7"
+    ]
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168216"
+   },
+   "season_kinds": {
+    "printed_text_only": 70
+   },
+   "species_keys": [
+    "deer"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.deerZone(id)",
+    "focus": null,
+    "screen": "Hunt → Deer zones → the zone's hunts"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168216",
+    "source_doc": "CDFW Deer Seasons/Tag Classification PDFs (nrm.dfg.ca.gov FileHandler): Approved 2026 Deer Seasons- Area-Specific Archery Hunts_Accessible_MailMerge.pdf",
+    "source_revision": "Approved 2026 Deer Seasons- Area-Specific Archery Hunts_Accessible_MailMerge.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "group_key": "big_game_bear",
+   "title": "Black bear",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "hunt_big_game.json carries limits, legal-take verbatims and warnings and NO season field at all — not a closed one, not an undated one, none. There is nothing here for any date engine to answer with, so the planner links this species' own screen and says so.",
+   "reads": {
+    "file": "dataset/current/hunt_big_game.json",
+    "record_path": "records[]",
+    "record_key": {
+     "slug": "bear"
+    },
+    "columns": [
+     "citation",
+     "cite",
+     "identification",
+     "legal_take_cite",
+     "legal_take_verbatim",
+     "limit_verbatim",
+     "slug",
+     "species",
+     "take_kind",
+     "warning"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "slug",
+    "row_keys": [
+     "bear"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568"
+   },
+   "season_kinds": {
+    "no_season_field": 1
+   },
+   "species_keys": [
+    "bear"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.bigGame(slug)",
+    "focus": null,
+    "screen": "Hunt → Big game → the species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 365(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "group_key": "big_game_wild_pig",
+   "title": "Wild pig",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "hunt_big_game.json carries limits, legal-take verbatims and warnings and NO season field at all — not a closed one, not an undated one, none. There is nothing here for any date engine to answer with, so the planner links this species' own screen and says so.",
+   "reads": {
+    "file": "dataset/current/hunt_big_game.json",
+    "record_path": "records[]",
+    "record_key": {
+     "slug": "wild-pig"
+    },
+    "columns": [
+     "citation",
+     "cite",
+     "identification",
+     "legal_take_cite",
+     "legal_take_verbatim",
+     "limit_verbatim",
+     "slug",
+     "species",
+     "take_kind",
+     "warning"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "slug",
+    "row_keys": [
+     "wild-pig"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568"
+   },
+   "season_kinds": {
+    "no_season_field": 1
+   },
+   "species_keys": [
+    "wild_pig"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.bigGame(slug)",
+    "focus": null,
+    "screen": "Hunt → Big game → the species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 368",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "group_key": "big_game_pronghorn",
+   "title": "Pronghorn antelope",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "hunt_big_game.json carries limits, legal-take verbatims and warnings and NO season field at all — not a closed one, not an undated one, none. There is nothing here for any date engine to answer with, so the planner links this species' own screen and says so.",
+   "reads": {
+    "file": "dataset/current/hunt_big_game.json",
+    "record_path": "records[]",
+    "record_key": {
+     "slug": "pronghorn"
+    },
+    "columns": [
+     "citation",
+     "cite",
+     "identification",
+     "legal_take_cite",
+     "legal_take_verbatim",
+     "limit_verbatim",
+     "slug",
+     "species",
+     "take_kind",
+     "warning"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "slug",
+    "row_keys": [
+     "pronghorn"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568"
+   },
+   "season_kinds": {
+    "no_season_field": 1
+   },
+   "species_keys": [
+    "pronghorn"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.bigGame(slug)",
+    "focus": null,
+    "screen": "Hunt → Big game → the species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 363",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "group_key": "big_game_elk",
+   "title": "Elk",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "hunt_big_game.json carries limits, legal-take verbatims and warnings and NO season field at all — not a closed one, not an undated one, none. There is nothing here for any date engine to answer with, so the planner links this species' own screen and says so.",
+   "reads": {
+    "file": "dataset/current/hunt_big_game.json",
+    "record_path": "records[]",
+    "record_key": {
+     "slug": "elk"
+    },
+    "columns": [
+     "citation",
+     "cite",
+     "identification",
+     "legal_take_cite",
+     "legal_take_verbatim",
+     "limit_verbatim",
+     "slug",
+     "species",
+     "take_kind",
+     "warning"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "slug",
+    "row_keys": [
+     "elk"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568"
+   },
+   "season_kinds": {
+    "no_season_field": 1
+   },
+   "species_keys": [
+    "elk"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.bigGame(slug)",
+    "focus": null,
+    "screen": "Hunt → Big game → the species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 364",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "group_key": "big_game_bighorn",
+   "title": "Bighorn sheep",
+   "activity": "hunt",
+   "answered_by": "no_dated_season",
+   "basis": "hunt_big_game.json carries limits, legal-take verbatims and warnings and NO season field at all — not a closed one, not an undated one, none. There is nothing here for any date engine to answer with, so the planner links this species' own screen and says so.",
+   "reads": {
+    "file": "dataset/current/hunt_big_game.json",
+    "record_path": "records[]",
+    "record_key": {
+     "slug": "bighorn"
+    },
+    "columns": [
+     "citation",
+     "cite",
+     "identification",
+     "legal_take_cite",
+     "legal_take_verbatim",
+     "limit_verbatim",
+     "slug",
+     "species",
+     "take_kind",
+     "warning"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "slug",
+    "row_keys": [
+     "bighorn"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568"
+   },
+   "season_kinds": {
+    "no_season_field": 1
+   },
+   "species_keys": [
+    "bighorn"
+   ],
+   "free_surface": {
+    "route": "HuntRoute.bigGame(slug)",
+    "focus": null,
+    "screen": "Hunt → Big game → the species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 362",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "group_key": "ocean_groundfish_management_areas",
+   "title": "Groundfish management areas",
+   "activity": "saltwater",
+   "answered_by": "ocean_area_prose",
+   "basis": "Five areas, each with dated `periods` this app can compute on, and a boundary that exists only as booklet prose: 14 CCR §§ 27.25-27.45(a) state the lines as latitudes, `groundfish.boundary_curation` ships those sentences verbatim, and the Southern area's southern limit is not a latitude at all. No layer in dataset/current/geo draws any of the five. The planner shows the area's periods with the boundary sentence and never places a pin in an area.",
+   "reads": {
+    "file": "dataset/current/ocean.json",
+    "record_path": "groundfish.management_areas[]",
+    "record_key": {
+     "keyed_on": "name"
+    },
+    "columns": [
+     "name",
+     "heading_verbatim",
+     "categories",
+     "periods"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "name",
+    "row_keys": [
+     "Northern Management Area",
+     "Mendocino Management Area",
+     "San Francisco Management Area",
+     "Central Management Area",
+     "Southern Management Area"
+    ]
+   },
+   "zone_rows": [
+    "Northern Management Area",
+    "Mendocino Management Area",
+    "San Francisco Management Area",
+    "Central Management Area",
+    "Southern Management Area"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": [
+     "Northern Management Area",
+     "Mendocino Management Area",
+     "San Francisco Management Area",
+     "Central Management Area",
+     "Southern Management Area"
+    ]
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Groundfish-Summary"
+   },
+   "season_kinds": {
+    "dated_window": 24,
+    "prose_only": 0
+   },
+   "species_keys": [],
+   "free_surface": {
+    "route": "OceanRoute.area(name)",
+    "focus": null,
+    "screen": "Ocean → the management area"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Groundfish-Summary",
+    "source_doc": "CDFW Recreational Groundfish Regulations Summary page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "ocean_species_statewide",
+   "title": "Ocean species whose rule names no area",
+   "activity": "saltwater",
+   "answered_by": "statewide_row",
+   "basis": "These records carry no `area_scope`: the limit and, where § 28 prints one, the season apply in ocean waters wherever the reader is on the coast. The planner shows them for any saltwater trip and names no zone, because the regulation names none.",
+   "reads": {
+    "file": "dataset/current/ocean_species.json",
+    "record_path": "records[]",
+    "record_key": {
+     "keyed_on": "id"
+    },
+    "columns": [
+     "id",
+     "species",
+     "kind",
+     "season",
+     "area_scope",
+     "season_scope"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "id",
+    "row_keys": [
+     "ocean-species:bass-barred-sand-kelp-and-spotted-sand",
+     "ocean-species:bass-striped",
+     "ocean-species:cabezon",
+     "ocean-species:codling-finescale-see-groundfish-other",
+     "ocean-species:garibaldi",
+     "ocean-species:greenling-kelp-and-rock-genus-hexagrammos",
+     "ocean-species:codling-pacific-cod-pacific-whiting-sablefish-and-thornyheads",
+     "ocean-species:grouper-gulf-and-broomtail",
+     "ocean-species:grunion-california",
+     "ocean-species:halibut-california",
+     "ocean-species:halibut-pacific",
+     "ocean-species:lingcod",
+     "ocean-species:marlin",
+     "ocean-species:rockfish-sebastes",
+     "ocean-species:butter-sole-curlfin-sole-rex-sole-and-flathead-sole",
+     "ocean-species:scorpionfish-california-sculpin",
+     "ocean-species:sea-bass-giant-black",
+     "ocean-species:shark-leopard",
+     "ocean-species:shark-white",
+     "ocean-species:sheephead-california",
+     "ocean-species:sole-petrale-and-starry-flounder",
+     "ocean-species:sturgeon-ocean-green",
+     "ocean-species:thornyheads-longspine-and-shortspine-see-groundfish-other",
+     "ocean-species:trout-in-the-ocean",
+     "ocean-species:whitefish-ocean",
+     "ocean-species:abalone",
+     "ocean-species:clams-pacific-razor",
+     "ocean-species:clams-pismo",
+     "ocean-species:scallops-speckled-bay",
+     "ocean-species:lobster-california-spiny"
+    ]
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985"
+   },
+   "season_kinds": {
+    "season_present": 17,
+    "season_absent": 13
+   },
+   "species_keys": [
+    "abalone",
+    "bass_barred_sand_kelp_and_spotted_sand",
+    "bass_striped",
+    "butter_sole_curlfin_sole_rex_sole_and_flathead_sole",
+    "cabezon",
+    "clams_pacific_razor",
+    "clams_pismo",
+    "codling_pacific_cod_pacific_whiting_sablefish_and_thornyheads",
+    "garibaldi",
+    "greenling_kelp_and_rock_genus_hexagrammos",
+    "grouper_gulf_and_broomtail",
+    "grunion_california",
+    "halibut_california",
+    "halibut_pacific",
+    "lingcod",
+    "lobster_california_spiny",
+    "marlin",
+    "rockfish_sebastes",
+    "scallops_speckled_bay",
+    "scorpionfish_california_sculpin",
+    "sea_bass_giant_black",
+    "shark_leopard",
+    "shark_white",
+    "sheephead_california",
+    "sole_petrale_and_starry_flounder",
+    "sturgeon_ocean_green",
+    "trout_in_the_ocean",
+    "whitefish_ocean"
+   ],
+   "free_surface": {
+    "route": "OceanRoute.species(id)",
+    "focus": null,
+    "screen": "Ocean → species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 28.30",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations booklet: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-02"
+   }
+  },
+  {
+   "group_key": "ocean_species_area_scoped",
+   "title": "Ocean species whose rule names an area in prose",
+   "activity": "saltwater",
+   "answered_by": "ocean_area_prose",
+   "basis": "Three records scope their rule with a sentence rather than a boundary — \"waters south of Pt. Conception\", \"In San Francisco Bay and San Pablo Bay\", \"north of the Golden Gate Bridge\". Nothing in dataset/current/geo draws any of the three, so the sentence is shown verbatim and the planner never decides whether a pin is inside it.",
+   "reads": {
+    "file": "dataset/current/ocean_species.json",
+    "record_path": "records[]",
+    "record_key": {
+     "keyed_on": "id"
+    },
+    "columns": [
+     "id",
+     "species",
+     "kind",
+     "season",
+     "area_scope",
+     "season_scope"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "id",
+    "row_keys": [
+     "ocean-species:seabass-white",
+     "ocean-species:surfperch",
+     "ocean-species:snails-moon"
+    ]
+   },
+   "zone_rows": [
+    "waters south of Pt. Conception",
+    "In San Francisco Bay and San Pablo Bay",
+    "north of the Golden Gate Bridge"
+   ],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": [
+     "waters south of Pt. Conception",
+     "In San Francisco Bay and San Pablo Bay",
+     "north of the Golden Gate Bridge"
+    ]
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985"
+   },
+   "season_kinds": {
+    "season_present": 3,
+    "season_absent": 0
+   },
+   "species_keys": [
+    "seabass_white",
+    "snails_moon",
+    "surfperch"
+   ],
+   "free_surface": {
+    "route": "OceanRoute.species(id)",
+    "focus": null,
+    "screen": "Ocean → species"
+   },
+   "citation": {
+    "ccr_cite": "14 CCR § 28.35",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
+    "source_doc": "CDFW Ocean Sport Fishing Regulations booklet: 2026 Ocean Sport Fish_Jul2026.pdf",
+    "source_revision": "2026 Ocean Sport Fish_Jul2026.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-02"
+   }
+  },
+  {
+   "group_key": "freshwater_water_rules",
+   "title": "Freshwater — the rules published per water",
+   "activity": "freshwater",
+   "answered_by": "water_rules",
+   "basis": "Freshwater does not have zones; it has WATERS, and each water carries its own rules with their own seasons. The planner answers it the way the Fish tab already does — by naming the waters inside the radius and showing each one's own rules for the trip dates — and never by intersecting a zone. 449 of these records are drawn in dataset/current/geo/freshwater_waters.geojson; the rest are reached through the places list rather than through geometry.",
+   "reads": {
+    "file": "dataset/current/freshwater_regs.json",
+    "record_path": "records[]",
+    "record_key": {
+     "keyed_on": "id"
+    },
+    "columns": [
+     "id",
+     "name",
+     "county",
+     "section",
+     "rules"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "name",
+    "row_keys": [],
+    "record_count": 281
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": [],
+    "note": "False is the right answer and it is not a gap: a water is not a zone. The water's own outline lives in geo/freshwater_waters.geojson and is used to place the water, never to decide a season."
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer/2/query"
+   },
+   "season_kinds": {
+    "rules_total": 531
+   },
+   "species_keys": [],
+   "free_surface": {
+    "route": "FishRoute.water(id)",
+    "focus": null,
+    "screen": "Fish → this water"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer/2/query",
+    "source_doc": "RFR per-water special regulations",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "group_key": "freshwater_statewide_defaults",
+   "title": "Freshwater — the statewide rules",
+   "activity": "freshwater",
+   "answered_by": "statewide_row",
+   "basis": "The statewide bag, size and season rules that apply to a water unless that water's own record says otherwise. They are answered for any freshwater location and name no zone.",
+   "reads": {
+    "file": "dataset/current/statewide_defaults.json",
+    "record_path": "records[]",
+    "record_key": {
+     "keyed_on": "id"
+    },
+    "columns": [
+     "id",
+     "title",
+     "rule_type",
+     "feature_category",
+     "rule_blocks"
+    ],
+    "row_key_column_index": null,
+    "row_key_column": "title",
+    "row_keys": [],
+    "record_count": 622
+   },
+   "zone_rows": [],
+   "named_place_rows": [],
+   "zone_geometry": {
+    "exists": false,
+    "layers_checked": [
+     "dataset/current/geo/deer_zones.geojson",
+     "dataset/current/geo/waterfowl_zones.geojson",
+     "dataset/current/geo/archery_hunts.geojson",
+     "dataset/current/geo/additional_hunts.geojson",
+     "dataset/current/geo/upland_zones.geojson"
+    ],
+    "matched": [],
+    "unmatched": []
+   },
+   "zone_map_link": {
+    "text_verbatim": null,
+    "url": null,
+    "url_absent_reason": null,
+    "page_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer/2/query"
+   },
+   "season_kinds": {
+    "record_count": 622
+   },
+   "species_keys": [
+    "bass_striped",
+    "black_crappie",
+    "brook_trout",
+    "bullhead",
+    "northern_pike",
+    "salmon",
+    "sturgeon_ocean_green",
+    "white_crappie",
+    "white_sturgeon"
+   ],
+   "free_surface": {
+    "route": "FishRoute.statewideSection(id)",
+    "focus": null,
+    "screen": "Fish → statewide limits"
+   },
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer/2/query",
+    "source_doc": "RFR statewide and district regulations",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  }
+ ]
+}
