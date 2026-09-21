@@ -4,11 +4,7 @@
  "threshold_days": 2,
  "dataset_version": "2026.09.21",
  "read_at": "2026-09-21",
-<<<<<<< HEAD
  "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
- "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
  "read_at_rule": "Every time in this file is a fact about a past read. Nothing here states a cadence this project promises to keep or a latency a reader may rely on.",
  "nothing_derived_rule": "This file carries no regulation, season, date, limit, fee or sentence from any source. It carries the address this project re-read, the moment it re-read it, the digest of the bytes it compared against, and one of three words.",
  "fold_rule": "A domain's result is the worst of its own sources' results, worst first: changed_pending_review, then unreachable, then unchanged. That is the only reduction performed anywhere in this file. No value from any source appears here.",
@@ -35,11 +31,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -59,11 +51,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -83,11 +71,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -107,11 +91,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -131,11 +111,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -155,11 +131,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -179,11 +151,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -203,11 +171,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -227,11 +191,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168214",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -251,11 +211,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168216",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -275,11 +231,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168215",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -299,11 +251,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=153938",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -323,11 +271,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=30896",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -347,11 +291,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -371,11 +311,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -395,11 +331,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -419,11 +351,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Deer",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -443,11 +371,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -467,11 +391,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=209090",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -491,11 +411,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Regulations",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -515,11 +431,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=109005",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -539,11 +451,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=110418",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -563,11 +471,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -587,11 +491,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -611,11 +511,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -635,11 +531,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -659,11 +551,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -683,11 +571,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/California_Marine_Protected_Areas/FeatureServer",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -707,11 +591,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/News/Archive",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -731,11 +611,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Inseason",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -755,11 +631,7 @@
    "source_family": "notice",
    "source_url": "https://fgc.ca.gov/Regulations",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -779,11 +651,7 @@
    "source_family": "notice",
    "source_url": "https://www.federalregister.gov",
    "agency": "the Federal Register",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -803,11 +671,7 @@
    "source_family": "notice",
    "source_url": "https://www.fisheries.noaa.gov",
    "agency": "NOAA Fisheries",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -827,11 +691,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -851,11 +711,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -875,11 +731,7 @@
    "source_family": "rss",
    "source_url": "https://cdfwmarine.wordpress.com/feed/",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -899,11 +751,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -923,11 +771,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -947,11 +791,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -971,11 +811,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -995,11 +831,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -1019,11 +851,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -1043,11 +871,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -1067,11 +891,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds2897_fmu/FeatureServer",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -1091,16 +911,12 @@
    "source_family": "rss",
    "source_url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
    "agency": "the City of Escondido",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
-    "sha256": "935850c05c1f37d557445394bad64e28c1412deeaa7cd9aa533ac2a687ea8a84",
-    "fetched_at": "2026-09-21T19:42:46.306310+00:00",
+    "sha256": "2229f1229196ca20d0aa46a573678dd1f5638ae8009a4886b3967f0f25e69e76",
+    "fetched_at": "2026-09-19T11:17:40.426420+00:00",
     "snapshot": "stocking/escondido_rss.xml",
     "absent_reason": null
    },
@@ -1115,16 +931,12 @@
    "source_family": "rss",
    "source_url": "https://www.fishinglakes.com/category/stocking-videos/feed/",
    "agency": "Santa Ana River Lakes",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": null,
    "compared_to": {
     "sha256": "00249339ef60db413ab647e673c5c90625f813f3bcf0259b8d3c1e08481aeaf5",
-    "fetched_at": "2026-09-21T19:42:46.489590+00:00",
+    "fetched_at": "2026-09-19T11:17:40.584419+00:00",
     "snapshot": "stocking/fishinglakes_rss.xml",
     "absent_reason": null
    },
@@ -1139,25 +951,19 @@
    "source_family": "plants",
    "source_url": "https://nrm.dfg.ca.gov/FishPlants/PublicPlantSearch",
    "agency": "CDFW",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
    "result": "changed_pending_review",
    "detail": "+3 / -0 rows vs last pull",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
-   "result": "unchanged",
-   "detail": null,
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "compared_to": {
-    "sha256": "55de2f465c5d12226d8db88165111eaa3bb4303955556a70feff825a80625a03",
-    "fetched_at": "2026-09-21T19:44:39.806777+00:00",
+    "sha256": "2e734e599f374a845968635315529d1046fd4387636b6de2b58a0704d37c12ba",
+    "fetched_at": "2026-09-21T01:56:11.785489+00:00",
     "snapshot": "plants/plants_current.json",
     "absent_reason": null
    },
    "next_check_by": "2026-09-23",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-09-21"
+   "last_unchanged_at": null
   },
   {
    "domain": "lakes",
@@ -1165,11 +971,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.escondido.gov/m/newsflash/home/detail/100",
    "agency": "City of Escondido",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "5 strings re-read on the operator's own pages (1 quoted sentence, 4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1189,11 +991,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.escondido.gov/597/Fishing-Information",
    "agency": "City of Escondido",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "3 strings re-read on the operator's own pages (3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1213,11 +1011,7 @@
    "source_family": "lake_quote",
    "source_url": "https://poway.org/420/Fishing",
    "agency": "City of Poway",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "4 strings re-read on the operator's own pages (4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1237,11 +1031,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.santeelakes.com/fishing-2/",
    "agency": "Padre Dam Municipal Water District",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1261,11 +1051,7 @@
    "source_family": "lake_quote",
    "source_url": "https://lakejennings.org/see-and-do/fishing/",
    "agency": "Helix Water District",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "changed_pending_review",
    "detail": "3 of 3 strings this app shows (3 published prices) were not found on the pages this record names, which answered. Nothing moves on the phone: a person opens the page and the redline-and-promote path is the only thing that changes a value.",
    "compared_to": {
@@ -1285,11 +1071,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.lakecuyamaca.org/fishing-fees",
    "agency": "Lake Cuyamaca Recreation & Park District",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "3 strings re-read on the operator's own pages (3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1309,11 +1091,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.fishinglakes.com/",
    "agency": "Fishing Lakes, Inc. (private)",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1333,11 +1111,7 @@
    "source_family": "lake_quote",
    "source_url": "https://parks.oc.gov/parks-trails/irvine-lake",
    "agency": "OC Parks",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "result": "unchanged",
    "detail": "2 strings re-read on the operator's own pages (1 quoted sentence, 1 published price); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1350,37 +1124,13 @@
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-09-21"
-  },
-  {
-   "domain": "lakes_directory",
-   "source": "rotation_night_1",
-   "source_family": "lake_directory_quote",
-   "source_url": "https://www.nidwater.com/jackson-meadows",
-   "agency": "Nevada Irrigation District",
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
-   "result": "changed_pending_review",
-   "detail": "Rotation night 2 of 7: 49 records re-read against the pages they cite (92 quoted sentences, 84 published prices); 1 was not found on the page that carries it, which answered. Nothing moves on the phone: a person opens the page and the redline is the only thing that changes a value. 111 of 192 records carry no page sentence to compare; 32 are on hosts not yet read.",
-   "compared_to": {
-    "sha256": "7b6e3001b0dac08d7e2cd27e3ba28468f752bda7ef1f70a71516c4456244a790",
-    "fetched_at": "2026-09-21",
-    "snapshot": "dataset/current/lakes_directory.json#rotation-1",
-    "absent_reason": null
-   },
-   "next_check_by": "2026-09-28",
-   "consecutive_unreachable": 0,
-   "unreachable_since": null,
-   "last_unchanged_at": null
   }
  ],
  "domains": [
   {
    "domain": "big_game",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1394,11 +1144,7 @@
   {
    "domain": "birds",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 5,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1412,11 +1158,7 @@
   {
    "domain": "deer",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 9,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1430,11 +1172,7 @@
   {
    "domain": "freshwater",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1448,11 +1186,7 @@
   {
    "domain": "hunt_zones",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1466,11 +1200,7 @@
   {
    "domain": "lakes",
    "result": "changed_pending_review",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 8,
    "next_check_by": "2026-09-23",
    "agency": "Helix Water District",
@@ -1484,11 +1214,7 @@
   {
    "domain": "licenses",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1502,11 +1228,7 @@
   {
    "domain": "methods",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1520,11 +1242,7 @@
   {
    "domain": "mpa",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 1,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1538,11 +1256,7 @@
   {
    "domain": "notices_current",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 5,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1556,11 +1270,7 @@
   {
    "domain": "ocean",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1574,11 +1284,7 @@
   {
    "domain": "shooting_hours",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1592,11 +1298,7 @@
   {
    "domain": "shooting_places",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1610,11 +1312,7 @@
   {
    "domain": "spearfishing",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1628,11 +1326,7 @@
   {
    "domain": "stocking",
    "result": "unchanged",
-<<<<<<< HEAD
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1645,22 +1339,17 @@
   },
   {
    "domain": "stocking_current",
-<<<<<<< HEAD
    "result": "changed_pending_review",
    "checked_at": "2026-09-21T19:33:04.388093+00:00",
-=======
-   "result": "unchanged",
-   "checked_at": "2026-09-21T20:06:46.813864+00:00",
->>>>>>> 726cfce (live: verification receipt with the directory's first rotation night (bucket 1: 49 compared, one changed at Jackson Meadows) beside the operated lakes; read 2026-09-21)
    "sources_checked": 1,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
    "source": "cdfw_fish_plants",
    "source_url": "https://nrm.dfg.ca.gov/FishPlants/PublicPlantSearch",
-   "changed_at": null,
+   "changed_at": "2026-09-21",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-09-21"
+   "last_unchanged_at": null
   }
  ],
  "coverage": {
@@ -1747,7 +1436,7 @@
    },
    {
     "domain": "lakes_directory",
-    "reason": "The weekly rotation has not yet completed its first full pass over the 1,560 records: 1 of 7 night has been read. A domain row is published when every seventh of the directory has been re-read at least once, because with part of the rotation done the honest summary is not 'checked' \u2014 the rest has not been looked at since the research pass. Until then the app falls back to this file's own clock and says the daily check does not cover it."
+    "reason": "Built from the same manual research package as `lakes`, joined to GNIS names. No fetcher exists for either input."
    },
    {
     "domain": "land_status",
