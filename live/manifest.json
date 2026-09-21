@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-21T18:53:14.369698+00:00",
+ "generated_at": "2026-09-21T19:33:04.397248+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -126,7 +126,7 @@
   },
   {
    "name": "verification_current.json",
-   "sha256": "179b67146415ac5ed37ba09f99d6c26840b3d48af374ec46f77194cfa94f5745",
+   "sha256": "502a7b026c3b4e534d477bd682f8ce557222f017524022f4bdd6cba6bedcf2e3",
    "bytes": 53706,
    "domain": "verification_current",
    "threshold_days": 2,
@@ -136,7 +136,7 @@
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-21T18:53:14.369681+00:00",
+   "published_at": "2026-09-21T19:33:04.397226+00:00",
    "note": "55 source re-reads across 16 domains, read 2026-09-21"
   }
  ]
