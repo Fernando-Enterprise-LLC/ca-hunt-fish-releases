@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-21T18:51:55.113701+00:00",
+ "generated_at": "2026-09-21T18:53:14.369698+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -126,8 +126,8 @@
   },
   {
    "name": "verification_current.json",
-   "sha256": "0b6a29789ce2c7228c7ad51a6076f9fac383259f634f3354b7aa52e5274d5a7d",
-   "bytes": 47159,
+   "sha256": "179b67146415ac5ed37ba09f99d6c26840b3d48af374ec46f77194cfa94f5745",
+   "bytes": 53706,
    "domain": "verification_current",
    "threshold_days": 2,
    "schema_version": 1,
@@ -135,9 +135,9 @@
    "read_at": "2026-09-21",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-21T15:40:00.088343+00:00",
-   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
+   "state": "published",
+   "published_at": "2026-09-21T18:53:14.369681+00:00",
+   "note": "55 source re-reads across 16 domains, read 2026-09-21"
   }
  ]
 }

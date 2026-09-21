@@ -4,7 +4,7 @@
  "threshold_days": 2,
  "dataset_version": "2026.09.21",
  "read_at": "2026-09-21",
- "checked_at": "2026-09-21T15:38:40.775886+00:00",
+ "checked_at": "2026-09-21T18:53:14.355948+00:00",
  "read_at_rule": "Every time in this file is a fact about a past read. Nothing here states a cadence this project promises to keep or a latency a reader may rely on.",
  "nothing_derived_rule": "This file carries no regulation, season, date, limit, fee or sentence from any source. It carries the address this project re-read, the moment it re-read it, the digest of the bytes it compared against, and one of three words.",
  "fold_rule": "A domain's result is the worst of its own sources' results, worst first: changed_pending_review, then unreachable, then unchanged. That is the only reduction performed anywhere in this file. No value from any source appears here.",
@@ -31,7 +31,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -51,7 +51,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -71,7 +71,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -91,7 +91,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -111,7 +111,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -131,7 +131,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -151,7 +151,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -171,7 +171,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -191,7 +191,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168214",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -211,7 +211,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168216",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -231,7 +231,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168215",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -251,7 +251,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=153938",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -271,7 +271,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=30896",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -291,7 +291,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -311,7 +311,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -331,7 +331,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -351,7 +351,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Deer",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -371,7 +371,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -391,7 +391,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=209090",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -411,7 +411,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -431,7 +431,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=109005",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -451,7 +451,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=110418",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -471,7 +471,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -491,7 +491,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -511,7 +511,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -531,7 +531,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -551,7 +551,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -571,7 +571,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/California_Marine_Protected_Areas/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -591,7 +591,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/News/Archive",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -611,7 +611,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Inseason",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -631,7 +631,7 @@
    "source_family": "notice",
    "source_url": "https://fgc.ca.gov/Regulations",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -651,7 +651,7 @@
    "source_family": "notice",
    "source_url": "https://www.federalregister.gov",
    "agency": "the Federal Register",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -671,7 +671,7 @@
    "source_family": "notice",
    "source_url": "https://www.fisheries.noaa.gov",
    "agency": "NOAA Fisheries",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -691,7 +691,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -711,7 +711,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -731,7 +731,7 @@
    "source_family": "rss",
    "source_url": "https://cdfwmarine.wordpress.com/feed/",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -751,7 +751,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -771,7 +771,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -791,7 +791,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -811,7 +811,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -831,7 +831,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -851,7 +851,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -871,7 +871,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -891,7 +891,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds2897_fmu/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -911,7 +911,7 @@
    "source_family": "rss",
    "source_url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
    "agency": "the City of Escondido",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -931,7 +931,7 @@
    "source_family": "rss",
    "source_url": "https://www.fishinglakes.com/category/stocking-videos/feed/",
    "agency": "Santa Ana River Lakes",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -951,7 +951,7 @@
    "source_family": "plants",
    "source_url": "https://nrm.dfg.ca.gov/FishPlants/PublicPlantSearch",
    "agency": "CDFW",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "result": "changed_pending_review",
    "detail": "+3 / -0 rows vs last pull",
    "compared_to": {
@@ -964,13 +964,173 @@
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": null
+  },
+  {
+   "domain": "lakes",
+   "source": "lake-dixon",
+   "source_family": "lake_quote",
+   "source_url": "https://www.escondido.gov/m/newsflash/home/detail/100",
+   "agency": "City of Escondido",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "5 strings re-read on the operator's own pages (1 quoted sentence, 4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "f5715a83814ca04ebfe2b21a26bc2196733e4ff6e93efe5a8026f47ecc7c098e",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#lake-dixon",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "lake-wohlford",
+   "source_family": "lake_quote",
+   "source_url": "https://www.escondido.gov/597/Fishing-Information",
+   "agency": "City of Escondido",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "3 strings re-read on the operator's own pages (3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "e4cb6be7d9940340a86c8ffe7beb85b8597b8c097c04289ca62dbda802458fc7",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#lake-wohlford",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "lake-poway",
+   "source_family": "lake_quote",
+   "source_url": "https://poway.org/420/Fishing",
+   "agency": "City of Poway",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "4 strings re-read on the operator's own pages (4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "1cc9be647b077c19e9ada13f630ba3eb14d2ec9a3dea2adf3f7924a2ab12af99",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#lake-poway",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "santee-lakes",
+   "source_family": "lake_quote",
+   "source_url": "https://www.santeelakes.com/fishing-2/",
+   "agency": "Padre Dam Municipal Water District",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "2575387b50d1ba7be2521aa3a23ff2e4b311b8e99308f04df65af29a0112c032",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#santee-lakes",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "lake-jennings",
+   "source_family": "lake_quote",
+   "source_url": "https://lakejennings.org/see-and-do/fishing/",
+   "agency": "Helix Water District",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "changed_pending_review",
+   "detail": "3 of 3 strings this app shows (3 published prices) were not found on the pages this record names, which answered. Nothing moves on the phone: a person opens the page and the redline-and-promote path is the only thing that changes a value.",
+   "compared_to": {
+    "sha256": "c0b2ead24d205f45bf7d7ee5913cfc62b8e6eedcd61b9c087e9cc5f1c5b1a154",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#lake-jennings",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": null
+  },
+  {
+   "domain": "lakes",
+   "source": "lake-cuyamaca",
+   "source_family": "lake_quote",
+   "source_url": "https://www.lakecuyamaca.org/fishing-fees",
+   "agency": "Lake Cuyamaca Recreation & Park District",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "3 strings re-read on the operator's own pages (3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "1a0aa647c832a97a88e982a81246adc49649886b7b53e1e21102d26c61f09f35",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#lake-cuyamaca",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "santa-ana-river-lakes",
+   "source_family": "lake_quote",
+   "source_url": "https://www.fishinglakes.com/",
+   "agency": "Fishing Lakes, Inc. (private)",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "e7fa31d1afa3e72bc439cdae252bd1b1bcc3dcd8e8b9738ff7cc0b42892b0160",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#santa-ana-river-lakes",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
+  },
+  {
+   "domain": "lakes",
+   "source": "irvine-lake",
+   "source_family": "lake_quote",
+   "source_url": "https://parks.oc.gov/parks-trails/irvine-lake",
+   "agency": "OC Parks",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "result": "unchanged",
+   "detail": "2 strings re-read on the operator's own pages (1 quoted sentence, 1 published price); every one was still there. This lake's RULES are a person's read and are not compared.",
+   "compared_to": {
+    "sha256": "72a59b5cc4cd4a3fb9288343ab23d0af85b3e1a59c7bfd5c06215d35d3db273e",
+    "fetched_at": "2026-08-28",
+    "snapshot": "dataset/current/lakes.json#irvine-lake",
+    "absent_reason": null
+   },
+   "next_check_by": "2026-09-23",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-09-21"
   }
  ],
  "domains": [
   {
    "domain": "big_game",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -984,7 +1144,7 @@
   {
    "domain": "birds",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 5,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -998,7 +1158,7 @@
   {
    "domain": "deer",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 9,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1012,7 +1172,7 @@
   {
    "domain": "freshwater",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1026,7 +1186,7 @@
   {
    "domain": "hunt_zones",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1038,9 +1198,23 @@
    "last_unchanged_at": "2026-09-21"
   },
   {
+   "domain": "lakes",
+   "result": "changed_pending_review",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
+   "sources_checked": 8,
+   "next_check_by": "2026-09-23",
+   "agency": "Helix Water District",
+   "source": "lake-jennings",
+   "source_url": "https://lakejennings.org/see-and-do/fishing/",
+   "changed_at": "2026-09-21",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": null
+  },
+  {
    "domain": "licenses",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1054,7 +1228,7 @@
   {
    "domain": "methods",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1068,7 +1242,7 @@
   {
    "domain": "mpa",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 1,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1082,7 +1256,7 @@
   {
    "domain": "notices_current",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 5,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1096,7 +1270,7 @@
   {
    "domain": "ocean",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1110,7 +1284,7 @@
   {
    "domain": "shooting_hours",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1124,7 +1298,7 @@
   {
    "domain": "shooting_places",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "the Fish and Game Commission",
@@ -1138,7 +1312,7 @@
   {
    "domain": "spearfishing",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 2,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1152,7 +1326,7 @@
   {
    "domain": "stocking",
    "result": "unchanged",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 3,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1166,7 +1340,7 @@
   {
    "domain": "stocking_current",
    "result": "changed_pending_review",
-   "checked_at": "2026-09-21T15:38:40.775886+00:00",
+   "checked_at": "2026-09-21T18:53:14.355948+00:00",
    "sources_checked": 1,
    "next_check_by": "2026-09-23",
    "agency": "CDFW",
@@ -1185,6 +1359,7 @@
    "deer",
    "freshwater",
    "hunt_zones",
+   "lakes",
    "licenses",
    "methods",
    "mpa",
@@ -1258,10 +1433,6 @@
    {
     "domain": "hunt_opportunities",
     "reason": "CDFW's SHARE and PLM pages are read through a curation lane that ends at a person, because an application window is a deadline and a deadline read wrongly is worse than one read late."
-   },
-   {
-    "domain": "lakes",
-    "reason": "The operated-lake rules are read from each operator's own published pages and from a research package assembled by hand; `pipeline/build/sources.py` records `lakes_research` as MANUAL \u2014 there is no fetcher and CI must never try. The operator PAGES this domain quotes are re-read weekly by the live lane under `operator_schedules`, but the rules half is a person's read and only a person can advance it."
    },
    {
     "domain": "lakes_directory",
