@@ -1,6 +1,6 @@
 # `live/` — the version-independent lane
 
-Seven files, republished on their own cadence by `pipeline publish-live`, at a path that does
+Nine files, republished on their own cadence by `pipeline publish-live`, at a path that does
 not carry a dataset version:
 
 | File | What it is | Read cadence |
@@ -12,6 +12,7 @@ not carry a dataset version:
 | `operators.json` | The attributed commercial operator directory — what each operator publishes about itself, quoted with the date it was read | monthly, one page per host |
 | `notices_current.json` | In-season change announcements: the agency's own headline, date, category and at most two of its own sentences, with the records a declared map ties them to | on a change, with a daily floor |
 | `beach_status_current.json` | What a county says about a beach today, quoted, with the county named and the time this project read it — plus, for every county in the beach directory, the hotline and status page the county itself tells the public to use | every three hours |
+| `verification_current.json` | THE RECEIPT: every source the daily lane re-read, the moment it read it, the digest of the bytes it compared against, and one of three words — `unchanged`, `changed_pending_review`, `unreachable` | daily |
 | `manifest.json` | The sha256, byte count, read date and staleness threshold of each of the above | every run |
 
 These are NOT a dataset release. Releases are immutable under `v/<version>/` and reach the
@@ -50,6 +51,19 @@ consecutive reads, or one that has reached this app's own 180-day cap, is marked
 with its reason and stays for thirty days. A read that fails publishes nothing at all and
 leaves the notices already here wearing their own read date, because an empty list would
 tell every reader that nothing has been announced.
+
+`verification_current.json` says what this project RE-READ and never what it found in the
+text. Every row is one source: the address, the moment the request was made, the sha256 and
+fetch time of the shipped snapshot it was compared against, and one of three words. **A
+source that changed shows no new value anywhere in this app** — the redline and promote path
+is the only thing that moves a value and it ends at a person — so `changed_pending_review`
+means a change is under review and carries the day this project saw it, and the app goes on
+showing the text it last checked. A source that could not be reached says `unreachable`, which
+is a different fact from `unchanged` and used to be indistinguishable from it. The file's own
+two-day clock is the only way freshness can lapse now, and past it the app says its daily
+check has not run and names the date. The domains this lane does NOT re-read are listed in the
+file's own `coverage.domains_not_checked`, each with the reason, because "never looked at"
+must never read as "checked and unchanged".
 
 `beach_status_current.json` carries a COUNTY's own words and never this app's opinion of
 them. Every status ships as the county published it, byte for byte, in quotation marks, with
