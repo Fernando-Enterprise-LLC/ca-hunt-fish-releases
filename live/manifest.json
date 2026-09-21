@@ -1,38 +1,36 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-21T19:33:04.397248+00:00",
+ "generated_at": "2026-09-21T19:43:05.539865+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "3b5194be5fee1b6f4c936d31c71163dd70eef0ef646a5ed22d300ae1f385896d",
-   "bytes": 23283,
+   "sha256": "14a4d35ed5e0b7e06a5bc885200ecbe9373ab3136ae63d3872f723cb375912a4",
+   "bytes": 24397,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.20",
-   "read_at": "2026-09-20",
-   "age_days": 1,
+   "dataset_version": "2026.09.21",
+   "read_at": "2026-09-21",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-20T17:40:03.023933+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-21T19:43:05.538160+00:00"
   },
   {
    "name": "operator_schedules.json",
-   "sha256": "bdda816b98d9d6520981565f730bf85079ec69dbce148a5c5325c0ac8d2e6313",
-   "bytes": 64950,
+   "sha256": "d21917b01bb346f773abdc47a74786d86ffd3517086e9d7a30209b3fb7ac0213",
+   "bytes": 64953,
    "domain": "operator_schedules",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.15",
-   "read_at": "2026-09-15",
-   "age_days": 6,
+   "dataset_version": "2026.09.21",
+   "read_at": "2026-09-21",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-15T18:28:21.616431+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-21T19:43:05.538365+00:00"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -47,7 +45,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 5 days ago; its clock is 10 days and the refetch interval is 7"
   },
   {
    "name": "trip_pack.json",
@@ -62,7 +60,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 5 days ago; its clock is 365 days and the refetch interval is 30"
   },
   {
    "name": "operators.json",
@@ -77,52 +75,49 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 5 days ago; its clock is 30 days and the refetch interval is 25"
   },
   {
    "name": "notices_current.json",
-   "sha256": "6fb8ba940f7ce8ba5dc8892760d29c24be0b4710b9a561d17ccfc9c98ae958f3",
+   "sha256": "a744bc16b5dc462ec16baddf00478c15ec34ddc9cbcb446a1418739f878ced4b",
    "bytes": 25994,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
-   "dataset_version": "2026.09.20",
-   "read_at": "2026-09-20",
-   "age_days": 1,
+   "dataset_version": "2026.09.21",
+   "read_at": "2026-09-21",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-20T17:40:03.025017+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-21T19:43:05.538786+00:00"
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "de0ceb73d30159457c781eb341a031ffa776529fad360dee40a5503c70a47abd",
+   "sha256": "3ad31f23538e7a5083715a33c98f20a36caa3eb583fa9f9eef245df71faef57b",
    "bytes": 32635,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-21T12:37:52.481496+00:00",
+   "read_at": "2026-09-21T19:42:44.870530+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-21T12:37:52.677560+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-21T19:43:05.538897+00:00"
   },
   {
    "name": "beach_water_quality_current.json",
-   "sha256": "c53da34af4dabc216a2b13a8b67a1a47eafbb0a450ebdb9371238f97a5730825",
+   "sha256": "7772015e1b6fd8232d9491186be604c4b434cbfb4bf6a5fd7c8142a9db5648f6",
    "bytes": 230919,
    "domain": "beach_water_quality_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-21T13:02:01.787701+00:00",
+   "read_at": "2026-09-21T19:42:44.870530+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-21T13:02:04.876892+00:00",
-   "note": "this run published only the 'verification' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-21T19:43:05.539661+00:00"
   },
   {
    "name": "verification_current.json",
@@ -135,9 +130,9 @@
    "read_at": "2026-09-21",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
+   "state": "unchanged",
    "published_at": "2026-09-21T19:33:04.397226+00:00",
-   "note": "55 source re-reads across 16 domains, read 2026-09-21"
+   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
   }
  ]
 }
