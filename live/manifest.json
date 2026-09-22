@@ -1,23 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-22T18:16:57.019822+00:00",
+ "generated_at": "2026-09-22T18:19:33.385554+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "14a4d35ed5e0b7e06a5bc885200ecbe9373ab3136ae63d3872f723cb375912a4",
-   "bytes": 24397,
+   "sha256": "b2aeb5301a839e7e5ba87b308bd007b57c4b77435f299b776e9e24af8aa497f2",
+   "bytes": 24762,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.09.21",
-   "read_at": "2026-09-21",
-   "age_days": 1,
+   "dataset_version": "2026.09.22",
+   "read_at": "2026-09-22",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-21T19:43:05.538160+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-22T18:19:33.382663+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -32,7 +31,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-21T19:43:05.538365+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 1 days ago; its clock is 7 days and the refetch interval is 6"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -47,7 +46,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.863721+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 6 days ago; its clock is 10 days and the refetch interval is 7"
   },
   {
    "name": "trip_pack.json",
@@ -62,7 +61,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 6 days ago; its clock is 365 days and the refetch interval is 30"
   },
   {
    "name": "operators.json",
@@ -77,7 +76,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 6 days ago; its clock is 30 days and the refetch interval is 25"
   },
   {
    "name": "notices_current.json",
@@ -90,8 +89,9 @@
    "read_at": "2026-09-22",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-22T18:16:57.016390+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-22T18:16:57.016390+00:00",
+   "note": "the published copy was read 0 days ago; its clock is 2 days and the refetch interval is 1"
   },
   {
    "name": "beach_status_current.json",
@@ -106,22 +106,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-22T16:46:31.302792+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the newest county read in the published copy was 1.5 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
   },
   {
    "name": "beach_water_quality_current.json",
-   "sha256": "405f0ca2bb538ed6c93c4c75607972dcbb607f45ed71f104c6ea0d5b6077980a",
+   "sha256": "21359dcd3144a0b0ff6a286e5139e46dd8c93a99bd4d4b3993f0f088c4bed32b",
    "bytes": 230919,
    "domain": "beach_water_quality_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-22T11:51:54.144458+00:00",
+   "read_at": "2026-09-22T18:19:30.360496+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-22T11:51:57.837772+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-22T18:19:33.385199+00:00"
   },
   {
    "name": "verification_current.json",
@@ -136,7 +135,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-22T18:15:57.149559+00:00",
-   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
   }
  ]
 }
