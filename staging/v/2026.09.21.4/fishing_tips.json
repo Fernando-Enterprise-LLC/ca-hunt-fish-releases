@@ -1,0 +1,1042 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-22T00:02:00.655445+00:00",
+ "curation_status": "verified",
+ "content_class": "angling_tips",
+ "note": "General angling practice written by this app. NOT regulations, NOT CDFW content, NOT sourced to any official publication. No record may state, imply or summarise a rule; every record cross-links to the gear and bait regulations the app already carries verbatim. Every hook size and every bait name here is the app's own general angling knowledge and is unsourced \u2014 that is the honest reason there is no citation field on these records.",
+ "tips_disclaimer": {
+  "headline": "Angling tips \u2014 not regulations, not CDFW content",
+  "body": "Written by this app from general angling practice. Nothing here is a rule and nothing here is permission. Gear and bait are restricted on most California waters and the restrictions change by water and by season \u2014 read the rules above and the water's own listing before you rig.",
+  "no_citation_line": "No citation \u2014 this is not sourced to any regulation."
+ },
+ "records": [
+  {
+   "id": "largemouth-bass",
+   "species_label": "Largemouth bass",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "delta"
+    ],
+    "scope_note": "Lakes, reservoirs and the Delta. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Offset worm hook (EWG) for soft plastics; trebles as they come on hard baits",
+    "size_range": "2/0 to 4/0 for soft plastics",
+    "points": "single",
+    "note": "Hook size is a matter of matching the bait, not a rule."
+   },
+   "baits": [
+    {
+     "name": "Unscented soft-plastic stick worm, wacky or Texas rigged",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Scented or flavoured soft plastics (garlic worms, scented craws)",
+     "regulatory_class": "scented_soft_plastic_is_bait",
+     "note": "These count as bait rather than as an artificial lure \u2014 the definition of a lure excludes anything scented or flavoured, however the scent got there. On a water whose listing names artificial lures only, these do not qualify."
+    },
+    {
+     "name": "Squarebill or lipless crankbait",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    }
+   ],
+   "technique": "Work the edges \u2014 points, docks, weed lines and any hard change in the bottom \u2014 and slow down as the water cools.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Black bass limits and special waters",
+     "section": "5.00"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "Size limits vary by water, and a few waters are zero-bag catch-and-release."
+   ]
+  },
+  {
+   "id": "smallmouth-bass",
+   "species_label": "Smallmouth bass",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "delta"
+    ],
+    "scope_note": "Lakes, reservoirs and the Delta. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Drop-shot hook or small jig head; trebles as they come on hard baits",
+    "size_range": "1 to 2/0 for finesse plastics",
+    "points": "either",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Unscented finesse worm or small tube, drop-shot or shaky head",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Small jerkbait or blade bait",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Nightcrawler on a drop-shot",
+     "regulatory_class": "bait",
+     "note": "A worm is bait, so it does not qualify on a water whose listing names artificial lures only."
+    }
+   ],
+   "technique": "Find rock \u2014 points, riprap, submerged boulders \u2014 and fish smaller and slower than you would for largemouth.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Black bass limits and special waters",
+     "section": "5.00"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "spotted-bass",
+   "species_label": "Spotted bass",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "delta"
+    ],
+    "scope_note": "Lakes, reservoirs and the Delta. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small jig head or offset worm hook",
+    "size_range": "1/0 to 3/0",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Unscented finesse worm on a shaky head",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Small swimbait or underspin",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Scented soft plastics",
+     "regulatory_class": "scented_soft_plastic_is_bait",
+     "note": "These count as bait rather than as an artificial lure \u2014 the definition of a lure excludes anything scented or flavoured, however the scent got there. On a water whose listing names artificial lures only, these do not qualify."
+    }
+   ],
+   "technique": "They hold deeper and more offshore than largemouth \u2014 look for bait on the graph and fish the school rather than the bank.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Black bass limits and special waters",
+     "section": "5.00"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "bluegill-redear",
+   "species_label": "Bluegill & redear sunfish",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "pond"
+    ],
+    "scope_note": "Lakes, reservoirs and ponds. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small single bait hook; size 6 for bigger redear",
+    "size_range": "8 to 10",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Red worm or a piece of nightcrawler",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Cricket",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Small unscented marabou or tube jig, 1/32 to 1/64 oz",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    }
+   ],
+   "technique": "Fish it under a small float a couple of feet down, tight to docks, tules and shade \u2014 if the float has not moved in five minutes, move.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Sunfish and crappie limits",
+     "section": "5.82"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "The sunfish and crappie bag is a combined one on most waters, and it is zero on a few."
+   ]
+  },
+  {
+   "id": "crappie",
+   "species_label": "Black & white crappie",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Light-wire jig head or small bait hook",
+    "size_range": "1/16 to 1/8 oz jig heads",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Unscented marabou or plastic-bodied crappie jig",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Live minnow under a float",
+     "regulatory_class": "bait",
+     "note": "Which live fin fish may be used as bait, and where, is set by district and by water."
+    },
+    {
+     "name": "Small unscented swimbait on a light head",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    }
+   ],
+   "technique": "Find brush and standing timber, fish just above the school, and change depth a foot at a time until you find them.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Sunfish and crappie limits",
+     "section": "5.82"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "Live fin fish as bait is district-scoped and water-scoped \u2014 read the bait rules before you buy minnows."
+   ]
+  },
+  {
+   "id": "channel-catfish",
+   "species_label": "Channel catfish",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Wide-gap bait hook or circle hook",
+    "size_range": "1/0 to 3/0",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Cut mackerel or sardine",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Chicken liver",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Prepared stink bait or dough bait",
+     "regulatory_class": "bait",
+     "note": "The definition of bait names stink baits and scented and flavored paste, so these are bait on any water however they are packaged."
+    }
+   ],
+   "technique": "Fish it on the bottom on a sliding-sinker rig and give the fish slack to take it before you tighten up.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Catfish and bullhead limits",
+     "section": "5.15"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "Catfish bag limits are county-scoped, and a few waters are zero."
+   ]
+  },
+  {
+   "id": "blue-catfish",
+   "species_label": "Blue catfish",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Circle hook",
+    "size_range": "5/0 to 8/0",
+    "points": "single",
+    "note": "Bigger bait wants a bigger hook \u2014 it is a matter of matching the bait."
+   },
+   "baits": [
+    {
+     "name": "Fresh cut shad or mackerel",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Whole small cut bait on a slip rig",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Large unscented swimbait",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    }
+   ],
+   "technique": "Fish fresh cut bait on the bottom near a creek channel or a drop-off, and let a circle hook set itself.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Catfish and bullhead limits",
+     "section": "5.15"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "bullhead",
+   "species_label": "Bullhead",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "pond"
+    ],
+    "scope_note": "Lakes, reservoirs and ponds. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small bait hook",
+    "size_range": "4 to 8",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Nightcrawler",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Prepared dough bait",
+     "regulatory_class": "bait",
+     "note": "Scented and flavored paste is bait by definition, not an artificial lure."
+    }
+   ],
+   "technique": "Fish it flat on the bottom after dark in the shallowest muddy corner you can find.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Catfish and bullhead limits",
+     "section": "5.15"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "rainbow-trout",
+   "species_label": "Rainbow trout",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small single bait hook for dough bait or a single egg; treble as it comes on a small spoon or spinner",
+    "size_range": "12 to 16 for bait hooks",
+    "points": "either",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Scented or flavoured dough bait",
+     "regulatory_class": "scented_soft_plastic_is_bait",
+     "note": "The definition of bait names scented and flavored paste and scented manufactured fish eggs, so this is bait rather than an artificial lure."
+    },
+    {
+     "name": "Nightcrawler, inflated or fished under a float",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Small casting spoon or in-line spinner",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    }
+   ],
+   "technique": "After a plant, fish shallow near the ramp and the shoreline for a few days; after that go deeper and further from the crowd.",
+   "seasonal_note": "Written for lakes and reservoirs only. On inland streams, rivers and canals a zero-trout bag and an artificial-lure-with-barbless-hook restriction run from November 16 through the Friday preceding the last Saturday in April \u2014 read \u00a7 5.85 and the water's own listing before you fish moving water.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Trout limits and seasons",
+     "section": "5.85"
+    },
+    {
+     "label": "What counts as a barbless hook",
+     "section": "1.19"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "The stocking screen for what was planted and when."
+   ]
+  },
+  {
+   "id": "brown-trout",
+   "species_label": "Brown trout",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Single siwash on a spoon, or trebles as they come on a stickbait",
+    "size_range": "Match the lure as it comes from the box",
+    "points": "either",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Long stickbait or minnow-imitating plug",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Large in-line spinner",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Nightcrawler on a slow troll",
+     "regulatory_class": "bait",
+     "note": null
+    }
+   ],
+   "technique": "Fish low light along rocky points and inlets, and troll bigger and slower than you would for rainbows.",
+   "seasonal_note": "Written for lakes and reservoirs only. On inland streams, rivers and canals a zero-trout bag and an artificial-lure-with-barbless-hook restriction run from November 16 through the Friday preceding the last Saturday in April \u2014 read \u00a7 5.85 and the water's own listing before you fish moving water.",
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Trout limits and seasons",
+     "section": "5.85"
+    },
+    {
+     "label": "What counts as a barbless hook",
+     "section": "1.19"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "brook-trout",
+   "species_label": "Brook trout",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small single bait hook or a small spinner's own hook",
+    "size_range": "10 to 14",
+    "points": "either",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Small in-line spinner",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Small unscented soft hackle or wet fly",
+     "regulatory_class": "artificial_fly",
+     "note": null
+    },
+    {
+     "name": "Piece of nightcrawler under a float",
+     "regulatory_class": "bait",
+     "note": null
+    }
+   ],
+   "technique": "High-country lakes, close to the inlet and the drop-off, and small everything.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Brook trout limits",
+     "section": "5.84"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Brook trout limits sit on top of the general trout limits \u2014 read both."
+   ]
+  },
+  {
+   "id": "kokanee",
+   "species_label": "Kokanee (landlocked salmon)",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Small trolling hooks behind a dodger, as the rig comes",
+    "size_range": "Size 4 to 8 hoochie hooks",
+    "points": "treble",
+    "note": "Most kokanee rigs come pre-tied; hook size is a matter of matching the rig."
+   },
+   "baits": [
+    {
+     "name": "Small hoochie or spinner behind a dodger",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Scented corn on the hook",
+     "regulatory_class": "bait",
+     "note": "Scented or flavoured corn is bait, not an artificial lure, however it is presented."
+    }
+   ],
+   "technique": "Troll slow with a dodger, find the thermocline on the graph, and stay on the depth rather than the spot.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Landlocked salmon limits",
+     "section": "5.41"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's."
+   ]
+  },
+  {
+   "id": "striped-bass-inland",
+   "species_label": "Striped bass (inland)",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir",
+     "delta"
+    ],
+    "scope_note": "Lakes, reservoirs and the Delta. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Single live-bait hook, or trebles as they come on a swimbait or plug",
+    "size_range": "2/0 to 5/0 for bait",
+    "points": "either",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Large unscented swimbait or glide bait",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Topwater pencil or popper",
+     "regulatory_class": "artificial_lure",
+     "note": null
+    },
+    {
+     "name": "Cut or live bait on a sliding rig",
+     "regulatory_class": "bait",
+     "note": "Which bait may be used, and where, changes by water \u2014 some stretches name specific baits that may not be used."
+    }
+   ],
+   "technique": "Follow the bait \u2014 birds, boils and current seams \u2014 and fish bigger than feels sensible.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Striped bass limits",
+     "section": "5.75"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "Some river stretches name specific baits that may not be used there \u2014 read the water's own listing before you buy bait."
+   ]
+  },
+  {
+   "id": "carp",
+   "species_label": "Common carp",
+   "type": "tips",
+   "scope": {
+    "water_classes": [
+     "lake_reservoir"
+    ],
+    "scope_note": "Lakes and reservoirs. Not written for rivers and streams, where \u00a7 2.10(b) sets maximum hook gaps and \u00a7 5.85(a)(2) restricts gear from November 16 through the Friday preceding the last Saturday in April."
+   },
+   "hook": {
+    "style": "Short-shank hook fished hair-rig style, or a small bait hook",
+    "size_range": "4 to 8",
+    "points": "single",
+    "note": null
+   },
+   "baits": [
+    {
+     "name": "Sweetcorn",
+     "regulatory_class": "bait",
+     "note": null
+    },
+    {
+     "name": "Boilie or paste bait",
+     "regulatory_class": "bait",
+     "note": "Scented and flavored paste is bait by definition."
+    }
+   ],
+   "technique": "Pre-bait a shallow flat, sit still, and watch for clouding mud rather than for a bite.",
+   "seasonal_note": null,
+   "why": null,
+   "gear_rules_link": [
+    {
+     "label": "What counts as an artificial lure",
+     "section": "1.11"
+    },
+    {
+     "label": "What counts as bait",
+     "section": "1.18"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    },
+    {
+     "label": "Hook and weight restrictions",
+     "section": "2.10"
+    },
+    {
+     "label": "Bait \u2014 general and by district",
+     "section": "4.00"
+    },
+    {
+     "label": "Other species",
+     "section": "5.95"
+    }
+   ],
+   "must_check": [
+    "This water's own listing \u2014 most waters with special regulations restrict gear, and some of those restrictions change with the season.",
+    "Operated lakes set their own rules on top of the state's.",
+    "Chumming is not open everywhere \u2014 read the chumming rules before you pre-bait."
+   ]
+  },
+  {
+   "id": "white-sturgeon",
+   "species_label": "White sturgeon",
+   "type": "no_tip",
+   "scope": null,
+   "hook": null,
+   "baits": null,
+   "technique": null,
+   "seasonal_note": null,
+   "why": "No tips: the daily and annual bags are both zero, so this is a release fishery with one narrow barbless-hook gear rule. Read \u00a7 5.80 before you rig.",
+   "gear_rules_link": [
+    {
+     "label": "Inland white sturgeon",
+     "section": "5.80"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    }
+   ],
+   "must_check": [
+    "\u00a7 5.80 sets the hook and the handling rules, and they are narrower than anything else in fresh water.",
+    "A Sturgeon Fishing Report Card is required \u2014 \u00a7 5.80(f).",
+    "On the Sacramento River from Keswick Dam to the Highway 162 Bridge it is unlawful to take any sturgeon at all, January 1 to December 31 \u2014 \u00a7 5.80(i)(1)(A). The same closure also bars wire leaders, and lamprey or shrimp as bait."
+   ]
+  },
+  {
+   "id": "salmon-steelhead",
+   "species_label": "Salmon & steelhead",
+   "type": "no_tip",
+   "scope": null,
+   "hook": null,
+   "baits": null,
+   "technique": null,
+   "seasonal_note": null,
+   "why": "No tips: the gear rules change river-by-river and date-by-date, so a tip written for one stretch would be wrong on the next. Read the river's own listing first.",
+   "gear_rules_link": [
+    {
+     "label": "Salmon report card",
+     "section": "5.87"
+    },
+    {
+     "label": "Steelhead report card",
+     "section": "5.88"
+    },
+    {
+     "label": "Anadromous waters \u2014 special regulations",
+     "section": "7.40"
+    },
+    {
+     "label": "Leader length in anadromous waters",
+     "section": "2.05"
+    }
+   ],
+   "must_check": [
+    "The river's own listing \u2014 anadromous gear rules change by stretch and by date.",
+    "A report card is required, and it must be filled in as you fish."
+   ]
+  },
+  {
+   "id": "northern-pike",
+   "species_label": "Northern pike",
+   "type": "no_tip",
+   "scope": null,
+   "hook": null,
+   "baits": null,
+   "technique": null,
+   "seasonal_note": null,
+   "why": "No tips: northern pike is an eradicated species in California \u2014 one must be killed immediately and CDFW notified. See \u00a7 5.51.",
+   "gear_rules_link": [
+    {
+     "label": "Northern pike",
+     "section": "5.51"
+    },
+    {
+     "label": "Fishing methods \u2014 general",
+     "section": "2.00"
+    }
+   ],
+   "must_check": [
+    "\u00a7 5.51 \u2014 a pike must be killed immediately and CDFW notified.",
+    "Do not move a live fish between waters for any reason."
+   ]
+  }
+ ]
+}

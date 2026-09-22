@@ -1,0 +1,648 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-22T00:01:02.024679+00:00",
+ "source": {
+  "name": "CDFW Waterfowl hunting page",
+  "url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+  "verified_at": "2026-09-19"
+ },
+ "records": [
+  {
+   "heading": "2026-2027 Regulations",
+   "caption": "Seasons and Bag / Possession Limits by Zone",
+   "columns": [
+    "AREA",
+    "SPECIES",
+    "SEASONS",
+    "DAILY BAG & POSSESSION LIMITS"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Statewide",
+      "Coots & Moorhens",
+      "Concurrent w/duck season",
+      "25/day. 75 in possession."
+     ],
+     "season": {
+      "kind": "season_ref",
+      "words": "Concurrent w/duck season",
+      "ref": "duck_season_for_this_area",
+      "detail": "The row's season is the duck season printed for the same AREA in this table. This app does not resolve the pointer and shows the cell's own words."
+     }
+    },
+    {
+     "cells": [
+      "Northeastern Zone",
+      "Ducks",
+      "Oct 3 \u2013 Jan 13",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit: triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-03",
+        "close": "--01-13"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Northeastern Zone",
+      "Scaup",
+      "Oct 3 \u2013 Nov 29 & Dec 17 \u2013 Jan 13",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit: triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-03",
+        "close": "--11-29"
+       },
+       {
+        "open": "--12-17",
+        "close": "--01-13"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Northeastern Zone",
+      "Geese",
+      "Regular Season Canada Geese: Oct 3 \u2013 Jan 10 White and white-fronted geese: Oct 3 \u2013 Nov 29 & Jan 1 \u2013 Jan 13 Late Season White and white\u2013fronted geese: Feb 5 \u2013 Mar 10",
+      "30/day, which may include: 20 white geese, 10 dark geese but not more than 6 white-fronted geese or 3 Large Canada geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Southern San Joaquin Valley Zone",
+      "Ducks",
+      "Oct 24 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-24",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern San Joaquin Valley Zone",
+      "Scaup",
+      "Nov 7 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-07",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern San Joaquin Valley Zone",
+      "Geese",
+      "Oct 24 \u2013 Jan 31",
+      "30/day, which may include: 20 white geese, 10 dark geese not more than 6 white-fronted geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-24",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern California Zone",
+      "Ducks",
+      "Oct 24 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-24",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern California Zone",
+      "Scaup",
+      "Nov 7 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-07",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern California Zone",
+      "Geese",
+      "Oct 24 \u2013 Jan 31",
+      "23/day, which may include: 20 white geese, 3 dark geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-24",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Colorado River Zone",
+      "Ducks",
+      "Oct 23 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females or Mexican ducks), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-23",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Colorado River Zone",
+      "Scaup",
+      "Nov 7 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females or Mexican ducks), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-07",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Colorado River Zone",
+      "Geese",
+      "Oct 23 \u2013 Jan 31",
+      "24/day, up to 20 white geese, up to 4 dark geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-23",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Zone",
+      "Ducks",
+      "Oct 24 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-24",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Zone",
+      "Scaup",
+      "Nov 7 \u2013 Jan 31",
+      "7/day, which may include: 7 mallards (no more than 2 females), 3 pintail, 2 canvasback, 2 redheads, 2 scaup. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-07",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Zone",
+      "Geese",
+      "Early Season: (Large Canada geese only) Oct. 3 \u2013 5 Regular Season: Oct 24 \u2013 Jan 31 Late Season: Canada Geese Feb 20 \u2013 21 Whitefronts and White geese Feb 20 \u2013 24",
+      "30/day, which may include: 20 white geese, 10 dark geese but not more than 6 white-fronted geese. In the Sacramento Valley Special Management Area only 3 may be white-fronted geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026-2027 Regulations",
+   "caption": "Special Management Areas",
+   "columns": [
+    "AREA",
+    "SPECIES",
+    "SEASONS",
+    "DAILY BAG & POSSESSION LIMITS"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "North Coast",
+      "All Canada Geese",
+      "Oct 3 \u2013 Dec 19 & Feb 12 \u2013 Mar 10",
+      "10/day, only 1 may be a Large Canada goose. Possession limit triple the daily bag. Large Canada geese are closed during the Late Season."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--10-03",
+        "close": "--12-19"
+       },
+       {
+        "open": "--02-12",
+        "close": "--03-10"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Humboldt Bay South Spit (West Side)",
+      "All species",
+      "Closed during brant season",
+      ""
+     ],
+     "season": {
+      "kind": "closed"
+     }
+    },
+    {
+     "cells": [
+      "Klamath Basin",
+      "Dark and white geese",
+      "Canada geese Oct 3 \u2013 Jan 10 White and White-fronted geese Oct 3 \u2013 Jan 15",
+      "30/day, which may include: 20 white geese, 10 dark geese but not more than 6 white-fronted geese or 3 Large Canada geese. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Sacramento Valley",
+      "White-fronted geese",
+      "Open concurrently with general goose season through Dec 21",
+      "3/day. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Morro Bay",
+      "All species",
+      "Open in designated areas only",
+      "Waterfowl season opens concurrently with brant season."
+     ],
+     "season": {
+      "kind": "unparsed"
+     }
+    },
+    {
+     "cells": [
+      "Martis Creek Lake",
+      "All species",
+      "Closed until Nov 16",
+      ""
+     ],
+     "season": {
+      "kind": "closed"
+     }
+    },
+    {
+     "cells": [
+      "Northern Brant",
+      "Black Brant",
+      "Nov 29 \u2013 Dec 14",
+      "2/day. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-29",
+        "close": "--12-14"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Brant",
+      "Black Brant",
+      "Nov 30 \u2013 Dec 15",
+      "2/day. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-30",
+        "close": "--12-15"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Imperial County",
+      "White Geese",
+      "Nov 4 \u2013 Jan 31, Feb 1 \u2013 5, Feb 8 \u2013 12, Feb 16 \u2013 21",
+      "20/day. Possession limit triple the daily bag."
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--11-04",
+        "close": "--01-31"
+       },
+       {
+        "open": "--02-01",
+        "close": "--02-05"
+       },
+       {
+        "open": "--02-08",
+        "close": "--02-12"
+       },
+       {
+        "open": "--02-16",
+        "close": "--02-21"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026-2027 Regulations",
+   "caption": "Youth Waterfowl Hunting Days",
+   "columns": [
+    "AREA",
+    "SPECIES",
+    "SEASONS",
+    "DAILY BAG & POSSESSION LIMITS"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Northeastern Zone",
+      "Same as regular season",
+      "Sept 19 \u2013 20",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-19",
+        "close": "--09-20"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern San Joaquin Valley Zone",
+      "Same as regular season",
+      "Feb 13 \u2013 14",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-13",
+        "close": "--02-14"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern California Zone",
+      "Same as regular season",
+      "Feb 13 \u2013 14",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-13",
+        "close": "--02-14"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Colorado River Zone",
+      "Same as regular season",
+      "Feb 13 \u2013 14",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-13",
+        "close": "--02-14"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Zone",
+      "Same as regular season",
+      "Feb 13 \u2013 14",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-13",
+        "close": "--02-14"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "2026-2027 Regulations",
+   "caption": "Veterans and Active Military Personnel Waterfowl Hunting Days",
+   "columns": [
+    "AREA",
+    "SPECIES",
+    "SEASONS",
+    "DAILY BAG & POSSESSION LIMITS"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Northeastern Zone",
+      "Ducks only",
+      "Jan 16\u00a0\u2013 17",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--01-16",
+        "close": "--01-17"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Balance of State Zone",
+      "Ducks only",
+      "Feb 6 \u2013 7",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-06",
+        "close": "--02-07"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern San Joaquin Valley Zone",
+      "Same as regular season",
+      "Feb 6 \u2013 7",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-06",
+        "close": "--02-07"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Southern California Zone",
+      "Same as regular season",
+      "Feb 6 \u2013 7",
+      "Same as regular season"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-06",
+        "close": "--02-07"
+       }
+      ]
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
+    "source_doc": "CDFW Waterfowl hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  }
+ ]
+}

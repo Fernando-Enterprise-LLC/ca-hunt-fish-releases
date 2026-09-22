@@ -1,0 +1,119 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-22T00:01:19.284347+00:00",
+ "curation_status": "verified",
+ "authored_on": "2026-09-04",
+ "content_class": "usfs_place_rules_quoted",
+ "note": "Forest Service place rules that this app QUOTES and does not draw. Every record here exists because the rule is real, published and findable, while its boundary is not. The Laguna Mountain Recreation Area is the case that forced the file: Cleveland National Forest states an archery-only rule for it in plain terms on its own website, and neither the Forest Service nor anyone else publishes a polygon or a metes-and-bounds description for it. It may therefore be quoted, cited and linked \u2014 and it may NEVER be drawn, approximated from a ranger-district boundary, or inferred from the recreation area's name. A hand-drawn line here would be this app inventing a federal boundary.",
+ "user_verified_on": "2026-09-15",
+ "user_verification_basis": "Flipped to verified 2026-09-15 by Fable under the owner's approval of the sign-off register's recommendation for this file (owner instruction 2026-09-15: 'work down each item, i approve the recommendations for each'). The owner did not read the entries page by page; every entry was drafted from the cited source by a pipeline lane, carries that source, and was re-read entry by entry on 2026-09-15 by the flipping lane against the snapshot on disk (5 records and 9 quotations checked \u2014 one place notice with its two verbatims, its quoted federal rule and its two quoted state rules, plus four wilderness restrictions \u2014 0 kept as refusals and 0 found wanting and left unflipped). The house rule was checked record by record: every quotation carries its text and its link, the one notice declares boundary_status no_published_boundary, applies_near is a landmark point that no shipped code turns into geometry, and nothing in this file draws, approximates or infers a boundary. The two quoted California rules were matched byte-for-byte against curated/hunt_methods_2026.json, which is the file the build lifts their citations from rather than typing one beside them (14 CCR 353(c) and 14 CCR 353(g)); the 14 CCR 354(b), 354(g) and 354(j) sentences the archery paragraph rests on were found in that same file under those same cites. Cleveland National Forest's hunting page is not snapshotted in this repository, so the 2026-09-04 read dates were carried as recorded and nothing was re-fetched. This flip changed no quotation, no citation and no date. The ledger is at ~/.claude/plans/ca-hunt-fish-signoff-2026-09-15/B3.md.",
+ "why_this_is_not_geometry": "An undrawn rule and a drawn one are not interchangeable. A map layer answers 'am I inside it?' and this app cannot answer that for the Laguna Mountain Recreation Area, because no published boundary exists to answer it with. So the record answers a different question honestly \u2014 'there is a rule here, these are its exact words, here is who published them, go and check where it applies' \u2014 rather than answering the first question with a guess.",
+ "notices": [
+  {
+   "id": "usfs-lmra-archery-only",
+   "title": "Laguna Mountain Recreation Area \u2014 Forest Service archery-only rule",
+   "agency": "USDA Forest Service, Cleveland National Forest",
+   "place": "Laguna Mountain Recreation Area",
+   "ranger_district": "Descanso Ranger District",
+   "boundary_status": "no_published_boundary",
+   "boundary_status_note": "The Forest Service publishes this rule without publishing a boundary for the area it applies to. There is no polygon in the Enterprise Data Warehouse for it and no metes-and-bounds description on fs.usda.gov. This app therefore quotes the rule and draws nothing. Being outside every line this app draws is not evidence that you are outside this area.",
+   "verbatims": [
+    {
+     "text": "Rifle, firearm, or crossbow hunting is not allowed at any time within the Laguna Mountain Recreation Area (only archery hunting during season).",
+     "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+     "source_doc": "Cleveland National Forest \u2014 Hunting",
+     "source_revision": "2025-03-26",
+     "verified_at": "2026-09-04"
+    },
+    {
+     "text": "No discharge of fire arms is allowed at anytime in the Laguna Mt. Recreation Area (only archery hunting is allowed during season).",
+     "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+     "source_doc": "Cleveland National Forest \u2014 Hunting, Laguna Mt. Recreation Area restriction",
+     "source_revision": "2025-03-26",
+     "verified_at": "2026-09-04"
+    }
+   ],
+   "applies_near": {
+    "landmark": "Mount Laguna",
+    "point": [
+     -116.4189,
+     32.8747
+    ],
+    "note": "Mount Laguna village, given so the app can offer this notice where a hunter around the Lagunas would look for it. It is a LANDMARK, not a boundary, and it does not mean the rule stops at any distance from it."
+   },
+   "surfaces": [
+    "hunt-a22",
+    "deer-d16",
+    "usfs-forest-cleveland-national-forest"
+   ],
+   "conflict_note": {
+    "headline": "Two governments, two rules, and they do not say the same thing",
+    "applies_to_season": "general",
+    "body": "During D-16's general deer season state regulations authorise taking a deer with a rifle, and the Forest Service says no rifle, firearm or crossbow may be used inside this recreation area at any time. Both sides are quoted below in their own words, each with its own citation and the date this app read it. This app does not resolve them, and the Forest Service rule is one this app cannot show you the edges of.",
+    "state_rules": [
+     {
+      "text": "Except for the provisions of the following subsections (d) through (j), big game may only be taken by rifles using centerfire cartridges with softnose or expanding projectiles; bow and arrow (see Section 354 of these regulations for archery equipment regulations); or wheellock, matchlock, flintlock or percussion type, including \u201cin-line\u201d muzzleloading rifles using black powder or equivalent black powder substitute, including pellets, with a single projectile loaded from the muzzle and at least .40 caliber in designation.",
+      "carried_in": "hunt_methods.json",
+      "note": "The rifle half of the disagreement, quoted rather than summarised. Without it this card asserted in its own voice that a rifle is lawful here and offered a quotation about crossbows as the evidence.",
+      "ccr_cite": "14 CCR \u00a7 353(c)",
+      "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+      "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+      "verified_at": "2026-09-19"
+     },
+     {
+      "text": "Except as provided in subsection 354(j) of these regulations, crossbows may be used to take deer only during the regular seasons.",
+      "carried_in": "hunt_methods.json",
+      "note": "The crossbow half. It is a REGULAR-season rule, which is why this conflict is recorded against the general season and never against an archery hunt.",
+      "ccr_cite": "14 CCR \u00a7 353(g)",
+      "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+      "source_doc": "CDFW 2026-2027 Mammal Hunting Regulations p.21-22: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+      "verified_at": "2026-09-19"
+     }
+    ],
+    "federal_rule": {
+     "text": "Rifle, firearm, or crossbow hunting is not allowed at any time within the Laguna Mountain Recreation Area (only archery hunting during season).",
+     "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+     "verified_at": "2026-09-04"
+    },
+    "not_a_conflict_during_archery": "During hunt A-22 and during D-16's archery season there is NO disagreement about crossbows: state law already prohibits one. 14 CCR \u00a7 354(b) states that a crossbow is not archery equipment, and \u00a7 354(g) that \"Except as described in subsection 354(j), crossbows may not be used to take game birds and game mammals during archery seasons.\" The exception in \u00a7 354(j) is the Disabled Archer Permit. Saying that CDFW permits a crossbow here and the Forest Service forbids it would tell an archer the state allows something it does not \u2014 which is why the conflict is recorded against the GENERAL season only.",
+    "unresolved": true
+   }
+  }
+ ],
+ "wilderness_restrictions": [
+  {
+   "wilderness": "Agua Tibia Wilderness",
+   "ranger_district": "Palomar Ranger District",
+   "verbatim": "Open to hunting, but closed to motorized vehicles",
+   "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+   "source_revision": "2025-03-26",
+   "verified_at": "2026-09-04"
+  },
+  {
+   "wilderness": "Hauser Wilderness",
+   "ranger_district": "Descanso Ranger District",
+   "verbatim": "Open to hunting but closed to motorized vehicles",
+   "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+   "source_revision": "2025-03-26",
+   "verified_at": "2026-09-04"
+  },
+  {
+   "wilderness": "Pine Creek Wilderness",
+   "ranger_district": "Descanso Ranger District",
+   "verbatim": "Open to hunting but closed to motorized vehicles",
+   "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+   "source_revision": "2025-03-26",
+   "verified_at": "2026-09-04"
+  },
+  {
+   "wilderness": "San Mateo Canyon Wilderness",
+   "page_name": "San Mateo Wilderness Area",
+   "ranger_district": "Trabuco Ranger District",
+   "verbatim": "Open to hunting but closed to motorized vehicles",
+   "source_url": "https://www.fs.usda.gov/r05/cleveland/recreation/hunting",
+   "source_revision": "2025-03-26",
+   "verified_at": "2026-09-04",
+   "name_note": "Cleveland National Forest's page calls this \"San Mateo Wilderness Area\"; the Forest Service's own geodata layer calls it \"San Mateo Canyon Wilderness\". Both names are carried so the quote can be matched to the polygon without either name being silently rewritten."
+  }
+ ]
+}

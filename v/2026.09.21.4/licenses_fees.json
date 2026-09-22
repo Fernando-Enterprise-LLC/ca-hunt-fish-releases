@@ -1,0 +1,768 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-22T00:01:21.241396+00:00",
+ "purchase_url": "https://licenses.wildlife.ca.gov",
+ "records": [
+  {
+   "heading": "Hunting Licenses",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Resident Hunting License",
+     "fee_text": "$64.54",
+     "description": "Required for any resident 16 years of age or older who takes birds or mammals.",
+     "resident_fee": "$64.54",
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Nonresident Hunting License",
+     "fee_text": "$225.46",
+     "description": "Required for any nonresident 16 years of age or older who takes birds or mammals.",
+     "resident_fee": null,
+     "nonresident_fee": "$225.46",
+     "any_fee": null
+    },
+    {
+     "title": "Junior Hunting License",
+     "fee_text": "$17.02",
+     "description": "Required for any resident or nonresident less than 16 years of age who takes birds or mammals. To qualify, hunter must be less than 16 years of age at the beginning of the license year (July 1).",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$17.02"
+    },
+    {
+     "title": "One-Day Nonresident Hunting License",
+     "fee_text": "$31.06",
+     "description": "IMPORTANT! This license is only available for nonresidents taking resident and migratory game birds on Licensed Game Bird Clubs (Upland Game Bird Validation is also required) or Licensed Domesticated Migratory Game Bird Shooting Areas (Federal Duck Stamp and California Duck Validation are also required). This license is only available for purchase online or at any CDFW License Sales Office .",
+     "resident_fee": null,
+     "nonresident_fee": "$31.06",
+     "any_fee": null
+    },
+    {
+     "title": "Two-Day Nonresident Hunting License",
+     "fee_text": "$64.54",
+     "description": "Starting with the 2023-2024 hunting license year, a Two-Day Nonresident Hunting License allows a nonresident 16 years of age or older to take resident and migratory game birds, resident small game mammals, wild pigs, nongame mammals and furbearers for two consecutive days. Additional validations and tags may be required for certain species. IMPORTANT! This license is NOT valid for deer, bear, elk, pronghorn antelope, or bighorn sheep.",
+     "resident_fee": null,
+     "nonresident_fee": "$64.54",
+     "any_fee": null
+    },
+    {
+     "title": "Disabled Veteran Reduced Fee Hunting License",
+     "fee_text": "$10.04\u00a0at CDFW Offices $10.54\u00a0from License Agents",
+     "description": "Available for any resident or nonresident honorably discharged disabled veteran with a 50 percent or greater service-connected disability. After you prequalify for your first Disabled Veteran Reduced Fee Hunting License, you can purchase a disabled veteran license anywhere licenses are sold. Disabled Veteran Reduced Fee Hunting License",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.04"
+    },
+    {
+     "title": "Recovering Service Member Reduced-Fee Hunting License",
+     "fee_text": "$10.04\u00a0at CDFW Offices $10.54\u00a0from License Agents",
+     "description": "Available to any recovering service member. A recovering service member is defined as a member of the armed forces, including a member of the National Guard or a Reserve, who is undergoing medical treatment, recuperation or therapy and is in an outpatient status while recovering from a serious injury or illness related to the member's military service. After you prequalify for your Recovering Service Member Reduced-Fee Hunting License, you can purchase a recovering service member hunting license anywhere licenses are sold. Recovering Service Member Reduced-Fee Hunting License",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.04"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Big Game Tag Drawing Applications",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Resident First-Deer Tag or First-Deer Tag Drawing Application",
+     "fee_text": "$42.38",
+     "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year.",
+     "resident_fee": "$42.38",
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Resident Second-Deer Tag or Second-Deer Tag Drawing Application",
+     "fee_text": "$52.92",
+     "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year.",
+     "resident_fee": "$52.92",
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Nonresident First-Deer Tag or First-Deer Tag Drawing Application",
+     "fee_text": "$377.35",
+     "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year.",
+     "resident_fee": null,
+     "nonresident_fee": "$377.35",
+     "any_fee": null
+    },
+    {
+     "title": "Nonresident Second-Deer Tag or Second-Deer Tag Drawing Application",
+     "fee_text": "$377.35",
+     "description": "Hunters may obtain two deer tags per license year. Applicants for deer tags must be age 12 as of July 1, of the current license year or at the time of purchase if purchasing after July 1. A First-Deer Tag Drawing Application or First-Deer Tag must be purchased before or at the same time as a Second-Deer Tag Drawing Application (junior hunters only) or Second-Deer Tag. See the Big Game Hunting Digest for more information. Deer tag holders who fail to return their deer tags or report their tags online by January 31, will be assessed a $21.60 non-reporting fee when they purchase a deer tag or deer tag drawing application in the following license year.",
+     "resident_fee": null,
+     "nonresident_fee": "$377.35",
+     "any_fee": null
+    },
+    {
+     "title": "Elk, Pronghorn Antelope and Bighorn Sheep Tag Drawing Applications",
+     "fee_text": "$8.38\u00a0per application",
+     "description": "See the Big Game Hunting Digest for more information about the Big Game Drawing.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$8.38"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Big Game Tags",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Bear Tag",
+     "fee_text": "$62.90 Resident $397.60\u00a0Nonresident",
+     "description": "Resident and nonresident licensed hunters age 12 or older as of July 1 of the current license year, may purchase. One bear tag per license year. Junior Hunters No Longer Eligible for Reduced Fee Tags Assembly Bill 2151 (AB 2151), signed into law in 2018, reduced the cost of antelope, bear, bighorn sheep, and elk tags for resident junior hunters. The provisions of the bill sunset on July 1, 2025, eliminating the reduced fee junior hunting tags. Junior hunters are now required to pay the same fee as non-junior hunters.",
+     "resident_fee": "$62.90",
+     "nonresident_fee": "$397.60",
+     "any_fee": null
+    },
+    {
+     "title": "Elk Tag",
+     "fee_text": "$610.20\u00a0Resident $1,871.80\u00a0Nonresident",
+     "description": "Resident and nonresident licensed hunters age 12 or older as of July 1 of the current license year, may enter a drawing for this tag. Each person may submit only one Elk Tag Drawing Application per license year. Junior Hunters No Longer Eligible for Reduced Fee Tags Assembly Bill 2151 (AB 2151), signed into law in 2018, reduced the cost of antelope, bear, bighorn sheep, and elk tags for resident junior hunters. The provisions of the bill sunset on July 1, 2025, eliminating the reduced fee junior hunting tags. Junior hunters are now required to pay the same fee as non-junior hunters.",
+     "resident_fee": "$610.20",
+     "nonresident_fee": "$1,871.80",
+     "any_fee": null
+    },
+    {
+     "title": "Pronghorn Antelope Tag",
+     "fee_text": "$205.77\u00a0Resident $628.85\u00a0Nonresident",
+     "description": "Resident and nonresident licensed hunters, age 12 or older as of July 1 of the current license year, may enter a drawing for this tag. Each person may submit only one Pronghorn Tag Drawing Application per license year. Junior Hunters No Longer Eligible for Reduced Fee Tags Assembly Bill 2151 (AB 2151), signed into law in 2018, reduced the cost of antelope, bear, bighorn sheep, and elk tags for resident junior hunters. The provisions of the bill sunset on July 1, 2025, eliminating the reduced fee junior hunting tags. Junior hunters are now required to pay the same fee as non-junior hunters.",
+     "resident_fee": "$205.77",
+     "nonresident_fee": "$628.85",
+     "any_fee": null
+    },
+    {
+     "title": "Bighorn Sheep Tag",
+     "fee_text": "$558.50 Resident $2,072.75\u00a0Nonresident",
+     "description": "Resident and nonresident licensed hunters, age 16 or older as of July 1 of the current license year, may enter a drawing for this tag. Each person may submit only one Bighorn Sheep Tag Drawing Application per license year. Hunters can not apply as a party. Applicants can not apply if they have previously been issued a California Bighorn Sheep Tag through the Big Game Drawing.",
+     "resident_fee": "$558.50",
+     "nonresident_fee": "$2,072.75",
+     "any_fee": null
+    },
+    {
+     "title": "Wild Pig Tag",
+     "fee_text": "N/A",
+     "description": "Wild Pig Tags are no longer available for purchase after June 30, 2024. Beginning July 1, 2024, a Wild Pig Validation is required to take wild pigs. Resident and nonresident licensed hunters, 12 years of age or older at the time of application.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Wild Pig Validation",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Wild Pig Validation",
+     "fee_text": "$28.34\u00a0Resident $101.26\u00a0Nonresident",
+     "description": "Wild Pig Validation is required to take wild pigs beginning July 1, 2024. Resident and nonresident hunters, 12 years of age or older at the time of application, with a valid annual or two-day California hunting license may purchase a wild pig hunting validation. There is no limit on the number of wild pigs one person may harvest with a validation; fees are nonrefundable and cannot be transferred from one person to another.",
+     "resident_fee": "$28.34",
+     "nonresident_fee": "$101.26",
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Bird Hunting Validations",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "California Duck Validation",
+     "fee_text": "$41.04",
+     "description": "Required for any person taking waterfowl, excluding juniors hunting under the authority of a Junior Hunting License.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$41.04"
+    },
+    {
+     "title": "Upland Game Bird Validations",
+     "fee_text": "$25.41",
+     "description": "Required for any person taking upland game bird species, excluding juniors hunting under the authority of a Junior Hunting License.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$25.41"
+    },
+    {
+     "title": "Federal Duck Stamp",
+     "fee_text": "$25.00",
+     "description": "Required for any person hunting waterfowl. Hunters under the age of 16 are exempt from the Federal Duck Stamp requirement. Federal Duck Stamps are not sold at CDFW offices. Federal Duck Stamps can be purchased at many post offices and some license agents. More information about the Federal Duck Stamp (USFWS) .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$25.00"
+    },
+    {
+     "title": "Harvest Information Program (HIP) Validation",
+     "fee_text": "NO FEE",
+     "description": "Required for any person hunting ducks, dove, gallinules, geese, band-tailed pigeon, black brant, coots, and snipe. This validation is free to hunters who complete the Harvest Information Program (HIP) Survey. The validation is available where hunting licenses are sold. The HIP Validation is imprinted on your hunting license document when you answer the HIP Survey questions. If you hunt migratory game birds, verify that a HIP Validation has been printed on your hunting license. The HIP Survey provides wildlife biologists with data needed to make wildlife management decisions and formulate hunting seasons. More information about HIP",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Passes for State-Operated Hunting Areas",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Type A One-Day Pass",
+     "fee_text": "$29.16",
+     "description": "Allows a licensed hunter to hunt on a Type A State-operated Wildlife Area for one day if space is available. Junior hunters are exempt from permit requirements.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$29.16"
+    },
+    {
+     "title": "Type A Two-Day Pass",
+     "fee_text": "$46.70",
+     "description": "Allows a licensed hunter to hunt on a Type A State-operated Wildlife Area. This pass may be used as follows: 1) by one person for any two authorized shoot days; or 2) by two persons on any one authorized shoot day. Junior hunters are exempt from pass requirements.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$46.70"
+    },
+    {
+     "title": "Type A Season Pass",
+     "fee_text": "$219.24",
+     "description": "Allows a licensed hunter unlimited season access to Type A and Type B State-operated Wildlife Areas for one person if space is available. Junior hunters are exempt from permit requirements.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$219.24"
+    },
+    {
+     "title": "Type B Season Pass",
+     "fee_text": "$73.70",
+     "description": "Allows a licensed hunter unlimited season access to Type B State-operated Wildlife Areas for one person if space is available. Junior hunters are exempt from pass requirements.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$73.70"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Reservation Applications for State-Operated Hunting Areas",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Reservation Application",
+     "fee_text": "$1.34 per application",
+     "description": "Allows a licensed hunter to apply for reservation drawings to hunt on State-operated Wildlife Areas.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$1.34"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Lifetime Hunting Licenses",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Ages 0-9",
+     "fee_text": "$709.00",
+     "description": "Available to any resident showing proof of completion of hunter education training. Lifetime hunting licensees receive an annual hunting license each year for life. Lifetime Hunting Packages must first be purchased from a CDFW License Sales Office . See Lifetime License application and information for more detail. Note: Applicants for a Lifetime Hunting Package are not required to provide proof of hunter education at the time of purchase. However, proof of hunter education is required prior to the issuance of the lifetime hunting license.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$709.00"
+    },
+    {
+     "title": "Ages 10-39",
+     "fee_text": "$1,160.25",
+     "description": "Available to any resident showing proof of completion of hunter education training. Lifetime hunting licensees receive an annual hunting license each year for life. Lifetime Hunting Packages must first be purchased from a CDFW License Sales Office . See Lifetime License application and information for more detail. Note: Applicants for a Lifetime Hunting Package are not required to provide proof of hunter education at the time of purchase. However, proof of hunter education is required prior to the issuance of the lifetime hunting license.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$1,160.25"
+    },
+    {
+     "title": "Ages 40-61",
+     "fee_text": "$1,045.00",
+     "description": "Available to any resident showing proof of completion of hunter education training. Lifetime hunting licensees receive an annual hunting license each year for life. Lifetime Hunting Packages must first be purchased from a CDFW License Sales Office . See Lifetime License application and information for more detail. Note: Applicants for a Lifetime Hunting Package are not required to provide proof of hunter education at the time of purchase. However, proof of hunter education is required prior to the issuance of the lifetime hunting license.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$1,045.00"
+    },
+    {
+     "title": "Ages 62+",
+     "fee_text": "$709.00",
+     "description": "Available to any resident showing proof of completion of hunter education training. Lifetime hunting licensees receive an annual hunting license each year for life. Lifetime Hunting Packages must first be purchased from a CDFW License Sales Office . See Lifetime License application and information for more detail. Note: Applicants for a Lifetime Hunting Package are not required to provide proof of hunter education at the time of purchase. However, proof of hunter education is required prior to the issuance of the lifetime hunting license.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$709.00"
+    },
+    {
+     "title": "Lifetime Bird Hunting Privilege Package",
+     "fee_text": "$411.50",
+     "description": "Lifetime licensees who purchase the Lifetime Bird Hunting Privilege Package receive Upland Game Bird and California Duck Validations each year for life.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$411.50"
+    },
+    {
+     "title": "Lifetime Big Game Hunting Privilege Package",
+     "fee_text": "$863.25",
+     "description": "Lifetime licensees who purchase the Big Game Hunting Privilege Package receive a First Deer Tag Application and a Wild Pig Validation each year for life. This privilege package may be purchased for applicants under 12 years of age. However, the tag and validation cannot be redeemed until the applicant is 12 years of age or older.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$863.25"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Permits for Hunters with Disabilities",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Mobility Impaired Disabled Persons Motor Vehicle Hunting License Application",
+     "fee_text": "NO FEE",
+     "description": "Available to any resident or nonresident for mobility impaired disabled hunter who must use a motor vehicle to pursue game. A person must be either permanently or fully confined to a wheelchair, a single or double amputee above the knee or double amputee below the knee or depend upon the aid of a walker, crutches, etc. to walk. Certification from the hunter's physician is required. The license is only available from the CDFW's License and Revenue Branch. Mobility Impaired Disabled Persons Motor Vehicle Hunting License (PDF) .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Visually Disabled Muzzleloader Scope Permit",
+     "fee_text": "NO FEE",
+     "description": "Available to any resident or nonresident visually impaired hunter having a permanent loss, significant limitation, or diagnosed disease or disorder, which substantially impairs the vision of a hunter, preventing the hunter from viewing and aligning the sights of a muzzle-loading rifle with the target in order to hunt deer. A visually disabled hunter may use a scope of no more than one power while hunting under the conditions of a muzzle-loading deer hunt tag. Certification from the hunter's physician or optometrist is required annually, except if the physician or optometrist indicated on the initial application that the hunter's disability is permanent the hunter will be able to provide a copy of their previously issued Visually Disabled Muzzleloader Scope Permit to renew the permit. The permit is only available from the CDFW's License and Revenue Branch. Visually Disabled Muzzleloader Scope Permit Application (PDF) .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Disabled Archer Permit",
+     "fee_text": "NO FEE",
+     "description": "Available to any resident or nonresident hunter's having permanent loss, significant limitation, or diagnosed disease or disorder, which substantially impairs one or both upper extremities preventing a hunter to draw and hold a bow in a firing position. Allows the hunter to hunt with a crossbow or other device to draw and hold a bow in a firing position under the conditions of an archery tag or during archery season. Certification from the hunter's physician is required annually, except if the physician indicated on the initial application that the hunter's disability is permanent the hunter will be able to provide a copy of their previously issued Disabled Archer Permit to renew the permit. The permit is only available from the CDFW's License and Revenue Branch. Disabled Archer Permit Application (PDF) .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Duplicate Fees",
+   "domain": "hunting",
+   "items": [
+    {
+     "title": "Duplicate Hunting License",
+     "fee_text": "$14.30",
+     "description": "Replaces a lost or stolen hunting license. Available Online , at select CDFW License Sales Offices and License Agents .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$14.30"
+    },
+    {
+     "title": "Duplicate Hunting Validation",
+     "fee_text": "$3.81",
+     "description": "(California Duck Validation and Upland Game Bird Validation) Replaces lost or stolen hunting validations. Available Online , at select CDFW License Sales Offices and License Agents .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$3.81"
+    },
+    {
+     "title": "Duplicate Big Game Tag",
+     "fee_text": "$13.65",
+     "description": "Replaces lost or stolen big game tags. Available only at CDFW license sales offices. Duplicate Big Game Tag Affidavit (PDF)",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$13.65"
+    },
+    {
+     "title": "Duplicate Hunter Education Certificate",
+     "fee_text": "$9.21",
+     "description": "Replaces a lost or stolen Hunter Education Certificate. Available Online , at select CDFW License Sales Offices and License Agents .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$9.21"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
+    "source_doc": "CDFW hunting license items page (fees valid for the printed license year)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "365-Day Sport Fishing Licenses",
+   "domain": "fishing",
+   "items": [
+    {
+     "title": "Resident Sport Fishing",
+     "fee_text": "$64.54",
+     "description": "Available for any resident 16 years of age or older.",
+     "resident_fee": "$64.54",
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Nonresident Sport Fishing",
+     "fee_text": "$174.14",
+     "description": "Available for any non-resident 16 years of age or older.",
+     "resident_fee": null,
+     "nonresident_fee": "$174.14",
+     "any_fee": null
+    },
+    {
+     "title": "Reduced-Fee Sport Fishing License - Disabled Veteran",
+     "fee_text": "$10.04\u00a0at CDFW Offices $10.54\u00a0from License Agents",
+     "description": "Available for any resident or nonresident honorably discharged disabled veteran with a 50 percent or greater service-connected disability. After you prequalify for your first Disabled Veteran Reduced Fee Sport Fishing License , you can purchase disabled veteran licenses anywhere licenses are sold.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.04"
+    },
+    {
+     "title": "Reduced-Fee Sport Fishing License \u2013 Recovering Service Member",
+     "fee_text": "$10.04\u00a0at CDFW Offices $10.54\u00a0from License Agents",
+     "description": "Available for any recovering service member of the US military. After you prequalify for your Recovering Service Member Reduced-Fee Sport Fishing License , you can purchase recovering service member licenses anywhere licenses are sold.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.04"
+    },
+    {
+     "title": "Reduced Fee Sport Fishing License - Low Income Senior",
+     "fee_text": "$10.04",
+     "description": "ATTENTION! The eligibility requirements for low income seniors to obtain a reduced-fee sport fishing license have changed. Effective January 1, 2022, reduced-fee sport fishing licenses will be available for low-income California residents, 65 years of age and older, who receive Supplemental Security Income (SSI) or Cash Assistance Program for Aged, Blind, and Disabled Legal Immigrants (CAPI). The Reduced-Fee Sport Fishing License for Low Income Seniors is only available at CDFW License Sales Offices .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.04"
+    },
+    {
+     "title": "Free Sport Fishing License - Low Income Native American",
+     "fee_text": "NO FEE",
+     "description": "Available for any Native American who is a resident of the State and is financially unable to pay the fee required for a resident sport fishing license. Your first Free Sport Fishing License for Low Income Native Americans must be obtained from the CDFW License and Revenue Branch . Subsequent licenses may be obtained from a CDFW License Sales Office or online . See application for details.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Free Sport Fishing License - Mobility Impaired, Blind or Developmentally Disabled",
+     "fee_text": "NO FEE",
+     "description": "Available for a person who is blind, developmentally disabled, or mobility impaired. Your first Free Sport Fishing License must be obtained from the CDFW License and Revenue Branch. Subsequent licenses may be obtained from any license agent. See application for details.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Short Term Sport Fishing Licenses",
+   "domain": "fishing",
+   "items": [
+    {
+     "title": "One-day Sport Fishing License",
+     "fee_text": "$21.09",
+     "description": "Allows a resident or nonresident to fish for one specified day. One-day sport fishing licenses are exempt from the Ocean Enhancement Validation requirement.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$21.09"
+    },
+    {
+     "title": "Two-day Sport Fishing License",
+     "fee_text": "$32.40",
+     "description": "Allows a resident or nonresident to fish for two consecutive days. Two-day sport fishing licenses are exempt from the Ocean Enhancement Validation requirement.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$32.40"
+    },
+    {
+     "title": "Ten-day Nonresident Sport Fishing License",
+     "fee_text": "$64.54",
+     "description": "Allows a nonresident to fish for ten consecutive days.",
+     "resident_fee": null,
+     "nonresident_fee": "$64.54",
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Validations and Report Cards",
+   "domain": "fishing",
+   "items": [
+    {
+     "title": "Ocean Enhancement Validation",
+     "fee_text": "$7.30",
+     "description": "Required to fish in ocean waters south of Point Arguello (Santa Barbara County). An Ocean Enhancement Validation is not required when fishing under the authority of a One or Two-Day Sport Fishing License.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$7.30"
+    },
+    {
+     "title": "Second Rod Validation",
+     "fee_text": "$20.26",
+     "description": "Allows a person to fish with two rods or lines in inland waters, except for waters in which only artificial lures or barbless hooks may be used. Note: A Second Rod Validation is not required when fishing in ocean waters as defined in CCR, Title 14, Section 27.00. For general fishing gear restrictions in ocean waters, please refer to CCR, Title 14, Section 28.65. These sections can be found in the Saltwater Sport Fishing Regulations Booklet .",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$20.26"
+    },
+    {
+     "title": "Recreational Crab Trap Validation",
+     "fee_text": "$2.98",
+     "description": "Required for any person taking crabs with crab traps as defined in CCR, T14, Section 29.80(c). When taking crabs with hoop nets or crab loop traps, this validation is not required. ATTENTION: Beginning January 1, 2026, anglers fishing for crabs using crab trap(s) from a Commercial Passenger Fishing Vessel\u00a0are no longer required to possess this validation.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$2.98"
+    },
+    {
+     "title": "Abalone Report Card",
+     "fee_text": "N/A",
+     "description": "Fishery is currently closed.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    },
+    {
+     "title": "Sturgeon Fishing Report Card",
+     "fee_text": "$8.13",
+     "description": "Required for any person taking sturgeon. Catch-and-release only. ATTENTION: New sturgeon regulations went into effect on September 26, 2025. Catch-and-release fishing for white sturgeon will continue to be available for anglers under the new regulations. The 2026-2027 Sturgeon Fishing Report Card\u00a0will be available for purchase starting August 15, 2026. For more information, including reporting requirements and dates, please visit: Sturgeon Report Card",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$8.13"
+    },
+    {
+     "title": "North Coast Salmon Report Card",
+     "fee_text": "$9.21",
+     "description": "Required for any person taking salmon in the Smith River System or Klamath-Trinity River System.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$9.21"
+    },
+    {
+     "title": "Steelhead Report Card",
+     "fee_text": "$10.29",
+     "description": "Required for any person taking steelhead in inland waters.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$10.29"
+    },
+    {
+     "title": "Spiny Lobster Report Card (valid for the entire lobster season).",
+     "fee_text": "$12.70",
+     "description": "Required for all persons taking spiny lobster. Report card holders who fail to return their Spiny Lobster Report Card or report their harvest online by April 30, will be assessed a $21.60 non-return fee when they purchase a spiny lobster report card for the following season.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$12.70"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Lifetime Fishing Licenses",
+   "domain": "fishing",
+   "items": [
+    {
+     "title": "Ages 0-9",
+     "fee_text": "$709.00",
+     "description": "Available to residents of California. Lifetime fishing licenses are valid for 365 days from the date of issuance. Lifetime Fishing Packages must first be purchased from a CDFW License Sales Office . See Lifetime License Information for more detail.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$709.00"
+    },
+    {
+     "title": "Ages 10-39",
+     "fee_text": "$1,160.25",
+     "description": "Available to residents of California. Lifetime fishing licenses are valid for 365 days from the date of issuance. Lifetime Fishing Packages must first be purchased from a CDFW License Sales Office . See Lifetime License Information for more detail.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$1,160.25"
+    },
+    {
+     "title": "Ages 40-61",
+     "fee_text": "$1,045.00",
+     "description": "Available to residents of California. Lifetime fishing licenses are valid for 365 days from the date of issuance. Lifetime Fishing Packages must first be purchased from a CDFW License Sales Office . See Lifetime License Information for more detail.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$1,045.00"
+    },
+    {
+     "title": "Ages 62+",
+     "fee_text": "$709.00",
+     "description": "Available to residents of California. Lifetime fishing licenses are valid for 365 days from the date of issuance. Lifetime Fishing Packages must first be purchased from a CDFW License Sales Office . See Lifetime License Information for more detail.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$709.00"
+    },
+    {
+     "title": "Fishing Privilege Package",
+     "fee_text": "$478.75",
+     "description": "Includes a Lifetime Second-Rod Validation, Ocean Enhancement Validation, North Coast Salmon Report Card and Steelhead Report Card. The Second-Rod Validation and Ocean Enhancement Validation are valid for 365 days from the date of issuance.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$478.75"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  },
+  {
+   "heading": "Duplicate Fees",
+   "domain": "fishing",
+   "items": [
+    {
+     "title": "Duplicate Sport Fishing License",
+     "fee_text": "$14.30",
+     "description": "Replaces a lost or stolen sport fishing license.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$14.30"
+    },
+    {
+     "title": "Second-Rod and Ocean Enhancement Sport Fishing Validations",
+     "fee_text": "$3.81",
+     "description": "Replaces a lost or stolen second-rod or ocean enhancement sport fishing validation.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$3.81"
+    },
+    {
+     "title": "Recreational Crab Trap Sport Fishing Validation",
+     "fee_text": "$2.98",
+     "description": "Replaces a lost or stolen recreational crab trap sport fishing validation.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": "$2.98"
+    },
+    {
+     "title": "Abalone Report Card",
+     "fee_text": "N/A",
+     "description": "Fishery is currently closed. Replaces lost or stolen Abalone Report Card. Available only at CDFW license sales offices.",
+     "resident_fee": null,
+     "nonresident_fee": null,
+     "any_fee": null
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
+    "source_doc": "CDFW fishing licensing page (2026 fees)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  }
+ ]
+}
