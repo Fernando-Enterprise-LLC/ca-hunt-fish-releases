@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-22T18:19:33.385554+00:00",
+ "generated_at": "2026-09-22T20:34:24.801993+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "b2aeb5301a839e7e5ba87b308bd007b57c4b77435f299b776e9e24af8aa497f2",
-   "bytes": 24762,
+   "sha256": "d89fb1f44e7dd6c0636eb4661da4e0aba579e2a66b15a302bca76a528f304595",
+   "bytes": 25330,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
@@ -16,7 +16,7 @@
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-09-22T18:19:33.382663+00:00"
+   "published_at": "2026-09-22T20:34:24.796810+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -104,9 +104,9 @@
    "read_at": "2026-09-22T16:46:30.555558+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
+   "state": "held",
    "published_at": "2026-09-22T16:46:31.302792+00:00",
-   "note": "the newest county read in the published copy was 1.5 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
+   "note": "the newest county read in the rebuilt file is 2026-09-21T00:06:46.237497+00:00 and the published one is 2026-09-22T16:46:30.555558+00:00. A live file's read date never goes backwards."
   },
   {
    "name": "beach_water_quality_current.json",
@@ -119,8 +119,9 @@
    "read_at": "2026-09-22T18:19:30.360496+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-22T18:19:33.385199+00:00"
+   "state": "held",
+   "published_at": "2026-09-22T18:19:33.385199+00:00",
+   "note": "the rebuilt county readings were read 2026-09-21T01:44:18.394908+00:00 and the published ones were read 2026-09-22T18:19:30.360496+00:00. A live file's read date never goes backwards."
   },
   {
    "name": "verification_current.json",
@@ -135,7 +136,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-22T18:15:57.149559+00:00",
-   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
+   "note": "source re-read disabled; nothing was checked, so no receipt was written and the receipt already at live/ keeps its own read date"
+  },
+  {
+   "name": "water_clarity_current.json",
+   "sha256": "fa8c08c215f4d0c0ee0f56199fba418ba7abf4e1c70f5dbf5d75b5789feee206",
+   "bytes": 506060,
+   "domain": "water_clarity_current",
+   "threshold_days": 2,
+   "schema_version": 1,
+   "dataset_version": null,
+   "read_at": "2026-09-22T20:14:17.900007+00:00",
+   "age_days": 0,
+   "past_its_clock": false,
+   "state": "published",
+   "published_at": "2026-09-22T20:34:24.801600+00:00"
   }
  ]
 }
