@@ -1,0 +1,125 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-25T02:32:30.464660+00:00",
+ "source": {
+  "name": "CDFW Small Game hunting page",
+  "url": "https://wildlife.ca.gov/Hunting/Small-Game",
+  "verified_at": "2026-09-19"
+ },
+ "records": [
+  {
+   "heading": "2026 - 2027 Seasons and Limits",
+   "caption": null,
+   "columns": [
+    "Species",
+    "Season/Area",
+    "Season Dates",
+    "Daily Bag Limit",
+    "Possession Limit"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Tree Squirrel Zone Map (PDF)",
+      "General",
+      "Sep 12\u00a0- Jan 31",
+      "4",
+      "4"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--09-12",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Tree Squirrel Zone Map (PDF)",
+      "Archery/Falconry Only",
+      "Aug 1\u00a0- Sep 11",
+      "4",
+      "4"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--08-01",
+        "close": "--09-11"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Rabbits & Varying Hare",
+      "General",
+      "July 1 - Jan 31",
+      "5",
+      "10"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--07-01",
+        "close": "--01-31"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Rabbits & Varying Hare",
+      "Falconry Only",
+      "Feb 1\u00a0- March 21",
+      "5",
+      "10"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--02-01",
+        "close": "--03-21"
+       }
+      ]
+     }
+    },
+    {
+     "cells": [
+      "Jackrabbit",
+      "General",
+      "Open all year",
+      "No limit",
+      "No limit"
+     ],
+     "season": {
+      "kind": "windows",
+      "windows": [
+       {
+        "open": "--01-01",
+        "close": "--12-31"
+       }
+      ],
+      "all_year": true,
+      "all_year_phrase": "Open all year"
+     }
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
+    "source_doc": "CDFW Small Game hunting page",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-09-19"
+   }
+  }
+ ]
+}
