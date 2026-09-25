@@ -13,6 +13,7 @@ not carry a dataset version:
 | `notices_current.json` | In-season change announcements: the agency's own headline, date, category and at most two of its own sentences, with the records a declared map ties them to | on a change, with a daily floor |
 | `beach_status_current.json` | What a county says about a beach today, quoted, with the county named and the time this project read it — plus, for every county in the beach directory, the hotline and status page the county itself tells the public to use | every three hours |
 | `water_clarity_current.json` | NOAA CoastWatch's own Kd490 and chlorophyll at the nearest satellite cell that carried a value, for each of the 1,575 spear entry points, with the metres to that cell and the composite's own date | daily |
+| `kelp_canopy_current.json` | Approximately where CDFW's newest statewide aerial kelp survey mapped kelp, as a map layer: CDFW's 2 m survey polygons generalized to about 50 m, every part carrying its survey year, with CDFW's own collection dates, credit line and caution quoted | when CDFW's listing names a newer survey year, and once a year |
 | `verification_current.json` | THE RECEIPT: every source the daily lane re-read, the moment it read it, the digest of the bytes it compared against, and one of three words — `unchanged`, `changed_pending_review`, `unreachable` | daily |
 | `manifest.json` | The sha256, byte count, read date and staleness threshold of each of the above | every run |
 
