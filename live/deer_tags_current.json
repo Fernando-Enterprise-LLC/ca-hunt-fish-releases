@@ -1,0 +1,1251 @@
+{
+ "schema_version": 1,
+ "domain": "deer_tags",
+ "generated_at": "2026-09-26T00:44:55.221299+00:00",
+ "read_at": "2026-09-25T17:44:54-07:00",
+ "read_at_rule": "`read_at` is the moment this project last confirmed that CDFW's slot was serving the bytes described in `source`: the download itself, or a later conditional request CDFW answered with 'not modified'. It is never the list's own time. The list's own time is `as_of_verbatim`, CDFW's sentence, quoted.",
+ "nothing_derived_rule": "Every row is CDFW's own TAG CODE, HUNT NAME and QUANTITY as printed. `quantity_int` is the printed QUANTITY with its thousands separators removed, and nothing else in this file is computed: no total, no rate, no change since the previous list, and no statement about a tag the list does not name beyond the one in `absence_rule`.",
+ "absence_rule": "CDFW's list names only the tags it says are available for purchase at the time in its own sentence. A booklet hunt that is not on it is stated as exactly that: not on CDFW's Available Deer Tags list as of that time. The list gives no reason for an absence, so this file gives none.",
+ "group_rule": "Where one row of the list is joined to several zone records (a declared group such as D3-5), its QUANTITY is the group's. Every surface that prints it prints the group's own code beside it, and never as one zone's count.",
+ "mapping_rule": "A code or an area name is matched to a record in this app where the two published strings are the same string, character for character, OR where the pair is one of the spellings CDFW itself publishes for the same code or the same place and the owner has declared it in curated/hunt_code_aliases_2026.json, with both documents that carry it and their hashes. Nothing else is folded: no third spelling, no similarity, no nearest match. A string that matches nothing is counted, never guessed.",
+ "source": {
+  "publisher": "California Department of Fish and Wildlife",
+  "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=30896",
+  "document_id": 30896,
+  "slot": "available_deer_tags.pdf",
+  "sha256": "cbe68a833b17d771d2abfba3162fdefd8ef0d6bb009b6a77fe0fabece1abd83a",
+  "bytes": 99283,
+  "source_filename": "2026 Available Deer Tags List 9-25.pdf",
+  "fetched_at": "2026-09-25T23:02:51.154335+00:00",
+  "last_modified": "Fri, 25 Sep 2026 22:08:46 GMT",
+  "text_extractor": "pdftotext -layout"
+ },
+ "title_verbatim": "AVAILABLE DEER TAGS LIST",
+ "as_of_verbatim": "As of September 25, 2026, at 3:04 PM, the following deer tags are available for purchase:",
+ "as_of_stamp_verbatim": "September 25, 2026, at 3:04 PM",
+ "header_verbatim": [
+  "TAG CODE",
+  "HUNT NAME",
+  "QUANTITY"
+ ],
+ "rows": [
+  {
+   "tag_code_verbatim": "AO",
+   "hunt_name_verbatim": "Archery-Only",
+   "quantity_verbatim": "94,212",
+   "quantity_int": 94212,
+   "mapped_to": [
+    {
+     "kind": "hunt",
+     "code": "AO"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'AO' is, character for character, the hunt code this app keys hunt 'AO' on."
+  },
+  {
+   "tag_code_verbatim": "D3-5",
+   "hunt_name_verbatim": "Zone D3-5",
+   "quantity_verbatim": "7,904",
+   "quantity_int": 7904,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D3"
+    },
+    {
+     "kind": "zone",
+     "code": "D4"
+    },
+    {
+     "kind": "zone",
+     "code": "D5"
+    }
+   ],
+   "mapping_basis": "Declared group (deer_tag_list_codes, draft): CDFW's season document prints “D3-5 Tags are Valid during the Archery or General Season in Zones D-3, D-4 or D-5”. The list's QUANTITY for D3-5 is the group's.",
+   "group": true
+  },
+  {
+   "tag_code_verbatim": "D8",
+   "hunt_name_verbatim": "Zone D8",
+   "quantity_verbatim": "3,251",
+   "quantity_int": 3251,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D8"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D8' is, character for character, the zone code this app keys zone 'D-8' on. CDFW's season documents print it 'D-8'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D10",
+   "hunt_name_verbatim": "Zone D10",
+   "quantity_verbatim": "149",
+   "quantity_int": 149,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D10"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D10' is, character for character, the zone code this app keys zone 'D-10' on. CDFW's season documents print it 'D-10'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D11",
+   "hunt_name_verbatim": "Zone D11",
+   "quantity_verbatim": "3,514",
+   "quantity_int": 3514,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D11"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D11' is, character for character, the zone code this app keys zone 'D-11' on. CDFW's season documents print it 'D-11'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D13",
+   "hunt_name_verbatim": "Zone D13",
+   "quantity_verbatim": "2,808",
+   "quantity_int": 2808,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D13"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D13' is, character for character, the zone code this app keys zone 'D-13' on. CDFW's season documents print it 'D-13'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D15",
+   "hunt_name_verbatim": "Zone D15",
+   "quantity_verbatim": "1,106",
+   "quantity_int": 1106,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D15"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D15' is, character for character, the zone code this app keys zone 'D-15' on. CDFW's season documents print it 'D-15'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D16",
+   "hunt_name_verbatim": "Zone D16",
+   "quantity_verbatim": "330",
+   "quantity_int": 330,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D16"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D16' is, character for character, the zone code this app keys zone 'D-16' on. CDFW's season documents print it 'D-16'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "D19",
+   "hunt_name_verbatim": "Zone D19",
+   "quantity_verbatim": "193",
+   "quantity_int": 193,
+   "mapped_to": [
+    {
+     "kind": "zone",
+     "code": "D19"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'D19' is, character for character, the zone code this app keys zone 'D-19' on. CDFW's season documents print it 'D-19'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  },
+  {
+   "tag_code_verbatim": "A32",
+   "hunt_name_verbatim": "Ventura/Los Angeles Late Season Archery Either-Sex",
+   "quantity_verbatim": "69",
+   "quantity_int": 69,
+   "mapped_to": [
+    {
+     "kind": "hunt",
+     "code": "A32"
+    }
+   ],
+   "mapping_basis": "The list's TAG CODE 'A32' is, character for character, the hunt code this app keys hunt 'A-32' on. CDFW's season documents print it 'A-32'; that pair is declared in curated/hunt_code_aliases_2026.json (deer_zone_codes)."
+  }
+ ],
+ "unmapped_codes": [],
+ "booklet": {
+  "file": "hunt_deer.json",
+  "entries": [
+   {
+    "kind": "zone",
+    "code": "A",
+    "printed_code": "A (South Unit 110 and North Unit 160)",
+    "name": "Zone A (South Unit 110 and North Unit 160)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B1",
+    "printed_code": "B-1",
+    "name": "Zone B-1",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B2",
+    "printed_code": "B-2",
+    "name": "Zone B-2",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B3",
+    "printed_code": "B-3",
+    "name": "Zone B-3",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B4",
+    "printed_code": "B-4",
+    "name": "Zone B-4",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B5",
+    "printed_code": "B-5",
+    "name": "Zone B-5",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "B6",
+    "printed_code": "B-6",
+    "name": "Zone B-6",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "C1",
+    "printed_code": "C-1",
+    "name": "Zone C-1",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "C2",
+    "printed_code": "C-2",
+    "name": "Zone C-2",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "C3",
+    "printed_code": "C-3",
+    "name": "Zone C-3",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "C4",
+    "printed_code": "C-4",
+    "name": "Zone C-4",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D3",
+    "printed_code": "D-3",
+    "name": "Zone D-3",
+    "on_list": true,
+    "list_rows": [
+     "D3-5"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D4",
+    "printed_code": "D-4",
+    "name": "Zone D-4",
+    "on_list": true,
+    "list_rows": [
+     "D3-5"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D5",
+    "printed_code": "D-5",
+    "name": "Zone D-5",
+    "on_list": true,
+    "list_rows": [
+     "D3-5"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D6",
+    "printed_code": "D-6",
+    "name": "Zone D-6",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D7",
+    "printed_code": "D-7",
+    "name": "Zone D-7",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D8",
+    "printed_code": "D-8",
+    "name": "Zone D-8",
+    "on_list": true,
+    "list_rows": [
+     "D8"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D9",
+    "printed_code": "D-9",
+    "name": "Zone D-9",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D10",
+    "printed_code": "D-10",
+    "name": "Zone D-10",
+    "on_list": true,
+    "list_rows": [
+     "D10"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D11",
+    "printed_code": "D-11",
+    "name": "Zone D-11",
+    "on_list": true,
+    "list_rows": [
+     "D11"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D12",
+    "printed_code": "D-12",
+    "name": "Zone D-12",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D13",
+    "printed_code": "D-13",
+    "name": "Zone D-13",
+    "on_list": true,
+    "list_rows": [
+     "D13"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D14",
+    "printed_code": "D-14",
+    "name": "Zone D-14",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D15",
+    "printed_code": "D-15",
+    "name": "Zone D-15",
+    "on_list": true,
+    "list_rows": [
+     "D15"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D16",
+    "printed_code": "D-16",
+    "name": "Zone D-16",
+    "on_list": true,
+    "list_rows": [
+     "D16"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "D17",
+    "printed_code": "D-17",
+    "name": "Zone D-17",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "D19",
+    "printed_code": "D-19",
+    "name": "Zone D-19",
+    "on_list": true,
+    "list_rows": [
+     "D19"
+    ]
+   },
+   {
+    "kind": "zone",
+    "code": "X1",
+    "printed_code": "X-1 (General Season Only)",
+    "name": "Zone X-1 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X2",
+    "printed_code": "X-2 (General Season Only)",
+    "name": "Zone X-2 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X3A",
+    "printed_code": "X-3a (General Season Only)",
+    "name": "Zone X-3a (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X3B",
+    "printed_code": "X-3b (General Season Only)",
+    "name": "Zone X-3b (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X4",
+    "printed_code": "X-4 (General Season Only)",
+    "name": "Zone X-4 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X5A",
+    "printed_code": "X-5a (General Season Only)",
+    "name": "Zone X-5a (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X5B",
+    "printed_code": "X-5b (General Season Only)",
+    "name": "Zone X-5b (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X6A",
+    "printed_code": "X-6a (General Season Only)",
+    "name": "Zone X-6a (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X6B",
+    "printed_code": "X-6b (General Season Only)",
+    "name": "Zone X-6b (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X7A",
+    "printed_code": "X-7a (General Season Only)",
+    "name": "Zone X-7a (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X7B",
+    "printed_code": "X-7b (General Season Only)",
+    "name": "Zone X-7b (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X8",
+    "printed_code": "X-8 (General Season Only)",
+    "name": "Zone X-8 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X9A",
+    "printed_code": "X-9a (General Season Only)",
+    "name": "Zone X-9a (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X9B",
+    "printed_code": "X-9b (General Season Only)",
+    "name": "Zone X-9b (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X9C",
+    "printed_code": "X-9c (General Season Only)",
+    "name": "Zone X-9c (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X10",
+    "printed_code": "X-10 (General Season Only)",
+    "name": "Zone X-10 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "zone",
+    "code": "X12",
+    "printed_code": "X-12 (General Season Only)",
+    "name": "Zone X-12 (General Season Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A1",
+    "printed_code": "A-1",
+    "name": "C Zones Archery Only Hunt (Zone C-1 Season)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A11",
+    "printed_code": "A-11",
+    "name": "Zone X-6a Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A12",
+    "printed_code": "A-12",
+    "name": "Zone X-6b Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A13",
+    "printed_code": "A-13",
+    "name": "Zone X-7a Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A14",
+    "printed_code": "A-14",
+    "name": "Zone X-7b Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A15",
+    "printed_code": "A-15",
+    "name": "Zone X-8 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A16",
+    "printed_code": "A-16",
+    "name": "Zone X-9a Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A17",
+    "printed_code": "A-17",
+    "name": "Zone X-9b Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A18",
+    "printed_code": "A-18",
+    "name": "Zone X-9c Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A19",
+    "printed_code": "A-19",
+    "name": "Zone X-10 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A20",
+    "printed_code": "A-20",
+    "name": "Zone X-12 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A21",
+    "printed_code": "A-21",
+    "name": "Anderson Flat Archery Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A22",
+    "printed_code": "A-22",
+    "name": "San Diego Archery Either-Sex Deer Hunt (Split season)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A24",
+    "printed_code": "A-24",
+    "name": "Monterey Archery Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A25",
+    "printed_code": "A-25",
+    "name": "Lake Sonoma Archery Either-Sex Deer Hunt (Hunt Day Restrictions)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A26",
+    "printed_code": "A-26",
+    "name": "Bass Hill Archery Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A27",
+    "printed_code": "A-27",
+    "name": "Devil's Garden Archery Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A3",
+    "printed_code": "A-3",
+    "name": "Zone X-1 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A30",
+    "printed_code": "A-30",
+    "name": "Covelo Archery Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A31",
+    "printed_code": "A-31",
+    "name": "Los Angeles Archery Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A32",
+    "printed_code": "A-32",
+    "name": "Ventura/Los Angeles Late Season Archery Either-Sex Deer Hunt",
+    "on_list": true,
+    "list_rows": [
+     "A32"
+    ]
+   },
+   {
+    "kind": "hunt",
+    "code": "A33",
+    "printed_code": "A-33",
+    "name": "Fort Hunter Liggett Late Season Archery Either- Sex Deer Hunt (Hunt Day Restrictions)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A4",
+    "printed_code": "A-4",
+    "name": "Zone X-2 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A5",
+    "printed_code": "A-5",
+    "name": "Zone X-3a Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A6",
+    "printed_code": "A-6",
+    "name": "Zone X-3b Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A7",
+    "printed_code": "A-7",
+    "name": "Zone X-4 Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A8",
+    "printed_code": "A-8",
+    "name": "Zone X-5a Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "A9",
+    "printed_code": "A-9",
+    "name": "Zone X-5b Archery Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "AO",
+    "printed_code": "AO",
+    "name": "Archery Only Tag",
+    "on_list": true,
+    "list_rows": [
+     "AO"
+    ]
+   },
+   {
+    "kind": "hunt",
+    "code": "G1",
+    "printed_code": "G-1",
+    "name": "Late Season Buck Hunt for Zone C-4",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G10",
+    "printed_code": "G-10",
+    "name": "Camp Pendleton Either-Sex Deer Hunt (Military Only; Hunt Day Restrictions)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G11",
+    "printed_code": "G-11",
+    "name": "Vandenberg Either-Sex Deer Hunt (Military Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G12",
+    "printed_code": "G-12",
+    "name": "Gray Lodge Shotgun Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G13",
+    "printed_code": "G-13",
+    "name": "San Diego Antlerless Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G19",
+    "printed_code": "G-19",
+    "name": "Sutter-Yuba Wildlife Areas Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G21",
+    "printed_code": "G-21",
+    "name": "Ventana Wilderness Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G3",
+    "printed_code": "G-3",
+    "name": "Goodale Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G37",
+    "printed_code": "G-37",
+    "name": "Anderson Flat Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G38",
+    "printed_code": "G-38",
+    "name": "X-10 Late Season Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G39",
+    "printed_code": "G-39",
+    "name": "Round Valley Late Season Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G40",
+    "printed_code": "G-40",
+    "name": "D-7 Late Season Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G6",
+    "printed_code": "G-6",
+    "name": "Kern River Deer Herd Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "G7",
+    "printed_code": "G-7",
+    "name": "Beale Either-Sex Deer Hunt (Military Only)",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J1",
+    "printed_code": "J-1",
+    "name": "Lake Sonoma Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J10",
+    "printed_code": "J-10",
+    "name": "Fort Hunter Liggett Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J11",
+    "printed_code": "J-11",
+    "name": "San Bernardino Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J12",
+    "printed_code": "J-12",
+    "name": "Round Valley Apprentice Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J13",
+    "printed_code": "J-13",
+    "name": "Los Angeles Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J14",
+    "printed_code": "J-14",
+    "name": "Riverside Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J15",
+    "printed_code": "J-15",
+    "name": "Anderson Flat Apprentice Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J16",
+    "printed_code": "J-16",
+    "name": "Bucks Mountain/Nevada City Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J17",
+    "printed_code": "J-17",
+    "name": "Blue Canyon Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J18",
+    "printed_code": "J-18",
+    "name": "Pacific/Grizzly Flat Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J19",
+    "printed_code": "J-19",
+    "name": "Zone X-7a Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J20",
+    "printed_code": "J-20",
+    "name": "Zone X-7b Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J21",
+    "printed_code": "J-21",
+    "name": "East Tehama Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J3",
+    "printed_code": "J-3",
+    "name": "Tehama Wildlife Area Apprentice Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J4",
+    "printed_code": "J-4",
+    "name": "Shasta-Trinity Apprentice Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J8",
+    "printed_code": "J-8",
+    "name": "Daugherty Hill Wildlife Area Apprentice Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "J9",
+    "printed_code": "J-9",
+    "name": "Little Dry Creek Apprentice Shotgun Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M11",
+    "printed_code": "M-11",
+    "name": "Northwestern California Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M3",
+    "printed_code": "M-3",
+    "name": "Doyle Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M4",
+    "printed_code": "M-4",
+    "name": "Horse Lake Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M5",
+    "printed_code": "M-5",
+    "name": "East Lassen Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M6",
+    "printed_code": "M-6",
+    "name": "San Diego Muzzleloading Rifle Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M7",
+    "printed_code": "M-7",
+    "name": "Ventura Muzzleloading Rifle Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M8",
+    "printed_code": "M-8",
+    "name": "Bass Hill Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "M9",
+    "printed_code": "M-9",
+    "name": "Devil's Garden Muzzleloading Rifle Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "MA1",
+    "printed_code": "MA-1",
+    "name": "San Luis Obispo Muzzleloading Rifle/Archery Either-Sex Deer Hunt",
+    "on_list": false,
+    "list_rows": []
+   },
+   {
+    "kind": "hunt",
+    "code": "MA3",
+    "printed_code": "MA-3",
+    "name": "Santa Barbara Muzzleloading Rifle/Archery Buck Hunt",
+    "on_list": false,
+    "list_rows": []
+   }
+  ]
+ },
+ "previous": {
+  "as_of_verbatim": "As of September 16, 2026, at 9:06 AM, the following deer tags are available for purchase:",
+  "as_of_stamp_verbatim": "September 16, 2026, at 9:06 AM",
+  "sha256": "a7c26f85651f2f791589795dfb97e64ab42b2d0c738dad40618b49ef70ab75ff",
+  "read_at": "2026-09-19T04:17:53-07:00",
+  "rows": [
+   {
+    "tag_code_verbatim": "AO",
+    "hunt_name_verbatim": "Archery-Only",
+    "quantity_verbatim": "94,365",
+    "mapped_to": [
+     {
+      "kind": "hunt",
+      "code": "AO"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "A",
+    "hunt_name_verbatim": "Zone A",
+    "quantity_verbatim": "39,089",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "A"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D3-5",
+    "hunt_name_verbatim": "Zone D3-5",
+    "quantity_verbatim": "9,727",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D3"
+     },
+     {
+      "kind": "zone",
+      "code": "D4"
+     },
+     {
+      "kind": "zone",
+      "code": "D5"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D8",
+    "hunt_name_verbatim": "Zone D8",
+    "quantity_verbatim": "4,139",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D8"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D10",
+    "hunt_name_verbatim": "Zone D10",
+    "quantity_verbatim": "197",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D10"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D11",
+    "hunt_name_verbatim": "Zone D11",
+    "quantity_verbatim": "3,697",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D11"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D13",
+    "hunt_name_verbatim": "Zone D13",
+    "quantity_verbatim": "2,921",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D13"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D15",
+    "hunt_name_verbatim": "Zone D15",
+    "quantity_verbatim": "1,133",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D15"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D16",
+    "hunt_name_verbatim": "Zone D16",
+    "quantity_verbatim": "400",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D16"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "D19",
+    "hunt_name_verbatim": "Zone D19",
+    "quantity_verbatim": "234",
+    "mapped_to": [
+     {
+      "kind": "zone",
+      "code": "D19"
+     }
+    ]
+   },
+   {
+    "tag_code_verbatim": "A32",
+    "hunt_name_verbatim": "Ventura/Los Angeles Late Season Archery Either-Sex",
+    "quantity_verbatim": "82",
+    "mapped_to": [
+     {
+      "kind": "hunt",
+      "code": "A32"
+     }
+    ]
+   }
+  ]
+ }
+}
