@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-26T02:04:14.555380+00:00",
+ "curation_status": "verified",
+ "note": "Quoted from the Fish and Game Commission's Mammal Hunting and Trapping Regulations. take_kind is deliberately not uniform: a wild pig having no limit is a legal fact, and elk and bighorn take is set by the individual draw hunt rather than by a general bag limit.",
+ "citation": {
+  "ccr_cite": null,
+  "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+  "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+  "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+  "effective_start": null,
+  "effective_end": null,
+  "verified_at": "2026-08-30"
+ },
+ "records": [
+  {
+   "species": "Black bear",
+   "slug": "bear",
+   "take_kind": "bag_limit",
+   "limit_verbatim": "The daily bag limit is one legal bear per day. The possession limit is twice the daily bag limit.",
+   "cite": "14 CCR \u00a7 365(c)",
+   "legal_take_verbatim": "A legal bear is any bear, with the exception of cubs and females accompanied by cubs.",
+   "legal_take_cite": "14 CCR \u00a7 365(c)(1)",
+   "identification": [
+    {
+     "term": "Bear cub",
+     "definition_verbatim": "A bear less than one year old or weighing less than 50 lbs.",
+     "cite": "T14 CCR \u00a7 365(c)(1)"
+    }
+   ],
+   "warning": {
+    "headline": "Cubs and females with cubs are never legal.",
+    "explanation": "A legal bear is any bear except a cub or a female accompanied by cubs. A cub is a bear less than one year old or weighing less than 50 lbs. A sow with cubs is protected no matter her size."
+   },
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 365(c)",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "species": "Wild pig",
+   "slug": "wild-pig",
+   "take_kind": "no_limit",
+   "limit_verbatim": "There is no daily bag or possession limit for wild pigs.",
+   "cite": "14 CCR \u00a7 368",
+   "legal_take_verbatim": null,
+   "legal_take_cite": null,
+   "identification": [],
+   "warning": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 368",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "species": "Pronghorn antelope",
+   "slug": "pronghorn",
+   "take_kind": "per_license_year",
+   "limit_verbatim": "One pronghorn antelope in a license year.",
+   "cite": "14 CCR \u00a7 363",
+   "legal_take_verbatim": null,
+   "legal_take_cite": null,
+   "identification": [],
+   "warning": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 363",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "species": "Elk",
+   "slug": "elk",
+   "take_kind": "tag_defines_take",
+   "limit_verbatim": "eligible for one elk tag per season through section 364.",
+   "cite": "14 CCR \u00a7 364",
+   "legal_take_verbatim": null,
+   "legal_take_cite": null,
+   "identification": [],
+   "warning": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 364",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  },
+  {
+   "species": "Bighorn sheep",
+   "slug": "bighorn",
+   "take_kind": "tag_defines_take",
+   "limit_verbatim": null,
+   "cite": "14 CCR \u00a7 362",
+   "legal_take_verbatim": null,
+   "legal_take_cite": null,
+   "identification": [],
+   "warning": null,
+   "citation": {
+    "ccr_cite": "14 CCR \u00a7 362",
+    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
+    "source_doc": "Fish and Game Commission, Mammal Hunting and Trapping Regulations: 2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "source_revision": "2026 Mammal Booklet v1_Final Draft_published_7.1_.pdf",
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-30"
+   }
+  }
+ ]
+}
