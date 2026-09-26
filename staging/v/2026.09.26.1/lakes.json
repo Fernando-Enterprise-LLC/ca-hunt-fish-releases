@@ -1,0 +1,595 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-26T11:11:06.411004+00:00",
+ "curation_status": "verified",
+ "attribution_note": "License statements on operated lakes are the OPERATOR'S published position (quoted with source and date), not a legal determination. California publishes no public list of registered aquaculture facilities, and operator registrations renew annually \u2014 always confirm with the operator before you go.",
+ "records": [
+  {
+   "id": "lake-dixon",
+   "name": "Dixon Lake",
+   "operator": "City of Escondido",
+   "region": "San Diego County",
+   "license_regime": "operator_states_no_license",
+   "regime_quote": "California State Fishing License is not valid nor required at Dixon Lake",
+   "regime_quote_source": "https://www.escondido.gov/m/newsflash/home/detail/100",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult (16+)",
+     "amount": "$10"
+    },
+    {
+     "label": "Daily permit \u2014 senior (60+)",
+     "amount": "$7"
+    },
+    {
+     "label": "Daily permit \u2014 youth (8\u201315)",
+     "amount": "$7"
+    },
+    {
+     "label": "Second-rod stamp",
+     "amount": "$5"
+    }
+   ],
+   "rules_url": "https://www.escondido.gov/458/Fishing-Information",
+   "stocking_channel": {
+    "kind": "rss",
+    "url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
+    "item_hint": "Lake Dixon"
+   },
+   "notes": "Permits sold at the lake concession \u2014 buy your daily permit before you start fishing. Children 7 and under fish free with a permitted adult; their fish count toward the adult's limit. The operator bans private watercraft of every kind (boats, kayaks, float tubes, fish finders) to prevent quagga mussel introduction \u2014 rental motor, row and pontoon boats are available at the dock. No swimming, wading or body contact (drinking-water reservoir); alcohol and smoking are banned in day-use and shoreline areas. The city describes its instrument as an 'Aquaculture Permit'; the statutory basis is not publicly verifiable \u2014 always check current rules at the lake. (Operator rules confirmed by the owner against the operator's published information, 2026-09-03; second-rod stamp $5/day confirmed \u2014 the $4 figure in an older operator fish report is superseded.)",
+   "stocking_reports": [
+    {
+     "kind": "operator_report",
+     "title": "Lake Dixon Fish Report",
+     "date_text": "Fri, 18 Sep 2026 13:47:00 -0800",
+     "excerpt": "Last Plant: 1000lbs of Catfish on August 7th Next Plant : Trout TBD in Fall Night Fishing Season is Over Populations of Bass, Catfish, and Blue Gill persist throughout the year. Water Temperature: At surface: 80.42\u00b0F At 15 feet: 81.14\u00b0F Dissolved Oxygen: At surface: 7.39 mg/L At 15 feet: 7.25 mg/L Water Level: moderate Water Clarity: mild 15\u2019 All readings taken on September 17th Important Rules: Daily fishing permits are required . They can be purchased from concession stand at Dixon Lake when fishing. Please have your permit with you at all times. All anglers are subject to Ranger permit checks while fishing. Pricing: Adults $10 (16 and older), Seniors $7 (over 60), Youth $7 (8-15) Second Rod purchase required for more than one fishing line in the water. Cost: $4 California State Fishing License is not valid nor required at Dixon Lake. No private watercraft of any kind are allowed. No swimming or wading is allowed as Dixon Lake is a drinking water source. Clean up your fishing line and save a life. Littering/failure to remove snagged and discarded fishing line is subject to citation. Littered fishing line results in a significant number of dead animals every year. Parking is free \u2026",
+     "url": "https://www.escondido.gov/CivicAlerts.aspx?aid=100"
+    }
+   ],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.escondido.gov/m/newsflash/home/detail/100",
+    "source_doc": "Official operator page \u2014 City of Escondido",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "lake-wohlford",
+   "name": "Lake Wohlford",
+   "operator": "City of Escondido",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://www.escondido.gov/597/Fishing-Information",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult",
+     "amount": "$10"
+    },
+    {
+     "label": "Daily permit \u2014 senior",
+     "amount": "$7"
+    },
+    {
+     "label": "Daily permit \u2014 youth",
+     "amount": "$7"
+    }
+   ],
+   "rules_url": "https://www.escondido.gov/597/Fishing-Information",
+   "stocking_channel": {
+    "kind": "rss+cdfw",
+    "url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
+    "item_hint": "Lake Wohlford",
+    "cdfw_water_match": "Wohlford"
+   },
+   "notes": "Hybrid stocking: city fish reports plus CDFW winter trout plants (both shown below). Same operator as Dixon Lake but the opposite license rule \u2014 regimes are per-lake, not per-operator.",
+   "stocking_reports": [
+    {
+     "kind": "operator_report",
+     "title": "Lake Wohlford Fish Report",
+     "date_text": "Fri, 18 Sep 2026 13:56:00 -0800",
+     "excerpt": "Last Plant: 1,000 lbs. of Channel Catfish the week of July 26th \u2013 Aug. 1st. Next Plant : Trout in December Water temperature : At surface 80.06 f., 7.68 D.O. @ 15\u2019 78.80 f., 6.35 D.O. Water level: Low level, private watercraft are currently banned. Permits and boat rentals are sold at the Ranger Station . We are credit/debit only, no cash transactions. We do not sell fishing licenses so anglers must obtain them elsewhere prior to their visit. The all-day motor boats are $25 for seniors on Tuesdays and Thursdays and for active military every Saturday. In order to protect Wohlford from invasive exotic Quagga mussels there is a ban on private watercraft and equipment that could have been exposed to mussels. Restricted equipment includes; private boats, canoes, kayaks, float tubes, trolling motors, fish finders, anchors, and other equipment that contacts the water . The lake is closed on most weekdays during the Fall but remains open on the weekends, including Fridays. Catfish, mostly smaller ones, are being caught at the west Buoys. Lake Wohlford cats prefer cut mackerel or chicken liver. Crappie are being taken in small numbers at the Crappie Float in the early morning. They bite \u2026",
+     "url": "https://www.escondido.gov/CivicAlerts.aspx?aid=105"
+    }
+   ],
+   "cdfw_plants": [
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2026-03-01",
+     "week_end": "2026-03-07",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    },
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2026-02-15",
+     "week_end": "2026-02-21",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    },
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2026-01-18",
+     "week_end": "2026-01-24",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    },
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2026-01-04",
+     "week_end": "2026-01-10",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    },
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2025-12-14",
+     "week_end": "2025-12-20",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    },
+    {
+     "water_name": "Lake Wohlford",
+     "week_of": "2025-11-30",
+     "week_end": "2025-12-06",
+     "species": "Trout",
+     "county": "San Diego",
+     "stocking_water_id": 7714,
+     "lat": 33.173441,
+     "lon": -116.992679,
+     "announce_period": "past"
+    }
+   ],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.escondido.gov/597/Fishing-Information",
+    "source_doc": "Official operator page \u2014 City of Escondido",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "lake-poway",
+   "name": "Lake Poway",
+   "operator": "City of Poway",
+   "region": "San Diego County",
+   "license_regime": "operator_states_no_license",
+   "regime_quote": null,
+   "regime_quote_source": "https://poway.org/420/Fishing",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult",
+     "amount": "$7"
+    },
+    {
+     "label": "Daily permit \u2014 youth",
+     "amount": "$3"
+    },
+    {
+     "label": "Daily permit \u2014 senior",
+     "amount": "$3"
+    },
+    {
+     "label": "Daily permit \u2014 military",
+     "amount": "$4"
+    }
+   ],
+   "rules_url": "https://poway.org/420/Fishing",
+   "stocking_channel": {
+    "kind": "page",
+    "url": "https://poway.org/437/Lake-Poway-Fish-Report-Records"
+   },
+   "notes": "Maximum 2 rods. Monthly fish report page carries concrete stocking dates.",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://poway.org/420/Fishing",
+    "source_doc": "Official operator page \u2014 City of Poway",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "santee-lakes",
+   "name": "Santee Lakes",
+   "operator": "Padre Dam Municipal Water District",
+   "region": "San Diego County",
+   "license_regime": "operator_states_no_license",
+   "regime_quote": "No State fishing license required; a fishing permit from the General Store, Gatehouse or our Santee Lakes' App is all you need!",
+   "regime_quote_source": "https://www.santeelakes.com/fishing-2/",
+   "fees": [
+    {
+     "label": "Fishing permit",
+     "amount": "Sold at General Store / Gatehouse / Santee Lakes app (price not published online)"
+    }
+   ],
+   "rules_url": "https://www.santeelakes.com/fishing-2/",
+   "stocking_channel": {
+    "kind": "page",
+    "url": "https://www.santeelakes.com/fishing-2/"
+   },
+   "notes": "Publishes season-ahead trout and catfish stocking calendars; most stocks arrive by Friday of the listed week (operator statement).",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.santeelakes.com/fishing-2/",
+    "source_doc": "Official operator page \u2014 Padre Dam Municipal Water District",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "lake-jennings",
+   "name": "Lake Jennings",
+   "operator": "Helix Water District",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": "A California state fishing license is required to fish at Lake Jennings.",
+   "regime_quote_source": "https://lakejennings.org/see-and-do/fishing/",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult",
+     "amount": "$13"
+    },
+    {
+     "label": "Daily permit \u2014 senior/military",
+     "amount": "$12"
+    },
+    {
+     "label": "Daily permit \u2014 child",
+     "amount": "$9"
+    },
+    {
+     "label": "Daily permit \u2014 child 0-5",
+     "amount": "Free"
+    }
+   ],
+   "rules_url": "https://lakejennings.org/see-and-do/fishing/",
+   "stocking_channel": {
+    "kind": "page",
+    "url": "https://lakejennings.org/see-and-do/fishing/fishing-report/"
+   },
+   "notes": "Fees effective 5/15/2025 per district page, re-read 2026-09-21 on the district's pricing page (lakejennings.org/see-and-do/fishing/pricing/), which is where the prices moved to: the fishing page this record used to price from carries no dollar figure at all. Trout stocked roughly weekly/bi-weekly Nov\u2013early Apr; catfish in summer (operator statements).",
+   "fees_source_url": "https://lakejennings.org/see-and-do/fishing/pricing/",
+   "fees_source_read_at": "2026-09-21",
+   "fees_source_quote": "Fishing: Effective May 15, 2025: Adults 16 and over: $13 Seniors 65 years and older: $12 Military (With ID): $12 Children 0-5 years old: Free Children 6-15 years old: $9",
+   "curation_audit": {
+    "read_at": "2026-09-21",
+    "by": "Fable, on the owner's word",
+    "owner_verbatim": "The two calls on Lake Jennings are good.",
+    "what": "(1) fees gains the page's own fourth line, 'Children 0-5 years old: Free', as a fee item with amount 'Free' \u2014 the operator's word, not a figure this app invented; (2) regime_quote is set to the fishing page's own licence sentence, read 2026-09-21 at regime_quote_source (https://lakejennings.org/see-and-do/fishing/). Both were left as owner calls by R50-B/R50-C on 2026-09-21; both ride the 2026.09.21.3 redline for the owner's per-entry confirmation."
+   },
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://lakejennings.org/see-and-do/fishing/",
+    "source_doc": "Official operator page \u2014 Helix Water District",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "lake-cuyamaca",
+   "name": "Lake Cuyamaca",
+   "operator": "Lake Cuyamaca Recreation & Park District",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://www.lakecuyamaca.org/fishing-fees",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult",
+     "amount": "$10"
+    },
+    {
+     "label": "Daily permit \u2014 youth",
+     "amount": "$5"
+    },
+    {
+     "label": "Daily permit \u2014 senior/military",
+     "amount": "$5"
+    }
+   ],
+   "rules_url": "https://www.lakecuyamaca.org/fishing-fees",
+   "stocking_channel": {
+    "kind": "page",
+    "url": "https://lakecuyamaca.org/recent-stocks"
+   },
+   "notes": "State licenses sold on-site.",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.lakecuyamaca.org/fishing-fees",
+    "source_doc": "Official operator page \u2014 Lake Cuyamaca Recreation & Park District",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "san-vicente-reservoir",
+   "name": "San Vicente Reservoir",
+   "operator": "City of San Diego",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://www.sandiego.gov/reservoirs-lakes/san-vicente-reservoir",
+   "fees": [
+    {
+     "label": "Daily admission incl. fishing \u2014 adult",
+     "amount": "$10"
+    },
+    {
+     "label": "Daily admission \u2014 youth",
+     "amount": "$5"
+    },
+    {
+     "label": "Daily admission \u2014 senior",
+     "amount": "$7"
+    }
+   ],
+   "rules_url": "https://www.sandiego.gov/reservoirs-lakes/san-vicente-reservoir",
+   "stocking_channel": {
+    "kind": "cdfw",
+    "cdfw_water_match": "San Vicente"
+   },
+   "notes": "City reservoir program: CDFW freshwater regulations and city rules are both enforced (city page). Pay station takes cash/check.",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.sandiego.gov/reservoirs-lakes/san-vicente-reservoir",
+    "source_doc": "Official operator page \u2014 City of San Diego",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "miramar-reservoir",
+   "name": "Miramar Reservoir",
+   "operator": "City of San Diego",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://www.sandiego.gov/reservoirs-lakes/miramar-reservoir",
+   "fees": [
+    {
+     "label": "Daily permit \u2014 adult",
+     "amount": "$10"
+    },
+    {
+     "label": "Daily permit \u2014 youth",
+     "amount": "$5"
+    },
+    {
+     "label": "Daily permit \u2014 senior",
+     "amount": "$7"
+    }
+   ],
+   "rules_url": "https://www.sandiego.gov/reservoirs-lakes/miramar-reservoir",
+   "stocking_channel": {
+    "kind": "cdfw",
+    "cdfw_water_match": "Miramar"
+   },
+   "notes": null,
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.sandiego.gov/reservoirs-lakes/miramar-reservoir",
+    "source_doc": "Official operator page \u2014 City of San Diego",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "barrett-reservoir",
+   "name": "Barrett Reservoir",
+   "operator": "City of San Diego",
+   "region": "San Diego County",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://www.sandiego.gov/reservoirs-lakes/barrett-reservoir",
+   "fees": [
+    {
+     "label": "Shore reservation (Ticketmaster only)",
+     "amount": "$45"
+    },
+    {
+     "label": "Boat reservation (Ticketmaster only)",
+     "amount": "$150"
+    }
+   ],
+   "rules_url": "https://www.sandiego.gov/reservoirs-lakes/barrett-reservoir",
+   "stocking_channel": {
+    "kind": "none"
+   },
+   "notes": "Reservation-only (monthly on-sale, second Tuesday 7 p.m.). Open May\u2013Sep, Wed/Sat/Sun. Barbless hooks, catch-and-release only (city rules).",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.sandiego.gov/reservoirs-lakes/barrett-reservoir",
+    "source_doc": "Official operator page \u2014 City of San Diego",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "santa-ana-river-lakes",
+   "name": "Santa Ana River Lakes",
+   "operator": "Fishing Lakes, Inc. (private)",
+   "region": "Orange County",
+   "license_regime": "operator_states_no_license",
+   "regime_quote": "NO FISHING LICENSE REQUIRED!",
+   "regime_quote_source": "https://www.fishinglakes.com/",
+   "fees": [
+    {
+     "label": "Day permit",
+     "amount": "Required \u2014 prices not published online; check with the operator"
+    }
+   ],
+   "rules_url": "https://www.fishinglakes.com/locations/santa-ana-river-lakes/",
+   "stocking_channel": {
+    "kind": "rss",
+    "url": "https://www.fishinglakes.com/category/stocking-videos/feed/"
+   },
+   "notes": "Private pay-to-fish lake with weekly stocking announcements (dates in post titles).",
+   "regime_quote_read_at": "2026-08-29",
+   "regime_quote_snapshot": "pipeline/snapshots/lakes_operator_pages/2026-09-15/santa-ana-river-lakes.html",
+   "regime_quote_recheck": "2026-09-15: the same words appear on the page as text inside the operator's own embedded Instagram caption ('\u2026 DAY/NIGHT/OVERNIGHT FISHING NO FISHING LICENSE REQUIRED !', post dated Sep 12); the page's static text layer carries no other licence sentence.",
+   "stocking_reports": [
+    {
+     "kind": "operator_report",
+     "excerpt": null,
+     "title": "9/24/26 STOCKING IMPERIAL CATFISH & TILAPIA AT SANTA ANA RIVER LAKES",
+     "date_text": "Fri, 25 Sep 2026 03:33:19 +0000",
+     "url": "https://www.fishinglakes.com/2026/09/24/9-24-26-stocking-imperial-catfish-tilapia-at-santa-ana-river-lakes/"
+    },
+    {
+     "kind": "operator_report",
+     "excerpt": null,
+     "title": "9/17/26 STOCKING IMPERIAL CATFISH & BIG TILAPIA AT SANTA ANA RIVER LAKES",
+     "date_text": "Thu, 17 Sep 2026 23:43:30 +0000",
+     "url": "https://www.fishinglakes.com/2026/09/17/9-17-26-stocking-imperial-catfish-big-tilapia-at-santa-ana-river-lakes/"
+    },
+    {
+     "kind": "operator_report",
+     "excerpt": null,
+     "title": "9-10-26 STOCKING IMPERIAL CATFISH & BIG TILAPIA AT SANTA ANA RIVER LAKES",
+     "date_text": "Fri, 11 Sep 2026 02:10:11 +0000",
+     "url": "https://www.fishinglakes.com/2026/09/10/9-10-26-stocking-imperial-catfish-big-tilapia-at-santa-ana-river-lakes/"
+    },
+    {
+     "kind": "operator_report",
+     "excerpt": null,
+     "title": "9/3/26 HEAVY LABOR DAY WEEKEND CATFISH STOCKING WITH BONUS TILAPIA AT SANTA ANA RIVER LAKES",
+     "date_text": "Fri, 04 Sep 2026 01:02:26 +0000",
+     "url": "https://www.fishinglakes.com/2026/09/03/9-3-26-heavy-labor-day-weekend-catfish-stocking-with-bonus-tilapia-at-santa-ana-river-lakes/"
+    }
+   ],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://www.fishinglakes.com/",
+    "source_doc": "Official operator page \u2014 Fishing Lakes, Inc. (private)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "irvine-lake",
+   "name": "Irvine Lake",
+   "operator": "OC Parks",
+   "region": "Orange County",
+   "license_regime": "operator_states_no_license",
+   "regime_quote": "No license required.",
+   "regime_quote_source": "https://parks.oc.gov/parks-trails/irvine-lake",
+   "fees": [
+    {
+     "label": "Shoreline fishing (Fri\u2013Sun, 7am\u20134pm)",
+     "amount": "Free"
+    },
+    {
+     "label": "Parking",
+     "amount": "$5/vehicle"
+    }
+   ],
+   "rules_url": "https://parks.oc.gov/parks-trails/irvine-lake",
+   "stocking_channel": {
+    "kind": "none"
+   },
+   "notes": "The only operated lake whose no-license basis is publicly stated \u2014 including OC Parks' own caveat that it may change. App summary, not a quotation: the 2026-08-29 research read of OC Parks' FAQ recorded the exemption as resting on an existing Aquaculture permit held by the Serrano Water District, with future licence requirements uncertain and subject to review by the State and County; the 2026-09-15 page carries only the sentences 'No license required.' and 'California Fishing License required age 16+ at all parks besides Irvine Lake.', so the quotation shown is the first of those.",
+   "regime_quote_read_at": "2026-09-15",
+   "regime_quote_snapshot": "pipeline/snapshots/lakes_operator_pages/2026-09-15/irvine-lake.html",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://parks.oc.gov/parks-trails/irvine-lake",
+    "source_doc": "Official operator page \u2014 OC Parks",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  },
+  {
+   "id": "collins-lake",
+   "name": "Collins Lake",
+   "operator": "Collins Lake Recreation Area (Browns Valley Irrigation District)",
+   "region": "Yuba County (Northern California)",
+   "license_regime": "state_license_required",
+   "regime_quote": null,
+   "regime_quote_source": "https://download.collinslake.com/Rules_and_Regulations.pdf",
+   "fees": [
+    {
+     "label": "Access fees",
+     "amount": "Posted day-use/access fees; no separate fishing fee (operator rules PDF)"
+    }
+   ],
+   "rules_url": "https://collinslake.com/fishing/",
+   "stocking_channel": {
+    "kind": "page",
+    "url": "https://collinslake.com/fishing/"
+   },
+   "notes": "Famous private stocking program: annual Fish Planting Log PDF plus dated reports on the fishing page.",
+   "stocking_reports": [],
+   "cdfw_plants": [],
+   "citation": {
+    "ccr_cite": null,
+    "source_url": "https://download.collinslake.com/Rules_and_Regulations.pdf",
+    "source_doc": "Official operator page \u2014 Collins Lake Recreation Area (Browns Valley Irrigation District)",
+    "source_revision": null,
+    "effective_start": null,
+    "effective_end": null,
+    "verified_at": "2026-08-28"
+   }
+  }
+ ]
+}

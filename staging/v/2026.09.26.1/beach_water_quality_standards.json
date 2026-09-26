@@ -1,0 +1,547 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-26T11:11:07.330906+00:00",
+ "curation_status": "signed_off",
+ "user_verified_on": "2026-09-05",
+ "user_verification_basis": "Owner approval 2026-09-05 ('i approve the threshold') after read-back of all five verbatims (Ocean Plan enterococci and fecal coliform; ISWEBE enterococci and E. coli; San Diego ddPCR equivalence). Nothing in the file changed at sign-off: every threshold, printed magnitude, averaging window and sample basis ships exactly as it was read back, and the build still re-locates each quote by anchor and still refuses to produce the file if one has moved. What the sign-off releases is the gate, not the arithmetic \u2014 the four recorded absences, the scope split between objectives and Title 17 notification levels, and every per-reading caveat are unaffected.",
+ "note": "Every threshold here is a verbatim quote from the plan that adopts it, located by anchor and re-extracted at build time; the build fails if a quote moves. Each number also carries the form the document prints it in, and that string is asserted to be inside the quote, so the arithmetic can be checked against the source without trusting this file's typing. The owner read all five thresholds back and signed them off on 2026-09-05, so curation_status is signed_off and a tier computed from them may now be shown. That releases the draft gate and nothing else: the four absences recorded below are still absences, these are water quality objectives and never a posting or a closure, and every reading still carries the caveats it earns. Amended once since, on 2026-09-17, on the owner's instruction: no threshold moved, and two sentences about what this app may say were narrowed. The whole history is in `curation`.",
+ "documents": [
+  {
+   "key": "ocean_plan",
+   "title": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+   "publisher": "State Water Resources Control Board",
+   "document_date": "2019",
+   "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+   "snapshot_day": "2026-09-04",
+   "sha256": "cbff9eaf5b7df1c9b818190851d4196e26c53b56b1860ce11fc44bdf125a5d6c"
+  },
+  {
+   "key": "bacteria_provisions",
+   "title": "Part 3 of the Water Quality Control Plan for Inland Surface Waters, Enclosed Bays, and Estuaries of California \u2014 Bacteria Provisions and a Water Quality Standards Variance Policy",
+   "publisher": "State Water Resources Control Board",
+   "document_date": "2019-02-04",
+   "url": "https://www.waterboards.ca.gov/plans_policies/docs/bacteria.pdf",
+   "snapshot_day": "2026-09-04",
+   "sha256": "9b79d62b2d3d380b83bf387e09037f296964a550fc68f449b64ed46d586842d7"
+  },
+  {
+   "key": "sd_ddpcr",
+   "title": "Fecal Indicator Bacteria TMDLs \u2014 San Diego Region",
+   "publisher": "California Regional Water Quality Control Board, San Diego Region (San Diego Water Board)",
+   "document_date": null,
+   "url": "https://www.waterboards.ca.gov/sandiego/water_issues/programs/tmdls/fecal_indicator_bacteria.html",
+   "snapshot_day": "2026-09-04",
+   "sha256": "587cf45160bc8dedc176e4158343054102e5ed7442063b78834b700e719f1082"
+  },
+  {
+   "key": "beachwatch_dictionary",
+   "title": "Beach Watch Data Dictionary",
+   "publisher": "State Water Resources Control Board (data.ca.gov, ODC-By)",
+   "document_date": null,
+   "url": "https://data.ca.gov/dataset/b9c8ce91-40ff-4ad3-8164-bc17c46afb44/resource/4744ce19-b2e6-48cc-9fe5-95f460bee7e0/download/beach-watch-data-dictionary.pdf",
+   "snapshot_day": "2026-09-04",
+   "sha256": "f761863da61a2766797c071810dccddb62e638aa6aec9c5417c1a83266c3b31a"
+  }
+ ],
+ "standards": [
+  {
+   "id": "ocean_plan_enterococci",
+   "indicator": "Enterococcus",
+   "role": "water_quality_objective",
+   "applies_to": "Ocean waters designated REC-1 (water contact recreation), within the zone bounded by the shoreline and 1,000 feet or the 30-foot depth contour, whichever is further from shore",
+   "elements": [
+    {
+     "kind": "geometric_mean",
+     "magnitude": 30,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "30 colony forming units (cfu) per 100 milliliters (mL)",
+     "window": "six-week rolling, calculated weekly",
+     "window_as_printed": "six-week",
+     "window_days": 42,
+     "sample_basis": "all_in_window"
+    },
+    {
+     "kind": "statistical_threshold_value",
+     "magnitude": 110,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "110 cfu/100 mL",
+     "window": "calendar month, calculated in a static manner",
+     "allowance": "not to be exceeded by more than 10 percent of the samples"
+    }
+   ],
+   "verbatim": "A six-week rolling GM* of enterococci not to exceed 30 colony forming units (cfu) per 100 milliliters (mL), calculated weekly, and a statistical threshold value* (STV) of 110 cfu/100 mL not to be exceeded by more than 10 percent of the samples collected in a calendar month*, calculated in a static manner.",
+   "scope_verbatim": "Within a zone bounded by the shoreline and a distance of 1,000 feet from the shoreline or the 30-foot depth contour, whichever is further from the shoreline, and in areas outside this zone used for water contact sports, as determined by the Regional Water Board (i.e., waters designated as REC-1), but including all kelp beds*, the following water quality objectives* shall be maintained throughout the water column.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "ocean_plan_fecal_coliform",
+   "indicator": "Coliform, Fecal",
+   "role": "water_quality_objective",
+   "applies_to": "Ocean waters designated REC-1 (water contact recreation), within the zone bounded by the shoreline and 1,000 feet or the 30-foot depth contour, whichever is further from shore",
+   "elements": [
+    {
+     "kind": "geometric_mean",
+     "magnitude": 200,
+     "unit": "per 100 mL",
+     "magnitude_as_printed": "200 per 100 milliliters (mL)",
+     "window": "30-day, calculated based on the five most recent samples from each site",
+     "window_as_printed": "30-day",
+     "window_days": 30,
+     "sample_basis": "five_most_recent",
+     "sample_basis_as_printed": "five most recent samples from each site"
+    },
+    {
+     "kind": "single_sample_maximum",
+     "magnitude": 400,
+     "unit": "per 100 mL",
+     "magnitude_as_printed": "400 per 100 mL",
+     "window": "single sample"
+    }
+   ],
+   "verbatim": "A 30-day geometric mean* (GM) of fecal coliform density not to exceed 200 per 100 milliliters (mL), calculated based on the five most recent samples from each site, and a single sample maximum* (SSM) not to exceed 400 per 100 mL.",
+   "scope_verbatim": "Within a zone bounded by the shoreline and a distance of 1,000 feet from the shoreline or the 30-foot depth contour, whichever is further from the shoreline, and in areas outside this zone used for water contact sports, as determined by the Regional Water Board (i.e., waters designated as REC-1), but including all kelp beds*, the following water quality objectives* shall be maintained throughout the water column.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "iswebe_enterococci",
+   "indicator": "Enterococcus",
+   "role": "water_quality_objective",
+   "applies_to": "All surface waters, enclosed bays and estuaries with the REC-1 beneficial use where the salinity is greater than 1 ppth more than 5 percent of the time during the calendar year",
+   "elements": [
+    {
+     "kind": "geometric_mean",
+     "magnitude": 30,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "30 cfu/100 mL",
+     "window": "six-week rolling, calculated weekly",
+     "window_as_printed": "six-week",
+     "window_days": 42,
+     "sample_basis": "all_in_window"
+    },
+    {
+     "kind": "statistical_threshold_value",
+     "magnitude": 110,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "110 cfu/100 mL",
+     "window": "calendar month, calculated in a static manner",
+     "allowance": "not to be exceeded by more than 10 percent of the samples"
+    }
+   ],
+   "verbatim": "The bacteria water quality objective for all waters where the salinity is greater than 1 ppth more than 5 percent of the time during the CALENDAR YEAR is: a six-week rolling GEOMETRIC MEAN of enterococci not to exceed 30 cfu/100 mL, calculated weekly, with a STV of 110 cfu/100 mL not to be exceeded by more than 10 percent of the samples collected in a CALENDAR MONTH, calculated in a static manner.",
+   "scope_verbatim": "Chapter III.E.2 establishes water quality objectives for reasonable protection of people that recreate within all surface waters, enclosed bays, and estuaries of the state that have the water contact recreation beneficial use (REC-1).",
+   "citation": {
+    "document": "Part 3 of the Water Quality Control Plan for Inland Surface Waters, Enclosed Bays, and Estuaries of California \u2014 Bacteria Provisions and a Water Quality Standards Variance Policy",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019-02-04",
+    "url": "https://www.waterboards.ca.gov/plans_policies/docs/bacteria.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "iswebe_ecoli",
+   "indicator": "E. coli",
+   "role": "water_quality_objective",
+   "applies_to": "All surface waters, enclosed bays and estuaries with the REC-1 beneficial use where the salinity is equal to or less than 1 ppth 95 percent or more of the time during the calendar year",
+   "elements": [
+    {
+     "kind": "geometric_mean",
+     "magnitude": 100,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "100 colony forming units (cfu) per 100 milliliters (mL)",
+     "window": "six-week rolling, calculated weekly",
+     "window_as_printed": "six-week",
+     "window_days": 42,
+     "sample_basis": "all_in_window"
+    },
+    {
+     "kind": "statistical_threshold_value",
+     "magnitude": 320,
+     "unit": "cfu/100 mL",
+     "magnitude_as_printed": "320 cfu/100 mL",
+     "window": "calendar month, calculated in a static manner",
+     "allowance": "not to be exceeded by more than 10 percent of the samples"
+    }
+   ],
+   "verbatim": "The bacteria water quality objective for all waters where the salinity is equal to or less than 1 part per thousand (ppth) 95 percent or more of the time during the CALENDAR YEAR is: a six-week rolling GEOMETRIC MEAN of Escherichia coli (E. coli) not to exceed 100 colony forming units (cfu) per 100 milliliters (mL), calculated weekly, and a STATISTICAL THRESHOLD VALUE (STV) of 320 cfu/100 mL not to be exceeded by more than 10 percent of the samples collected in a CALENDAR MONTH, calculated in a static manner.",
+   "scope_verbatim": "Chapter III.E.2 establishes water quality objectives for reasonable protection of people that recreate within all surface waters, enclosed bays, and estuaries of the state that have the water contact recreation beneficial use (REC-1).",
+   "citation": {
+    "document": "Part 3 of the Water Quality Control Plan for Inland Surface Waters, Enclosed Bays, and Estuaries of California \u2014 Bacteria Provisions and a Water Quality Standards Variance Policy",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019-02-04",
+    "url": "https://www.waterboards.ca.gov/plans_policies/docs/bacteria.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "sd_ddpcr_equivalence",
+   "indicator": "Enterococcus",
+   "role": "advisory_threshold",
+   "applies_to": "San Diego County only, ddPCR (copies/100 mL) results. Developed by the California Department of Public Health for San Diego County; the San Diego Water Board states it has no water quality objective for ddPCR results. Measured: every copies/100 mL row in the state dataset is San Diego (Region 9), so the threshold's scope and the data's scope coincide.",
+   "elements": [
+    {
+     "kind": "single_sample_maximum",
+     "magnitude": 1413,
+     "unit": "copies/100 mL",
+     "magnitude_as_printed": "1,413 copies/100 mL",
+     "window": "single sample",
+     "equivalent_to": "104 CFU/100 mL",
+     "equivalent_to_as_printed": "104 CFU/100 mL"
+    }
+   ],
+   "verbatim": "The California Regional Water Quality Control Board \u2013 San Diego Region (San Diego Water Board) does not currently have a water-quality objective for Enterococcus ddPCR results. However, the California Department of Public Health developed for San Diego County a standard threshold value of 1,413 copies/100 mL in equivalence with the state culture-based threshold of 104 CFU/100 mL. When samples exceed this standard threshold value of 1,413 copies/100 mL Enterococcus, DEHQ will issue Bacterial Exceedance Advisories under the Beach and Bay Water Quality Monitoring program.",
+   "scope_verbatim": "Results from the ddPCR analyses are reported as copies/100 mL and are presented separately from traditional culture-based results (which are reported in CFU/100 mL or MPN/100 mL).",
+   "citation": {
+    "document": "Fecal Indicator Bacteria TMDLs \u2014 San Diego Region",
+    "publisher": "California Regional Water Quality Control Board, San Diego Region (San Diego Water Board)",
+    "document_date": null,
+    "url": "https://www.waterboards.ca.gov/sandiego/water_issues/programs/tmdls/fecal_indicator_bacteria.html",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  }
+ ],
+ "scope_rules": [
+  {
+   "id": "objectives_versus_postings",
+   "finding": "A county health officer's beach posting and the state's water quality objectives are two different instruments. Postings run on the title 17 beach notification levels; the objectives in this file are what the state's Safe to Swim map and its published geometric means compare against. The Ocean Plan says so and then says the title 17 standards are not water quality objectives. This app compares against the objectives, because those are the numbers behind the data it holds \u2014 so it must never say a beach is posted, closed, or unposted ON ITS OWN AUTHORITY, and must never present its own reading as a posting. NARROWED 2026-09-17 (R35): where a NAMED county publishes its own posting through a public data service this app reads, that county's posting IS shown \u2014 in the county's own words, in quotation marks, attributed to the county by name, and carried with the time this app read it. It is never merged into the tier computed here. The two instruments stay two, and the asymmetry between them is the rule: a county's posting may raise what this map shows, and a county's all-clear may never clean a measured exceedance.",
+   "verbatim": "Minimum protective bacteriological standards for waters adjacent to public beaches and for public water-contact sports areas in ocean waters* are established in the California Code of Regulations, Title 17 (beginning at div. 1, ch. 5, \u00a7 7958 et seq.). When a public beach or public water-contact sports area fails to meet the standards, the California Department of Public Health or the local public health officer may post with warning signs or otherwise restrict use of the public beach or public water-contact sports area until the standards are met. The regulations impose more frequent monitoring and more stringent posting and closure requirements on certain high-use public beaches that are located adjacent to a storm drain that flows in the summer. The Title 17 bacteriological standards are not water quality objectives.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "objectives_and_notifications_are_separate_subsections",
+   "finding": "The Ocean Plan splits its own bacteria chapter into the objectives (subsection a) and the beach notification levels (subsection b). The split is the source's, not this app's.",
+   "verbatim": "Subsection (a) of this section contains bacteria water quality objectives* adopted by the State Water Board for ocean waters* used for water contact recreation. Subsection (b) describes the beach notification levels for waters adjacent to public beaches and public water contact sports areas in ocean waters*.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "which_indicator_by_salinity",
+   "finding": "The Bacteria Provisions choose the indicator by salinity, not by whether a site is called a beach: E. coli at or below 1 ppth, enterococci above it. beach_stations.json carries WaterBodyClass for this reason \u2014 12 of the 427 plotted beaches are Estuarine, and an estuarine site is not automatically on the enterococci number.",
+   "verbatim": "Chapter III.E.2 establishes water quality objectives for reasonable protection of people that recreate within all surface waters, enclosed bays, and estuaries of the state that have the water contact recreation beneficial use (REC-1).",
+   "citation": {
+    "document": "Part 3 of the Water Quality Control Plan for Inland Surface Waters, Enclosed Bays, and Estuaries of California \u2014 Bacteria Provisions and a Water Quality Standards Variance Policy",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019-02-04",
+    "url": "https://www.waterboards.ca.gov/plans_policies/docs/bacteria.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "not_enough_data",
+   "finding": "The source itself says a geometric mean needs a statistically sufficient number of samples, 'generally not less than five samples distributed over a six-week period'. This is where the state's own 'Not enough data' tier comes from, and it is why sparse data yields no colour in this app: the state examined the same sparseness and withheld a status, and a split of 'Use caution' into two is not licence to speak where the state stayed silent.",
+   "verbatim": "Only the GM* value shall be applied based on a statistically sufficient number of samples, which is generally not less than five samples distributed over a six-week period. However, if a statistically sufficient number of samples is not available to calculate the GM*, then attainment of the water quality objective shall be determined based only on the SSM* or STV*.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "not_enough_data_statewide",
+   "finding": "The Bacteria Provisions state the same five-samples-over-six-weeks rule for waters outside the Ocean Plan's reach, so the sparse-data silence is not an ocean-only convention.",
+   "verbatim": "Only the GEOMETRIC MEAN values shall be applied based on a statistically sufficient number of samples, which is generally not less than five samples distributed over a six- week period. However, if a statistically sufficient number of samples is not available to calculate the GEOMETRIC MEAN, then attainment of the water quality standard shall be determined based only on the STV.",
+   "citation": {
+    "document": "Part 3 of the Water Quality Control Plan for Inland Surface Waters, Enclosed Bays, and Estuaries of California \u2014 Bacteria Provisions and a Water Quality Standards Variance Policy",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019-02-04",
+    "url": "https://www.waterboards.ca.gov/plans_policies/docs/bacteria.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "ab411_scope",
+   "finding": "AB 411 is a MONITORING AND POSTING mandate on local health officers for beaches over 50,000 annual visitors adjacent to a dry-weather storm drain \u2014 not a source of water quality objectives. Measured against the state's own Beach Detail resource, 188 of the 427 beaches this app plots are coded AB411Beach 'No', including Zuma, Santa Monica, Venice, Hermosa, Dockweiler and Avalon. Any claim that 'AB 411 governs' this app's readings is therefore wrong twice: wrong about the instrument, and inapplicable to 44 percent of the beaches.",
+   "verbatim": "An AB411 beach is a California beach that is monitored under the regulations of the 1997 State Assembly Bill 411, which requires weekly bacterial testing from April 1st through October 31st of beaches visited by more than 50,000 people annually and located adjacent to a storm drain that flows in the dry weather for total coliform, fecal coliform, and enterococci bacteria. The law mandates that local health officials post warning signs and provide public information via a hotline when bacterial standards are exceeded to protect public health.",
+   "citation": {
+    "document": "Beach Watch Data Dictionary",
+    "publisher": "State Water Resources Control Board (data.ca.gov, ODC-By)",
+    "document_date": null,
+    "url": "https://data.ca.gov/dataset/b9c8ce91-40ff-4ad3-8164-bc17c46afb44/resource/4744ce19-b2e6-48cc-9fe5-95f460bee7e0/download/beach-watch-data-dictionary.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  },
+  {
+   "id": "unit_filter",
+   "finding": "The unit filter is the state's own line, not this app's: culture results are reported in CFU/100 mL or MPN/100 mL, and ddPCR results in copies/100 mL are 'presented separately'. The objectives above are stated in cfu/100 mL, so only culture units may be compared against them. Measured in the dataset, enterococcus against enterococcus: copies/100 mL results average about 61,600 while CFU/100 mL results average about 1,070 \u2014 banding molecular counts against a culture threshold reads every one of them as a catastrophic exceedance.",
+   "verbatim": "Results from the ddPCR analyses are reported as copies/100 mL and are presented separately from traditional culture-based results (which are reported in CFU/100 mL or MPN/100 mL).",
+   "citation": {
+    "document": "Fecal Indicator Bacteria TMDLs \u2014 San Diego Region",
+    "publisher": "California Regional Water Quality Control Board, San Diego Region (San Diego Water Board)",
+    "document_date": null,
+    "url": "https://www.waterboards.ca.gov/sandiego/water_issues/programs/tmdls/fecal_indicator_bacteria.html",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  }
+ ],
+ "not_operative": [
+  {
+   "id": "total_coliform_is_not_a_water_contact_objective",
+   "indicator": "Coliform, Total",
+   "finding": "Total coliform appears in the Ocean Plan as a SHELLFISH HARVESTING objective, not a water-contact one; neither the Ocean Plan's water-contact subsection nor the Bacteria Provisions state a total coliform objective for REC-1. The dataset carries 202,322 total coliform results and this app must not band any of them against a water-contact threshold, because no such threshold is adopted. Total coliform does appear in the title 17 beach notification levels, which are absent from this file for the reason recorded there.",
+   "verbatim": "At all areas where shellfish* may be harvested for human consumption, as determined by the Regional Water Board, the following bacterial objectives shall be maintained throughout the water column: (1) The median total coliform density shall not exceed 70 per 100 mL, and not more than 10 percent of the samples shall exceed 230 per 100 mL.",
+   "citation": {
+    "document": "Water Quality Control Plan \u2014 Ocean Waters of California (California Ocean Plan)",
+    "publisher": "State Water Resources Control Board",
+    "document_date": "2019",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/ocean/docs/oceanplan2019.pdf",
+    "snapshot_day": "2026-09-04",
+    "verified_at": "2026-09-04"
+   }
+  }
+ ],
+ "absent": [
+  {
+   "id": "title_17_beach_notification_levels",
+   "what": "The single-sample bacteria numbers a county health officer actually posts on, at California Code of Regulations title 17, division 1, chapter 5, section 7958 et seq.",
+   "why_absent": "No source this pipeline is permitted to fetch publishes them. California's regulations are published by a commercial host whose /robots.txt does not resolve (it 302-redirects to a site list), and leginfo.legislature.ca.gov serves 'Disallow: /'. The Ocean Plan cites the section but does not restate its numbers. Manual lane, and an owner sign-off item.",
+   "consequence": "The app cannot say what a county would post at, and must not present its own reading as a posting or its absence as an all-clear."
+  },
+  {
+   "id": "ddpcr_geometric_mean_equivalent",
+   "what": "A geometric-mean standard for ddPCR (copies/100 mL) enterococci.",
+   "why_absent": "None is published. The San Diego Water Board states plainly that it 'does not currently have a water-quality objective for Enterococcus ddPCR results'; the CDPH-derived 1,413 copies/100 mL is a SINGLE-SAMPLE advisory threshold and nothing more.",
+   "consequence": "ddPCR results can never produce a geometric-mean reading, only at most a single-sample one, and only in San Diego County."
+  },
+  {
+   "id": "result_qualifier_code_definitions",
+   "what": "The published meaning of each ResultQualCode the state's bacteria results carry \u2014 the CEDEN ResQualLookUpList the dataset's own data dictionary refers the reader to.",
+   "why_absent": "The dictionary defines only '=' in its own words ('the recorded result is the actual result') and links the rest to ceden.org, which is not an allowlisted host for this pipeline. So this app holds no published definition of 'P' or 'DNQ'. Manual lane, and an owner sign-off item.",
+   "consequence": "The comparability of each code is THIS APP'S READING and is labelled as one. The inequality codes are read from their symbols; 'P' and 'DNQ' have no symbol to read, are not compared, and are not described. Measured 2026-09-04, calling a 'P' row presence-only was wrong on the data's own terms: all 400 such rows published since 2026-05-01 carry a positive numeric result and every one is carried into the state's own published six-week geometric mean, so this app is silent at stations where the state's own numbers yield a status."
+  },
+  {
+   "id": "closure_and_spill_feed",
+   "what": "Any STATEWIDE live feed of beach closures or sewage spills.",
+   "why_absent": "There is no statewide one. The state's advisory/closure resource is published monthly and months in arrears, and the Safe to Swim map's host (mywaterquality.ca.gov) serves 'Disallow: /' to every agent but Googlebot, so it stays a link-out. NARROWED 2026-09-17 (R35): where a NAMED county publishes its own postings through a public data service this app reads, that county's posting IS shown \u2014 quoted in the county's own words, attributed to the county by name, and carried with the time this app read it. That covers the counties named in the app's own county list and no others; every county this app does not read is carried as absent, with the reason stated and the county's own hotline and page offered instead. A county's posting never replaces the tier computed from the state's samples, and a county's all-clear never cleans a measured exceedance.",
+   "consequence": "The app must SAY that no closure feed exists for the beaches where it reads none, and must never let its own silence stand for 'no closures' \u2014 which is the one thing this data can never support. Where a named county's own posting IS read, the app names the county, quotes it, and says when it read it; where it is not, the app says that too, and hands the reader the county's own hotline and page."
+  }
+ ],
+ "data_vocabularies": {
+  "source": {
+   "name": "State Water Resources Control Board \u2014 Surface Water Fecal Indicator Bacteria Monitoring Results (data.ca.gov), the resource behind the state's Safe to Swim map",
+   "resource_id": "15a63495-8d9f-4a49-b43a-3092ef3106b9",
+   "measured_at": "2026-09-05T00:52:17.968967+00:00",
+   "snapshot_day": "2026-09-04",
+   "rows_measured": 637370,
+   "note": "These are closed sets MEASURED from the data by aggregate query, not written down. The queries are stored beside the answers in the snapshot."
+  },
+  "analytes": [
+   "Coliform, Fecal",
+   "Coliform, Total",
+   "E. coli",
+   "Enterococcus"
+  ],
+  "units": [
+   {
+    "unit": "CFU/100 mL",
+    "class": "culture",
+    "comparable_to_objectives": true
+   },
+   {
+    "unit": "MPN/100 mL",
+    "class": "culture",
+    "comparable_to_objectives": true
+   },
+   {
+    "unit": "copies/100 mL",
+    "class": "molecular",
+    "comparable_to_objectives": false
+   }
+  ],
+  "unit_filter_note": "The objectives are stated in cfu/100 mL and the state presents molecular (copies/100 mL) results separately from culture results. Only culture units may be banded against an objective. This filter is NOT optional: it is the difference between reading a ddPCR count of tens of thousands as a catastrophic exceedance and not comparing it at all.",
+  "result_qualifiers": [
+   {
+    "code": null,
+    "comparability": "comparable",
+    "count": 1325
+   },
+   {
+    "code": "<",
+    "comparability": "left_censored",
+    "count": 215734
+   },
+   {
+    "code": "<=",
+    "comparability": "left_censored",
+    "count": 5
+   },
+   {
+    "code": "=",
+    "comparability": "comparable",
+    "count": 378814
+   },
+   {
+    "code": ">",
+    "comparability": "right_censored",
+    "count": 11442
+   },
+   {
+    "code": ">=",
+    "comparability": "right_censored",
+    "count": 25561
+   },
+   {
+    "code": "DNQ",
+    "comparability": "undefined_by_source",
+    "count": 1
+   },
+   {
+    "code": "ND",
+    "comparability": "left_censored",
+    "count": 3728
+   },
+   {
+    "code": "P",
+    "comparability": "undefined_by_source",
+    "count": 760
+   }
+  ],
+  "qualifier_note": "A right-censored result ('>' or '>=') has no upper bound \u2014 an enterococcus result of '>20' could truly be 2,000 \u2014 so it is compared at its reported floor, where it can confirm an exceedance but can never support a clean reading. Left-censored results ('<', '<=', 'ND') are below their detection limit and are comparable as a maximum. 'P' and 'DNQ' are marked undefined_by_source: this app holds no published definition of them and does not compare them.",
+  "qualifier_comparability_note": "The comparability column is THIS APP'S READING of each code, not the source's definition of it. The dataset's own data dictionary defines only '=' and refers the rest to a CEDEN lookup list this pipeline may not fetch (see the absence 'result_qualifier_code_definitions'). The inequality codes are read from their symbols. 'P' and 'DNQ' are not: measured 2026-09-04, all 400 'P' rows published since 2026-05-01 carry a positive numeric result between 10 and 9,208 and every one is carried into the state's own published six-week geometric mean, so describing them as presence-only with no number was a claim the data contradicts. They are not compared, and they are not characterised.",
+  "data_quality_values": [
+   "Extensive review needed",
+   "Passed",
+   "Some review needed",
+   "Spatial accuracy unknown",
+   "Unknown data quality"
+  ],
+  "data_quality_note": "The state's own quality flags. 'Reject Data' is not among them and never was. 'Spatial accuracy unknown' means the STATION'S COORDINATES are unreliable, which is a positional caveat, not a result caveat, and must be handled rather than passed through. The word 'verified' is unavailable to this app while the state flags its own data unknown.",
+  "censoring_and_substitution": [
+   {
+    "code": "=",
+    "substitution": "No substitution",
+    "count": 378378
+   },
+   {
+    "code": "<",
+    "substitution": "No substitution",
+    "count": 215666
+   },
+   {
+    "code": ">=",
+    "substitution": "No substitution",
+    "count": 25561
+   },
+   {
+    "code": ">",
+    "substitution": "No substitution",
+    "count": 11432
+   },
+   {
+    "code": "ND",
+    "substitution": "Nondetect: result substituted with half the MDL",
+    "count": 3720
+   },
+   {
+    "code": null,
+    "substitution": "No substitution",
+    "count": 1295
+   },
+   {
+    "code": "P",
+    "substitution": "No substitution",
+    "count": 760
+   },
+   {
+    "code": "=",
+    "substitution": "Result substituted with half the MDL",
+    "count": 436
+   },
+   {
+    "code": "<",
+    "substitution": "Result substituted with half the MDL",
+    "count": 68
+   },
+   {
+    "code": null,
+    "substitution": "Result substituted with half the MDL",
+    "count": 30
+   },
+   {
+    "code": ">",
+    "substitution": "Result substituted with half the MDL",
+    "count": 10
+   },
+   {
+    "code": "ND",
+    "substitution": "Nondetect: result substituted with half the result value",
+    "count": 8
+   },
+   {
+    "code": "<=",
+    "substitution": "No substitution",
+    "count": 5
+   },
+   {
+    "code": "DNQ",
+    "substitution": "No substitution",
+    "count": 1
+   }
+  ],
+  "published_geometric_mean_caveat": "The state publishes its own 6-week geometric mean and sample count per row. Measured in the snapshot, right-censored results ('>' and '>=') are carried into that mean with 'No substitution' \u2014 at their reported floor. So where a window contains a right-censored sample the published geometric mean is a LOWER BOUND, and a mean that passes cannot be reported as clean."
+ },
+ "curation": [
+  {
+   "date": "2026-09-05",
+   "author": "owner",
+   "kind": "sign_off",
+   "basis_quote": "i approve the threshold",
+   "what_changed": [
+    "curation_status moved from draft_pending_user_verification to signed_off, which released the gate on the two engines that read this file"
+   ],
+   "what_did_not_change": "Every threshold, printed magnitude, averaging window and sample basis, the four recorded absences, the scope split between objectives and Title 17 notification levels, and every per-reading caveat.",
+   "read_back": "Yes \u2014 all five thresholds were read back to the owner before he approved them."
+  },
+  {
+   "date": "2026-09-17",
+   "author": "owner",
+   "kind": "amendment",
+   "basis_quote": "We need the display on our app to show what the most up to date water quality actually is. Figure it out and make it happen.",
+   "basis_note": "The owner's instruction of 2026-09-17, given after he opened San Diego County's own beach-status site and asked whether it changed anything. It is the authority for R35 and for this amendment; it is not a read-back of the sentences below.",
+   "what_changed": [
+    "absent[closure_and_spill_feed].what and .why_absent: the absence is now stated as the absence of a STATEWIDE feed, and says that a named county's own posting IS shown where this app reads one through a public data service \u2014 quoted, attributed and carried with the read time \u2014 while every county this app does not read is carried as absent with its reason and its own hotline and page.",
+    "absent[closure_and_spill_feed].consequence: still requires the app to SAY that no closure feed exists where it reads none, and now also fixes what it must say where it does read one.",
+    "scope_rules[objectives_versus_postings].finding: 'must never say a beach is posted, closed, or unposted' is narrowed to 'on its own authority', with the county's own posting shown as the county's and never merged into the tier."
+   ],
+   "what_did_not_change": "Not one threshold, magnitude, window, sample basis, quote or anchor. The other three absences are untouched. curation_status is untouched. The asymmetry is written into the amendment itself: a county's posting may raise what the map shows and a county's all-clear may never clean a measured exceedance, which is the same ordering NOT_COMPARABLE already outranks GREEN on.",
+   "read_back": "NOT YET. The owner instructed the change and is quoted above; he has not yet read these two amended sentences back. Until he does, this entry is the whole of the basis for them, and it says so.",
+   "recorded_in": "docs/legal/legal-decisions-record.md \u00a7 17"
+  }
+ ],
+ "verified_at": "2026-09-04"
+}
