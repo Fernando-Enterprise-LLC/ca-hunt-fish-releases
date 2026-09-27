@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-27T17:14:59.579418+00:00",
+ "generated_at": "2026-09-27T17:38:17.441202+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -17,7 +17,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-26T18:21:23.331310+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -46,7 +46,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-21T19:43:05.538365+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -61,7 +61,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T19:16:40.373551+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -76,7 +76,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -91,7 +91,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -134,7 +134,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-27T16:51:28.098582+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -149,7 +149,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-27T05:28:17.144177+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -164,22 +164,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-27T17:12:15.137155+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
-   "sha256": "5bcffbf92b014b27d0ee5ff7ccc2cfed7495f0037cad4c5d1d8849a19c1aa1a1",
-   "bytes": 413352,
+   "sha256": "ccaa9ede0f33d64814e16e2c24ecfd3e276330b3f9bad0a95b3d83145893358d",
+   "bytes": 413442,
    "domain": "water_clarity_current",
    "threshold_days": 2,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-09-26T18:17:31.432339+00:00",
-   "age_days": 1,
+   "read_at": "2026-09-27T17:38:09.415191+00:00",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-09-26T18:17:37.549705+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-09-27T17:38:15.663357+00:00"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -194,7 +193,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -209,7 +208,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-26T21:15:16.548839+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   }
  ]
 }
