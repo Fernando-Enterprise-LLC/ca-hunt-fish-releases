@@ -1,7 +1,7 @@
 # `live/` — the version-independent lane
 
-Ten files, republished on their own cadence by `pipeline publish-live`, at a path that does
-not carry a dataset version:
+Fourteen files, republished on their own cadence by `pipeline publish-live`, at a path that
+does not carry a dataset version:
 
 | File | What it is | Read cadence |
 |---|---|---|
@@ -11,8 +11,11 @@ not carry a dataset version:
 | `trip_pack.json` | CDFW's deer harvest statistics for the year CDFW's own page links a report for, with the department's own "as of" date on every number — and the big-game draw statistics, `pending`, because nobody has opened that document | monthly |
 | `operators.json` | The attributed commercial operator directory — what each operator publishes about itself, quoted with the date it was read | monthly, one page per host |
 | `notices_current.json` | In-season change announcements: the agency's own headline, date, category and at most two of its own sentences, with the records a declared map ties them to | on a change, with a daily floor |
+| `in_season_status_current.json` | In-season statuses: an agency's announcement read against one record — closed in part, closed on the rules named, closed, or restricted — each recorded only after the app's owner answered one proposal in writing, with the agency's own words, the day it was announced, the day it stops being shown and whose date that is. The regulation text never moves on it | re-evaluated against the calendar daily, and on the next run after a status is recorded |
 | `beach_status_current.json` | What a county says about a beach today, quoted, with the county named and the time this project read it — plus, for every county in the beach directory, the hotline and status page the county itself tells the public to use | every three hours |
+| `beach_water_quality_current.json` | The counties' own water-quality readings, in the counties' own fields: what each county that publishes a machine-readable status most recently posted, quoted with its own words, units and dates. Nothing in it is normalised — no kind, no severity, no comparison — and each county's values age on that county's own stated sampling cadence | every six hours |
 | `water_clarity_current.json` | NOAA CoastWatch's own Kd490 and chlorophyll at the nearest satellite cell that carried a value, for each of the 1,575 spear entry points, with the metres to that cell and the composite's own date | daily |
+| `mop_nearshore_current.json` | CDIP's MOP alongshore nearshore wave MODEL, and labelled as one, at every model point a spear entry point resolved to — the swell close to shore rather than the swell field an offshore buoy sits in — read once for every reader: CDIP's own values at CDIP's own model times, kept only where CDIP's own flag says good | every six hours |
 | `kelp_canopy_current.json` | Approximately where CDFW's newest statewide aerial kelp survey mapped kelp, as a map layer: CDFW's 2 m survey polygons generalized to about 50 m, every part carrying its survey year, with CDFW's own collection dates, credit line and caution quoted | when CDFW's listing names a newer survey year, and once a year |
 | `deer_tags_current.json` | CDFW's Available Deer Tags List, row by row — tag code, hunt name and quantity as CDFW printed them under its own "As of …" sentence — each row joined to the zone or hunt it names, every booklet hunt marked on or not on the list, and the list before it. A hunt the list does not name is "not on CDFW's Available Deer Tags list as of" CDFW's own time, and nothing more: the list gives no reason for an absence. `read_at` is when this project last confirmed the list, never the list's own time | re-read every six hours; republished when CDFW's bytes change, and an unchanged list re-confirmed once a day — a decision, so the file's two-day clock measures when the list was last checked, at the cost of about one commit a day to this repository |
 | `verification_current.json` | THE RECEIPT: every source the daily lane re-read, the moment it read it, the digest of the bytes it compared against, and one of three words — `unchanged`, `changed_pending_review`, `unreachable` | daily |
@@ -54,6 +57,17 @@ consecutive reads, or one that has reached this app's own 180-day cap, is marked
 with its reason and stays for thirty days. A read that fails publishes nothing at all and
 leaves the notices already here wearing their own read date, because an empty list would
 tell every reader that nothing has been announced.
+
+`in_season_status_current.json` carries this app's developer's SIGNED READING of an agency's
+announcement against one record, and never a regulation value: the printed text does not move.
+A status read from an announcement alone withdraws "Open now" from the record and asserts
+nothing else; only a status whose rules the owner named one by one says those rules are closed.
+Every status carries the agency's own headline and sentences, the California day the agency's
+feed dated the announcement (never the moment a change takes effect, which stays inside the
+agency's sentence), the last day it is shown and whose date that is — the agency's own printed
+end, the season end the record prints, or this app's own 180-day cap. It reaches this file only
+after the owner answered its one proposal, and no comment body is ever in it. An ended status
+stays thirty days with its reason. A table that fails to load or validate publishes nothing.
 
 `verification_current.json` says what this project RE-READ and never what it found in the
 text. Every row is one source: the address, the moment the request was made, the sha256 and
