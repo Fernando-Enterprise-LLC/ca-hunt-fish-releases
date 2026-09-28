@@ -62,10 +62,11 @@ tell every reader that nothing has been announced.
 announcement against one record, and never a regulation value: the printed text does not move.
 A status read from an announcement alone withdraws "Open now" from the record and asserts
 nothing else; only a status whose rules the owner named one by one says those rules are closed.
-Every status carries the agency's own headline and sentences, the California day the agency's
-feed dated the announcement (never the moment a change takes effect, which stays inside the
-agency's sentence), the last day it is shown and whose date that is — the agency's own printed
-end, the season end the record prints, or this app's own 180-day cap. It reaches this file only
+Every status carries the agency's own headline and sentences, the day it is shown from — the
+calendar day the agency's own words name for the change ("as of", "effective", "at <time> on"
+a date, and the like) where this app read exactly one, otherwise the California day the
+agency's feed dated the announcement — the last day it is shown and whose date that is — the
+agency's own printed end, the season end the record prints, or this app's own 180-day cap. It reaches this file only
 after the owner answered its one proposal, and no comment body is ever in it. An ended status
 stays thirty days with its reason. A table that fails to load or validate publishes nothing.
 
