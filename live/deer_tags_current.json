@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "domain": "deer_tags",
- "generated_at": "2026-09-28T20:44:49.102768+00:00",
- "read_at": "2026-09-28T13:44:43-07:00",
+ "generated_at": "2026-09-28T23:21:19.132359+00:00",
+ "read_at": "2026-09-28T16:21:18-07:00",
  "read_at_rule": "`read_at` is the moment this project last confirmed that CDFW's slot was serving the bytes described in `source`: the download itself, or a later conditional request CDFW answered with 'not modified'. It is never the list's own time. The list's own time is `as_of_verbatim`, CDFW's sentence, quoted.",
  "nothing_derived_rule": "Every row is CDFW's own TAG CODE, HUNT NAME and QUANTITY as printed. `quantity_int` is the printed QUANTITY with its thousands separators removed, and nothing else in this file is computed: no total, no rate, no change since the previous list, and no statement about a tag the list does not name beyond the one in `absence_rule`.",
  "absence_rule": "CDFW's list names only the tags it says are available for purchase at the time in its own sentence. A booklet hunt that is not on it is stated as exactly that: not on CDFW's Available Deer Tags list as of that time. The list gives no reason for an absence, so this file gives none.",
@@ -13,16 +13,16 @@
   "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=30896",
   "document_id": 30896,
   "slot": "available_deer_tags.pdf",
-  "sha256": "cbe68a833b17d771d2abfba3162fdefd8ef0d6bb009b6a77fe0fabece1abd83a",
-  "bytes": 99283,
-  "source_filename": "2026 Available Deer Tags List 9-25.pdf",
-  "fetched_at": "2026-09-25T23:02:51.154335+00:00",
-  "last_modified": "Fri, 25 Sep 2026 22:08:46 GMT",
+  "sha256": "8aa862d2bc09308754b43157b14812639ee14327acfe457418fb731df9794a18",
+  "bytes": 99289,
+  "source_filename": "2026 Available Deer Tags List 9-28.pdf",
+  "fetched_at": "2026-09-28T23:21:18.939547+00:00",
+  "last_modified": "Mon, 28 Sep 2026 23:00:21 GMT",
   "text_extractor": "pdfplumber"
  },
  "title_verbatim": "AVAILABLE DEER TAGS LIST",
- "as_of_verbatim": "As of September 25, 2026, at 3:04 PM, the following deer tags are available for purchase:",
- "as_of_stamp_verbatim": "September 25, 2026, at 3:04 PM",
+ "as_of_verbatim": "As of September 28, 2026, at 3:38 PM, the following deer tags are available for purchase:",
+ "as_of_stamp_verbatim": "September 28, 2026, at 3:38 PM",
  "header_verbatim": [
   "TAG CODE",
   "HUNT NAME",
@@ -32,8 +32,8 @@
   {
    "tag_code_verbatim": "AO",
    "hunt_name_verbatim": "Archery-Only",
-   "quantity_verbatim": "94,212",
-   "quantity_int": 94212,
+   "quantity_verbatim": "94,186",
+   "quantity_int": 94186,
    "mapped_to": [
     {
      "kind": "hunt",
@@ -45,8 +45,8 @@
   {
    "tag_code_verbatim": "D3-5",
    "hunt_name_verbatim": "Zone D3-5",
-   "quantity_verbatim": "7,904",
-   "quantity_int": 7904,
+   "quantity_verbatim": "6,991",
+   "quantity_int": 6991,
    "mapped_to": [
     {
      "kind": "zone",
@@ -67,8 +67,8 @@
   {
    "tag_code_verbatim": "D8",
    "hunt_name_verbatim": "Zone D8",
-   "quantity_verbatim": "3,251",
-   "quantity_int": 3251,
+   "quantity_verbatim": "2,957",
+   "quantity_int": 2957,
    "mapped_to": [
     {
      "kind": "zone",
@@ -80,8 +80,8 @@
   {
    "tag_code_verbatim": "D10",
    "hunt_name_verbatim": "Zone D10",
-   "quantity_verbatim": "149",
-   "quantity_int": 149,
+   "quantity_verbatim": "126",
+   "quantity_int": 126,
    "mapped_to": [
     {
      "kind": "zone",
@@ -93,8 +93,8 @@
   {
    "tag_code_verbatim": "D11",
    "hunt_name_verbatim": "Zone D11",
-   "quantity_verbatim": "3,514",
-   "quantity_int": 3514,
+   "quantity_verbatim": "3,431",
+   "quantity_int": 3431,
    "mapped_to": [
     {
      "kind": "zone",
@@ -106,8 +106,8 @@
   {
    "tag_code_verbatim": "D13",
    "hunt_name_verbatim": "Zone D13",
-   "quantity_verbatim": "2,808",
-   "quantity_int": 2808,
+   "quantity_verbatim": "2,765",
+   "quantity_int": 2765,
    "mapped_to": [
     {
      "kind": "zone",
@@ -119,8 +119,8 @@
   {
    "tag_code_verbatim": "D15",
    "hunt_name_verbatim": "Zone D15",
-   "quantity_verbatim": "1,106",
-   "quantity_int": 1106,
+   "quantity_verbatim": "1,101",
+   "quantity_int": 1101,
    "mapped_to": [
     {
      "kind": "zone",
@@ -132,8 +132,8 @@
   {
    "tag_code_verbatim": "D16",
    "hunt_name_verbatim": "Zone D16",
-   "quantity_verbatim": "330",
-   "quantity_int": 330,
+   "quantity_verbatim": "308",
+   "quantity_int": 308,
    "mapped_to": [
     {
      "kind": "zone",
@@ -145,8 +145,8 @@
   {
    "tag_code_verbatim": "D19",
    "hunt_name_verbatim": "Zone D19",
-   "quantity_verbatim": "193",
-   "quantity_int": 193,
+   "quantity_verbatim": "180",
+   "quantity_int": 180,
    "mapped_to": [
     {
      "kind": "zone",
@@ -158,8 +158,8 @@
   {
    "tag_code_verbatim": "A32",
    "hunt_name_verbatim": "Ventura/Los Angeles Late Season Archery Either-Sex",
-   "quantity_verbatim": "69",
-   "quantity_int": 69,
+   "quantity_verbatim": "65",
+   "quantity_int": 65,
    "mapped_to": [
     {
      "kind": "hunt",
@@ -1112,15 +1112,15 @@
   ]
  },
  "previous": {
-  "as_of_verbatim": "As of September 16, 2026, at 9:06 AM, the following deer tags are available for purchase:",
-  "as_of_stamp_verbatim": "September 16, 2026, at 9:06 AM",
-  "sha256": "a7c26f85651f2f791589795dfb97e64ab42b2d0c738dad40618b49ef70ab75ff",
-  "read_at": "2026-09-19T04:17:53-07:00",
+  "as_of_verbatim": "As of September 25, 2026, at 3:04 PM, the following deer tags are available for purchase:",
+  "as_of_stamp_verbatim": "September 25, 2026, at 3:04 PM",
+  "sha256": "cbe68a833b17d771d2abfba3162fdefd8ef0d6bb009b6a77fe0fabece1abd83a",
+  "read_at": "2026-09-28T13:44:43-07:00",
   "rows": [
    {
     "tag_code_verbatim": "AO",
     "hunt_name_verbatim": "Archery-Only",
-    "quantity_verbatim": "94,365",
+    "quantity_verbatim": "94,212",
     "mapped_to": [
      {
       "kind": "hunt",
@@ -1129,20 +1129,9 @@
     ]
    },
    {
-    "tag_code_verbatim": "A",
-    "hunt_name_verbatim": "Zone A",
-    "quantity_verbatim": "39,089",
-    "mapped_to": [
-     {
-      "kind": "zone",
-      "code": "A"
-     }
-    ]
-   },
-   {
     "tag_code_verbatim": "D3-5",
     "hunt_name_verbatim": "Zone D3-5",
-    "quantity_verbatim": "9,727",
+    "quantity_verbatim": "7,904",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1161,7 +1150,7 @@
    {
     "tag_code_verbatim": "D8",
     "hunt_name_verbatim": "Zone D8",
-    "quantity_verbatim": "4,139",
+    "quantity_verbatim": "3,251",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1172,7 +1161,7 @@
    {
     "tag_code_verbatim": "D10",
     "hunt_name_verbatim": "Zone D10",
-    "quantity_verbatim": "197",
+    "quantity_verbatim": "149",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1183,7 +1172,7 @@
    {
     "tag_code_verbatim": "D11",
     "hunt_name_verbatim": "Zone D11",
-    "quantity_verbatim": "3,697",
+    "quantity_verbatim": "3,514",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1194,7 +1183,7 @@
    {
     "tag_code_verbatim": "D13",
     "hunt_name_verbatim": "Zone D13",
-    "quantity_verbatim": "2,921",
+    "quantity_verbatim": "2,808",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1205,7 +1194,7 @@
    {
     "tag_code_verbatim": "D15",
     "hunt_name_verbatim": "Zone D15",
-    "quantity_verbatim": "1,133",
+    "quantity_verbatim": "1,106",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1216,7 +1205,7 @@
    {
     "tag_code_verbatim": "D16",
     "hunt_name_verbatim": "Zone D16",
-    "quantity_verbatim": "400",
+    "quantity_verbatim": "330",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1227,7 +1216,7 @@
    {
     "tag_code_verbatim": "D19",
     "hunt_name_verbatim": "Zone D19",
-    "quantity_verbatim": "234",
+    "quantity_verbatim": "193",
     "mapped_to": [
      {
       "kind": "zone",
@@ -1238,7 +1227,7 @@
    {
     "tag_code_verbatim": "A32",
     "hunt_name_verbatim": "Ventura/Los Angeles Late Season Archery Either-Sex",
-    "quantity_verbatim": "82",
+    "quantity_verbatim": "69",
     "mapped_to": [
      {
       "kind": "hunt",
