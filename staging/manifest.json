@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.09.28.1",
- "published_at": "2026-09-28T15:44:30.752425+00:00",
+ "dataset_version": "2026.09.28.2",
+ "published_at": "2026-09-28T16:36:25.876168+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
@@ -203,21 +203,21 @@
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "e0cf237758275b3be660f775f57fe40c2fe45fcc22b0685dc10c9bd8270b2457",
+   "sha256": "34605f4469588ec379fbf5cd9da9f876593174eb0dbcae86b30191673d29857e",
    "bytes": 416290
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "7d58499589714ca3cad33169b0aa10009cbd4f389ab6f30e0d2a0e483ac926e6",
-   "bytes": 20185
+   "sha256": "fc9b4a17cc70118eb7d3b3bd44b3bacbc60c3ce041bb01d35035836e8dffadd0",
+   "bytes": 21123
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "954166a55992ad736aecfd2120506e4795aa01028ade0e03c56b91a3ea65ea8b",
+   "sha256": "174bbd66c79156f639ee43e9139905ae984f584747d6a4b9575a3a9199fea1d9",
    "bytes": 64926
   },
   {
