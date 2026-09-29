@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-09-29T12:58:18.356126+00:00",
+ "generated_at": "2026-09-29T12:59:11.509845+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -17,7 +17,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T20:44:49.106206+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -30,8 +30,9 @@
    "read_at": "2026-09-29T12:58:15.747813+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-09-29T12:58:18.197038+00:00"
+   "state": "unchanged",
+   "published_at": "2026-09-29T12:58:18.197038+00:00",
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operator_schedules.json",
@@ -46,7 +47,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-27T19:03:24.637291+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -61,7 +62,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T19:16:40.373551+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -76,7 +77,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -91,7 +92,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -106,7 +107,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T15:39:23.199020+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "in_season_status_current.json",
@@ -121,7 +122,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T16:52:13.443578+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_status_current.json",
@@ -136,7 +137,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-29T12:38:26.060451+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -151,7 +152,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T20:44:49.115423+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -166,7 +167,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T20:40:22.086923+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
@@ -181,7 +182,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T20:41:21.828365+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -196,7 +197,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'deer_tags' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -211,7 +212,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-28T23:21:19.345826+00:00",
-   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "CDFW's list has not changed ('As of September 28, 2026, at 3:38 PM, the following deer tags are available for purchase:'); the published copy was confirmed 13.6 hours ago, inside the 20-hour re-confirmation interval, so the published bytes stand."
   }
  ]
 }
