@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T20:44:43.837080+00:00",
+ "generated_at": "2026-09-29T05:30:10.665103+00:00",
  "domain": "beach_status_current",
  "threshold_days": 1,
  "absence_clock_hours": 6,
@@ -39,13 +39,15 @@
      "kind": "not_sampled"
     }
    ],
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "ok": true,
-   "refusal_reason": null
+   "refusal_reason": null,
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null
   },
   "san_diego": {
    "name": "San Diego",
-   "source_name": "County of San Diego Department of Environmental Health",
+   "source_name": "sdbeachinfo.com — County of San Diego Department of Environmental Health and Quality",
    "source_url": null,
    "status_page_url": "https://www.sdbeachinfo.com/",
    "hotline": "(619) 338-2073",
@@ -53,7 +55,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "San Diego County publishes today's beach status at sdbeachinfo.com and on (619) 338-2073. This app does not read it. The county's map is served by an application that answers a scripted request with 405, or 403 without a browser session token, and this app does not build on endpoints a site gates that way. The county has been asked for a feed."
+   "refusal_reason": "San Diego County publishes today's beach status and sample results at sdbeachinfo.com and on (619) 338-2073. This list does not read it. Open sdbeachinfo.com for the most current information.",
+   "link_back_url": "https://www.sdbeachinfo.com/",
+   "link_back_verbatim": "for the most current information"
   },
   "los_angeles": {
    "name": "Los Angeles",
@@ -65,7 +69,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Los Angeles County publishes today's beach status on its own map. This app does not read it: the map carries each beach's status only as a marker colour, and no legend for those colours is published on the page or in the map data. A meaning this app guessed would be a guess a reader could not check."
+   "refusal_reason": "Los Angeles County publishes today's beach status on its own map. This app does not read it: the map carries each beach's status only as a marker colour, and no legend for those colours is published on the page or in the map data. A meaning this app guessed would be a guess a reader could not check.",
+   "link_back_url": "http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm",
+   "link_back_verbatim": null
   },
   "orange": {
    "name": "Orange",
@@ -77,7 +83,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Orange County publishes today's beach status at ocbeachinfo.com. This app does not read it: the site refuses scripted requests, including the request for its own robots file, so this app cannot establish that automated reading is permitted."
+   "refusal_reason": "Orange County publishes today's beach status at ocbeachinfo.com. This app does not read it: the site refuses scripted requests, including the request for its own robots file, so this app cannot establish that automated reading is permitted.",
+   "link_back_url": "https://ocbeachinfo.com/",
+   "link_back_verbatim": null
   },
   "san_mateo": {
    "name": "San Mateo",
@@ -89,7 +97,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "San Mateo County publishes a beach map and the number above. This app does not read the map: it carries no date anywhere, so this app could not tell a reader how old a status is."
+   "refusal_reason": "San Mateo County publishes a beach map and the number above. This app does not read the map: it carries no date anywhere, so this app could not tell a reader how old a status is.",
+   "link_back_url": "https://www.smchealth.org/beaches",
+   "link_back_verbatim": null
   },
   "santa_cruz": {
    "name": "Santa Cruz",
@@ -101,7 +111,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Santa Cruz County publishes today's beach status on its own page and through a public map service. This app does not read it yet: the meanings of that service's own status values have not been confirmed, and this app does not ship a meaning it has not confirmed."
+   "refusal_reason": "Santa Cruz County publishes today's beach status on its own page and through a public map service. This app does not read it yet: the meanings of that service's own status values have not been confirmed, and this app does not ship a meaning it has not confirmed.",
+   "link_back_url": "https://scceh.com/NewHome/Programs/WaterResources/SurfaceWaterStewardship/WaterQualityMonitoring/BeachWaterBodyAdvisories.aspx",
+   "link_back_verbatim": null
   },
   "humboldt": {
    "name": "Humboldt",
@@ -113,7 +125,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Humboldt County publishes its beach sampling results and a posting line on its own page. This app does not read it yet."
+   "refusal_reason": "Humboldt County publishes its beach sampling results and a posting line on its own page. This app does not read it yet.",
+   "link_back_url": "https://humboldtgov.org/1696/Water-Quality-Test-Results",
+   "link_back_verbatim": null
   },
   "sonoma": {
    "name": "Sonoma",
@@ -125,7 +139,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Sonoma County publishes a per-beach status on its own page. This app does not read it yet."
+   "refusal_reason": "Sonoma County publishes a per-beach status on its own page. This app does not read it yet.",
+   "link_back_url": "https://sonomacounty.gov/health-and-human-services/health-services/divisions/public-health/environmental-health/programs-and-services/ocean-water-quality",
+   "link_back_verbatim": null
   },
   "san_francisco": {
    "name": "San Francisco",
@@ -137,7 +153,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "San Francisco publishes beach sampling results as open data and runs a beach hotline. This app does not read a San Francisco status: the open dataset carries results rather than a posting, and the page that carries the postings has not been read by any lane."
+   "refusal_reason": "San Francisco publishes beach sampling results as open data and runs a beach hotline. This app does not read a San Francisco status: the open dataset carries results rather than a posting, and the page that carries the postings has not been read by any lane.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "santa_barbara": {
    "name": "Santa Barbara",
@@ -149,7 +167,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "This app has not located Santa Barbara County's own beach-status channel. The map that search engines surface for this county is a personal project rather than the county's, and this app does not carry a health status from one."
+   "refusal_reason": "This app has not located Santa Barbara County's own beach-status channel. The map that search engines surface for this county is a personal project rather than the county's, and this app does not carry a health status from one.",
+   "link_back_url": "https://www.countyofsb.org/2263/Ocean-Water-Monitoring-Program",
+   "link_back_verbatim": null
   },
   "monterey": {
    "name": "Monterey",
@@ -161,7 +181,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Monterey County publishes beach status on its own site. This app does not read it: the site refuses scripted requests with a 403 from its edge network."
+   "refusal_reason": "Monterey County publishes beach status on its own site. This app does not read it: the site refuses scripted requests with a 403 from its edge network.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "marin": {
    "name": "Marin",
@@ -173,7 +195,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Marin County publishes beach sampling on its own site. This app does not read it: the site refuses scripted requests with a 403. The state's own sampling, which this app already reads, is among the freshest in the state for Marin."
+   "refusal_reason": "Marin County publishes beach sampling on its own site. This app does not read it: the site refuses scripted requests with a 403. The state's own sampling, which this app already reads, is among the freshest in the state for Marin.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "san_luis_obispo": {
    "name": "San Luis Obispo",
@@ -185,7 +209,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "This app does not read a San Luis Obispo county status. The state's own sampling, which this app already reads, covers the same 19 sites and was nine days old when this was written."
+   "refusal_reason": "This app does not read a San Luis Obispo county status. The state's own sampling, which this app already reads, covers the same 19 sites and was nine days old when this was written.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "mendocino": {
    "name": "Mendocino",
@@ -197,7 +223,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "No Mendocino County beach-status channel has been located, so this app reads none."
+   "refusal_reason": "No Mendocino County beach-status channel has been located, so this app reads none.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "east_bay_parks_district": {
    "name": "East Bay Parks District",
@@ -209,7 +237,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "East Bay Regional Park District's own site is link-out only under this app's standing policy, permanently, so this app reads no status for these shorelines."
+   "refusal_reason": "East Bay Regional Park District's own site is link-out only under this app's standing policy, permanently, so this app reads no status for these shorelines.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   },
   "long_beach_city": {
    "name": "Long Beach City",
@@ -221,7 +251,9 @@
    "status_vocabulary": [],
    "read_at": null,
    "ok": false,
-   "refusal_reason": "Long Beach runs its own city health department. This app has not located its beach-status channel, so it reads none."
+   "refusal_reason": "Long Beach runs its own city health department. This app has not located its beach-status channel, so it reads none.",
+   "link_back_url": null,
+   "link_back_verbatim": null
   }
  },
  "beaches": [
@@ -238,8 +270,11 @@
    "county_sampled_on_iso": "2026-09-21",
    "issued_at": null,
    "lifted_at": null,
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
-   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null
   },
   {
    "beach_id": "bw-268",
@@ -254,8 +289,11 @@
    "county_sampled_on_iso": "2026-09-21",
    "issued_at": null,
    "lifted_at": null,
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
-   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null
   },
   {
    "beach_id": "bw-278",
@@ -270,8 +308,11 @@
    "county_sampled_on_iso": "2026-09-22",
    "issued_at": null,
    "lifted_at": null,
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
-   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null
   },
   {
    "beach_id": "bw-283",
@@ -286,8 +327,11 @@
    "county_sampled_on_iso": "2026-09-22",
    "issued_at": null,
    "lifted_at": null,
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
-   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0"
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
+   "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null
   }
  ],
  "unmapped_county_sites": [
@@ -297,8 +341,11 @@
    "county_site_name_verbatim": "Rincon Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -307,8 +354,11 @@
    "county_site_name_verbatim": "Solimar Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -317,8 +367,11 @@
    "county_site_name_verbatim": "Emma Wood State Beach",
    "county_status_verbatim": "Not Sampled",
    "kind": "unknown",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -327,8 +380,11 @@
    "county_site_name_verbatim": "Surfer's Point at Seaside",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -337,8 +393,11 @@
    "county_site_name_verbatim": "Promenade Park Beach (Figueroa St)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -347,8 +406,11 @@
    "county_site_name_verbatim": "Promenade Park Beach (Redwood Apts)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -357,8 +419,11 @@
    "county_site_name_verbatim": "San Buenaventura State Beach (California St)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -367,8 +432,11 @@
    "county_site_name_verbatim": "San Buenaventura State Beach (Kalorama Beach)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -377,8 +445,11 @@
    "county_site_name_verbatim": "San Buenaventura State Beach (San Jon Rd)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -387,8 +458,11 @@
    "county_site_name_verbatim": "San Buenaventura State Beach (Dover Lane)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -397,8 +471,11 @@
    "county_site_name_verbatim": "San Buenaventura State Beach (Weymouth Lane)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -407,8 +484,11 @@
    "county_site_name_verbatim": "Marina Park Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -417,8 +497,11 @@
    "county_site_name_verbatim": "Peninsula Beach/Harbor Cove",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -427,8 +510,11 @@
    "county_site_name_verbatim": "La Conchita",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -437,8 +523,11 @@
    "county_site_name_verbatim": "Surfer's Knoll Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -447,8 +536,11 @@
    "county_site_name_verbatim": "Oxnard Beach - 5th St",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -457,8 +549,11 @@
    "county_site_name_verbatim": "Oxnard Beach - Outrigger Way",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -467,8 +562,11 @@
    "county_site_name_verbatim": "Oxnard Beach Park - Falkirk Ave",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -477,8 +575,11 @@
    "county_site_name_verbatim": "Oxnard Beach Park  - Starfish Dr",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -487,8 +588,11 @@
    "county_site_name_verbatim": "Hollywood Beach - La Crescenta St",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -497,8 +601,11 @@
    "county_site_name_verbatim": "Hollywood Beach - Los Robles St",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -507,8 +614,11 @@
    "county_site_name_verbatim": "Hobie Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -517,8 +627,11 @@
    "county_site_name_verbatim": "C.I. Harbor Beach Park (Kiddie Beach)",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -527,8 +640,11 @@
    "county_site_name_verbatim": "Silverstrand Beach - San Nicholas Ave",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -537,8 +653,11 @@
    "county_site_name_verbatim": "Silverstrand Beach - Santa Paula Ave",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -547,8 +666,11 @@
    "county_site_name_verbatim": "Oil Piers Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -557,8 +679,11 @@
    "county_site_name_verbatim": "Silverstrand Beach - Sawtelle Ave",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -567,8 +692,11 @@
    "county_site_name_verbatim": "Port Hueneme Beach Park",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -577,8 +705,11 @@
    "county_site_name_verbatim": "Ormond Beach - J St",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -587,8 +718,11 @@
    "county_site_name_verbatim": "Ormond Beach - Industrial Drain",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -597,8 +731,11 @@
    "county_site_name_verbatim": "Ormond Beach - Arnold Road",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -607,8 +744,11 @@
    "county_site_name_verbatim": "Thornhill Broome Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -617,8 +757,11 @@
    "county_site_name_verbatim": "Sycamore Cove Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -627,8 +770,11 @@
    "county_site_name_verbatim": "County Line Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -637,8 +783,11 @@
    "county_site_name_verbatim": "Faria County Park Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   },
   {
@@ -647,8 +796,11 @@
    "county_site_name_verbatim": "Mondos Cove Beach",
    "county_status_verbatim": "Meets State standards",
    "kind": "open",
-   "read_at": "2026-09-28T20:44:43.837080+00:00",
+   "read_at": "2026-09-29T05:30:10.665103+00:00",
    "source_url": "https://services5.arcgis.com/umIjvohPcWJU5ij6/arcgis/rest/services/VCSafeBeaches/FeatureServer/0",
+   "source_name": "Ventura County Environmental Health Division",
+   "link_back_url": "https://rma.venturacounty.gov/divisions/environmental-health/ocean-water-quality-sampling-results/",
+   "link_back_verbatim": null,
    "why_unmapped": "no row in pipeline/curated/beach_status_aliases_2026.json certifies this county site"
   }
  ],
@@ -661,7 +813,7 @@
   "beaches_in_directory": 27
  },
  "absent": {
-  "san_diego": "San Diego County publishes today's beach status at sdbeachinfo.com and on (619) 338-2073. This app does not read it. The county's map is served by an application that answers a scripted request with 405, or 403 without a browser session token, and this app does not build on endpoints a site gates that way. The county has been asked for a feed.",
+  "san_diego": "San Diego County publishes today's beach status and sample results at sdbeachinfo.com and on (619) 338-2073. This list does not read it. Open sdbeachinfo.com for the most current information.",
   "los_angeles": "Los Angeles County publishes today's beach status on its own map. This app does not read it: the map carries each beach's status only as a marker colour, and no legend for those colours is published on the page or in the map data. A meaning this app guessed would be a guess a reader could not check.",
   "orange": "Orange County publishes today's beach status at ocbeachinfo.com. This app does not read it: the site refuses scripted requests, including the request for its own robots file, so this app cannot establish that automated reading is permitted.",
   "san_mateo": "San Mateo County publishes a beach map and the number above. This app does not read the map: it carries no date anywhere, so this app could not tell a reader how old a status is.",
