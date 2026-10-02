@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-10-02T05:54:14.901884+00:00",
+ "generated_at": "2026-10-02T09:37:15.161800+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -13,11 +13,11 @@
    "schema_version": 1,
    "dataset_version": "2026.10.01",
    "read_at": "2026-10-01",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T20:12:48.219455+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -28,11 +28,11 @@
    "schema_version": 1,
    "dataset_version": null,
    "read_at": "2026-10-02T05:42:37.055692+00:00",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-02T05:42:39.490407+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operator_schedules.json",
@@ -43,11 +43,11 @@
    "schema_version": 1,
    "dataset_version": "2026.09.27",
    "read_at": "2026-09-27",
-   "age_days": 4,
+   "age_days": 5,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-27T19:03:24.637291+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -58,11 +58,11 @@
    "schema_version": 2,
    "dataset_version": "2026.09.25",
    "read_at": "2026-09-25",
-   "age_days": 6,
+   "age_days": 7,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T19:16:40.373551+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -73,11 +73,11 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 15,
+   "age_days": 16,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864076+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -88,11 +88,11 @@
    "schema_version": 1,
    "dataset_version": "2026.09.16",
    "read_at": "2026-09-16",
-   "age_days": 15,
+   "age_days": 16,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -103,11 +103,11 @@
    "schema_version": 2,
    "dataset_version": "2026.10.01",
    "read_at": "2026-10-01",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T23:51:50.126436+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "in_season_status_current.json",
@@ -118,26 +118,25 @@
    "schema_version": 1,
    "dataset_version": "2026.10.01",
    "read_at": "2026-10-01",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T19:44:35.922964+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "876f3f3428da0f67adfb64049c0384a1fc11a3861cb9f62c9f6ac58b5109ef7b",
+   "sha256": "94d7bd6b21e77e41bf1f96b61058a955ae5d752436cb11ee0e48b322ca50d9fa",
    "bytes": 42709,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-10-02T00:39:07.354467+00:00",
+   "read_at": "2026-10-02T09:37:14.501271+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-10-02T00:39:07.891066+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-10-02T09:37:15.048045+00:00"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -148,10 +147,11 @@
    "schema_version": 1,
    "dataset_version": null,
    "read_at": "2026-10-02T05:53:55.389228+00:00",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-10-02T05:54:14.785198+00:00"
+   "state": "unchanged",
+   "published_at": "2026-10-02T05:54:14.785198+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -162,11 +162,11 @@
    "schema_version": 1,
    "dataset_version": "2026.10.01",
    "read_at": "2026-10-01",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T19:43:54.606396+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
@@ -177,11 +177,11 @@
    "schema_version": 1,
    "dataset_version": null,
    "read_at": "2026-10-01T20:09:32.739666+00:00",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T20:09:36.579286+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -192,11 +192,11 @@
    "schema_version": 1,
    "dataset_version": null,
    "read_at": "2026-09-25T02:52:28.416997+00:00",
-   "age_days": 7,
+   "age_days": 8,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -207,11 +207,11 @@
    "schema_version": 1,
    "dataset_version": null,
    "read_at": "2026-10-01T15:45:52-07:00",
-   "age_days": 0,
+   "age_days": 1,
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-01T22:45:52.904832+00:00",
-   "note": "this run published only the 'beach_water_quality' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   }
  ]
 }
