@@ -72,11 +72,13 @@ stays thirty days with its reason. A table that fails to load or validate publis
 
 `verification_current.json` says what this project RE-READ and never what it found in the
 text. Every row is one source: the address, the moment the request was made, the sha256 and
-fetch time of the shipped snapshot it was compared against, and one of three words. **A
-source that changed shows no new value anywhere in this app** — the redline and promote path
-is the only thing that moves a value and it ends at a person — so `changed_pending_review`
-means a change is under review and carries the day this project saw it, and the app goes on
-showing the text it last checked. A source that could not be reached says `unreachable`, which
+fetch time of the shipped snapshot it was compared against, and one of three words. **A value
+moves only through the redline and promote path**: for a source this project reads by itself, a
+change that passes this app's automated checks is published and a change that is held or
+withdrawn is not; for a source whose values a person enters, nothing moves until that person's
+edit is published. So `changed_pending_review` means the newest read differs from the read the
+published values were taken from, carries the day this project saw it, and the app goes on
+showing the text it published before that change. A source that could not be reached says `unreachable`, which
 is a different fact from `unchanged` and used to be indistinguishable from it. The file's own
 two-day clock is the only way freshness can lapse now, and past it the app says its daily
 check has not run and names the date. The domains this lane does NOT re-read are listed in the
