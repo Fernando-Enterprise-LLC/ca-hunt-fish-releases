@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.11",
- "published_at": "2026-10-11T17:30:48.645947+00:00",
+ "dataset_version": "2026.10.11.1",
+ "published_at": "2026-10-11T19:11:01.953125+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "bf8fbd88efd349a3114c3fd08968aeaad445a1f56958083cc98069c074028ab4",
+   "sha256": "e07b190ffc31232310161468c6aef4e905dc45fbc425979de0531ead45355861",
    "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "472736ec55edb01de52c5885c556bee9c5a030be182c86cda0d795daec221916",
+   "sha256": "1d43e0c225bc86760d89230844acc5d2f5e1ebd7e6ec963c168b2bf343f460ef",
    "bytes": 556964
   },
   {
@@ -42,7 +42,7 @@
    "name": "ocean_species.json",
    "domain": "ocean",
    "corpus": "records[]",
-   "sha256": "db899e4d20e9f292ca11b8247b6e6e25b9a1ee4ae5871b572ce5554ac82efd4b",
+   "sha256": "000d8af5237fe107834b9b61753e5602eea488f051926cee1f92e66b220465ba",
    "bytes": 66608
   },
   {
@@ -70,7 +70,7 @@
    "name": "hunt_waterfowl.json",
    "domain": "birds",
    "corpus": "records[]",
-   "sha256": "1b300a820082ab020603918924304a6d426fb1c0313dd1abbdd3b76de94f4ce2",
+   "sha256": "ec4d142fe1075a979b0e1fe69ed4c2500f1864cf872038b3319133be58e403ff",
    "bytes": 14891
   },
   {
@@ -189,36 +189,36 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "f53726d7c3f714923137ccff2eb651a259f25f6c7c7987a778cb3b9ec5022e41",
+   "sha256": "faf3458382ef566f8ed6cccb30e9220e2f2e426c88aaaad3c5b2b1dfca6846d2",
    "bytes": 63023
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "c4dac7335a4465a37ebcd6afb1a5ec40fad0a11ce7c71c064523f13c6bb6fd46",
+   "sha256": "b4bf635dd810023404e04c3572c5e8bb27a4be89df82d792cce7e0d46b925a12",
    "bytes": 23829
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "07fe72ff43e559c2c6aa2aa19c3ca1a3f588d7619519654c0e537869ebd905dc",
-   "bytes": 416435
+   "sha256": "b99b2eecd14c3621575509d04b086baa5789efc7c56eba246ef0439585396309",
+   "bytes": 416437
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "71a5d1b50f6320837d9a756fad60739227b1a721f1618a8f921e532730e49f94",
-   "bytes": 12701
+   "sha256": "9bf8bf88622313aef1bfbf7948009e0e7d5e601848f12ea2205b1171ceb201c6",
+   "bytes": 12703
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "59d076bf1c3a7dbada90988a7afd61bf4d493ddb38df2a646fd011dd02ce50f6",
-   "bytes": 57858
+   "sha256": "b57d7a09994d7efe218bf85353f9e0c8aed983cbf65e4261a307d075d80bfb65",
+   "bytes": 57860
   },
   {
    "name": "licenses_fees.json",
@@ -238,7 +238,7 @@
    "name": "spearfishing.json",
    "domain": "spearfishing",
    "corpus": "records[]",
-   "sha256": "86ed7dc81d07f0d0ad2982a61edbe2de123adac159b8759bf4652c21cdfd1824",
+   "sha256": "76cbaca5eac3441afb630c930cc80a38880cc39ebbef6ff552f2ed4e0949f2f3",
    "bytes": 8801
   },
   {
@@ -469,7 +469,7 @@
    "name": "species_media.json",
    "domain": "species_media",
    "corpus": "species[]",
-   "sha256": "7a93dfb2141d42e5961af7f1dd6fb9e4d5effeaa2a8ad26da707555ffefd4e85",
+   "sha256": "c232fdeb6d70f3d43886ea1e25438434a45d45e6f48cf129da4f9c4fb448dc58",
    "bytes": 626679
   },
   {
@@ -483,7 +483,7 @@
    "name": "licence_agreements.json",
    "domain": "licence_agreements",
    "corpus": "records[]",
-   "sha256": "53c4506a34936160e53f03c59e4b43e18291141c6db4d144b5675c9911b43a39",
+   "sha256": "bd03c38118a1b3030ab784fb8db4b3cdb33d70e0fe3ae5c1016181ab5eca5cc1",
    "bytes": 2666
   }
  ],
