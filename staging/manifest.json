@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.03",
- "published_at": "2026-10-03T18:11:05.253153+00:00",
+ "dataset_version": "2026.10.11",
+ "published_at": "2026-10-11T17:30:48.645947+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "272676740b7c1bc0ca5e9b50687c0b54a21c5738f1be335d382cc6e57b896530",
-   "bytes": 694187
+   "sha256": "bf8fbd88efd349a3114c3fd08968aeaad445a1f56958083cc98069c074028ab4",
+   "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "6cf76caad837e9600ec41da029bb6623baa60aeda3f5e8149d0b9786925a0c63",
+   "sha256": "472736ec55edb01de52c5885c556bee9c5a030be182c86cda0d795daec221916",
    "bytes": 556964
   },
   {
@@ -42,8 +42,8 @@
    "name": "ocean_species.json",
    "domain": "ocean",
    "corpus": "records[]",
-   "sha256": "891ac7b5b148910ff2d01ace232fae207993c85b9fa2e5106718716699d9da73",
-   "bytes": 66395
+   "sha256": "db899e4d20e9f292ca11b8247b6e6e25b9a1ee4ae5871b572ce5554ac82efd4b",
+   "bytes": 66608
   },
   {
    "name": "hunt_big_game.json",
@@ -70,8 +70,8 @@
    "name": "hunt_waterfowl.json",
    "domain": "birds",
    "corpus": "records[]",
-   "sha256": "5a1142c3b85e98d79296c51c27643d82bf0a6e1539175706a4b71a0a28e21872",
-   "bytes": 14887
+   "sha256": "1b300a820082ab020603918924304a6d426fb1c0313dd1abbdd3b76de94f4ce2",
+   "bytes": 14891
   },
   {
    "name": "hunt_upland.json",
@@ -189,36 +189,36 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "daf213db745bc87fe9fdb43b6f7715107666b0d0b56b7ab8f6d6b5219f814415",
-   "bytes": 63197
+   "sha256": "f53726d7c3f714923137ccff2eb651a259f25f6c7c7987a778cb3b9ec5022e41",
+   "bytes": 63023
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "37cfda636dbe9c62fdf9b932c3a908f17161543f2fdb92c4c0ac293274ae0900",
+   "sha256": "c4dac7335a4465a37ebcd6afb1a5ec40fad0a11ce7c71c064523f13c6bb6fd46",
    "bytes": 23829
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "5bfbf9a16eede9032fe73e93ff3a73af992cea8fac97a221524e614572ef579a",
-   "bytes": 416288
+   "sha256": "07fe72ff43e559c2c6aa2aa19c3ca1a3f588d7619519654c0e537869ebd905dc",
+   "bytes": 416435
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "549cbe22f42d9330d9972f3e7d6d7ef0e1a367bb5a7ad3b34e73543c1fca2c27",
-   "bytes": 23649
+   "sha256": "71a5d1b50f6320837d9a756fad60739227b1a721f1618a8f921e532730e49f94",
+   "bytes": 12701
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "8894f8599c099f2962722fdb4ecb7b23029927526228aae7037d2dd095dcc4ba",
-   "bytes": 57414
+   "sha256": "59d076bf1c3a7dbada90988a7afd61bf4d493ddb38df2a646fd011dd02ce50f6",
+   "bytes": 57858
   },
   {
    "name": "licenses_fees.json",
@@ -238,8 +238,8 @@
    "name": "spearfishing.json",
    "domain": "spearfishing",
    "corpus": "records[]",
-   "sha256": "c754bf7968ab6ea6faaef30a5c0fb48a1b09388772f8b37acabd09f5571fad13",
-   "bytes": 8721
+   "sha256": "86ed7dc81d07f0d0ad2982a61edbe2de123adac159b8759bf4652c21cdfd1824",
+   "bytes": 8801
   },
   {
    "name": "shark_incidents.json",
@@ -469,8 +469,8 @@
    "name": "species_media.json",
    "domain": "species_media",
    "corpus": "species[]",
-   "sha256": "5f05d7fc362a9a69981c34d9aeefa4fde8567d1f2e7fabe4d769d0b52e1492be",
-   "bytes": 600177
+   "sha256": "7a93dfb2141d42e5961af7f1dd6fb9e4d5effeaa2a8ad26da707555ffefd4e85",
+   "bytes": 626679
   },
   {
    "name": "planner_coverage.json",
@@ -483,14 +483,14 @@
    "name": "licence_agreements.json",
    "domain": "licence_agreements",
    "corpus": "records[]",
-   "sha256": "b6de6000141a5f6be1eab99f4eaf6e4d912b9ba936d2e5fce80e4bda0179cba8",
-   "bytes": 2438
+   "sha256": "53c4506a34936160e53f03c59e4b43e18291141c6db4d144b5675c9911b43a39",
+   "bytes": 2666
   }
  ],
  "domains": [
   {
    "id": "freshwater",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "source_revision": "2026-10-01",
    "threshold_days": 45,
    "edition": "2026",
@@ -501,7 +501,7 @@
   },
   {
    "id": "mpa",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "source_revision": "2025-09-30",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/CCR-T14-MPAs",
@@ -532,7 +532,7 @@
   },
   {
    "id": "birds",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 60
   },
   {
@@ -565,7 +565,7 @@
   },
   {
    "id": "ocean",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 10,
    "edition": "2026",
    "edition_published_verbatim": "2026 Ocean Sport Fishing Regulations (PDF)",
@@ -581,25 +581,25 @@
   },
   {
    "id": "stocking",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 14
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 7
   },
   {
    "id": "operator_schedules",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 7
   },
   {
    "id": "licenses",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "edition_read_at": "2026-09-15",
@@ -717,7 +717,7 @@
   },
   {
    "id": "methods",
-   "verified_at": "2026-10-01",
+   "verified_at": "2026-10-11",
    "curation_status": "verified",
    "threshold_days": 90
   },
@@ -751,7 +751,7 @@
   },
   {
    "id": "waterfowl_results_current",
-   "verified_at": "2026-10-02",
+   "verified_at": "2026-10-09",
    "threshold_days": 10
   },
   {
@@ -766,7 +766,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-10-02",
+   "verified_at": "2026-10-10",
    "threshold_days": 2
   },
   {
@@ -785,7 +785,7 @@
   },
   {
    "id": "licence_agreements",
-   "verified_at": "2026-09-24",
+   "verified_at": "2026-10-03",
    "curation_status": "draft_pending_user_verification",
    "non_regulatory": true,
    "threshold_days": 365
