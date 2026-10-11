@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.03",
- "published_at": "2026-10-03T18:11:05.253153+00:00",
+ "dataset_version": "2026.10.04",
+ "published_at": "2026-10-05T06:56:47.986012+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
@@ -469,8 +469,8 @@
    "name": "species_media.json",
    "domain": "species_media",
    "corpus": "species[]",
-   "sha256": "5f05d7fc362a9a69981c34d9aeefa4fde8567d1f2e7fabe4d769d0b52e1492be",
-   "bytes": 600177
+   "sha256": "8ffcddf7feda876f87e0672b04138c73ced46a8f8a652e3e89b8e03ae43de214",
+   "bytes": 626411
   },
   {
    "name": "planner_coverage.json",
@@ -483,8 +483,8 @@
    "name": "licence_agreements.json",
    "domain": "licence_agreements",
    "corpus": "records[]",
-   "sha256": "b6de6000141a5f6be1eab99f4eaf6e4d912b9ba936d2e5fce80e4bda0179cba8",
-   "bytes": 2438
+   "sha256": "bd03c38118a1b3030ab784fb8db4b3cdb33d70e0fe3ae5c1016181ab5eca5cc1",
+   "bytes": 2666
   }
  ],
  "domains": [
@@ -785,7 +785,7 @@
   },
   {
    "id": "licence_agreements",
-   "verified_at": "2026-09-24",
+   "verified_at": "2026-10-03",
    "curation_status": "draft_pending_user_verification",
    "non_regulatory": true,
    "threshold_days": 365
