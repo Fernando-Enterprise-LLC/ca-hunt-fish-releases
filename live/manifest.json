@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-10-12T01:20:01.065742+00:00",
+ "generated_at": "2026-10-12T06:03:38.400758+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -21,17 +21,17 @@
   },
   {
    "name": "mop_nearshore_current.json",
-   "sha256": "ebbf60a9c30fdb1eeb8b6d8843bacde71fadec12746606c92ab2b15439003c07",
-   "bytes": 531256,
+   "sha256": "9e5c9f7b0550b3f0132bcdf33734079d94f270165eb15f499cdf920f796c0735",
+   "bytes": 518064,
    "domain": "mop_nearshore_current",
    "threshold_days": 2,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-10-12T01:19:55.479710+00:00",
+   "read_at": "2026-10-12T06:03:35.920942+00:00",
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-10-12T01:19:57.890906+00:00"
+   "published_at": "2026-10-12T06:03:38.248328+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -179,8 +179,9 @@
    "read_at": "2026-10-12T01:17:52.177503+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-10-12T01:17:56.646799+00:00"
+   "state": "unchanged",
+   "published_at": "2026-10-12T01:17:56.646799+00:00",
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
