@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.04",
- "published_at": "2026-10-05T06:56:47.986012+00:00",
+ "dataset_version": "2026.10.11.1",
+ "published_at": "2026-10-11T19:11:01.953125+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "272676740b7c1bc0ca5e9b50687c0b54a21c5738f1be335d382cc6e57b896530",
-   "bytes": 694187
+   "sha256": "e07b190ffc31232310161468c6aef4e905dc45fbc425979de0531ead45355861",
+   "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "6cf76caad837e9600ec41da029bb6623baa60aeda3f5e8149d0b9786925a0c63",
+   "sha256": "1d43e0c225bc86760d89230844acc5d2f5e1ebd7e6ec963c168b2bf343f460ef",
    "bytes": 556964
   },
   {
@@ -42,8 +42,8 @@
    "name": "ocean_species.json",
    "domain": "ocean",
    "corpus": "records[]",
-   "sha256": "891ac7b5b148910ff2d01ace232fae207993c85b9fa2e5106718716699d9da73",
-   "bytes": 66395
+   "sha256": "000d8af5237fe107834b9b61753e5602eea488f051926cee1f92e66b220465ba",
+   "bytes": 66608
   },
   {
    "name": "hunt_big_game.json",
@@ -70,8 +70,8 @@
    "name": "hunt_waterfowl.json",
    "domain": "birds",
    "corpus": "records[]",
-   "sha256": "5a1142c3b85e98d79296c51c27643d82bf0a6e1539175706a4b71a0a28e21872",
-   "bytes": 14887
+   "sha256": "ec4d142fe1075a979b0e1fe69ed4c2500f1864cf872038b3319133be58e403ff",
+   "bytes": 14891
   },
   {
    "name": "hunt_upland.json",
@@ -189,36 +189,36 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "daf213db745bc87fe9fdb43b6f7715107666b0d0b56b7ab8f6d6b5219f814415",
-   "bytes": 63197
+   "sha256": "faf3458382ef566f8ed6cccb30e9220e2f2e426c88aaaad3c5b2b1dfca6846d2",
+   "bytes": 63023
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "37cfda636dbe9c62fdf9b932c3a908f17161543f2fdb92c4c0ac293274ae0900",
+   "sha256": "b4bf635dd810023404e04c3572c5e8bb27a4be89df82d792cce7e0d46b925a12",
    "bytes": 23829
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "5bfbf9a16eede9032fe73e93ff3a73af992cea8fac97a221524e614572ef579a",
-   "bytes": 416288
+   "sha256": "b99b2eecd14c3621575509d04b086baa5789efc7c56eba246ef0439585396309",
+   "bytes": 416437
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "549cbe22f42d9330d9972f3e7d6d7ef0e1a367bb5a7ad3b34e73543c1fca2c27",
-   "bytes": 23649
+   "sha256": "9bf8bf88622313aef1bfbf7948009e0e7d5e601848f12ea2205b1171ceb201c6",
+   "bytes": 12703
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "8894f8599c099f2962722fdb4ecb7b23029927526228aae7037d2dd095dcc4ba",
-   "bytes": 57414
+   "sha256": "b57d7a09994d7efe218bf85353f9e0c8aed983cbf65e4261a307d075d80bfb65",
+   "bytes": 57860
   },
   {
    "name": "licenses_fees.json",
@@ -238,8 +238,8 @@
    "name": "spearfishing.json",
    "domain": "spearfishing",
    "corpus": "records[]",
-   "sha256": "c754bf7968ab6ea6faaef30a5c0fb48a1b09388772f8b37acabd09f5571fad13",
-   "bytes": 8721
+   "sha256": "76cbaca5eac3441afb630c930cc80a38880cc39ebbef6ff552f2ed4e0949f2f3",
+   "bytes": 8801
   },
   {
    "name": "shark_incidents.json",
@@ -469,8 +469,8 @@
    "name": "species_media.json",
    "domain": "species_media",
    "corpus": "species[]",
-   "sha256": "8ffcddf7feda876f87e0672b04138c73ced46a8f8a652e3e89b8e03ae43de214",
-   "bytes": 626411
+   "sha256": "c232fdeb6d70f3d43886ea1e25438434a45d45e6f48cf129da4f9c4fb448dc58",
+   "bytes": 626679
   },
   {
    "name": "planner_coverage.json",
@@ -490,7 +490,7 @@
  "domains": [
   {
    "id": "freshwater",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "source_revision": "2026-10-01",
    "threshold_days": 45,
    "edition": "2026",
@@ -501,7 +501,7 @@
   },
   {
    "id": "mpa",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "source_revision": "2025-09-30",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/CCR-T14-MPAs",
@@ -532,7 +532,7 @@
   },
   {
    "id": "birds",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 60
   },
   {
@@ -565,7 +565,7 @@
   },
   {
    "id": "ocean",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 10,
    "edition": "2026",
    "edition_published_verbatim": "2026 Ocean Sport Fishing Regulations (PDF)",
@@ -581,25 +581,25 @@
   },
   {
    "id": "stocking",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 14
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 7
   },
   {
    "id": "operator_schedules",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "curation_status": "attributed",
    "threshold_days": 7
   },
   {
    "id": "licenses",
-   "verified_at": "2026-10-03",
+   "verified_at": "2026-10-11",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "edition_read_at": "2026-09-15",
@@ -717,7 +717,7 @@
   },
   {
    "id": "methods",
-   "verified_at": "2026-10-01",
+   "verified_at": "2026-10-11",
    "curation_status": "verified",
    "threshold_days": 90
   },
@@ -751,7 +751,7 @@
   },
   {
    "id": "waterfowl_results_current",
-   "verified_at": "2026-10-02",
+   "verified_at": "2026-10-09",
    "threshold_days": 10
   },
   {
@@ -766,7 +766,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-10-02",
+   "verified_at": "2026-10-10",
    "threshold_days": 2
   },
   {
