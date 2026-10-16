@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.12",
- "published_at": "2026-10-12T01:21:07.970267+00:00",
+ "dataset_version": "2026.10.15",
+ "published_at": "2026-10-16T00:55:41.631953+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
@@ -14,7 +14,7 @@
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "1d43e0c225bc86760d89230844acc5d2f5e1ebd7e6ec963c168b2bf343f460ef",
+   "sha256": "c90100b72d7c2fa38c24e75b92851c38175068ea98f431df0432dd57354235dc",
    "bytes": 556964
   },
   {
@@ -210,15 +210,15 @@
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "9bf8bf88622313aef1bfbf7948009e0e7d5e601848f12ea2205b1171ceb201c6",
-   "bytes": 12703
+   "sha256": "d51ddf01af85c2493f2f780370ae8169958024d204e2d86ea478e3b3f967b224",
+   "bytes": 14847
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "b57d7a09994d7efe218bf85353f9e0c8aed983cbf65e4261a307d075d80bfb65",
-   "bytes": 57860
+   "sha256": "3d9d366ff402320a9a595af1ddd14e1d5ab9c0e17e87f73ab4d1e007610957bd",
+   "bytes": 57679
   },
   {
    "name": "licenses_fees.json",
@@ -357,8 +357,8 @@
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
    "corpus": "records[]",
-   "sha256": "6862e27b1691501c5eaaf52f78d52e5a1243a98f704ed9b6f12023080e1dc82d",
-   "bytes": 4684060
+   "sha256": "042b1096574611dc9ae05d0bc3afcbceebe7e3e9246d00ac1e2878fc3daf6e6b",
+   "bytes": 4682204
   },
   {
    "name": "geo/lakes_points.geojson",
@@ -476,8 +476,8 @@
    "name": "planner_coverage.json",
    "domain": "planner_coverage",
    "corpus": "groups[]",
-   "sha256": "53079c0a82cc68aa6a1c8406e4a7f3c63e1b191c23ebcdb201662e89f5382f72",
-   "bytes": 106266
+   "sha256": "cdfa412ba53213f881be8a1773ef589fe9e4676245785ee0807f327427af5f3e",
+   "bytes": 106510
   },
   {
    "name": "licence_agreements.json",
@@ -587,13 +587,13 @@
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-15",
    "curation_status": "attributed",
    "threshold_days": 7
   },
   {
    "id": "operator_schedules",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-15",
    "curation_status": "attributed",
    "threshold_days": 7
   },
@@ -717,7 +717,7 @@
   },
   {
    "id": "methods",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-15",
    "curation_status": "verified",
    "threshold_days": 90
   },
@@ -766,7 +766,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-10-10",
+   "verified_at": "2026-10-15",
    "threshold_days": 2
   },
   {
