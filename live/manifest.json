@@ -1,23 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-10-29T20:11:52.557756+00:00",
+ "generated_at": "2026-10-29T20:15:59.286453+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "f9e86b99a3414869a4f7dd2c1331d3a909afd3f35be8d4fb452c6150b3ab4bfe",
-   "bytes": 14232,
+   "sha256": "6c3c1b38ddb682b558ccfae3a93bc7c3d497d7d75f46924887c771bf934d051b",
+   "bytes": 14592,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.10.27",
-   "read_at": "2026-10-27",
-   "age_days": 2,
+   "dataset_version": "2026.10.29",
+   "read_at": "2026-10-29",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-10-27T20:08:02.265601+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-10-29T20:15:59.096662+00:00"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -30,8 +29,9 @@
    "read_at": "2026-10-29T19:48:53.131610+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-10-29T19:48:54.330457+00:00"
+   "state": "unchanged",
+   "published_at": "2026-10-29T19:48:54.330457+00:00",
+   "note": "CDIP's model was read 0.4 hours ago, inside the 6-hour re-read interval"
   },
   {
    "name": "operator_schedules.json",
@@ -44,9 +44,9 @@
    "read_at": "2026-10-15",
    "age_days": 14,
    "past_its_clock": true,
-   "state": "unchanged",
+   "state": "held",
    "published_at": "2026-10-15T19:09:03.493224+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the operator pages could not be read this run, so nothing was published. The file already at live/ keeps its own read date. HTTPError: 404 Client Error: Not Found for url: https://download.collinslake.com/Fish_Planting_Log_2026.pdf"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -61,7 +61,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-23T19:01:58.619744+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 6 days ago; its clock is 10 days and the refetch interval is 7"
   },
   {
    "name": "trip_pack.json",
@@ -76,7 +76,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-16T18:42:29.085676+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 13 days ago; its clock is 365 days and the refetch interval is 30"
   },
   {
    "name": "operators.json",
@@ -89,9 +89,9 @@
    "read_at": "2026-09-16",
    "age_days": 43,
    "past_its_clock": true,
-   "state": "unchanged",
+   "state": "held",
    "published_at": "2026-09-16T04:39:50.864281+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the operator directory did not survive its own gates, so nothing was published and the file already at live/ keeps its own read date. DraftRefusal: operators_2026.json is owner-verified (on 2026-09-15) and this drafter will not overwrite it \u2014 `force` no longer does either.\nA re-draft of a 304'd source regenerates identical values and the only visible effect is that the sign-off vanishes.\nA NEW EDITION writes a NEW FILE: pass the new edition year so the drafter writes curated/<stem>_<year>.json, and this one stays on disk as the evidence of what this app told people in its year.\nTo genuinely re-verify THIS edition, move the file aside by hand \u2014 that is a deliberate act with an author, which is the whole point."
   },
   {
    "name": "notices_current.json",
@@ -106,7 +106,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T19:31:54.205996+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 0 days ago; its clock is 2 days and the refetch interval is 1"
   },
   {
    "name": "in_season_status_current.json",
@@ -119,8 +119,9 @@
    "read_at": "2026-10-29",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-10-29T19:46:56.670929+00:00"
+   "state": "unchanged",
+   "published_at": "2026-10-29T19:46:56.670929+00:00",
+   "note": "the published statuses were evaluated 0 days ago from this curated table; its clock is two days and it is re-evaluated at 1"
   },
   {
    "name": "beach_status_current.json",
@@ -135,22 +136,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T18:22:37.495403+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the newest county read in the published copy was 1.9 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
   },
   {
    "name": "beach_water_quality_current.json",
-   "sha256": "2313735c9d276a9307cbd4c0518c89685384d57d4d5fbca59e9c8b4f3056fb98",
-   "bytes": 230256,
+   "sha256": "f1ba6101f3dc19e47e1c6e5a6eb0f9596fb95c1f88b2f44be8d617d1fbf04a25",
+   "bytes": 230180,
    "domain": "beach_water_quality_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-10-29T13:21:36.630868+00:00",
+   "read_at": "2026-10-29T20:15:07.216840+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-10-29T13:21:55.917212+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-10-29T20:15:59.107931+00:00"
   },
   {
    "name": "verification_current.json",
@@ -165,7 +165,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T19:46:11.208864+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
   },
   {
    "name": "water_clarity_current.json",
@@ -178,8 +178,9 @@
    "read_at": "2026-10-29T20:11:48.043657+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-10-29T20:11:51.150337+00:00"
+   "state": "unchanged",
+   "published_at": "2026-10-29T20:11:51.150337+00:00",
+   "note": "NOAA's grid was read 0.1 hours ago, inside the 20-hour re-read interval, and both products publish one composite a day"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -194,22 +195,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "CDFW's listing still names 2016 as the newest statewide survey, and the published layer was read 35 days ago, inside the 365-day re-read interval"
   },
   {
    "name": "deer_tags_current.json",
-   "sha256": "79ea40d0099cc26e0f307f15bdcda60fdc79117f4cc0412a97d1fdc812c96633",
+   "sha256": "fb7f9143edddf847f4704da5501f298e0bda3be099445d3b157bd5657a5a222c",
    "bytes": 28189,
    "domain": "deer_tags",
    "threshold_days": 2,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-10-28T15:40:08-07:00",
-   "age_days": 1,
+   "read_at": "2026-10-29T13:15:07-07:00",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-10-28T22:40:08.915037+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-10-29T20:15:59.286413+00:00"
   }
  ]
 }
