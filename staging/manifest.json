@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.15",
- "published_at": "2026-10-16T00:55:41.631953+00:00",
+ "dataset_version": "2026.10.30",
+ "published_at": "2026-10-30T02:34:30.035828+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
@@ -14,7 +14,7 @@
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "c90100b72d7c2fa38c24e75b92851c38175068ea98f431df0432dd57354235dc",
+   "sha256": "1d43e0c225bc86760d89230844acc5d2f5e1ebd7e6ec963c168b2bf343f460ef",
    "bytes": 556964
   },
   {
@@ -189,36 +189,36 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "faf3458382ef566f8ed6cccb30e9220e2f2e426c88aaaad3c5b2b1dfca6846d2",
-   "bytes": 63023
+   "sha256": "66b559138476040e093a9bb2d5ab66135434b803b336e413e6165f67e5544eb9",
+   "bytes": 63022
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "b4bf635dd810023404e04c3572c5e8bb27a4be89df82d792cce7e0d46b925a12",
-   "bytes": 23829
+   "sha256": "7eae5639425466a61d58b69497c5ad0752f2ec71a99c52eb16a8fb7eec243aae",
+   "bytes": 23784
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "b99b2eecd14c3621575509d04b086baa5789efc7c56eba246ef0439585396309",
-   "bytes": 416437
+   "sha256": "423b098f2fa43c7863fc1477a3e2917545cd9c97c712f386f58571b9e510a22c",
+   "bytes": 398924
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "d51ddf01af85c2493f2f780370ae8169958024d204e2d86ea478e3b3f967b224",
-   "bytes": 14847
+   "sha256": "63681c7f86eb5f817b499b18861abc9da0053c68248febff2f567fe992c0a7cf",
+   "bytes": 16338
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "3d9d366ff402320a9a595af1ddd14e1d5ab9c0e17e87f73ab4d1e007610957bd",
-   "bytes": 57679
+   "sha256": "68c5a981e18a7f94a1040e9b0b8f3d43632c5d41b02351f3dac7e49b82cac48b",
+   "bytes": 60303
   },
   {
    "name": "licenses_fees.json",
@@ -329,8 +329,8 @@
    "name": "spear_featured_sites.json",
    "domain": "spear_featured_sites",
    "corpus": "sites[]",
-   "sha256": "7356cb462b3c3f624b4a5f4c209891156dc51311d7627560fca17a1f8fc909d3",
-   "bytes": 55193
+   "sha256": "2ff42b672777f17abfe9c776759e5ca8511abc22b2f01d665d20f8638470809c",
+   "bytes": 54822
   },
   {
    "name": "spear_derived_metadata.json",
@@ -357,8 +357,8 @@
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
    "corpus": "records[]",
-   "sha256": "042b1096574611dc9ae05d0bc3afcbceebe7e3e9246d00ac1e2878fc3daf6e6b",
-   "bytes": 4682204
+   "sha256": "8075cc507b7d14be901de58d0a1fd3ca102967ae05f295f9a0f3e2782a63713c",
+   "bytes": 4681351
   },
   {
    "name": "geo/lakes_points.geojson",
@@ -476,7 +476,7 @@
    "name": "planner_coverage.json",
    "domain": "planner_coverage",
    "corpus": "groups[]",
-   "sha256": "cdfa412ba53213f881be8a1773ef589fe9e4676245785ee0807f327427af5f3e",
+   "sha256": "16186d1f7cd7bd0615025ca42ae8c7d7ae01952fe5f74ed7f28b134cbf476955",
    "bytes": 106510
   },
   {
@@ -490,7 +490,7 @@
  "domains": [
   {
    "id": "freshwater",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "source_revision": "2026-10-01",
    "threshold_days": 45,
    "edition": "2026",
@@ -501,7 +501,7 @@
   },
   {
    "id": "mpa",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "source_revision": "2025-09-30",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/CCR-T14-MPAs",
@@ -512,6 +512,9 @@
    "id": "deer",
    "verified_at": "2026-08-28",
    "curation_status": "verified",
+   "source_changed_since_verification": true,
+   "source_read_at": "2026-10-29",
+   "source_change_detail": "deer_zone_takes_2026.json pins f6aa10e90595\u2026 of fgc_mammal_regs.pdf; the snapshot holds fdbe51c22820\u2026; deer_tag_validity_2026.json pins f6aa10e90595\u2026 of fgc_mammal_regs.pdf; the snapshot holds fdbe51c22820\u2026; deer_hunt_takes_2026.json pins f6aa10e90595\u2026 of fgc_mammal_regs.pdf; the snapshot holds fdbe51c22820\u2026",
    "threshold_days": 60,
    "edition": "2026-2027",
    "edition_published_verbatim": "2026-2027 CALIFORNIA MAMMAL HUNTING REGULATIONS / UPDATED JULY 1, 2026",
@@ -523,6 +526,9 @@
    "id": "big_game",
    "verified_at": "2026-08-30",
    "curation_status": "verified",
+   "source_changed_since_verification": true,
+   "source_read_at": "2026-10-29",
+   "source_change_detail": "big_game_2026.json pins f6aa10e90595\u2026 of fgc_mammal_regs.pdf; the snapshot holds fdbe51c22820\u2026",
    "threshold_days": 60,
    "edition": "2026-2027",
    "edition_published_verbatim": "2026-2027 CALIFORNIA MAMMAL HUNTING REGULATIONS / UPDATED JULY 1, 2026",
@@ -532,7 +538,7 @@
   },
   {
    "id": "birds",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "threshold_days": 60
   },
   {
@@ -565,7 +571,7 @@
   },
   {
    "id": "ocean",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "threshold_days": 10,
    "edition": "2026",
    "edition_published_verbatim": "2026 Ocean Sport Fishing Regulations (PDF)",
@@ -581,13 +587,13 @@
   },
   {
    "id": "stocking",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "curation_status": "attributed",
    "threshold_days": 14
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-10-15",
+   "verified_at": "2026-10-29",
    "curation_status": "attributed",
    "threshold_days": 7
   },
@@ -599,7 +605,7 @@
   },
   {
    "id": "licenses",
-   "verified_at": "2026-10-11",
+   "verified_at": "2026-10-29",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "edition_read_at": "2026-09-15",
@@ -609,6 +615,9 @@
    "id": "shooting_places",
    "verified_at": "2026-09-01",
    "curation_status": "verified",
+   "source_changed_since_verification": true,
+   "source_read_at": "2026-10-29",
+   "source_change_detail": "shooting_places_2026.json pins f6aa10e90595\u2026 of fgc_mammal_regs.pdf; the snapshot holds fdbe51c22820\u2026",
    "threshold_days": 60,
    "edition": "2026-2027",
    "edition_published_verbatim": "2026-2027 CALIFORNIA MAMMAL HUNTING REGULATIONS / UPDATED JULY 1, 2026",
@@ -717,7 +726,7 @@
   },
   {
    "id": "methods",
-   "verified_at": "2026-10-15",
+   "verified_at": "2026-10-29",
    "curation_status": "verified",
    "threshold_days": 90
   },
@@ -751,12 +760,12 @@
   },
   {
    "id": "waterfowl_results_current",
-   "verified_at": "2026-10-09",
+   "verified_at": "2026-10-23",
    "threshold_days": 10
   },
   {
    "id": "trip_pack",
-   "verified_at": "2026-09-12",
+   "verified_at": "2026-10-16",
    "threshold_days": 365
   },
   {
@@ -766,7 +775,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-10-15",
+   "verified_at": "2026-10-29",
    "threshold_days": 2
   },
   {
