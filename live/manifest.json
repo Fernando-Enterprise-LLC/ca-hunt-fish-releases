@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-11-04T21:27:38.234341+00:00",
+ "generated_at": "2026-11-04T23:34:28.312657+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -17,7 +17,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-03T21:11:34.940513+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -32,7 +32,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T20:58:39.753620+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operator_schedules.json",
@@ -47,7 +47,7 @@
    "past_its_clock": true,
    "state": "unchanged",
    "published_at": "2026-11-03T21:11:34.949628+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -62,7 +62,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-30T20:04:57.860206+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -77,7 +77,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-16T18:42:29.085676+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -92,22 +92,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T23:13:03.949454+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
-   "sha256": "4ec4a97e2119ee67e7950342a4dfeb2df844d5bc6a8435ee4dfc6b4b57a1a1dd",
-   "bytes": 37946,
+   "sha256": "dd9fe152dafc2def9f3fa0bcf0177e9ba93de10282a294acfbe8d2cac1c3748f",
+   "bytes": 38406,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
-   "dataset_version": "2026.11.03",
-   "read_at": "2026-11-03",
-   "age_days": 1,
+   "dataset_version": "2026.11.04",
+   "read_at": "2026-11-04",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-03T21:11:34.950422+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-04T23:34:28.180895+00:00"
   },
   {
    "name": "in_season_status_current.json",
@@ -122,7 +121,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T20:56:27.141347+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_status_current.json",
@@ -135,8 +134,9 @@
    "read_at": "2026-11-04T21:27:37.795424+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-04T21:27:38.106342+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-04T21:27:38.106342+00:00",
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -151,7 +151,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T19:55:07.862946+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -166,7 +166,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T20:55:34.246140+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
@@ -181,7 +181,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T21:21:28.436062+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -196,7 +196,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -211,7 +211,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-04T19:50:08.029452+00:00",
-   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'notices' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   }
  ]
 }
