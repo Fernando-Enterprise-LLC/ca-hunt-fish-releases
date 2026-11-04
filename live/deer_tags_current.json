@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "domain": "deer_tags",
- "generated_at": "2026-11-03T20:41:20.977127+00:00",
- "read_at": "2026-11-03T12:41:20-08:00",
+ "generated_at": "2026-11-04T19:50:07.811496+00:00",
+ "read_at": "2026-11-04T11:50:07-08:00",
  "read_at_rule": "`read_at` is the moment this project last confirmed that CDFW's slot was serving the bytes described in `source`: the download itself, or a later conditional request CDFW answered with 'not modified'. It is never the list's own time. The list's own time is `as_of_verbatim`, CDFW's sentence, quoted.",
  "nothing_derived_rule": "Every row is CDFW's own TAG CODE, HUNT NAME and QUANTITY as printed. `quantity_int` is the printed QUANTITY with its thousands separators removed, and nothing else in this file is computed: no total, no rate, no change since the previous list, and no statement about a tag the list does not name beyond the one in `absence_rule`.",
  "absence_rule": "CDFW's list names only the tags it says are available for purchase at the time in its own sentence. A booklet hunt that is not on it is stated as exactly that: not on CDFW's Available Deer Tags list as of that time. The list gives no reason for an absence, so this file gives none.",
@@ -16,7 +16,7 @@
   "sha256": "be6a222244eb6378ac37981d4696405ba5a0f5c04907891ab920a8aa67ba5d88",
   "bytes": 94926,
   "source_filename": "2026 Available Deer Tags List 11-3.pdf",
-  "fetched_at": "2026-11-03T20:41:20.793238+00:00",
+  "fetched_at": "2026-11-03T21:11:33.799741+00:00",
   "last_modified": "Tue, 03 Nov 2026 18:40:41 GMT",
   "text_extractor": "pdfplumber"
  },
