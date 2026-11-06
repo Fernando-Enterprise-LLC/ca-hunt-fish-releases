@@ -2,9 +2,9 @@
  "schema_version": 1,
  "domain": "verification_current",
  "threshold_days": 2,
- "dataset_version": "2026.11.05",
- "read_at": "2026-11-05",
- "checked_at": "2026-11-05T21:19:17.293614+00:00",
+ "dataset_version": "2026.11.06",
+ "read_at": "2026-11-06",
+ "checked_at": "2026-11-06T20:33:34.116530+00:00",
  "read_at_rule": "Every time in this file is a fact about a past read. Nothing here states a cadence this project promises to keep or a latency a reader may rely on.",
  "nothing_derived_rule": "This file carries no regulation, season, date, limit, fee or sentence from any source. It carries the address this project re-read, the moment it re-read it, the digest of the bytes it compared against, and one of three words.",
  "fold_rule": "A domain's result is the worst of its own sources' results, worst first: changed_pending_review, then unreachable, then unchanged. That is the only reduction performed anywhere in this file. No value from any source appears here.",
@@ -23,7 +23,7 @@
   "basis": "This is the cadence on which this project RE-READS its sources. It is not a claim about how often any source changes, and no screen states one."
  },
  "watches_expected": 42,
- "watches_failed": 1,
+ "watches_failed": 0,
  "checks": [
   {
    "domain": "big_game",
@@ -31,7 +31,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -40,10 +40,10 @@
     "snapshot": "pdf/big_game_digest.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "big_game",
@@ -51,7 +51,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -60,7 +60,7 @@
     "snapshot": "pdf/fgc_mammal_regs.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-26",
@@ -72,7 +72,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -81,10 +81,10 @@
     "snapshot": "edition/cdfw_hunting_digest",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "birds",
@@ -92,7 +92,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -101,10 +101,10 @@
     "snapshot": "html_table/waterfowl.html",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "birds",
@@ -112,7 +112,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -121,10 +121,10 @@
     "snapshot": "html_table/upland.html",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "birds",
@@ -132,7 +132,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Hunting/Small-Game",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -141,10 +141,10 @@
     "snapshot": "html_table/small_game.html",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "birds",
@@ -152,7 +152,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -161,10 +161,10 @@
     "snapshot": "edition/cdfw_waterfowl",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "birds",
@@ -172,7 +172,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Upland-Game-Birds",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -181,10 +181,10 @@
     "snapshot": "edition/cdfw_upland",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -192,7 +192,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168214",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -201,10 +201,10 @@
     "snapshot": "pdf/deer_seasons_by_zone.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -212,7 +212,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168216",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -221,10 +221,10 @@
     "snapshot": "pdf/deer_archery_hunts.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -232,7 +232,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=168215",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -241,10 +241,10 @@
     "snapshot": "pdf/deer_additional_hunts.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -252,7 +252,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=153938",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -261,10 +261,10 @@
     "snapshot": "pdf/deer_tag_classification.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -272,7 +272,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -281,10 +281,10 @@
     "snapshot": "pdf/big_game_digest.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -292,7 +292,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -301,7 +301,7 @@
     "snapshot": "pdf/fgc_mammal_regs.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-26",
@@ -313,7 +313,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -322,10 +322,10 @@
     "snapshot": "edition/cdfw_hunting_digest",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
@@ -333,7 +333,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Deer",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -342,10 +342,10 @@
     "snapshot": "edition/cdfw_deer",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "freshwater",
@@ -353,7 +353,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": "edited 2026-11-02 after last fetch 2026-10-30",
    "compared_to": {
@@ -362,7 +362,7 @@
     "snapshot": "rfr/regulations.json",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-11-01"
@@ -373,7 +373,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=209090",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -382,10 +382,10 @@
     "snapshot": "pdf/freshwater_regs_booklet.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "freshwater",
@@ -393,7 +393,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -402,10 +402,10 @@
     "snapshot": "edition/cdfw_regulations_index",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "hunt_zones",
@@ -413,7 +413,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=109005",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -422,10 +422,10 @@
     "snapshot": "pdf/tree_squirrel_zone_map.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "hunt_zones",
@@ -433,7 +433,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=110418",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -442,10 +442,10 @@
     "snapshot": "pdf/crow_zone_map.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "licenses",
@@ -453,7 +453,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Hunting/Items",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -462,10 +462,10 @@
     "snapshot": "html_table/hunt_fees.html",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "licenses",
@@ -473,7 +473,7 @@
    "source_family": "html_table",
    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": "the parsed tables at https://wildlife.ca.gov/Licensing/Fishing moved: 6 tables / 32 rows at the last fetch, 6 / 32 now. These pages publish no edition marker and no revision date, so this content digest is the only detector they have.",
    "compared_to": {
@@ -482,7 +482,7 @@
     "snapshot": "html_table/fishing_licensing.html",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-29"
@@ -493,7 +493,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -502,7 +502,7 @@
     "snapshot": "pdf/fgc_mammal_regs.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-26",
@@ -514,7 +514,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -523,10 +523,10 @@
     "snapshot": "pdf/bird_regs_booklet.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "methods",
@@ -534,7 +534,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=200602",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -543,10 +543,10 @@
     "snapshot": "pdf/big_game_digest.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "mpa",
@@ -554,7 +554,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/California_Marine_Protected_Areas/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -563,10 +563,10 @@
     "snapshot": "mpa/mpas.json",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
@@ -574,7 +574,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/News/Archive",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -583,10 +583,10 @@
     "snapshot": "notice/cdfw_news_rss",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
@@ -594,7 +594,7 @@
    "source_family": "notice",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Inseason",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -603,10 +603,10 @@
     "snapshot": "notice/cdfw_ocean_inseason",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
@@ -614,7 +614,7 @@
    "source_family": "notice",
    "source_url": "https://fgc.ca.gov/Regulations",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -623,10 +623,10 @@
     "snapshot": "notice/fgc_new_and_proposed",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
@@ -634,7 +634,7 @@
    "source_family": "notice",
    "source_url": "https://www.federalregister.gov",
    "agency": "the Federal Register",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -643,10 +643,10 @@
     "snapshot": "notice/federal_register",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
@@ -654,7 +654,7 @@
    "source_family": "notice",
    "source_url": "https://www.fisheries.noaa.gov",
    "agency": "NOAA Fisheries",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -663,10 +663,10 @@
     "snapshot": "notice/noaa_bulletins",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "ocean",
@@ -674,7 +674,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -683,10 +683,10 @@
     "snapshot": "pdf/ocean_regs_booklet.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "ocean",
@@ -694,7 +694,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -703,10 +703,10 @@
     "snapshot": "edition/cdfw_ocean_regulations",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "ocean",
@@ -714,7 +714,7 @@
    "source_family": "rss",
    "source_url": "https://cdfwmarine.wordpress.com/feed/",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -723,7 +723,7 @@
     "snapshot": "ocean/mmn_rss.xml",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-19",
@@ -735,7 +735,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -744,7 +744,7 @@
     "snapshot": "pdf/fgc_mammal_regs.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-26",
@@ -756,7 +756,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=203137",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -765,10 +765,10 @@
     "snapshot": "pdf/bird_regs_booklet.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "shooting_hours",
@@ -776,7 +776,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -785,10 +785,10 @@
     "snapshot": "edition/cdfw_waterfowl",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "shooting_places",
@@ -796,7 +796,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
    "agency": "the Fish and Game Commission",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": null,
    "compared_to": {
@@ -805,7 +805,7 @@
     "snapshot": "pdf/fgc_mammal_regs.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-26",
@@ -817,7 +817,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Publications/Hunting-Digest",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -826,10 +826,10 @@
     "snapshot": "edition/cdfw_hunting_digest",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "spearfishing",
@@ -837,7 +837,7 @@
    "source_family": "pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -846,10 +846,10 @@
     "snapshot": "pdf/ocean_regs_booklet.pdf",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "spearfishing",
@@ -857,7 +857,7 @@
    "source_family": "edition",
    "source_url": "https://wildlife.ca.gov/Fishing/Ocean/Regulations",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -866,10 +866,10 @@
     "snapshot": "edition/cdfw_ocean_regulations",
     "absent_reason": "no snapshot metadata for this payload on this machine \u2014 snapshot payloads are gitignored and the archive was not restored"
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "stocking",
@@ -877,7 +877,7 @@
    "source_family": "arcgis",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds2897_fmu/FeatureServer",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": null,
    "compared_to": {
@@ -886,10 +886,10 @@
     "snapshot": "stocking/cdfw_plants.json",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "stocking",
@@ -897,19 +897,19 @@
    "source_family": "rss",
    "source_url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
    "agency": "the City of Escondido",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
-   "result": "unreachable",
-   "detail": "rss:escondido_fish_reports: HTTPSConnectionPool(host='www.escondido.gov', port=443): Max retries exceeded with url: /RSSFeed.aspx?ModID=1&CID=Fish-Report-12 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.escondido.gov', port=443) at 0x73938a98dfa0>, 'Connection to www.escondido.gov timed out. (connect timeout=60)'))",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
+   "result": "unchanged",
+   "detail": null,
    "compared_to": {
-    "sha256": "4ca5ca4537fad28f8ce148fd562130cefb78fe4b6e7b7a1b367849dc23dc6708",
-    "fetched_at": "2026-11-03T21:11:15.840912+00:00",
+    "sha256": "13a0f84ecf004d6ecd2b56193d52684dc5aa3280368ee64ba4fabe07960f5143",
+    "fetched_at": "2026-11-05T22:04:20.943536+00:00",
     "snapshot": "stocking/escondido_rss.xml",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
-   "consecutive_unreachable": 1,
-   "unreachable_since": "2026-11-05",
-   "last_unchanged_at": "2026-11-04"
+   "next_check_by": "2026-11-08",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "stocking",
@@ -917,16 +917,16 @@
    "source_family": "rss",
    "source_url": "https://www.fishinglakes.com/category/stocking-videos/feed/",
    "agency": "Santa Ana River Lakes",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
-   "result": "unchanged",
-   "detail": null,
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
+   "result": "changed_pending_review",
+   "detail": "new or republished first item",
    "compared_to": {
     "sha256": "edd8ee9a520abe9059e8c6d386f99576265088dbfcee134db7a9f63da3f07feb",
-    "fetched_at": "2026-11-03T21:11:16.198200+00:00",
+    "fetched_at": "2026-11-05T22:04:21.270084+00:00",
     "snapshot": "stocking/fishinglakes_rss.xml",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-11-05"
@@ -937,16 +937,16 @@
    "source_family": "plants",
    "source_url": "https://nrm.dfg.ca.gov/FishPlants/PublicPlantSearch",
    "agency": "CDFW",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
-   "detail": "+10 / -0 rows vs last pull",
+   "detail": "+5 / -0 rows vs last pull",
    "compared_to": {
-    "sha256": "166ec7fd0838394a2529b4973f17fd3d2a0a1c21dd57a34fa3487d1ec5b68218",
-    "fetched_at": "2026-11-03T21:11:15.106914+00:00",
+    "sha256": "f1e2f579df26f4fe3e670b2b542b810dcd2a49047feff09961e6da00d753ccd4",
+    "fetched_at": "2026-11-05T22:04:20.419778+00:00",
     "snapshot": "plants/plants_current.json",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-30"
@@ -957,19 +957,19 @@
    "source_family": "lake_quote",
    "source_url": "https://www.escondido.gov/m/newsflash/home/detail/100",
    "agency": "City of Escondido",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
-   "result": "unreachable",
-   "detail": "https://www.escondido.gov/458/Fishing-Information did not answer: ConnectTimeout: HTTPSConnectionPool(host='www.escondido.gov', port=443): Max retries exceeded with url: /458/Fishing-Information (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.escondido.gov', port=443) at 0x7c74a8e2dc70>, 'Connection to www.escondido.gov timed out. (connect timeout=45)')) (two attempts); https://www.escondido.gov/m/newsflash/home/detail/100 did not answer: ConnectTimeout: HTTPSConnectionPool(host='www.escondido.gov', port=443): Max retries exceeded with url: /m/newsflash/home/detail/100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.escondido.gov', port=443) at 0x7c74a8e8fe30>, 'Connection to www.escondido.gov timed out. (connect timeout=45)')) (two attempts)",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
+   "result": "unchanged",
+   "detail": "5 strings re-read on the operator's own pages (1 quoted sentence, 4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
     "sha256": "f5715a83814ca04ebfe2b21a26bc2196733e4ff6e93efe5a8026f47ecc7c098e",
     "fetched_at": "2026-08-28",
     "snapshot": "dataset/current/lakes.json#lake-dixon",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
-   "consecutive_unreachable": 1,
-   "unreachable_since": "2026-11-05",
-   "last_unchanged_at": "2026-11-04"
+   "next_check_by": "2026-11-08",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -977,19 +977,19 @@
    "source_family": "lake_quote",
    "source_url": "https://www.escondido.gov/597/Fishing-Information",
    "agency": "City of Escondido",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
-   "result": "unreachable",
-   "detail": "https://www.escondido.gov/597/Fishing-Information did not answer: ConnectTimeout: HTTPSConnectionPool(host='www.escondido.gov', port=443): Max retries exceeded with url: /597/Fishing-Information (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.escondido.gov', port=443) at 0x7c74ab61c620>, 'Connection to www.escondido.gov timed out. (connect timeout=45)')) (two attempts)",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
+   "result": "unchanged",
+   "detail": "3 strings re-read on the operator's own pages (3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
     "sha256": "e4cb6be7d9940340a86c8ffe7beb85b8597b8c097c04289ca62dbda802458fc7",
     "fetched_at": "2026-08-28",
     "snapshot": "dataset/current/lakes.json#lake-wohlford",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
-   "consecutive_unreachable": 1,
-   "unreachable_since": "2026-11-05",
-   "last_unchanged_at": "2026-11-04"
+   "next_check_by": "2026-11-08",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -997,19 +997,19 @@
    "source_family": "lake_quote",
    "source_url": "https://poway.org/420/Fishing",
    "agency": "City of Poway",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
-   "result": "unreachable",
-   "detail": "https://poway.org/420/Fishing did not answer: ConnectTimeout: HTTPSConnectionPool(host='poway.org', port=443): Max retries exceeded with url: /420/Fishing (Caused by ConnectTimeoutError(<HTTPSConnection(host='poway.org', port=443) at 0x7c74ab61d5e0>, 'Connection to poway.org timed out. (connect timeout=45)')) (two attempts)",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
+   "result": "unchanged",
+   "detail": "4 strings re-read on the operator's own pages (4 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
     "sha256": "1cc9be647b077c19e9ada13f630ba3eb14d2ec9a3dea2adf3f7924a2ab12af99",
     "fetched_at": "2026-08-28",
     "snapshot": "dataset/current/lakes.json#lake-poway",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
-   "consecutive_unreachable": 1,
-   "unreachable_since": "2026-11-05",
-   "last_unchanged_at": "2026-11-04"
+   "next_check_by": "2026-11-08",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -1017,7 +1017,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.santeelakes.com/fishing-2/",
    "agency": "Padre Dam Municipal Water District",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1026,10 +1026,10 @@
     "snapshot": "dataset/current/lakes.json#santee-lakes",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -1037,7 +1037,7 @@
    "source_family": "lake_quote",
    "source_url": "https://lakejennings.org/see-and-do/fishing/",
    "agency": "Helix Water District",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": "4 strings re-read on the operator's own pages (1 quoted sentence, 3 published prices); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1046,10 +1046,10 @@
     "snapshot": "dataset/current/lakes.json#lake-jennings",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -1057,7 +1057,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.lakecuyamaca.org/fishing-fees",
    "agency": "Lake Cuyamaca Recreation & Park District",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": "1 of 3 strings this app shows (3 published prices) was not found on the pages this record names, which answered. Nothing moves on the phone: a person opens the page and the redline-and-promote path is the only thing that changes a value.",
    "compared_to": {
@@ -1066,7 +1066,7 @@
     "snapshot": "dataset/current/lakes.json#lake-cuyamaca",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-09-28"
@@ -1077,7 +1077,7 @@
    "source_family": "lake_quote",
    "source_url": "https://www.fishinglakes.com/",
    "agency": "Fishing Lakes, Inc. (private)",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": "1 string re-read on the operator's own pages (1 quoted sentence); it was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1086,10 +1086,10 @@
     "snapshot": "dataset/current/lakes.json#santa-ana-river-lakes",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
@@ -1097,7 +1097,7 @@
    "source_family": "lake_quote",
    "source_url": "https://parks.oc.gov/parks-trails/irvine-lake",
    "agency": "OC Parks",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "unchanged",
    "detail": "2 strings re-read on the operator's own pages (1 quoted sentence, 1 published price); every one was still there. This lake's RULES are a person's read and are not compared.",
    "compared_to": {
@@ -1106,10 +1106,10 @@
     "snapshot": "dataset/current/lakes.json#irvine-lake",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes_directory",
@@ -1217,16 +1217,16 @@
    "source_family": "lake_directory_quote",
    "source_url": "https://parks.sbcounty.gov/park/cucamonga-guasti-regional-park/",
    "agency": "San Bernardino County Regional Parks",
-   "checked_at": "2026-10-30T19:32:10.308348+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "result": "changed_pending_review",
    "detail": "Rotation night 6 of 7: 67 records re-read against the pages they cite (185 quoted sentences, 132 published prices); 7 records show a string that was not found on a page that answered. Nothing moves on the phone: a person opens the page and the redline is the only thing that changes a value. 110 of 196 records carry no page sentence to compare; 19 are on hosts not yet read.",
    "compared_to": {
     "sha256": "40fc0e6d50dff5d6b09d6d19a552b4dd4120849a44fafeb5a32ea5bccac71c44",
-    "fetched_at": "2026-10-30",
+    "fetched_at": "2026-11-06",
     "snapshot": "dataset/current/lakes_directory.json#rotation-5",
     "absent_reason": null
    },
-   "next_check_by": "2026-11-06",
+   "next_check_by": "2026-11-13",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": null
@@ -1256,9 +1256,9 @@
   {
    "domain": "big_game",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "the Fish and Game Commission",
    "source": "fgc_mammal_regs.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
@@ -1270,23 +1270,23 @@
   {
    "domain": "birds",
    "result": "unchanged",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 5,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "waterfowl.html",
    "source_url": "https://wildlife.ca.gov/Hunting/Waterfowl",
    "changed_at": null,
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "deer",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 8,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "the Fish and Game Commission",
    "source": "fgc_mammal_regs.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
@@ -1298,13 +1298,13 @@
   {
    "domain": "freshwater",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "rfr_regulations",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/RFRService/FeatureServer",
-   "changed_at": "2026-11-05",
+   "changed_at": "2026-11-06",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-11-01"
@@ -1312,41 +1312,41 @@
   {
    "domain": "hunt_zones",
    "result": "unchanged",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 2,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "tree_squirrel_zone_map.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=109005",
    "changed_at": null,
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "lakes",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 8,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "Lake Cuyamaca Recreation & Park District",
    "source": "lake-cuyamaca",
    "source_url": "https://www.lakecuyamaca.org/fishing-fees",
-   "changed_at": "2026-11-05",
-   "consecutive_unreachable": 1,
+   "changed_at": "2026-11-06",
+   "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-09-28"
   },
   {
    "domain": "lakes_directory",
    "result": "changed_pending_review",
-   "checked_at": "2026-10-30T19:32:10.308348+00:00",
+   "checked_at": "2026-10-31T18:41:54.710377+00:00",
    "sources_checked": 7,
    "next_check_by": "2026-11-08",
    "agency": "Modoc National Forest, Warner Mountain Ranger District - South Warner",
    "source": "rotation_night_0",
    "source_url": "https://www.fs.usda.gov/r05/modoc/recreation/mill-creek-falls-campground",
-   "changed_at": "2026-10-30",
+   "changed_at": "2026-10-31",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": null
@@ -1354,13 +1354,13 @@
   {
    "domain": "licenses",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 2,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "fishing_licensing.html",
    "source_url": "https://wildlife.ca.gov/Licensing/Fishing",
-   "changed_at": "2026-11-05",
+   "changed_at": "2026-11-06",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-29"
@@ -1368,9 +1368,9 @@
   {
    "domain": "methods",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "the Fish and Game Commission",
    "source": "fgc_mammal_regs.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
@@ -1382,37 +1382,37 @@
   {
    "domain": "mpa",
    "result": "unchanged",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 1,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "mpa",
    "source_url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/California_Marine_Protected_Areas/FeatureServer",
    "changed_at": null,
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "notices_current",
    "result": "unchanged",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 5,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "cdfw_news_rss",
    "source_url": "https://wildlife.ca.gov/News/Archive",
    "changed_at": null,
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "ocean",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "marine_management_news",
    "source_url": "https://cdfwmarine.wordpress.com/feed/",
@@ -1424,9 +1424,9 @@
   {
    "domain": "shooting_hours",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "the Fish and Game Commission",
    "source": "fgc_mammal_regs.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
@@ -1438,9 +1438,9 @@
   {
    "domain": "shooting_places",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 2,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "the Fish and Game Commission",
    "source": "fgc_mammal_regs.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=202568",
@@ -1452,41 +1452,41 @@
   {
    "domain": "spearfishing",
    "result": "unchanged",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 2,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "ocean_regs_booklet.pdf",
    "source_url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=239985",
    "changed_at": null,
    "consecutive_unreachable": 0,
    "unreachable_since": null,
-   "last_unchanged_at": "2026-11-05"
+   "last_unchanged_at": "2026-11-06"
   },
   {
    "domain": "stocking",
-   "result": "unreachable",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "result": "changed_pending_review",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 3,
-   "next_check_by": "2026-11-07",
-   "agency": "the City of Escondido",
-   "source": "escondido_fish_reports",
-   "source_url": "https://www.escondido.gov/RSSFeed.aspx?ModID=1&CID=Fish-Report-12",
-   "changed_at": null,
-   "consecutive_unreachable": 1,
-   "unreachable_since": "2026-11-05",
-   "last_unchanged_at": "2026-11-04"
+   "next_check_by": "2026-11-08",
+   "agency": "Santa Ana River Lakes",
+   "source": "fishinglakes_stocking",
+   "source_url": "https://www.fishinglakes.com/category/stocking-videos/feed/",
+   "changed_at": "2026-11-06",
+   "consecutive_unreachable": 0,
+   "unreachable_since": null,
+   "last_unchanged_at": "2026-11-05"
   },
   {
    "domain": "stocking_current",
    "result": "changed_pending_review",
-   "checked_at": "2026-11-05T21:19:17.293614+00:00",
+   "checked_at": "2026-11-06T20:33:34.116530+00:00",
    "sources_checked": 1,
-   "next_check_by": "2026-11-07",
+   "next_check_by": "2026-11-08",
    "agency": "CDFW",
    "source": "cdfw_fish_plants",
    "source_url": "https://nrm.dfg.ca.gov/FishPlants/PublicPlantSearch",
-   "changed_at": "2026-11-05",
+   "changed_at": "2026-11-06",
    "consecutive_unreachable": 0,
    "unreachable_since": null,
    "last_unchanged_at": "2026-10-30"
