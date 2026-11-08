@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-11-08T19:43:42.686697+00:00",
+ "generated_at": "2026-11-08T21:56:32.391050+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -15,8 +15,9 @@
    "read_at": "2026-11-08",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-08T19:43:42.582155+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-08T19:43:42.582155+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -31,7 +32,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T19:11:58.136831+00:00",
-   "note": "CDIP's model was read 0.5 hours ago, inside the 6-hour re-read interval"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operator_schedules.json",
@@ -44,8 +45,9 @@
    "read_at": "2026-10-15",
    "age_days": 24,
    "past_its_clock": true,
-   "state": "published",
-   "published_at": "2026-11-08T19:43:42.588810+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-08T19:43:42.588810+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -60,7 +62,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-06T21:03:39.894736+00:00",
-   "note": "the published copy was read 2 days ago; its clock is 10 days and the refetch interval is 7"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -75,7 +77,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-16T18:42:29.085676+00:00",
-   "note": "the published copy was read 23 days ago; its clock is 365 days and the refetch interval is 30"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -90,7 +92,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T23:13:03.949454+00:00",
-   "note": "the published copy was read 10 days ago; its clock is 30 days and the refetch interval is 25"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -105,7 +107,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T16:37:12.307035+00:00",
-   "note": "the published copy was read 0 days ago; its clock is 2 days and the refetch interval is 1"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "in_season_status_current.json",
@@ -120,22 +122,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T19:10:02.729505+00:00",
-   "note": "the published statuses were evaluated 0 days ago from this curated table; its clock is two days and it is re-evaluated at 1"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "d96dea71d014caa0f6cce26f8b05bdb327ac89a39ca32e9dac6a09ce46f7fafb",
+   "sha256": "a18a51b1e95b6d4655ba66cb68c878ccdbaf4d5e3b31cc32ecd210c5827b459e",
    "bytes": 42543,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-11-08T17:52:29.232804+00:00",
+   "read_at": "2026-11-08T21:56:31.771655+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-08T17:52:29.555124+00:00",
-   "note": "the newest county read in the published copy was 1.8 hours ago; the payload's own clock is 6 hours and the refetch interval is 3"
+   "state": "published",
+   "published_at": "2026-11-08T21:56:32.258588+00:00"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -150,7 +151,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T13:41:20.379104+00:00",
-   "note": "the published counties' readings were read 6.0 hours ago, inside the 6-hour re-read interval"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -165,7 +166,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T19:09:13.766983+00:00",
-   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
@@ -180,7 +181,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T19:34:58.381507+00:00",
-   "note": "NOAA's grid was read 0.1 hours ago, inside the 20-hour re-read interval, and both products publish one composite a day"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -195,7 +196,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "CDFW's listing still names 2016 as the newest statewide survey, and the published layer was read 45 days ago, inside the 365-day re-read interval"
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -208,8 +209,9 @@
    "read_at": "2026-11-08T11:39:20-08:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-08T19:43:42.686677+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-08T19:43:42.686677+00:00",
+   "note": "this run published only the 'beach_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   }
  ]
 }
