@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.11.08",
- "generated_at": "2026-11-08T19:43:42.551597+00:00",
+ "dataset_version": "2026.11.10",
+ "generated_at": "2026-11-10T21:30:59.214911+00:00",
  "curation_status": "attributed",
  "attribution_note": "Every row in this file is an OPERATOR'S published statement, quoted with its source and the date this app read it \u2014 never asserted as fact and never merged with CDFW's records. Agreement between an operator and CDFW is two rows; disagreement is two rows.",
  "read_at": "2026-10-15",
@@ -80,7 +80,7 @@
    "operator_stamp_text": null,
    "page_modified": "2026-09-04T22:25:08+00:00",
    "page_modified_basis": "article:modified_time",
-   "read_at": "2026-11-06",
+   "read_at": "2026-11-10",
    "caveats": [
     "All dates and lakes subject to change. All stocks will be 1000lbs. unless specified otherwise. Most stocks will arrive by Friday of the week listed. Stocked lakes are closed to fishing on stock days, they are available to fish the following day."
    ],
@@ -90,8 +90,7 @@
    "heading_text": null,
    "quotes": [],
    "assets": [],
-   "transcription": null,
-   "read_note": "today's fetch was refused: not the operator's page (santee_fishing.html: HTTP 200, but its <title> is 'One moment, please...', which does not carry the page marker 'Fishing - Santee Lakes')"
+   "transcription": null
   },
   {
    "source_id": "santee-lakes-catfish-2026",
@@ -116,7 +115,7 @@
    "operator_stamp_text": null,
    "page_modified": "2026-09-04T22:25:08+00:00",
    "page_modified_basis": "article:modified_time",
-   "read_at": "2026-11-06",
+   "read_at": "2026-11-10",
    "caveats": [
     "*Dates and lakes are subject to change. Stocked lakes will be closed to fishing on day of stock."
    ],
@@ -126,8 +125,7 @@
    "heading_text": null,
    "quotes": [],
    "assets": [],
-   "transcription": null,
-   "read_note": "today's fetch was refused: not the operator's page (santee_fishing.html: HTTP 200, but its <title> is 'One moment, please...', which does not carry the page marker 'Fishing - Santee Lakes')"
+   "transcription": null
   },
   {
    "source_id": "escondido-lake-dixon-fish-report",
@@ -153,7 +151,7 @@
    "operator_stamp_text": "Last Updated on October 16, 2026",
    "page_modified": "2026-10-16",
    "page_modified_basis": "span#article-header-date \u2014 'Last Updated on \u2026', the operator's own printed stamp",
-   "read_at": "2026-11-08",
+   "read_at": "2026-11-10",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -187,7 +185,7 @@
    "operator_stamp_text": "Last Updated on October 16, 2026",
    "page_modified": "2026-10-16",
    "page_modified_basis": "span#article-header-date \u2014 'Last Updated on \u2026', the operator's own printed stamp",
-   "read_at": "2026-11-08",
+   "read_at": "2026-11-10",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -211,16 +209,16 @@
    "never_fetched": false,
    "policy_reason": null,
    "covers_start": "2026-09-22",
-   "covers_end": "2026-10-28",
+   "covers_end": "2026-11-10",
    "species": [
     "Trout"
    ],
-   "status_at_build": "expired",
+   "status_at_build": "current",
    "operator_stamp": null,
    "operator_stamp_text": null,
    "page_modified": null,
    "page_modified_basis": null,
-   "read_at": "2026-11-08",
+   "read_at": "2026-11-10",
    "caveats": [
     "We stock trout throughout the year, weather permitting. Typically last stock is May/June - depending on water temperature and conditions.",
     "Additional stocks possible of catfish or panfish when available/in season."
@@ -265,7 +263,7 @@
    "quotes": [],
    "assets": [],
    "transcription": null,
-   "read_note": "this app could not reach the operator's page when it last asked, on 2026-11-08; showing the read of 2026-10-15"
+   "read_note": "the planting log the operator's page links was not found (HTTP 404) when this app last asked, on 2026-11-03; showing the read of 2026-10-15"
   },
   {
    "source_id": "santa-ana-river-lakes-stocking-videos",
@@ -291,7 +289,7 @@
    "operator_stamp_text": null,
    "page_modified": "2026-11-06",
    "page_modified_basis": "RSS channel lastBuildDate",
-   "read_at": "2026-11-08",
+   "read_at": "2026-11-10",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -322,7 +320,7 @@
    "operator_stamp_text": "November 2026",
    "page_modified": null,
    "page_modified_basis": null,
-   "read_at": "2026-11-08",
+   "read_at": "2026-11-10",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -976,6 +974,20 @@
   {
    "source_id": "cuyamaca-recent-stocks",
    "kind": "occurred",
+   "week_of": "2026-11-08",
+   "week_end": "2026-11-14",
+   "date": "2026-11-10",
+   "date_precision": "day",
+   "species": "Trout",
+   "quantity_text": "1,200lbs",
+   "detail": "1,200lbs rainbow trout from CDFW - Mojave",
+   "verbatim": "November 10th, 2026 - 1,200lbs rainbow trout from CDFW - Mojave",
+   "attribution": "Lake Cuyamaca Recreation & Park District states",
+   "date_text": "November 10th, 2026"
+  },
+  {
+   "source_id": "cuyamaca-recent-stocks",
+   "kind": "occurred",
    "week_of": "2026-10-25",
    "week_end": "2026-10-31",
    "date": "2026-10-28",
@@ -1515,14 +1527,12 @@
     {
      "quote": "No State fishing license required; a fishing permit from the General Store, Gatehouse or our Santee Lakes\u2019 App is all you need!",
      "url": "https://www.santeelakes.com/fishing-2/",
-     "read_at": "2026-11-06",
-     "read_note": "today's fetch was refused: not the operator's page (santee_fishing.html: HTTP 200, but its <title> is 'One moment, please...', which does not carry the page marker 'Fishing - Santee Lakes')"
+     "read_at": "2026-11-10"
     },
     {
      "quote": "The District may require anglers over the age of sixteen to obtain a valid California State Fishing License issued by the California Department of Fish and Game.",
      "url": "https://www.santeelakes.com/the-fish-report/",
-     "read_at": "2026-11-06",
-     "read_note": "today's fetch was refused: not the operator's page (santee_the_fish_report.html: HTTP 200, but its <title> is 'One moment, please...', which does not carry the page marker 'The Fish Report & FAQs - Santee Lakes')"
+     "read_at": "2026-11-10"
     }
    ]
   }
