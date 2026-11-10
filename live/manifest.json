@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-11-10T20:59:06.833461+00:00",
+ "generated_at": "2026-11-10T21:00:58.607762+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -17,22 +17,21 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-08T19:43:42.582155+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "mop_nearshore_current.json",
-   "sha256": "d7376f5338ea4b8cdff65c847acb3d194dcaa0dc0a822f6b5d11a363ad32a8f2",
-   "bytes": 534633,
+   "sha256": "fd26466289009603036a8003e8cc3c77bbb0935692dc92690794c67fc09a7a13",
+   "bytes": 522286,
    "domain": "mop_nearshore_current",
    "threshold_days": 2,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-11-10T19:47:37.097672+00:00",
+   "read_at": "2026-11-10T21:00:54.862925+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-10T19:47:38.991015+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-10T21:00:56.762943+00:00"
   },
   {
    "name": "operator_schedules.json",
@@ -47,7 +46,7 @@
    "past_its_clock": true,
    "state": "unchanged",
    "published_at": "2026-11-08T19:43:42.588810+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -62,7 +61,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-06T21:03:39.894736+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "trip_pack.json",
@@ -77,7 +76,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-16T18:42:29.085676+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "operators.json",
@@ -92,7 +91,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-10-29T23:13:03.949454+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "notices_current.json",
@@ -107,7 +106,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T20:46:58.625292+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "in_season_status_current.json",
@@ -136,7 +135,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T19:37:17.649408+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -151,7 +150,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T19:52:53.591008+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "verification_current.json",
@@ -166,7 +165,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T20:58:11.969633+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "water_clarity_current.json",
@@ -181,7 +180,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T00:06:23.486278+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -196,7 +195,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   },
   {
    "name": "deer_tags_current.json",
@@ -211,7 +210,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-10T19:48:48.806392+00:00",
-   "note": "this run published only the 'in_season_status' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "this run published only the 'mop_nearshore' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
   }
  ]
 }
