@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.11.11",
- "generated_at": "2026-11-11T22:02:56.438977+00:00",
+ "dataset_version": "2026.11.12",
+ "generated_at": "2026-11-12T22:05:32.417936+00:00",
  "curation_status": "attributed",
  "attribution_note": "Every row in this file is an OPERATOR'S published statement, quoted with its source and the date this app read it \u2014 never asserted as fact and never merged with CDFW's records. Agreement between an operator and CDFW is two rows; disagreement is two rows.",
  "read_at": "2026-10-15",
@@ -80,7 +80,7 @@
    "operator_stamp_text": null,
    "page_modified": "2026-09-04T22:25:08+00:00",
    "page_modified_basis": "article:modified_time",
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [
     "All dates and lakes subject to change. All stocks will be 1000lbs. unless specified otherwise. Most stocks will arrive by Friday of the week listed. Stocked lakes are closed to fishing on stock days, they are available to fish the following day."
    ],
@@ -115,7 +115,7 @@
    "operator_stamp_text": null,
    "page_modified": "2026-09-04T22:25:08+00:00",
    "page_modified_basis": "article:modified_time",
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [
     "*Dates and lakes are subject to change. Stocked lakes will be closed to fishing on day of stock."
    ],
@@ -151,7 +151,7 @@
    "operator_stamp_text": "Last Updated on October 16, 2026",
    "page_modified": "2026-10-16",
    "page_modified_basis": "span#article-header-date \u2014 'Last Updated on \u2026', the operator's own printed stamp",
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -185,7 +185,7 @@
    "operator_stamp_text": "Last Updated on October 16, 2026",
    "page_modified": "2026-10-16",
    "page_modified_basis": "span#article-header-date \u2014 'Last Updated on \u2026', the operator's own printed stamp",
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -218,7 +218,7 @@
    "operator_stamp_text": null,
    "page_modified": null,
    "page_modified_basis": null,
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [
     "We stock trout throughout the year, weather permitting. Typically last stock is May/June - depending on water temperature and conditions.",
     "Additional stocks possible of catfish or panfish when available/in season."
@@ -278,18 +278,18 @@
    "forward_schedule": false,
    "never_fetched": false,
    "policy_reason": null,
-   "covers_start": "2026-10-15",
-   "covers_end": "2026-11-05",
+   "covers_start": "2026-10-22",
+   "covers_end": "2026-11-12",
    "species": [
     "Catfish",
-    "Tilapia & Catfish"
+    "Trout"
    ],
-   "status_at_build": "expired",
+   "status_at_build": "current",
    "operator_stamp": "page_modified",
    "operator_stamp_text": null,
-   "page_modified": "2026-11-06",
+   "page_modified": "2026-11-12",
    "page_modified_basis": "RSS channel lastBuildDate",
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -320,7 +320,7 @@
    "operator_stamp_text": "November 2026",
    "page_modified": null,
    "page_modified_basis": null,
-   "read_at": "2026-11-11",
+   "read_at": "2026-11-12",
    "caveats": [],
    "closure_note": null,
    "cadence_statement": null,
@@ -375,7 +375,7 @@
     }
    ],
    "transcription": null,
-   "read_note": "today's page did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-10 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-06 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-05 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-03 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-30 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-29 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-27 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-25 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-24 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-23 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-22 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; showing the read of 2026-10-21"
+   "read_note": "today's page did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-11 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-10 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-06 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-05 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-11-03 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-30 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-29 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-27 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-25 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-24 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-23 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; the page read 2026-10-22 did not parse: https://lakejennings.org/see-and-do/fishing/our-fish-stocking/: no stocking-schedule image on the page. Its absence is either a template change or a schedule that came down; both need human eyes; showing the read of 2026-10-21"
   },
   {
    "source_id": "link-only-contra-loma-reservoir--contra-costa",
@@ -1464,6 +1464,20 @@
   {
    "source_id": "santa-ana-river-lakes-stocking-videos",
    "kind": "occurred",
+   "week_of": "2026-11-08",
+   "week_end": "2026-11-14",
+   "date": "2026-11-12",
+   "date_precision": "day",
+   "species": "Trout",
+   "quantity_text": null,
+   "detail": null,
+   "verbatim": "11/12/26 FIRST TROUT STOCKING OF THE SEASON AT SANTA ANA RIVER LAKES",
+   "attribution": "Fishing Lakes, Inc. states",
+   "date_text": "11/12/26"
+  },
+  {
+   "source_id": "santa-ana-river-lakes-stocking-videos",
+   "kind": "occurred",
    "week_of": "2026-11-01",
    "week_end": "2026-11-07",
    "date": "2026-11-05",
@@ -1502,20 +1516,6 @@
    "verbatim": "10/22/26 STOCKING BIG IMPERIAL CATFISH AT SANTA ANA RIVER LAKES",
    "attribution": "Fishing Lakes, Inc. states",
    "date_text": "10/22/26"
-  },
-  {
-   "source_id": "santa-ana-river-lakes-stocking-videos",
-   "kind": "occurred",
-   "week_of": "2026-10-11",
-   "week_end": "2026-10-17",
-   "date": "2026-10-15",
-   "date_precision": "day",
-   "species": "Tilapia & Catfish",
-   "quantity_text": null,
-   "detail": null,
-   "verbatim": "10/15/26 STOCKING HUGE TILAPIA & IMPERIAL CATFISH AT SANTA ANA RIVER LAKES",
-   "attribution": "Fishing Lakes, Inc. states",
-   "date_text": "10/15/26"
   }
  ],
  "licence_statements": [
@@ -1527,12 +1527,12 @@
     {
      "quote": "No State fishing license required; a fishing permit from the General Store, Gatehouse or our Santee Lakes\u2019 App is all you need!",
      "url": "https://www.santeelakes.com/fishing-2/",
-     "read_at": "2026-11-11"
+     "read_at": "2026-11-12"
     },
     {
      "quote": "The District may require anglers over the age of sixteen to obtain a valid California State Fishing License issued by the California Department of Fish and Game.",
      "url": "https://www.santeelakes.com/the-fish-report/",
-     "read_at": "2026-11-11"
+     "read_at": "2026-11-12"
     }
    ]
   }
