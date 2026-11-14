@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-11-14T10:03:54.517391+00:00",
+ "generated_at": "2026-11-14T17:54:36.245377+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
@@ -126,17 +126,17 @@
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "967a4fac95a2eece9748bcd9a7557b32d0c5bfe87d920344edb820ec996aa663",
+   "sha256": "102bfd2ce5cfb1b21ff12ef1bc17f60ce24a98814f08b562180130b7d9559cf2",
    "bytes": 42546,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-11-14T10:03:54.068116+00:00",
+   "read_at": "2026-11-14T17:54:35.705381+00:00",
    "age_days": 0,
    "past_its_clock": false,
    "state": "published",
-   "published_at": "2026-11-14T10:03:54.429514+00:00"
+   "published_at": "2026-11-14T17:54:36.149248+00:00"
   },
   {
    "name": "beach_water_quality_current.json",
