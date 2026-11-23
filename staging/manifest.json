@@ -1,21 +1,21 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.10.30",
- "published_at": "2026-10-30T02:34:30.035828+00:00",
+ "dataset_version": "2026.11.23",
+ "published_at": "2026-11-23T16:17:24.032784+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "e07b190ffc31232310161468c6aef4e905dc45fbc425979de0531ead45355861",
+   "sha256": "158cf912d47c84567e8a43c97a18a179449e5438a88eea16b326ae033312d70c",
    "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "1d43e0c225bc86760d89230844acc5d2f5e1ebd7e6ec963c168b2bf343f460ef",
-   "bytes": 556964
+   "sha256": "cb6eab5daaedf55ce09752b2f7d11e13c61a2f9d5340fa17f9e0941206f7b16a",
+   "bytes": 556072
   },
   {
    "name": "mpas.json",
@@ -28,8 +28,8 @@
    "name": "geo/freshwater_waters.geojson",
    "domain": "freshwater",
    "corpus": "features[]",
-   "sha256": "cfab8c6c9900396ec7f33420be7039267542ec8f0329d9584d1c2d5bccc4f132",
-   "bytes": 1947082
+   "sha256": "ccae569a1f7047ec06ae2c9e883fbb24986966848e1d46fa162c49a569d4d738",
+   "bytes": 1947116
   },
   {
    "name": "geo/mpas.geojson",
@@ -189,43 +189,43 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "66b559138476040e093a9bb2d5ab66135434b803b336e413e6165f67e5544eb9",
-   "bytes": 63022
+   "sha256": "9f535ce85b76575550b52e4e4bba242661e2944b4617bdb3545bd2b042360492",
+   "bytes": 62753
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "7eae5639425466a61d58b69497c5ad0752f2ec71a99c52eb16a8fb7eec243aae",
-   "bytes": 23784
+   "sha256": "4d7b596bc96db054c4b64290cd63b8d584ad23aa5417c0d0a16abb4c1bcec19f",
+   "bytes": 22329
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "423b098f2fa43c7863fc1477a3e2917545cd9c97c712f386f58571b9e510a22c",
-   "bytes": 398924
+   "sha256": "e51a9bf3bc52ce415bfccbf578c1ab3bb052d013df804130e0a54269b44e1c53",
+   "bytes": 398646
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "63681c7f86eb5f817b499b18861abc9da0053c68248febff2f567fe992c0a7cf",
-   "bytes": 16338
+   "sha256": "d3a1129164047f8d840de761f743e6d327a03aec2e2abab789f045f44d215e55",
+   "bytes": 20465
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "68c5a981e18a7f94a1040e9b0b8f3d43632c5d41b02351f3dac7e49b82cac48b",
-   "bytes": 60303
+   "sha256": "67b32ac24c4c6987b485d499a44b95fcb7495c43faeff155a4f013214e2a5238",
+   "bytes": 65537
   },
   {
    "name": "licenses_fees.json",
    "domain": "licenses",
    "corpus": "records[]",
-   "sha256": "bf36e4f365bc25dc6d73c548b71d1b72864f9574c4b5e5398338d2a01a4abd35",
-   "bytes": 40668
+   "sha256": "471630d88694a5b5eff9cfdff2380efd23648f78dc379d2f80426803640e5a26",
+   "bytes": 42074
   },
   {
    "name": "shooting_places.json",
@@ -350,15 +350,15 @@
    "name": "document_rules.json",
    "domain": "documents",
    "corpus": "records[]",
-   "sha256": "63bca3100d860003dae31076d0b896fb45d3f32f431e77ae4d49c1f03f6fbed1",
-   "bytes": 48375
+   "sha256": "dfd1fedee121d4ac05f5f57f392d05b04a4ec5ee6f1e93dd46d786720f1ebf77",
+   "bytes": 50970
   },
   {
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
    "corpus": "records[]",
-   "sha256": "8075cc507b7d14be901de58d0a1fd3ca102967ae05f295f9a0f3e2782a63713c",
-   "bytes": 4681351
+   "sha256": "00eb595445a8ebef1c2a799349c84fbffcc7a9569e994d5dae9bef6d83fc740d",
+   "bytes": 4681223
   },
   {
    "name": "geo/lakes_points.geojson",
@@ -476,8 +476,8 @@
    "name": "planner_coverage.json",
    "domain": "planner_coverage",
    "corpus": "groups[]",
-   "sha256": "16186d1f7cd7bd0615025ca42ae8c7d7ae01952fe5f74ed7f28b134cbf476955",
-   "bytes": 106510
+   "sha256": "29ccedb4655631c12e3662f90867566e7e515caa17a9a931a972354cfe7e405f",
+   "bytes": 107150
   },
   {
    "name": "licence_agreements.json",
@@ -490,8 +490,8 @@
  "domains": [
   {
    "id": "freshwater",
-   "verified_at": "2026-10-29",
-   "source_revision": "2026-10-01",
+   "verified_at": "2026-11-23",
+   "source_revision": "2026-11-02",
    "threshold_days": 45,
    "edition": "2026",
    "edition_published_verbatim": "2026 CALIFORNIA FRESHWATER SPORT FISHING REGULATIONS / UPDATED JULY 10, 2026",
@@ -501,7 +501,7 @@
   },
   {
    "id": "mpa",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "source_revision": "2025-09-30",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/CCR-T14-MPAs",
@@ -538,7 +538,7 @@
   },
   {
    "id": "birds",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "threshold_days": 60
   },
   {
@@ -571,7 +571,7 @@
   },
   {
    "id": "ocean",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "threshold_days": 10,
    "edition": "2026",
    "edition_published_verbatim": "2026 Ocean Sport Fishing Regulations (PDF)",
@@ -587,13 +587,13 @@
   },
   {
    "id": "stocking",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "curation_status": "attributed",
    "threshold_days": 14
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "curation_status": "attributed",
    "threshold_days": 7
   },
@@ -605,7 +605,7 @@
   },
   {
    "id": "licenses",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-23",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "edition_read_at": "2026-09-15",
@@ -726,7 +726,7 @@
   },
   {
    "id": "methods",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-10",
    "curation_status": "verified",
    "threshold_days": 90
   },
@@ -760,12 +760,12 @@
   },
   {
    "id": "waterfowl_results_current",
-   "verified_at": "2026-10-23",
+   "verified_at": "2026-11-21",
    "threshold_days": 10
   },
   {
    "id": "trip_pack",
-   "verified_at": "2026-10-16",
+   "verified_at": "2026-11-15",
    "threshold_days": 365
   },
   {
@@ -775,7 +775,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-10-29",
+   "verified_at": "2026-11-22",
    "threshold_days": 2
   },
   {
