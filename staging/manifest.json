@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.11.23",
- "published_at": "2026-11-23T16:17:24.032784+00:00",
+ "dataset_version": "2026.11.24",
+ "published_at": "2026-11-24T01:52:37.139768+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "158cf912d47c84567e8a43c97a18a179449e5438a88eea16b326ae033312d70c",
+   "sha256": "0f1c2d2f95dffcb02ec647552e4b104408452d6ed87d35057c4d7a041d2d5851",
    "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "cb6eab5daaedf55ce09752b2f7d11e13c61a2f9d5340fa17f9e0941206f7b16a",
+   "sha256": "ddc6f7a5f0927cb1e6c3e07bd47c9d4957413d388db4d4ad7812a7b9d0c7c306",
    "bytes": 556072
   },
   {
@@ -189,42 +189,42 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "9f535ce85b76575550b52e4e4bba242661e2944b4617bdb3545bd2b042360492",
+   "sha256": "680fbff147d3b8fd469c71ce2d6d1153ae5ff450161eee938449e680fd491fb2",
    "bytes": 62753
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "4d7b596bc96db054c4b64290cd63b8d584ad23aa5417c0d0a16abb4c1bcec19f",
+   "sha256": "dfc1efbd756526277307d6468eecef30cc92ef2c309fd1ccb38e9ea6b8b69164",
    "bytes": 22329
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "e51a9bf3bc52ce415bfccbf578c1ab3bb052d013df804130e0a54269b44e1c53",
-   "bytes": 398646
+   "sha256": "eb199d53bd78d37ea36ff313ff0abb0cc286d65a5939db70d8a472a79085d840",
+   "bytes": 397312
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "d3a1129164047f8d840de761f743e6d327a03aec2e2abab789f045f44d215e55",
-   "bytes": 20465
+   "sha256": "1a24fbcca1e88f38c416c21300ede2199776b039d29c11aa4ecbe35e37437763",
+   "bytes": 21287
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "67b32ac24c4c6987b485d499a44b95fcb7495c43faeff155a4f013214e2a5238",
+   "sha256": "ef9094ef5d37cf20d4387e36a73485b48f1b1e2365aee9d3cf324bf1e40f373f",
    "bytes": 65537
   },
   {
    "name": "licenses_fees.json",
    "domain": "licenses",
    "corpus": "records[]",
-   "sha256": "471630d88694a5b5eff9cfdff2380efd23648f78dc379d2f80426803640e5a26",
+   "sha256": "efee4232ae3e73b8d70c7160d62f9a7fe45103b3b0438bbd4864d484fac67c7a",
    "bytes": 42074
   },
   {
@@ -350,15 +350,15 @@
    "name": "document_rules.json",
    "domain": "documents",
    "corpus": "records[]",
-   "sha256": "dfd1fedee121d4ac05f5f57f392d05b04a4ec5ee6f1e93dd46d786720f1ebf77",
+   "sha256": "33c5af016767d8beff950df285a79a3db3d5acca6cd25d4d1473aad9709c45d4",
    "bytes": 50970
   },
   {
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
    "corpus": "records[]",
-   "sha256": "00eb595445a8ebef1c2a799349c84fbffcc7a9569e994d5dae9bef6d83fc740d",
-   "bytes": 4681223
+   "sha256": "8ea3abe13904d688d5faa9a1b4320c1114beb8146e49839b4d9021c4c3b2d038",
+   "bytes": 4681140
   },
   {
    "name": "geo/lakes_points.geojson",
@@ -476,7 +476,7 @@
    "name": "planner_coverage.json",
    "domain": "planner_coverage",
    "corpus": "groups[]",
-   "sha256": "29ccedb4655631c12e3662f90867566e7e515caa17a9a931a972354cfe7e405f",
+   "sha256": "b0ec4db3a650a3f944da3c3f2ac487691588a3f900c3521d88ae1fa821b19dc8",
    "bytes": 107150
   },
   {
@@ -775,7 +775,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-11-22",
+   "verified_at": "2026-11-23",
    "threshold_days": 2
   },
   {
