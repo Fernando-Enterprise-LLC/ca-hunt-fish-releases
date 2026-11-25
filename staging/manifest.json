@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.11.24",
- "published_at": "2026-11-24T01:52:37.139768+00:00",
+ "dataset_version": "2026.11.24.1",
+ "published_at": "2026-11-24T23:40:41.069488+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "0f1c2d2f95dffcb02ec647552e4b104408452d6ed87d35057c4d7a041d2d5851",
+   "sha256": "d09b6e089f916a0daac38520a8d7aeee18f3ab70e0518d2fa71536afc90e3ca3",
    "bytes": 694075
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
    "corpus": "records[]",
-   "sha256": "ddc6f7a5f0927cb1e6c3e07bd47c9d4957413d388db4d4ad7812a7b9d0c7c306",
+   "sha256": "af8ca93f5ae5486d336af4422393d3bdd13dc3dc9caf3e9b8f0ed04bae5ae836",
    "bytes": 556072
   },
   {
@@ -189,42 +189,42 @@
    "name": "ocean.json",
    "domain": "ocean",
    "corpus": "groundfish.management_areas[]",
-   "sha256": "680fbff147d3b8fd469c71ce2d6d1153ae5ff450161eee938449e680fd491fb2",
+   "sha256": "55d473d35bb2f1f5cb26d3ac811b82faf27251ec3de1a2b60a64402942a7e277",
    "bytes": 62753
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
    "corpus": "records[]",
-   "sha256": "dfc1efbd756526277307d6468eecef30cc92ef2c309fd1ccb38e9ea6b8b69164",
-   "bytes": 22329
+   "sha256": "422baf48f6d30dc7e9a1164cd204053149e742e286d7d8105d830526e3c0e6ca",
+   "bytes": 22426
   },
   {
    "name": "stocking.json",
    "domain": "stocking",
    "corpus": "records[]",
-   "sha256": "eb199d53bd78d37ea36ff313ff0abb0cc286d65a5939db70d8a472a79085d840",
-   "bytes": 397312
+   "sha256": "fdb809f30639d40e06db3f78239b28025cb8a54de3ba826094451babb1e5327c",
+   "bytes": 397314
   },
   {
    "name": "stocking_current.json",
    "domain": "stocking_current",
    "corpus": "records[]",
-   "sha256": "1a24fbcca1e88f38c416c21300ede2199776b039d29c11aa4ecbe35e37437763",
-   "bytes": 21287
+   "sha256": "520f2f3642c6ddd208b6c5a9c8204b69773a55ac94076aa80d9bb3ff7a1758e3",
+   "bytes": 21474
   },
   {
    "name": "operator_schedules.json",
    "domain": "operator_schedules",
    "corpus": "sources[]+plants[]",
-   "sha256": "ef9094ef5d37cf20d4387e36a73485b48f1b1e2365aee9d3cf324bf1e40f373f",
-   "bytes": 65537
+   "sha256": "f6fe3864d6d796217f3c8903e36a0b8b133799c95693cfd32f933cded5cbfdd0",
+   "bytes": 65362
   },
   {
    "name": "licenses_fees.json",
    "domain": "licenses",
    "corpus": "records[]",
-   "sha256": "efee4232ae3e73b8d70c7160d62f9a7fe45103b3b0438bbd4864d484fac67c7a",
+   "sha256": "eb7908630cdf5000a2bfa6089add18182d96ea313cc40a9ca5cc39949907edb1",
    "bytes": 42074
   },
   {
@@ -350,14 +350,14 @@
    "name": "document_rules.json",
    "domain": "documents",
    "corpus": "records[]",
-   "sha256": "33c5af016767d8beff950df285a79a3db3d5acca6cd25d4d1473aad9709c45d4",
+   "sha256": "8220e818405de1db8b24ab6018c05f66e5d88d10e7d90ad3f55e585ccdf70697",
    "bytes": 50970
   },
   {
    "name": "lakes_directory.json",
    "domain": "lakes_directory",
    "corpus": "records[]",
-   "sha256": "8ea3abe13904d688d5faa9a1b4320c1114beb8146e49839b4d9021c4c3b2d038",
+   "sha256": "484727964ced13e27f7f068a5a07aa07bb0cfeb25010dc612d81a0774df8286f",
    "bytes": 4681140
   },
   {
@@ -476,7 +476,7 @@
    "name": "planner_coverage.json",
    "domain": "planner_coverage",
    "corpus": "groups[]",
-   "sha256": "b0ec4db3a650a3f944da3c3f2ac487691588a3f900c3521d88ae1fa821b19dc8",
+   "sha256": "6d1bcd896b9319d9fca541c34e831c5faab0b950f6a2b7349d01d19252631756",
    "bytes": 107150
   },
   {
@@ -490,7 +490,7 @@
  "domains": [
   {
    "id": "freshwater",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "source_revision": "2026-11-02",
    "threshold_days": 45,
    "edition": "2026",
@@ -501,7 +501,7 @@
   },
   {
    "id": "mpa",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "source_revision": "2025-09-30",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/CCR-T14-MPAs",
@@ -538,7 +538,7 @@
   },
   {
    "id": "birds",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "threshold_days": 60
   },
   {
@@ -571,7 +571,7 @@
   },
   {
    "id": "ocean",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "threshold_days": 10,
    "edition": "2026",
    "edition_published_verbatim": "2026 Ocean Sport Fishing Regulations (PDF)",
@@ -587,13 +587,13 @@
   },
   {
    "id": "stocking",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "curation_status": "attributed",
    "threshold_days": 14
   },
   {
    "id": "stocking_current",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "curation_status": "attributed",
    "threshold_days": 7
   },
@@ -605,7 +605,7 @@
   },
   {
    "id": "licenses",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "threshold_days": 90,
    "edition_source_url": "https://wildlife.ca.gov/Licensing/Fishing",
    "edition_read_at": "2026-09-15",
@@ -775,7 +775,7 @@
   },
   {
    "id": "notices_current",
-   "verified_at": "2026-11-23",
+   "verified_at": "2026-11-24",
    "threshold_days": 2
   },
   {
