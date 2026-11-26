@@ -1,23 +1,22 @@
 {
  "schema_version": 1,
  "channel": "live",
- "generated_at": "2026-11-26T00:54:55.403863+00:00",
+ "generated_at": "2026-11-26T01:03:18.814573+00:00",
  "note": "The app's version-independent sidecar. NOT a dataset release: releases are immutable under v/<version>/ and are named by the manifest.json one directory up. Each entry's `read_at` is the day this project read the source, and `threshold_days` is the age past which the app stops treating that file's silences as statements and treats them as unknowns.",
  "files": [
   {
    "name": "stocking_current.json",
-   "sha256": "ff5490c75f80a72324b79fc41486ab92a60baf3217f6c0fe497a7af7d501081d",
-   "bytes": 17695,
+   "sha256": "eb8fa72105c12024c55d1ac59c196f18450adc16af707ffeb45e571582d9efb3",
+   "bytes": 21472,
    "domain": "stocking_current",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.11.22",
-   "read_at": "2026-11-22",
-   "age_days": 3,
+   "dataset_version": "2026.11.26",
+   "read_at": "2026-11-25",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-22T21:49:46.087234+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-26T01:03:18.675533+00:00"
   },
   {
    "name": "mop_nearshore_current.json",
@@ -30,23 +29,23 @@
    "read_at": "2026-11-25T23:16:23.267455+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-25T23:16:24.722020+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-25T23:16:24.722020+00:00",
+   "note": "CDIP's model was read 1.7 hours ago, inside the 6-hour re-read interval"
   },
   {
    "name": "operator_schedules.json",
-   "sha256": "cfe5db6b8b158d168463d3dfb298f399a686579fe89f3c9f6ef8892857eaa3f2",
-   "bytes": 65301,
+   "sha256": "4671d94f7561a1321c36b7d3d365ebf24247dcd02da0e4e186c5838c7975f63c",
+   "bytes": 65598,
    "domain": "operator_schedules",
    "threshold_days": 7,
    "schema_version": 1,
-   "dataset_version": "2026.11.22",
+   "dataset_version": "2026.11.26",
    "read_at": "2026-10-15",
    "age_days": 41,
    "past_its_clock": true,
-   "state": "unchanged",
-   "published_at": "2026-11-22T21:49:46.094618+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-26T01:03:18.684429+00:00"
   },
   {
    "name": "waterfowl_results_current.json",
@@ -61,7 +60,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-21T21:44:33.243344+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 4 days ago; its clock is 10 days and the refetch interval is 7"
   },
   {
    "name": "trip_pack.json",
@@ -76,7 +75,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-15T20:31:48.006564+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published copy was read 10 days ago; its clock is 365 days and the refetch interval is 30"
   },
   {
    "name": "operators.json",
@@ -89,24 +88,23 @@
    "read_at": "2026-10-29",
    "age_days": 27,
    "past_its_clock": false,
-   "state": "unchanged",
+   "state": "held",
    "published_at": "2026-10-29T23:13:03.949454+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the operator directory was re-read on 2026-11-25, but the owner-verified directory (verified 2026-09-15) no longer matches what the pages say, so nothing was published and the file already at live/ keeps its own read date. (1) Stagnaro Sport Fishing (stagnaros): its page stagnaros.html was not captured on this read and was refused: SSLError: HTTPSConnectionPool(host='www.stagnaros.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)'))). A new edition (`pipeline draft-operators` for the new year) or a re-verification by the owner is needed."
   },
   {
    "name": "notices_current.json",
-   "sha256": "b66710b0ce3f329e069b6412b1cc975fdce196a34b207d0282caa326b3be535d",
+   "sha256": "313468b1ecb0d0e2cd72d879bac02e6479b65f12f05dc9cb530c168b4c48c7b4",
    "bytes": 35675,
    "domain": "notices_current",
    "threshold_days": 2,
    "schema_version": 2,
-   "dataset_version": "2026.11.24",
-   "read_at": "2026-11-24",
-   "age_days": 1,
+   "dataset_version": "2026.11.26",
+   "read_at": "2026-11-25",
+   "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-24T23:36:53.747322+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-26T01:03:18.685222+00:00"
   },
   {
    "name": "in_season_status_current.json",
@@ -119,23 +117,23 @@
    "read_at": "2026-11-25",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-25T23:14:10.035681+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-25T23:14:10.035681+00:00",
+   "note": "the published statuses were evaluated 0 days ago from this curated table; its clock is two days and it is re-evaluated at 1"
   },
   {
    "name": "beach_status_current.json",
-   "sha256": "6aa3afef3f7ebfa08961dcecc1e6aa5c65229b000dd9da900df07df2e7673a23",
+   "sha256": "8f29654871d9f725f8a01883aa0b3009c80cf586a5c007d60b3d122b9ed266c5",
    "bytes": 42531,
    "domain": "beach_status_current",
    "threshold_days": 1,
    "schema_version": 1,
    "dataset_version": null,
-   "read_at": "2026-11-25T19:06:52.081653+00:00",
+   "read_at": "2026-11-26T01:00:07.791797+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "unchanged",
-   "published_at": "2026-11-25T19:06:52.474050+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "state": "published",
+   "published_at": "2026-11-26T01:03:18.685550+00:00"
   },
   {
    "name": "beach_water_quality_current.json",
@@ -150,7 +148,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-25T21:51:57.688509+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published counties' readings were read 3.1 hours ago, inside the 6-hour re-read interval"
   },
   {
    "name": "verification_current.json",
@@ -165,7 +163,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-25T23:13:18.108833+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "the published receipt was read 0 days ago; its clock is 2 days and the re-read interval is 1"
   },
   {
    "name": "water_clarity_current.json",
@@ -178,8 +176,9 @@
    "read_at": "2026-11-26T00:54:49.068823+00:00",
    "age_days": 0,
    "past_its_clock": false,
-   "state": "published",
-   "published_at": "2026-11-26T00:54:53.194201+00:00"
+   "state": "unchanged",
+   "published_at": "2026-11-26T00:54:53.194201+00:00",
+   "note": "NOAA's grid was read 0.1 hours ago, inside the 20-hour re-read interval, and both products publish one composite a day"
   },
   {
    "name": "kelp_canopy_current.json",
@@ -194,7 +193,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-09-25T03:47:53.439052+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "CDFW's survey listing could not be read (ConnectTimeout: HTTPSConnectionPool(host='filelib.wildlife.ca.gov', port=443): Max retries exceeded with url: /Public/R7_MR/BIOLOGICAL/Kelp/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='filelib.wildlife.ca.gov', port=443) at 0x75dce49b6ed0>, 'Connection to filelib.wildlife.ca.gov timed out. (connect timeout=300)'))); the published 2016 layer was read 62 days ago, inside the 365-day re-read interval, and stands"
   },
   {
    "name": "deer_tags_current.json",
@@ -209,7 +208,7 @@
    "past_its_clock": false,
    "state": "unchanged",
    "published_at": "2026-11-25T08:41:58.676936+00:00",
-   "note": "this run published only the 'water_clarity' lane, so this source was not read and this file was not rebuilt; the bytes already at live/ and their publication date stand"
+   "note": "CDFW's list has not changed ('As of November 10, 2026, at 9:18 AM, the following deer tags are available for purchase:'); the published copy was confirmed 16.3 hours ago, inside the 20-hour re-confirmation interval, so the published bytes stand."
   }
  ]
 }
